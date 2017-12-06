@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGM,uBAAO;EACL,SAAS,EAAE,GAAG",
+"sources": ["../_scss/style.scss"],
+"names": [],
+"file": "style.css"
+}
