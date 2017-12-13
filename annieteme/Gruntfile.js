@@ -28,18 +28,21 @@ module.exports = function (grunt) {
             },
             haml: {
                 //変更を監視するファイルを指定
-                files: ['*.haml'],
+                files: ['_haml/*.haml'],
                 //変更されたらどのタスクを実行するか指定
                 tasks: [ 'haml' ]
             }
         },
 
         haml: {
+
             dist: {
                 files: {
-                    'main.html': 'main.haml'
+                    'components-php/header.php': '_haml/header.haml',
+                    'components-php/footer.php': '_haml/footer.haml'
                 }
             }
+
         }
 
 
