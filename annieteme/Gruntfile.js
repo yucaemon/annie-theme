@@ -39,7 +39,8 @@ module.exports = function (grunt) {
             dist: {
                 files: {
                     'components-php/header.php': '_haml/header.haml',
-                    'components-php/footer.php': '_haml/footer.haml'
+                    'components-php/footer.php': '_haml/footer.haml',
+                    'index.php': '_haml/index.haml'
                 }
             }
 

@@ -1,5 +1,278 @@
-h1 .test1 .test2 .test3
-.test5 {
-  font-size: 1px; }
+/*
+Theme Name: annie
+Theme URI: https://wordpress.org/themes/annie/
+Author: yuka
+Author URI: https://wordpress.org/
+Description: grooo 20117/08/28 ver1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: yuka
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+/*
+
+	viewport settings
+
+**************************************************/
+/*
+
+	color settings
+
+*************************************************/
+/*
+
+	font settings
+
+**************************************************/
+@media all and (-ms-high-contrast: none) {
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "source-han-sans-japanese","Yu Gothic", YuGothic, Verdana, Meiryo, "M+ 1p", sans-serif; } }
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Medium");
+  font-weight: 100; }
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Medium");
+  font-weight: 200; }
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Medium");
+  font-weight: 300; }
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Medium");
+  font-weight: 400; }
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Bold");
+  font-weight: bold; }
+@font-face {
+  font-family: "Helvetica Neue";
+  src: local("Helvetica Neue Regular");
+  font-weight: 100; }
+@font-face {
+  font-family: "Helvetica Neue";
+  src: local("Helvetica Neue Regular");
+  font-weight: 200; }
+/*
+
+	title settings
+
+**************************************************/
+/*
+
+	clearfix settings
+
+**************************************************/
+/*
+
+	boxsizing settings
+
+**************************************************/
+/*
+
+	opacity settings
+
+**************************************************/
+/*
+
+	block centering settings
+
+**************************************************/
+/*
+
+	border-radius settings
+
+**************************************************/
+/*
+
+	drop shadow settings
+
+**************************************************/
+/*
+
+	vertical align setting
+
+**************************************************/
+/*
+
+	table layout setting
+
+**************************************************/
+/*
+
+	flexbox layout setting
+
+**************************************************/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  text-indent: 0.01px;
+  text-overflow: '';
+  appearance: none;
+  border-radius: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background: none transparent;
+  vertical-align: middle;
+  font-size: inherit;
+  color: inherit;
+  box-sizing: content-box; }
+
+select::-ms-expand {
+  display: none; }
+
+.outer__inner {
+  width: 1225px;
+  margin: 0 auto; }
+.outer__foot {
+  text-align: center; }
+  .outer__foot .c-button {
+    width: 370px;
+    padding: 20px 0px;
+    display: inline-block;
+    font-weight: bold; }
+  .outer__foot a + a {
+    margin-left: 35px; }
+
+.container {
+  padding: 30px;
+  min-width: 1225px; }
+
+.flexbox, .flexbox--h-center, .flexbox--h-bottom, .flexbox--v-center, .flexbox--v-bottom, .flexbox--spacebetween, .flexbox--spacearound, .flexbox--streach {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  min-width: 1225px; }
+  .flexbox--h-center {
+    justify-content: center; }
+  .flexbox--h-bottom {
+    justify-content: flex-end; }
+  .flexbox--v-center {
+    align-items: center; }
+  .flexbox--v-bottom {
+    align-items: flex-end; }
+  .flexbox--spacebetween {
+    justify-content: space-between; }
+  .flexbox--spacearound {
+    justify-content: space-around; }
+  .flexbox--streach {
+    align-items: stretch; }
+
+.floating {
+  zoom: 1; }
+  .floating:after {
+    content: "";
+    display: block;
+    clear: both; }
+  .floating__photo--left {
+    float: left;
+    margin: 0 30px 30px 0px; }
+  .floating__photo--right {
+    float: right;
+    margin: 0 0 30px 30px; }
+  .floating__text p {
+    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 1.875; }
+    .floating__text p strong {
+      font-weight: bold; }
+  .floating__text p + p {
+    margin-top: 30px; }
+
+.column-1 {
+  width: 63px; }
+
+.column-2 {
+  width: 146px; }
+
+.column-3 {
+  width: 229px; }
+
+.column-4 {
+  width: 312px; }
+
+.column-5 {
+  width: 395px; }
+
+.column-6 {
+  width: 478px; }
+
+.column-7 {
+  width: 561px; }
+
+.column-8 {
+  width: 644px; }
+
+.column-9 {
+  width: 727px; }
+
+.column-10 {
+  width: 810px; }
+
+.column-11 {
+  width: 893px; }
+
+.column-12 {
+  width: 976px; }
+
+.column-13 {
+  width: 1059px; }
+
+.column-14 {
+  width: 1142px; }
+
+.column-15 {
+  width: 1225px; }
+
+/*
+
+	index.page
+
+*************************************************/
 
 /*# sourceMappingURL=style.css.map */
