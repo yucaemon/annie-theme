@@ -1,124 +1,207 @@
 <?php include('head.php'); ?>
-<?php include('components-php/header.php'); ?>
 %body
   .outer
+    <?php include('components-php/header.php'); ?>
     .outer__inner.flexbox--h-center
-      .column-2.side-menu-list
-        .dl
-          .dt
+      .side-menu-list
+        %dl
+          %dt.side-menu-list__title
             記事
-          .dd
+          %dd
+            %span.arrow
+              >
             ファッション
-          .dd
+          %dd
+            %span.arrow
+              >
             ライフスタイル
-          .dd
+          %dd
+            %span.arrow
+              >
             ビューティー
-          .dd
+          %dd
+            %span.arrow
+              >
             インテリア
-        .dl
-          .dt
-            ショッピングアイテム
-          .dd
+        %dl
+          %dt.side-menu-list__title
+            購入可能アイテム
+          %dd
+            %span.arrow
+              >
             全て
-          .dd
+          %dd
+            %span.arrow
+              >
             ボトムス
-          .dd
+          %dd
+            %span.arrow
+              >
             上着
-          .dd
+          %dd
+            %span.arrow
+              >
             雑貨
-          .dd
+          %dd
+            %span.arrow
+              >
             コスメ
-          .dd
+          %dd
+            %span.arrow
+              >
             アクセサリー
-        .dl
-          .dt
-            日本未上陸/日本ブランド
-          .dd
+        %dl
+          %dt.side-menu-list__title
+            日本未上陸ブランド
+          %dd
+            %span.arrow
+              >
             genuine People
-            %br
-            ジェーニーピーポー
-          .dd
+            .japanese
+              ジェーニーピーポー
+          %dd
+            %span.arrow
+              >
             threebirdnest
-            %br
-            スリーバードネスト
-        .dl
-          .dt
-            ポートランド周辺ブランド
-          .dd
+            .japanese
+              スリーバードネスト
+        %dl
+          %dt.side-menu-list__title
+            ポートランドブランド
+          %dd
+            %span.arrow
+              >
             genuine People
-            %br
-            ジェーニーピーポー
-          .dd
+            .japanese
+              ジェーニーピーポー
+          %dd
+            %span.arrow
+              >
             threebirdnest
-            %br
-            スリーバードネスト
-      .column-7.middle-contain
+            .japanese
+              スリーバードネスト
+      .column-6.middle-contain
         .bg-thumb-img
-          <img src="<?php echo get_template_directory_uri(); ?>/images/index-top-banner.png" width="561px">
-        %ui.article-list
-          %li
+          <img src="<?php echo get_template_directory_uri(); ?>/images/index-top-banner.png" width="478px">
+        %ul.article-list
+          %li.flexbox
             .article-list__img
+              <img src="<?php echo get_template_directory_uri(); ?>/images/sample1.png">
             .article-list__text
               %h3.list-title
                 bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
               %p.list-read
                 ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
-              .icon.flexbox
-                .icon--available--purchase
+              .icons.flexbox
+                .icons__tag
                   購入可能
-                .icon--japan--unreleased
+                .icons__tag
                   日本未上陸
-          %li
+          %li.flexbox
             .article-list__img
+              <img src="<?php echo get_template_directory_uri(); ?>/images/sample2.png">
             .article-list__text
               %h3.list-title
                 bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
               %p.list-read
                 ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
-              .icon.flexbox
-                .icon--available--purchase
+              .icons.flexbox
+                .icons__tag
                   購入可能
-                .icon--japan--unreleased
+                .icons__tag
                   日本未上陸
-          %li
+          %li.flexbox
             .article-list__img
+              <img src="<?php echo get_template_directory_uri(); ?>/images/sample3.png">
             .article-list__text
               %h3.list-title
                 bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
               %p.list-read
                 ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
-              .icon.flexbox
-                .icon--available--purchase
+              .icons.flexbox
+                .icons__tag
                   購入可能
-                .icon--japan--unreleased
+                .icons__tag
                   日本未上陸
-          %li
+          %li.flexbox
             .article-list__img
+              <img src="<?php echo get_template_directory_uri(); ?>/images/sample1.png">
             .article-list__text
               %h3.list-title
                 bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
               %p.list-read
                 ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
-              .icon.flexbox
-                .icon--available--purchase
+              .icons.flexbox
+                .icons__tag
                   購入可能
-                .icon--japan--unreleased
-                　日本j魅女陸
-          %li
-            .article-list__img
-            .article-list__text
-              %h3.list-title
-                bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-              %p.list-read
-                ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
-              .icon.flexbox
-                .icon--available--purchase
-                  購入可能
-                .icon--japan--unreleased
+                .icons__tag
                   日本未上陸
-          .page-nav
-            1.2.3.4.5
-        .sns-area
+          %li.flexbox
+            .article-list__img
+              <img src="<?php echo get_template_directory_uri(); ?>/images/sample2.png">
+            .article-list__text
+              %h3.list-title
+                bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
+              %p.list-read
+                ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
+              .icons.flexbox
+                .icons__tag
+                  購入可能
+                .icons__tag
+                  日本未上陸
+          %li.flexbox
+            .article-list__img
+              <img src="<?php echo get_template_directory_uri(); ?>/images/sample3.png">
+            .article-list__text
+              %h3.list-title
+                bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
+              %p.list-read
+                ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
+              .icons.flexbox
+                .icons__tag
+                  購入可能
+                .icons__tag
+                  日本未上陸
+          %li.flexbox
+            .article-list__img
+              <img src="<?php echo get_template_directory_uri(); ?>/images/sample1.png">
+            .article-list__text
+              %h3.list-title
+                bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
+              %p.list-read
+                ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
+              .icons.flexbox
+                .icons__tag
+                  購入可能
+                .icons__tag
+                  日本未上陸
+          %li.flexbox
+            .article-list__img
+              <img src="<?php echo get_template_directory_uri(); ?>/images/sample2.png">
+            .article-list__text
+              %h3.list-title
+                bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
+              %p.list-read
+                ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
+              .icons.flexbox
+                .icons__tag
+                  購入可能
+                .icons__tag
+                  日本未上陸
+          %li.flexbox
+            .article-list__img
+              <img src="<?php echo get_template_directory_uri(); ?>/images/sample3.png">
+            .article-list__text
+              %h3.list-title
+                bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
+              %p.list-read
+                ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
+              .icons.flexbox
+                .icons__tag
+                  購入可能
+                .icons__tag
+                  日本未上陸
+        .sns-area.flexbox
           .sns-area__img
             <img src="<?php echo get_template_directory_uri(); ?>/images/sns-area-pic.png">
           .sns-area__info
@@ -141,111 +224,100 @@
           %p.featured-box__read
             bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
         %dl.news-list
-          %dt.news-list__header
-            .news-list__header-img
+          %dt
+            .header-img
               <img src="<?php echo get_template_directory_uri(); ?>/images/news.svg">
           %dd.news-list__content.flexbox
             .news-list__number-img
-              <img src="<?php echo get_template_directory_uri(); ?>/images/1.svg" width="30">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/1.svg">
             .news-list__thumb-img
-            %p.new-list__title
+              <img src="<?php echo get_template_directory_uri(); ?>/images/side-test1.png">
+            %p.news-list__title
               bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
           %dd.news-list__content.flexbox
             .news-list__number-img
-              <img src="<?php echo get_template_directory_uri(); ?>/images/2.svg" width="30">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/2.svg">
             .news-list__thumb-img
-            %p.new-list__title
+              <img src="<?php echo get_template_directory_uri(); ?>/images/side-test1.png">
+            %p.news-list__title
               bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
           %dd.news-list__content.flexbox
             .news-list__number-img
-              <img src="<?php echo get_template_directory_uri(); ?>/images/3.svg" width="30">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/3.svg">
             .news-list__thumb-img
-            %p.new-list__title
+              <img src="<?php echo get_template_directory_uri(); ?>/images/side-test1.png">
+            %p.news-list__title
               bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
           %dd.news-list__content.flexbox
             .news-list__number-img
-              <img src="<?php echo get_template_directory_uri(); ?>/images/4.svg" width="30">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/4.svg">
             .news-list__thumb-img
-            %p.new-list__title
+              <img src="<?php echo get_template_directory_uri(); ?>/images/side-test1.png">
+            %p.news-list__title
               bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
           %dd.news-list__content.flexbox
             .news-list__number-img
-              <img src="<?php echo get_template_directory_uri(); ?>/images/5.svg" width="30">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/5.svg">
             .news-list__thumb-img
-            %p.new-list__title
+              <img src="<?php echo get_template_directory_uri(); ?>/images/side-test1.png">
+            %p.news-list__title
               bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
         .keywords
-          .keywords__img
+          .header-img
             <img src="<?php echo get_template_directory_uri(); ?>/images/keywords.svg">
-          .keywords__content.flexbox--h-center
-            %span
+          .keywords__content.flexbox
+            .keywords__tag
               古着
-            %span
+            .keywords__tag
               冬物コート
-            %span
-              未上陸ブランド
-            %span
+            .keywords__tag
+              日本未上陸ブランド
+            .keywords__tag
               ブーツ
-
-          %dl.models-lists
-            %dt.models-lists__logo-img
-              <img src="<?php echo get_template_directory_uri(); ?>/images/models.svg">
-            %dd.flexbox
-              .models-lists__prof-img
-                %img
-              .models-lists__text
-                .model-name
-                  @beru
-                .model-info
-                  アメリカポートランド在住
-            %dd.flexbox
-              .models-lists__prof-img
-                %img
-              .models-lists__text
-                .model-name
-                  @beru
-                .model-info
-                  アメリカポートランド在住
-            %dd.flexbox
-              .models-lists__prof-img
-                %img
-              .models-lists__text
-                .model-name
-                  @beru
-                .model-info
-                  アメリカポートランド在住
-            %dd.flexbox
-              .models-lists__prof-img
-                %img
-              .models-lists__text
-                .model-name
-                  @beru
-                .model-info
-                  アメリカポートランド在住
-            %dd.flexbox
-              .models-lists__prof-img
-                %img
-              .models-lists__text
-                .model-name
-                  @beru
-                .model-info
-                  アメリカポートランド在住
-            %dd.flexbox
-              .models-lists__prof-img
-                %img
-              .models-lists__text
-                .model-name
-                  @beru
-                .model-info
-                  アメリカポートランド在住
-            %dd.flexbox
-              .models-lists__prof-img
-                %img
-              .models-lists__text
-                .model-name
-                  @beru
-                .model-info
-                  アメリカポートランド在住
-
+            .keywords__tag
+              ルームウェア
+        %dl.models-lists
+          %dt.header-img
+            <img src="<?php echo get_template_directory_uri(); ?>/images/models.svg">
+          %dd.flexbox
+            .models-lists__prof-img
+              <img src="<?php echo get_template_directory_uri(); ?>/images/yuca.png">
+            .models-lists__text
+              .model-name
+                beru
+              .model-info
+                アメリカポートランド在住
+          %dd.flexbox
+            .models-lists__prof-img
+              <img src="<?php echo get_template_directory_uri(); ?>/images/yuca.png">
+            .models-lists__text
+              .model-name
+                beru
+              .model-info
+                アメリカポートランド在住
+          %dd.flexbox
+            .models-lists__prof-img
+              <img src="<?php echo get_template_directory_uri(); ?>/images/yuca.png">
+            .models-lists__text
+              .model-name
+                beru
+              .model-info
+                アメリカポートランド在住
+          %dd.flexbox
+            .models-lists__prof-img
+              <img src="<?php echo get_template_directory_uri(); ?>/images/yuca.png">
+            .models-lists__text
+              .model-name
+                beru
+              .model-info
+                アメリカポートランド在住
+          %dd.flexbox
+            .models-lists__prof-img
+              <img src="<?php echo get_template_directory_uri(); ?>/images/yuca.png">
+            .models-lists__text
+              .model-name
+                beru
+              .model-info
+                アメリカポートランド在住
 <?php include('components-php/footer.php'); ?>
 

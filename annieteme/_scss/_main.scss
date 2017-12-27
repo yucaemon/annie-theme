@@ -1,5 +1,351 @@
 /*
 
+	header
+
+*************************************************/
+
+.sns-icons {
+  width: 300px;
+  img {
+    width: 10%;
+    padding-right: 10px;
+  }
+}
+
+.logo {
+  img {
+    width: 43%;
+  }
+  width: 553px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.info {
+  width: 300px;
+  .nav-menu {
+    @include fts(8, 10);
+    padding-bottom: 15px;
+    li + li {
+      border-left: solid 1px #000000;
+      padding: 0 10px;
+      margin: 0 10px;
+    }
+  }
+  .search__box {
+    .search__form {
+      background-color: white;
+      width: 200px;
+      height: 20px;
+      border: 1px $main_color solid;
+      border-radius: 10px;
+    }
+    .search__form input {
+      width: 190px;
+      vertical-align: top;
+      margin: 0px;
+      height: 100%;
+      box-sizing: border-box;
+      background-color: transparent;
+    }
+    .search__input {
+      border: none;
+      width: 170px;
+      padding-left: 10px;
+      background-image: url(../images/sarch-icon.svg);
+      background-position: right;
+      background-size: auto 73%;
+      background-repeat: no-repeat;
+    }
+  }
+}
+
+.notice-bar {
+  background-color: $main_color;
+  @include fts(8, 20);
+  text-align: center;
+  color: #fff;
+}
+
+.breadcrumb {
+  padding: 20px 30px;
+}
+
+/*
+
+	side
+
+*************************************************/
+.side-menu-list {
+  @include fts(9, 20);
+  width: 169px;
+  &__title {
+    background-color: $sub_color;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  dd {
+    padding-left: 25px;
+    .japanese {
+      @include fts(5, 5);
+      padding-left: 13px;
+    }
+  }
+  dd + dd {
+    padding-top: 10px;
+  }
+  dl {
+    padding-bottom: 50px;
+  }
+  .arrow {
+    color: $font_sub_color;
+  }
+
+}
+
+.side-contain {
+  .featured-box {
+    background-color: $sub_color;
+    padding: 10px 20px;
+    &__header {
+      @include fts(11, 13);
+      padding: 10px 0;
+      font-weight: bold;
+    }
+    &__read {
+      @include fts(9, 12);
+      padding-top: 4px;
+      padding-bottom: 25px;
+    }
+    .featured-img {
+      padding: 10px 0;
+      img {
+        width: 272px;
+      }
+    }
+  }
+  .header-img {
+    padding: 30px 0;
+  }
+  .news-list {
+    dd + dd {
+      padding-top: 18px;
+    }
+    &__number-img img {
+      width: 21px;
+    }
+    &__thumb-img {
+      padding: 0 8px;
+      img {
+        width: 90px;
+      }
+    }
+    &__title {
+      padding-top: 3px;
+      width: 185px;
+      @include fts(8, 9);
+      font-weight: bold;
+    }
+  }
+
+  .keywords {
+    &__content {
+      margin-bottom: 30px;
+    }
+    &__tag:before {
+      content: "#";
+      color: $main_color;
+    }
+    &__tag {
+      padding: 5px 6px;
+      font-size: 13px;
+    }
+  }
+
+  .models-lists{
+    padding-bottom: 50px;
+    dd{
+      padding-bottom: 20px;
+    }
+    dd+dd{
+      border-top: solid $font_sub_color 1px;
+      padding-top: 20px;
+    }
+    &__text{
+       padding-top: 7px;
+      .model-name:before {
+        content: "@";
+        color: $main_color;
+      }
+      .model-name{
+        text-transform: uppercase;
+        padding-bottom: 6px;
+      }
+      .model-info {
+        @include fts(8, 9);
+        color: $font_sub_glay_color;
+      }
+    }
+  }
+  .models-lists__prof-img img{
+    @include border-radius(50%);
+    height: 80%;
+    width: 80%;
+  }
+
+}
+
+/*
+
+	footer
+
+*************************************************/
+
+.footer {
+  background-color: $main_color;
+  color: #fff;
+  padding-bottom: 50px;
+  &__sns-icons img {
+    width: 30px;
+    height: 30px;
+  }
+  &__top-content {
+    text-align: center;
+    width: 704px;
+    margin: 0 30px 0 auto;
+    padding: 35px 0;
+  }
+  &__sns-icons img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    padding-top: 18px;
+  }
+  &__about-detail-text {
+    width: 415px;
+    @include fts(7, 10);
+    padding-top: 15px;
+    text-align: left;
+  }
+  &__logo-img img {
+    margin: 0 40px;
+    width: 98px;
+  }
+  &__bottom-content {
+    @include fts(8, 10);
+  }
+  &__container {
+    padding-left: 50px;
+    dt {
+      padding-bottom: 10px;
+    }
+    dd li {
+      padding-bottom: 8px
+    }
+    .footer__box1 {
+      width: 120px;
+    }
+    .footer__box2 {
+      width: 120px;
+    }
+  }
+}
+
+.copyright {
+  padding: 15px 0;
+  @include fts(4, 4);
+  color: $font_sub_glay_color;
+  width: 212px;
+  margin: 0 auto;
+  letter-spacing: 2px;
+}
+
+/*
+
 	index.page
 
 *************************************************/
+
+.middle-contain {
+  margin: 0 50px;
+
+  .article-list {
+    padding-top: 30px;
+    li {
+      height: 123px;
+    }
+    &__img {
+      width: 137px;
+    }
+    &__text {
+      width: 328px;
+      padding-left: 13px;
+      h3.list-title {
+        @include fts(9, 11);
+        font-weight: bold;
+        padding: 6px 0;
+        letter-spacing: 2px;
+      }
+      p.list-read {
+        @include fts(5, 5);
+        letter-spacing: 1px;
+        color: $font_sub_glay_color;
+        padding-bottom: 9px;
+      }
+      .icons {
+        .icons__tag {
+          background-color: $main_color;
+          margin-right: 10px;
+          color: #fff;
+          @include fts(3, 3);
+          @include border-radius(2px);
+          padding: 4px 7px;
+        }
+      }
+
+    }
+  }
+
+  .sns-area {
+    border: solid 1px $font_sub_color;
+    margin: 50px 0;
+
+    &__img {
+      position: relative;
+      width: 243px;
+      height: 176px;
+      overflow: hidden;
+    }
+    &__img img {
+      position: absolute;
+      left: 131%;
+      top: -8%;
+      margin-left: -320px;
+    }
+
+    &__info {
+      width: 230px;
+      text-align: center;
+      padding-top: 17px;
+    }
+    &__title {
+      padding: 13px 0;
+      @include fts(8, 10);
+      width: 152px;
+      margin: 0 auto;
+      letter-spacing: 2px;
+    }
+    .sns-icons {
+      width: 197px;
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+      img {
+        width: 15%;
+      }
+    }
+  }
+  .shopping-banner {
+    margin-bottom: 50px;
+  }
+}

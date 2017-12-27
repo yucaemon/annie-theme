@@ -1,26 +1,28 @@
-%header.header
-  .sns-icons.flexbox
-    <img src="<?php echo get_template_directory_uri(); ?>/images/facebook-icon.svg">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/twitter-icon.svg">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/instagram-icon.svg">
-  .logo
-    %h1.logo__h1
-      <img src="<?php echo get_template_directory_uri(); ?>/images/annie-logo.svg" width="250">
-      アメリカから自由奔放『BOHO』ファッションを伝えるWEBマガジン
-    %img.logo__img
-
-  %ul.nav-menu
-    %li
-      ANNIEについて
-    %li
-      ポートランドオレゴン州
-  .search
-    <img src="<?php echo get_template_directory_uri(); ?>/images/sarch-icon.svg" width="50">
-    %input.search__input
-    %button.search__btn
-  .notice-bar
-  %ul.breadcrumb
-    %li
-      home
+%header.outer__header
+  .flexbox--spacebetween
+    .sns-icons
+      .flexbox
+        <img src="<?php echo get_template_directory_uri(); ?>/images/facebook-icon.svg">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/twitter-icon.svg">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/instagram-icon.svg">
+    .logo
+      .logo__img
+        <img src="<?php echo get_template_directory_uri(); ?>/images/annie-logo.svg" width="250">
+      %h1
+        アメリカ『自由奔放』bohoファッションをお届けするWEBマガジン
+    .info
+      %ul.nav-menu.flexbox
+        %li
+          ANNIEについて
+        %li
+          ポートランドオレゴン州
+      .search__box
+        %form{:class => "search__form", :action => "/"}
+          %input{:class => "search__input", :type => "text", :placeholder => "検索"}
+%h2.notice-bar
+  お知らせ：ショッピングサイト『アニー』OPEN!!! ファッションの街、ポートランドから日本へ現地の新商品を紹介。
+%ul.breadcrumb
+  %li
+    home
 
 

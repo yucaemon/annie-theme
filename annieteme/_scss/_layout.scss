@@ -1,21 +1,14 @@
 .outer{
+	&__header{
+		margin:40px 30px;
+	}
 	&__inner{
-	width: $base_width;
+		width: $base_width;
 		margin: 0 auto;
 	}
-	&__body{
-
-
-	}
 	&__foot{
-		text-align: center;
-		.c-button{
-			width: 370px;
-			padding: 20px 0px;
-			display: inline-block;
-			font-weight: bold;
-		}
-		a+a{margin-left: 35px;}
+		width: 1076px;
+		margin: 0 auto;
 	}
 
 }
@@ -27,7 +20,7 @@
 .flexbox{
 	@include flexbox(flex-start,flex-start);
 	flex-wrap: wrap;
-	min-width: $base_width;
+	//min-width: $base_width;
 	&--h-center{
 		@extend .flexbox;
 		justify-content: center;
