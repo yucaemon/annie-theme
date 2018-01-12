@@ -40,7 +40,15 @@ module.exports = function (grunt) {
                 files: {
                     'components-php/header.php': '_haml/header.haml',
                     'components-php/footer.php': '_haml/footer.haml',
-                    'index.php': '_haml/index.haml'
+                    'components-php/featured-box.php': '_haml/featured-box.haml',
+                    'components-php/keywords.php': '_haml/keywords.haml',
+                    'components-php/models-lists.php': '_haml/models-lists.haml',
+                    'components-php/news-list.php': '_haml/news-list.haml',
+                    'components-php/side-menu-list.php': '_haml/side-menu-list.haml',
+                    'components-php/shopping-box.php': '_haml/shopping-box.haml',
+                    'components-php/sns-box.php': '_haml/sns-box.haml',
+                    'index.php': '_haml/index.haml',
+                    'single.php': '_haml/single.haml'
                 }
             }
 

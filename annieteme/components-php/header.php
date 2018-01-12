@@ -35,8 +35,3 @@ ANNIEについて
 <h2 class='notice-bar'>
 お知らせ：ショッピングサイト『アニー』OPEN!!! ファッションの街、ポートランドから日本へ現地の新商品を紹介。
 </h2>
-<ul class='breadcrumb'>
-<li>
-home
-</li>
-</ul>
