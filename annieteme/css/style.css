@@ -266,6 +266,14 @@ select::-ms-expand {
 
 /*
 
+	common
+
+*************************************************/
+a {
+  color: #f2716e; }
+
+/*
+
 	header
 
 *************************************************/
@@ -559,5 +567,99 @@ select::-ms-expand {
         width: 15%; }
   .middle-contain .shopping-banner {
     margin-bottom: 50px; }
+
+/*
+
+	single.page
+
+*************************************************/
+.single-page__head-title {
+  font-weight: bold;
+  font-size: 15px;
+  font-size: 1.5rem;
+  line-height: 1;
+  letter-spacing: 1px;
+  padding-bottom: 15px;
+  line-height: 31px; }
+.single-page .Published-brands-category, .single-page .dates {
+  font-size: 8px;
+  font-size: 0.8rem;
+  line-height: 1;
+  color: #9c9c9c;
+  padding-bottom: 15px;
+  letter-spacing: 0.5px; }
+.single-page .article-sns-btns img {
+  width: 90px; }
+.single-page .article-sns-btns img + img {
+  padding-left: 8px; }
+.single-page__eyecatch-img {
+  padding: 30px 0; }
+.single-page__entry-content p {
+  font-size: 10px;
+  font-size: 1rem;
+  line-height: 1;
+  line-height: 22px; }
+.single-page__entry-content .headline-second {
+  font-size: 13.5px;
+  font-size: 1.35rem;
+  line-height: 1;
+  line-height: 25px;
+  font-weight: bold;
+  border-bottom: solid 3px #f2716e;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  margin-top: 20px; }
+.single-page__entry-content .headline-third {
+  font-size: 13.5px;
+  font-size: 1.35rem;
+  line-height: 1;
+  line-height: 15px;
+  font-weight: bold;
+  padding: 10px 0 10px 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-left: solid 11px #f2716e; }
+.single-page__entry-content img {
+  padding: 30px 0; }
+.single-page__entry-content .detail-box01 {
+  border: solid 1px #dcdcdc;
+  font-size: 10px;
+  font-size: 1rem;
+  line-height: 1;
+  padding: 20px;
+  margin: 30px 0; }
+  .single-page__entry-content .detail-box01__title {
+    padding-bottom: 10px;
+    border-bottom: solid 1px #dcdcdc;
+    margin-bottom: 10px;
+    letter-spacing: 1px; }
+  .single-page__entry-content .detail-box01__contain {
+    letter-spacing: 1.2px;
+    font-size: 7px;
+    font-size: 0.7rem;
+    line-height: 1.71429;
+    color: #9c9c9c; }
+.single-page__entry-content .detail-box02 {
+  border: solid 1px #dcdcdc;
+  margin: 30px 0; }
+  .single-page__entry-content .detail-box02__img {
+    width: 25%; }
+  .single-page__entry-content .detail-box02__txt {
+    color: #dcdcdc;
+    font-size: 7px;
+    font-size: 0.7rem;
+    line-height: 1.71429;
+    padding: 10px 0 0 10px; }
+  .single-page__entry-content .detail-box02__title {
+    font-size: 9px;
+    font-size: 0.9rem;
+    line-height: 1;
+    color: #333;
+    padding: 7px 0; }
+  .single-page__entry-content .detail-box02 img {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
 
 /*# sourceMappingURL=style.css.map */

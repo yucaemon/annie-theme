@@ -23,9 +23,9 @@ anthropologie
 </div>
 <div class='flexbox--spacebetween'>
 <div class='article-sns-btns flexbox'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/facebook-btn.svg" width="110px">
-<img src="<?php echo get_template_directory_uri(); ?>/images/twitter-btn.svg" width="110px">
-<img src="<?php echo get_template_directory_uri(); ?>/images/poket-btn.svg" width="110px">
+<img src="<?php echo get_template_directory_uri(); ?>/images/facebook-btn.svg">
+<img src="<?php echo get_template_directory_uri(); ?>/images/twitter-btn.svg">
+<img src="<?php echo get_template_directory_uri(); ?>/images/poket-btn.svg">
 </div>
 <div class='dates'>
 2017/11/26
@@ -43,29 +43,29 @@ anthropologie
 文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本
 文１本文１本文１本文１本
 </p>
-<h2 class='single-page__headline-second'>
-h2-未上陸ブランドを購入しよう！冬の『BOHO』ファッション特集
+<h2 class='headline-second'>
+未上陸ブランドを購入しよう！冬の『BOHO』ファッション特集
 </h2>
-<p>
-本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１
-本文１本文１本文１本文１本文１本文１本文１本文１本文１本本文１本文１本文
-１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文
-１本文１本文１本文１本文１本文１本文１本本文１本文１本文１本文１本文１本
-文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本
-文１本文１本文１本文１本
-</p>
 <img src="<?php echo get_template_directory_uri(); ?>/images/instagram-pic-test1.png">
-<div class='detail-box'>
-<div class='detail-box-01__title'>
+<div class='detail-box01'>
+<div class='detail-box01__title'>
 お店の名前
 </div>
-<div class='detail-box-01__contain'>
-住所 5114 SE OGDEN PORTLAND 97206
+<div class='detail-box01__contain'>
+住所
+<a>
+5114 SE OGDEN PORTLAND 97206
+<i class='fa fa-external-link'></i>
+</a>
 <br>
-WEBサイト http://hatchstudioinc.com/
+WEBサイト
+<a>
+http://hatchstudioinc.com/
+<i class='fa fa-external-link'></i>
+</a>
 </div>
 </div>
-<h3 class='single-page__headline-third'>
+<h3 class='headline-third'>
 h3-『boho』スタイルとは。
 </h3>
 <p>
@@ -76,14 +76,18 @@ h3-『boho』スタイルとは。
 文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本
 文１本文１本文１本文１本
 </p>
-<div class='detail-box-02 flexbox'>
-<img class='detail-box02__img'>
+<div class='detail-box02 flexbox'>
+<div class='detail-box02__img'>
 <img src="<?php echo get_template_directory_uri(); ?>/images/link-box.png">
-</img>
-<div class='detail-box-02__txt'>
+</div>
+<div class='detail-box02__txt'>
 ＞関連記事リンク
-<div class='detail-box-02_title'>
+<div class='detail-box02__title'>
 関連記事タイトルタイトルタイトルタイトルタイトルタイトル
+<i class='fa fa-external-link'></i>
+</div>
+<div class='detail-box02__read'>
+関連記事の本文の本文の本文の本文の本文の本文の本文の本文の本文の本文
 </div>
 </div>
 </div>

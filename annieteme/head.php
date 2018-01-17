@@ -23,5 +23,6 @@
   <link href="//fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
   <link href="apple-touch-icon.png" rel="apple-touch-icon">
   <link href="favicon.ico" rel="shortcut icon">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
 
 </head>

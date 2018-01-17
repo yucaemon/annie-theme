@@ -1,5 +1,17 @@
 /*
 
+	common
+
+*************************************************/
+
+a{
+  color: $link_color;
+}
+
+
+
+/*
+
 	header
 
 *************************************************/
@@ -168,7 +180,7 @@
       padding-bottom: 20px;
     }
     dd+dd{
-      border-top: solid $font_sub_color 1px;
+      border-top: solid $border_color 1px;
       padding-top: 20px;
     }
     &__text{
@@ -356,3 +368,114 @@
     margin-bottom: 50px;
   }
 }
+
+/*
+
+	single.page
+
+*************************************************/
+
+.single-page{
+  &__head-title {
+    font-weight: bold;
+    @include fts(15, 15);
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+    line-height: 31px;
+  }
+  .Published-brands-category {
+    @include fts(8, 8);
+    color: $font_sub_glay_color;
+    padding-bottom: 15px;
+    letter-spacing: 0.5px;
+  }
+  .dates{
+    @extend .Published-brands-category
+  }
+  .article-sns-btns img{
+    width: 90px;
+  }
+  .article-sns-btns img + img{
+    padding-left:8px;
+  }
+  &__eyecatch-img {
+    padding: 30px 0;
+  }
+  &__entry-content {
+    p {
+      @include fts(10, 10);
+      line-height: 22px;
+    }
+    .headline-second {
+      @include fts(13.5, 13.5);
+      line-height: 25px;
+      font-weight: bold;
+      border-bottom: solid 3px $main_color;
+      padding: 10px 0;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+    .headline-third {
+      @include fts(13.5, 13.5);
+      line-height: 15px;
+      font-weight: bold;
+      padding: 10px 0 10px 20px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      border-left: solid 11px $main_color;
+    }
+    img {
+      padding: 30px 0;
+    }
+    .detail-box01 {
+      border: solid 1px $border_color;
+      @include fts(10, 10);
+      padding: 20px;
+      margin: 30px 0;
+      &__title {
+        padding-bottom: 10px;
+        border-bottom: solid 1px $border_color;
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+      }
+      &__contain {
+        letter-spacing: 1.2px;
+        @include fts(7, 12);
+        color: $font_sub_glay_color;
+      }
+    }
+    .detail-box02{
+      border: solid 1px $border_color;
+      margin: 30px 0;
+
+      &__img {
+       width: 25%;
+      }
+      &__txt{
+        color:$font_sub_color;
+        @include fts(7, 12);
+        padding:10px 0 0 10px;
+      }
+      &__title{
+        @include fts(9, 9);
+        color: $font_color;
+        padding:7px 0;
+
+      }
+
+      img{
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+
+
+  }
+
+
+}
+
+
