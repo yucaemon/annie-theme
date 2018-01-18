@@ -406,6 +406,19 @@ a {
 .side-contain .keywords__tag {
   padding: 5px 6px;
   font-size: 13px; }
+.side-contain .items__content {
+  font-size: 10px;
+  font-size: 1rem;
+  line-height: 1;
+  padding-left: 10px; }
+.side-contain .items__list {
+  padding: 13px 0; }
+  .side-contain .items__list .fa-angle-right {
+    color: #dcdcdc;
+    font-size: 15px;
+    font-size: 1.5rem;
+    line-height: 1;
+    padding-right: 10px; }
 .side-contain .models-lists {
   padding-bottom: 50px; }
   .side-contain .models-lists dd {
@@ -588,6 +601,8 @@ a {
   color: #9c9c9c;
   padding-bottom: 15px;
   letter-spacing: 0.5px; }
+.single-page .article-sns-btns {
+  padding-top: 20px; }
 .single-page .article-sns-btns img {
   width: 90px; }
 .single-page .article-sns-btns img + img {
@@ -610,15 +625,15 @@ a {
   margin-bottom: 20px;
   margin-top: 20px; }
 .single-page__entry-content .headline-third {
-  font-size: 13.5px;
-  font-size: 1.35rem;
+  font-size: 12px;
+  font-size: 1.2rem;
   line-height: 1;
-  line-height: 15px;
+  line-height: 7px;
   font-weight: bold;
   padding: 10px 0 10px 20px;
   margin-bottom: 20px;
   margin-top: 20px;
-  border-left: solid 11px #f2716e; }
+  border-left: solid 6px #f2716e; }
 .single-page__entry-content img {
   padding: 30px 0; }
 .single-page__entry-content .detail-box01 {
@@ -639,9 +654,11 @@ a {
     font-size: 0.7rem;
     line-height: 1.71429;
     color: #9c9c9c; }
-.single-page__entry-content .detail-box02 {
+.single-page__entry-content .detail-box02, .single-page__entry-content .detail-box03 {
   border: solid 1px #dcdcdc;
   margin: 30px 0; }
+  .single-page__entry-content .detail-box02 a, .single-page__entry-content .detail-box03 a {
+    color: #333; }
   .single-page__entry-content .detail-box02__img {
     width: 25%; }
   .single-page__entry-content .detail-box02__txt {
@@ -649,17 +666,146 @@ a {
     font-size: 7px;
     font-size: 0.7rem;
     line-height: 1.71429;
-    padding: 10px 0 0 10px; }
+    padding: 10px 0 0 10px;
+    width: 73%; }
   .single-page__entry-content .detail-box02__title {
     font-size: 9px;
     font-size: 0.9rem;
     line-height: 1;
     color: #333;
     padding: 7px 0; }
-  .single-page__entry-content .detail-box02 img {
+  .single-page__entry-content .detail-box02 img, .single-page__entry-content .detail-box03 img {
     padding: 0;
     width: 100%;
     height: 100%;
     object-fit: cover; }
+.single-page__entry-content .detail-box03__img {
+  width: 40%; }
+.single-page__entry-content .detail-box03__txt {
+  width: 45%;
+  padding: 35px 48px 0 48px; }
+.single-page__entry-content .detail-box03__title, .single-page__entry-content .detail-box03__price {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding-bottom: 20px; }
+.single-page__entry-content .detail-box03__price {
+  font-size: 8px;
+  font-size: 0.8rem;
+  line-height: 1;
+  padding-bottom: 15px; }
+.single-page__entry-content .detail-box03__brand {
+  font-size: 8px;
+  font-size: 0.8rem;
+  line-height: 1;
+  color: #f2716e;
+  padding-bottom: 12px;
+  letter-spacing: 0.8px; }
+.single-page__entry-content .detail-box03__read {
+  font-size: 7px;
+  font-size: 0.7rem;
+  line-height: 1;
+  color: #9c9c9c;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  padding: 5px 0 20px 0; }
+.single-page__entry-content .detail-box03__shipping {
+  font-size: 8px;
+  font-size: 0.8rem;
+  line-height: 1;
+  padding-bottom: 15px; }
+.single-page__entry-content .detail-box03__similar-products {
+  font-size: 8px;
+  font-size: 0.8rem;
+  line-height: 1;
+  color: #9c9c9c;
+  margin-bottom: 17px; }
+.single-page__entry-content .detail-box03__btn {
+  background: #f2716e;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  height: 43px;
+  width: 250px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+  margin-bottom: 20px; }
+.single-page__entry-content .detail-box03__btn-subtxt {
+  font-size: 0.7rem;
+  line-height: 1;
+  padding-top: 14px;
+  color: #9c9c9c; }
+.single-page__entry-content .instagram-models-lists {
+  border-top: solid 1px #dcdcdc;
+  border-bottom: solid 1px #dcdcdc;
+  margin-top: 50px;
+  padding: 30px 0;
+  position: relative;
+  width: 100%;
+  height: 120px;
+  margin-bottom: 20px; }
+  .single-page__entry-content .instagram-models-lists__container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center; }
+  .single-page__entry-content .instagram-models-lists__header {
+    font-size: 14px;
+    color: #9c9c9c;
+    padding-bottom: 25px; }
+  .single-page__entry-content .instagram-models-lists__models {
+    text-align: center;
+    display: inline-block; }
+    .single-page__entry-content .instagram-models-lists__models img {
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      -moz-background-clip: padding;
+      -webkit-background-clip: padding-box;
+      background-clip: padding-box;
+      height: 80%;
+      width: 80%;
+      padding: 0; }
+.single-page .related-article__title {
+  padding: 50px 0;
+  font-size: 19px;
+  font-weight: bold; }
+.single-page .related-article__content {
+  width: 30%;
+  padding: 10px 0; }
+.single-page .related-article__img img {
+  width: 100%;
+  height: 100%; }
+.single-page .related-article__text {
+  font-size: 8px;
+  font-size: 0.8rem;
+  line-height: 1;
+  padding: 10px 0;
+  letter-spacing: 1px;
+  font-weight: bold;
+  line-height: 17px; }
+.single-page .more-search-article__title {
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 1;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #33333314;
+  margin: 30px 0; }
+.single-page .more-search-article__table table {
+  width: 100%;
+  height: 100px;
+  border-collapse: collapse;
+  color: #333; }
+.single-page .more-search-article__table table th, .single-page .more-search-article__table table td {
+  border: solid 1px #dcdcdc;
+  vertical-align: middle;
+  padding-left: 20px; }
+  .single-page .more-search-article__table table th .fa-angle-right, .single-page .more-search-article__table table td .fa-angle-right {
+    color: #9c9c9c; }
 
 /*# sourceMappingURL=style.css.map */

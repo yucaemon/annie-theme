@@ -65,11 +65,12 @@
             .detail-box02__txt
               ＞関連記事リンク
               .detail-box02__title
-                関連記事タイトルタイトルタイトルタイトルタイトルタイトル
-                %i.fa.fa-external-link
+                %a
+                  関連記事タイトルタイトルタイトルタイトルタイトルタイトル
+                  %i.fa.fa-external-link
               .detail-box02__read
-                関連記事の本文の本文の本文の本文の本文の本文の本文の本文の本文の本文
-          %h3.single-page__headline-third
+                関連記事の本文の本文の本文の本文の本文の本文の本文の本文の本文の本文関連記事の本文の本文の本文の本文の本文の本文の本文の本文の本文の
+          %h3.headline-third
             h3-『boho』スタイルとは。
           %p
             本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１
@@ -86,50 +87,62 @@
             １本文１本文１本文１本文１本文１本文１本本文１本文１本文１本文１本文１本
             文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本
             文１本文１本文１本文１本
-
           .detail-box03.flexbox
             .detail-box03__img
               <img src="<?php echo get_template_directory_uri(); ?>/images/product-test1.png">
-            .detail-box03__content
+            .detail-box03__txt
               .detail-box03__title
-                『SPELL ANGELS TANK』
+                %i.fa.fa-angle-right
+                SPELL ANGELS TANK
               .detail-box03__price
                 ¥8500円
               .detail-box03__brand
                 spelldesigns
-              .detail-box03__txt
+                %i.fa.fa-external-link
+              .detail-box03__read
                 本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１
                 本文１本文１本文１本文１本文１本文１本文１本文１本文１本本文１本文１本文
                 １本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文
                 １本文１本文１本文１本文１本文１本文１本本文１本文１本文１本文１本文１本
                 文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本
                 文１本文１本文１本文１本
-              .detail-box03__shipping
-                日本発送可能
+              .flexbox--spacebetween
+                .detail-box03__shipping
+                  日本発送可能
+                .detail-box03__similar-products
+                  %i.fa.fa-arrow-right
+                  類似の商品をもっと探す
               .detail-box03__btn
-                この商品購入する
-          .detail-box03__img
-            <img src="<?php echo get_template_directory_uri(); ?>/images/product-test2.png">
-          .detail-box03__content
-            .detail-box03__title
-              『DUSK BOILER』
-            .detail-box03__price
-              ¥18500円
-            .detail-box03__brand
-              spelldesigns
+                この商品を購入する
+
+          .detail-box03.flexbox
+            .detail-box03__img
+              <img src="<?php echo get_template_directory_uri(); ?>/images/product-test2.png">
             .detail-box03__txt
-              本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１
-              本文１本文１本文１本文１本文１本文１本文１本文１本文１本本文１本文１本文
-              １本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文
-              １本文１本文１本文１本文１本文１本文１本本文１本文１本文１本文１本文１本
-              文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本
-              文１本文１本文１本文１本
-            .detail-box03__shipping
-              日本発送可能
-            .detail-box03__btn
-              ♡この商品欲しい (1)
-            .detail-box03__btn-subtxt
-              ５以上のクリックで販売開始を検討します。
+              .detail-box03__title
+                %i.fa.fa-angle-right
+                DUSK BOILER
+              .detail-box03__price
+                ¥18500円
+              .detail-box03__brand
+                spelldesigns
+              .detail-box03__read
+                本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１
+                本文１本文１本文１本文１本文１本文１本文１本文１本文１本本文１本文１本文
+                １本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文
+                １本文１本文１本文１本文１本文１本文１本本文１本文１本文１本文１本文１本
+                文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本
+                文１本文１本文１本文１本
+              .flexbox--spacebetween
+                .detail-box03__shipping
+                  日本発送可能
+                .detail-box03__similar-products
+                  %i.fa.fa-arrow-right
+                  類似の商品をもっと探す
+              .detail-box03__btn
+                ♡この商品欲しい (1)
+              .detail-box03__btn-subtxt
+                ５以上のクリックで販売開始を検討します。
           %p
             本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１
             本文１本文１本文１本文１本文１本文１本文１本文１本文１本本文１本文１本文
@@ -138,63 +151,103 @@
             文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本
             文１本文１本文１本文１本
 
-          .article-sns-btns.flexbox
-            <img src="<?php echo get_template_directory_uri(); ?>/images/facebook-btn.svg" width="110px">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/twitter-btn.svg" width="110px">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/poket-btn.svg" width="110px">
-          .related-article
-            .related-article__title
-              おすすめの『ファッション』関連記事
-            .related-article__container
-              .related-article__content
-                .related-article__img
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/sample1.png">
-                .related-article__text
-                  bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-              .related-article__content
-                .related-article__img
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/sample2.png">
-                .related-article__text
-                  bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-              .related-article__content
-                .related-article__img
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/sample3.png">
-                .related-article__text
-                  bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-          .more-search-article
-            .more-search-article__title
-              もっとファッションの記事を探す
+          .instagram-models-lists
+            .instagram-models-lists__container
+              .instagram-models-lists__header
+                この記事のインスタモデル
+              .instagram-models-lists__models
+                <img src="<?php echo get_template_directory_uri(); ?>/images/yuca.png">
+              .instagram-models-lists__models
+                <img src="<?php echo get_template_directory_uri(); ?>/images/yuca.png">
+
+        .article-sns-btns.flexbox
+          <img src="<?php echo get_template_directory_uri(); ?>/images/facebook-btn.svg" width="110px">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/twitter-btn.svg" width="110px">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/poket-btn.svg" width="110px">
+
+        .related-article
+          .related-article__title
+            おすすめの『ファッション』関連記事
+          .related-article__container.flexbox--spacebetween
+            .related-article__content
+              .related-article__img
+                <img src="<?php echo get_template_directory_uri(); ?>/images/sample1.png">
+              .related-article__text
+                bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
+            .related-article__content
+              .related-article__img
+                <img src="<?php echo get_template_directory_uri(); ?>/images/sample2.png">
+              .related-article__text
+                bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
+            .related-article__content
+              .related-article__img
+                <img src="<?php echo get_template_directory_uri(); ?>/images/sample3.png">
+              .related-article__text
+                bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
+            .related-article__content
+              .related-article__img
+                <img src="<?php echo get_template_directory_uri(); ?>/images/sample1.png">
+              .related-article__text
+                bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
+            .related-article__content
+              .related-article__img
+                <img src="<?php echo get_template_directory_uri(); ?>/images/sample2.png">
+              .related-article__text
+                bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
+            .related-article__content
+              .related-article__img
+                <img src="<?php echo get_template_directory_uri(); ?>/images/sample3.png">
+              .related-article__text
+                bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
+            .related-article__content
+              .related-article__img
+                <img src="<?php echo get_template_directory_uri(); ?>/images/sample1.png">
+              .related-article__text
+                bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
+            .related-article__content
+              .related-article__img
+                <img src="<?php echo get_template_directory_uri(); ?>/images/sample2.png">
+              .related-article__text
+                bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
+            .related-article__content
+              .related-article__img
+                <img src="<?php echo get_template_directory_uri(); ?>/images/sample3.png">
+              .related-article__text
+                bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
+
+        .more-search-article
+          .more-search-article__title
+            もっとファッションの記事を探す
+          .more-search-article__table
             %table
               %tbody
                 %tr
                   %td
+                    %i.fa.fa-angle-right
                     テーシャツ
                   %td
+                    %i.fa.fa-angle-right
                     スカート
                   %td
+                    %i.fa.fa-angle-right
                     冬物コート
                 %tr
                   %td
+                    %i.fa.fa-angle-right
                     古着
                   %td
+                    %i.fa.fa-angle-right
                     ジーンズ
                   %td
+                    %i.fa.fa-angle-right
                     ジャケット
-
-
-
-
-
-
-
-
-
 
         <?php include('components-php/sns-box.php'); ?>
         <?php include('components-php/shopping-box.php'); ?>
       .column-4.side-contain
         <?php include('components-php/featured-box.php'); ?>
         <?php include('components-php/news-list.php'); ?>
+        <?php include('components-php/items.php'); ?>
         <?php include('components-php/keywords.php'); ?>
         <?php include('components-php/models-lists.php'); ?>
 <?php include('components-php/footer.php'); ?>

@@ -42,6 +42,7 @@ module.exports = function (grunt) {
                     'components-php/footer.php': '_haml/footer.haml',
                     'components-php/featured-box.php': '_haml/featured-box.haml',
                     'components-php/keywords.php': '_haml/keywords.haml',
+                    'components-php/items.php': '_haml/items.haml',
                     'components-php/models-lists.php': '_haml/models-lists.haml',
                     'components-php/news-list.php': '_haml/news-list.haml',
                     'components-php/side-menu-list.php': '_haml/side-menu-list.haml',

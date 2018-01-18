@@ -174,6 +174,21 @@ a{
     }
   }
 
+  .items{
+    &__content {
+      @include fts(10,10);
+      padding-left: 10px;
+    }
+    &__list{
+      padding: 13px 0;
+      .fa-angle-right{
+        color:$border_color;
+        @include fts(15,15);
+        padding-right:10px;
+      }
+    }
+  }
+
   .models-lists{
     padding-bottom: 50px;
     dd{
@@ -392,6 +407,9 @@ a{
   .dates{
     @extend .Published-brands-category
   }
+  .article-sns-btns{
+    padding-top:20px;
+  }
   .article-sns-btns img{
     width: 90px;
   }
@@ -416,13 +434,13 @@ a{
       margin-top: 20px;
     }
     .headline-third {
-      @include fts(13.5, 13.5);
-      line-height: 15px;
+      @include fts(12, 12);
+      line-height: 7px;
       font-weight: bold;
       padding: 10px 0 10px 20px;
       margin-bottom: 20px;
       margin-top: 20px;
-      border-left: solid 11px $main_color;
+      border-left: solid 6px $main_color;
     }
     img {
       padding: 30px 0;
@@ -447,7 +465,9 @@ a{
     .detail-box02{
       border: solid 1px $border_color;
       margin: 30px 0;
-
+      a{
+        color:$font_color;
+      }
       &__img {
        width: 25%;
       }
@@ -455,6 +475,7 @@ a{
         color:$font_sub_color;
         @include fts(7, 12);
         padding:10px 0 0 10px;
+        width: 73%;
       }
       &__title{
         @include fts(9, 9);
@@ -462,7 +483,6 @@ a{
         padding:7px 0;
 
       }
-
       img{
         padding: 0;
         width: 100%;
@@ -470,10 +490,158 @@ a{
         object-fit: cover;
       }
     }
+    .detail-box03{
+      @extend .detail-box02;
+      &__img {
+        width: 40%;
+      }
+      &__txt{
+        width: 45%;
+        padding: 35px 48px 0 48px;
+    }
+      &__title {
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        padding-bottom: 20px;
+      }
+      &__price{
+        @extend .detail-box03__title;
+        @include fts(8,8);
+        padding-bottom: 15px;
+      }
+      &__brand{
+        @include fts(8,8);
+        color:$main_color;
+        padding-bottom: 12px;
+        letter-spacing: 0.8px;
+      }
+      &__read{
+        @include fts(7,7);
+        color: $font_sub_glay_color;
+        line-height: 16px;
+        letter-spacing: 0.5px;
+        padding: 5px 0 20px 0;
+      }
+      &__shipping{
+        @include fts(8,8);
+        padding-bottom: 15px;
+      }
+      &__similar-products {
+        @include fts(8,8);
+        color: $font_sub_glay_color;
+        margin-bottom: 17px;
+      }
+      &__btn{
+        background : $main_color;
+        border-radius : 5px;
+        -moz-border-radius : 5px;
+        -webkit-border-radius : 5px;
+        height: 43px;
+        width: 250px;
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        color: #fff;
+        margin-bottom:20px;
+      }
+      &__btn-subtxt {
+        font-size: 0.7rem;
+        line-height: 1;
+        padding-top: 14px;
+        color: $font_sub_glay_color;
+      }
 
+    }
 
+    .instagram-models-lists {
+      border-top: solid 1px $border_color;
+      border-bottom: solid 1px $border_color;
+      margin-top: 50px;
+      padding: 30px 0;
+      position: relative;
+      width: 100%;
+      height: 120px;
+      margin-bottom: 20px;
+
+      &__container{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%,   -50%);
+        transform: translate(-50%,   -50%);
+        text-align: center;
+      }
+      &__header {
+        font-size: 14px;
+        color: $font_sub_glay_color;
+        padding-bottom: 25px;
+      }
+      &__models {
+        text-align: center;
+        display: inline-block;
+
+        img {
+          @include border-radius(50%);
+          height: 80%;
+          width: 80%;
+          padding: 0;
+
+        }
+      }
+    }
+  }
+  .related-article{
+    &__title {
+      padding: 50px 0;
+      font-size: 19px;
+      font-weight: bold;
+    }
+    &__content {
+      width: 30%;
+      padding: 10px 0;
+    }
+    &__img{
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+    &__text {
+      @include fts(8,8);
+      padding: 10px 0;
+      letter-spacing: 1px;
+      font-weight: bold;
+      line-height: 17px;
+    }
+  }
+  .more-search-article {
+    &__title {
+      @include fts(12,12);
+      padding: 20px 0;
+      text-align: center;
+      background-color: #33333314;
+      margin: 30px 0;
+    }
+    &__table {
+      table {
+        width:100%;
+        height: 100px;
+        border-collapse: collapse;
+        color: $font_color;
+      }
+      table th, table td {
+        border: solid 1px $border_color;
+        vertical-align: middle;
+        padding-left: 20px;
+        .fa-angle-right{
+          color:$font_sub_glay_color;
+        }
+      }
+    }
 
   }
+
 
 
 }
