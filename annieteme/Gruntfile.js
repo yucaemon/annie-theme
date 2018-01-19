@@ -49,7 +49,9 @@ module.exports = function (grunt) {
                     'components-php/shopping-box.php': '_haml/shopping-box.haml',
                     'components-php/sns-box.php': '_haml/sns-box.haml',
                     'index.php': '_haml/index.haml',
+                    'archive.php': '_haml/archive.haml',
                     'single.php': '_haml/single.haml'
+
                 }
             }
 
