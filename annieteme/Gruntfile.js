@@ -47,7 +47,13 @@ module.exports = function (grunt) {
                     'components-php/news-list.php': '_haml/news-list.haml',
                     'components-php/side-menu-list.php': '_haml/side-menu-list.haml',
                     'components-php/shopping-box.php': '_haml/shopping-box.haml',
+
+                    'components-php/wrote-models-box.php': '_haml/wrote-models-box.haml',
+                    'components-php/article-sns-btns.php': '_haml/article-sns-btns.haml',
+                    'components-php/related-article.php': '_haml/related-article.haml',
+                    'components-php/more-search-article.php': '_haml/more-search-article.haml',
                     'components-php/sns-box.php': '_haml/sns-box.haml',
+
                     'index.php': '_haml/index.haml',
                     'single.php': '_haml/single.haml',
                     'archive.php': '_haml/archive.haml',

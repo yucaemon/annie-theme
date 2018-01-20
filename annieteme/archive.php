@@ -202,6 +202,7 @@ bohoスタイルの火付け役『アンソロジー』のゆるふあチェッ�
 </div>
 </li>
 </ul>
+<?php include('components-php/more-search-article.php'); ?>
 <?php include('components-php/sns-box.php'); ?>
 <?php include('components-php/shopping-box.php'); ?>
 </div>
