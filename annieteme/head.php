@@ -18,7 +18,7 @@
   <meta name="twitter:description" content="annieはアメリカの『boho』ファッションをテーマにしたファッションメディアです。">
   <meta name="twitter:image:src" content="test.jpg">
 
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css" type="text/css"/ >
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" type="text/css"/ >
   <link href="//fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet" type="text/css">
   <link href="//fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
   <link href="apple-touch-icon.png" rel="apple-touch-icon">

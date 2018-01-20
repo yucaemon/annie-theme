@@ -11,9 +11,6 @@
 <div class='outer__inner flexbox--h-center'>
 <?php include('components-php/side-menu-list.php'); ?>
 <div class='column-6 middle-contain'>
-<div class='bg-thumb-img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/index-top-banner.png" width="478px">
-</div>
 <ul class='article-list'>
 <li class='flexbox'>
 <div class='article-list__img'>

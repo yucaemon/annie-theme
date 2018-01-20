@@ -296,8 +296,11 @@ a{
 .middle-contain {
   margin: 0 50px;
 
+  .bg-thumb-img {
+    margin-bottom: 30px;
+  }
+
   .article-list {
-    padding-top: 30px;
     li {
       height: 123px;
     }

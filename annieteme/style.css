@@ -513,43 +513,43 @@ a {
 *************************************************/
 .middle-contain {
   margin: 0 50px; }
-  .middle-contain .article-list {
-    padding-top: 30px; }
-    .middle-contain .article-list li {
-      height: 123px; }
-    .middle-contain .article-list__img {
-      width: 137px; }
-    .middle-contain .article-list__text {
-      width: 328px;
-      padding-left: 13px; }
-      .middle-contain .article-list__text h3.list-title {
-        font-size: 9px;
-        font-size: 0.9rem;
-        line-height: 1.22222;
-        font-weight: bold;
-        padding: 6px 0;
-        letter-spacing: 2px; }
-      .middle-contain .article-list__text p.list-read {
-        font-size: 5px;
-        font-size: 0.5rem;
-        line-height: 1;
-        letter-spacing: 1px;
-        color: #9c9c9c;
-        padding-bottom: 9px; }
-      .middle-contain .article-list__text .icons .icons__tag {
-        background-color: #f2716e;
-        margin-right: 10px;
-        color: #fff;
-        font-size: 3px;
-        font-size: 0.3rem;
-        line-height: 1;
-        -webkit-border-radius: 2px;
-        -moz-border-radius: 2px;
-        border-radius: 2px;
-        -moz-background-clip: padding;
-        -webkit-background-clip: padding-box;
-        background-clip: padding-box;
-        padding: 4px 7px; }
+  .middle-contain .bg-thumb-img {
+    margin-bottom: 30px; }
+  .middle-contain .article-list li {
+    height: 123px; }
+  .middle-contain .article-list__img {
+    width: 137px; }
+  .middle-contain .article-list__text {
+    width: 328px;
+    padding-left: 13px; }
+    .middle-contain .article-list__text h3.list-title {
+      font-size: 9px;
+      font-size: 0.9rem;
+      line-height: 1.22222;
+      font-weight: bold;
+      padding: 6px 0;
+      letter-spacing: 2px; }
+    .middle-contain .article-list__text p.list-read {
+      font-size: 5px;
+      font-size: 0.5rem;
+      line-height: 1;
+      letter-spacing: 1px;
+      color: #9c9c9c;
+      padding-bottom: 9px; }
+    .middle-contain .article-list__text .icons .icons__tag {
+      background-color: #f2716e;
+      margin-right: 10px;
+      color: #fff;
+      font-size: 3px;
+      font-size: 0.3rem;
+      line-height: 1;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      border-radius: 2px;
+      -moz-background-clip: padding;
+      -webkit-background-clip: padding-box;
+      background-clip: padding-box;
+      padding: 4px 7px; }
   .middle-contain .sns-area {
     border: solid 1px #dcdcdc;
     margin: 50px 0; }
