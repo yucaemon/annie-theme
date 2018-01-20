@@ -1,11 +1,11 @@
-<?php /** *  Template Name: 一覧ページ */ ?>
+<?php /** *  Template Name:  特集一覧ページ */ ?>
 <?php include('head.php'); ?>
 <body>
 <div class='outer'>
 <?php include('components-php/header.php'); ?>
 <ul class='breadcrumb'>
 <li>
-一覧ページ
+特集一覧ページ
 </li>
 </ul>
 <div class='outer__inner flexbox--h-center'>

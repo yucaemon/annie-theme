@@ -14,7 +14,7 @@ module.exports = function (grunt) {
                 //SCSSファイルを指定
                 src: '_scss/style.scss',
                 //CSSを書きだしファイルを指定
-                dest: 'css/style.css'
+                dest: 'style.css'
             }
         },
 
@@ -49,8 +49,10 @@ module.exports = function (grunt) {
                     'components-php/shopping-box.php': '_haml/shopping-box.haml',
                     'components-php/sns-box.php': '_haml/sns-box.haml',
                     'index.php': '_haml/index.haml',
+                    'single.php': '_haml/single.haml',
                     'archive.php': '_haml/archive.haml',
-                    'single.php': '_haml/single.haml'
+                    'archive_featured.php': '_haml/archive_featured.haml',
+                    'about.php': '_haml/about.haml'
 
                 }
             }

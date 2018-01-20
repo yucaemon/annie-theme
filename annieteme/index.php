@@ -4,7 +4,7 @@
 <?php include('components-php/header.php'); ?>
 <ul class='breadcrumb'>
 <li>
-ホーム
+ホーム.
 </li>
 </ul>
 <div class='outer__inner flexbox--h-center'>
