@@ -650,3 +650,33 @@ a{
 .shopping-banner {
   margin-bottom: 50px;
 }
+
+
+/*
+
+	archive
+
+*************************************************/
+
+
+.archive-banner{
+  background-color: $sub_color;
+  padding: 40px;
+  margin-bottom: 70px;
+
+ &__header {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    @include fts(30,30);
+    letter-spacing: 1px;
+  }
+
+  &__sub-title {
+    @include fts(8,8);
+    color: #525252;
+    padding-left: 20px;
+    letter-spacing: 1px;
+  }
+
+}

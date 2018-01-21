@@ -27,6 +27,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	font settings
 
 **************************************************/
+@import url("https://fonts.googleapis.com/css?family=Dosis:700");
 @media all and (-ms-high-contrast: none) {
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "source-han-sans-japanese","Yu Gothic", YuGothic, Verdana, Meiryo, "M+ 1p", sans-serif; } }
@@ -820,5 +821,30 @@ a {
 
 .shopping-banner {
   margin-bottom: 50px; }
+
+/*
+
+	archive
+
+*************************************************/
+.archive-banner {
+  background-color: #ffede9;
+  padding: 40px;
+  margin-bottom: 70px; }
+  .archive-banner__header {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    font-size: 3rem;
+    line-height: 1;
+    letter-spacing: 1px; }
+  .archive-banner__sub-title {
+    font-size: 8px;
+    font-size: 0.8rem;
+    line-height: 1;
+    color: #525252;
+    padding-left: 20px;
+    letter-spacing: 1px; }
 
 /*# sourceMappingURL=style.css.map */

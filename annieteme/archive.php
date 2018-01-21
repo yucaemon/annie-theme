@@ -8,6 +8,14 @@
 一覧ページ
 </li>
 </ul>
+<div class='archive-banner flexbox--v-center'>
+<h1 class='archive-banner__header'>
+thee bird nest
+</h1>
+<div class='archive-banner__sub-title'>
+アメリカ国内人気ブランド
+</div>
+</div>
 <div class='outer__inner flexbox--h-center'>
 <?php include('components-php/side-menu-list.php'); ?>
 <div class='column-6 middle-contain'>
