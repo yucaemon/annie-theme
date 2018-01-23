@@ -178,6 +178,9 @@ select::-ms-expand {
   padding: 30px;
   min-width: 1225px; }
 
+.margin-center {
+  margin: 0 auto; }
+
 .flexbox, .flexbox--h-center, .flexbox--h-bottom, .flexbox--v-center, .flexbox--v-bottom, .flexbox--spacebetween, .flexbox--spacearound, .flexbox--streach {
   display: flex;
   display: -webkit-flex;
@@ -363,25 +366,6 @@ a {
   .side-menu-list .arrow {
     color: #dcdcdc; }
 
-.side-contain .featured-box {
-  background-color: #ffede9;
-  padding: 10px 20px; }
-  .side-contain .featured-box__header {
-    font-size: 11px;
-    font-size: 1.1rem;
-    line-height: 1.18182;
-    padding: 10px 0;
-    font-weight: bold; }
-  .side-contain .featured-box__read {
-    font-size: 9px;
-    font-size: 0.9rem;
-    line-height: 1.33333;
-    padding-top: 4px;
-    padding-bottom: 25px; }
-  .side-contain .featured-box .featured-img {
-    padding: 10px 0; }
-    .side-contain .featured-box .featured-img img {
-      width: 272px; }
 .side-contain .header-img {
   padding: 30px 0; }
 .side-contain .news-list dd + dd {
@@ -822,9 +806,29 @@ a {
 .shopping-banner {
   margin-bottom: 50px; }
 
+.featured-box {
+  background-color: #ffede9;
+  padding: 10px 20px; }
+  .featured-box__header {
+    font-size: 11px;
+    font-size: 1.1rem;
+    line-height: 1.18182;
+    padding: 10px 0;
+    font-weight: bold; }
+  .featured-box__read {
+    font-size: 9px;
+    font-size: 0.9rem;
+    line-height: 1.33333;
+    padding-top: 4px;
+    padding-bottom: 25px; }
+  .featured-box .featured-img {
+    padding: 10px 0; }
+    .featured-box .featured-img img {
+      width: 272px; }
+
 /*
 
-	archive
+	archive page
 
 *************************************************/
 .archive-banner {
@@ -846,5 +850,39 @@ a {
     color: #525252;
     padding-left: 20px;
     letter-spacing: 1px; }
+
+/*
+
+	featured page
+
+*************************************************/
+.featured-page .related-article__content {
+  width: 23%; }
+.featured-page .featured-img img {
+  width: 100%;
+  height: 100%; }
+.featured-page .featured-img {
+  padding: 10px 0;
+  width: 426px; }
+.featured-page .featured-box__header {
+  font-size: 15px;
+  font-size: 1.5rem;
+  line-height: 1;
+  letter-spacing: 2px;
+  line-height: 1.3; }
+.featured-page .featured-text {
+  text-align: center; }
+  .featured-page .featured-text__header {
+    font-size: 22px;
+    letter-spacing: 1px;
+    padding-bottom: 30px; }
+  .featured-page .featured-text__read {
+    width: 76%;
+    font-size: 7px;
+    font-size: 0.7rem;
+    line-height: 1;
+    color: #9c9c9c;
+    margin: 0 auto;
+    line-height: 1.4; }
 
 /*# sourceMappingURL=style.css.map */

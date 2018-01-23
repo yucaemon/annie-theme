@@ -1,6 +1,7 @@
 <?php /** *  Template Name:  特集一覧ページ */ ?>
 <?php include('head.php'); ?>
 <body>
+<section class='featured-page'>
 <div class='outer'>
 <?php include('components-php/header.php'); ?>
 <ul class='breadcrumb'>
@@ -8,213 +9,32 @@
 特集一覧ページ
 </li>
 </ul>
-<div class='outer__inner flexbox--h-center'>
-<?php include('components-php/side-menu-list.php'); ?>
-<div class='column-6 middle-contain'>
-<div class='bg-thumb-img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/index-top-banner.png" width="478px">
+<div class='outer__inner column-12'>
+<div class='featured flexbox--v-center'>
+<div class='column-6'>
+<?php include('components-php/featured-box.php'); ?>
 </div>
-<ul class='article-list'>
-<li class='flexbox'>
-<div class='article-list__img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/sample1.png">
-</div>
-<div class='article-list__text'>
-<h3 class='list-title'>
-bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-</h3>
-<p class='list-read'>
-ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
+<div class='column-6 featured-text'>
+<p class='featured-text__header'>
+BOHOスタイルとは。
 </p>
-<div class='icons flexbox'>
-<div class='icons__tag'>
-購入可能
-</div>
-<div class='icons__tag'>
-日本未上陸
-</div>
-</div>
-</div>
-</li>
-<li class='flexbox'>
-<div class='article-list__img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/sample2.png">
-</div>
-<div class='article-list__text'>
-<h3 class='list-title'>
-bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-</h3>
-<p class='list-read'>
-ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
+<p class='featured-text__read'>
+ぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶ
+ぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶららぶらぶ
+ぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶららぶら
 </p>
-<div class='icons flexbox'>
-<div class='icons__tag'>
-購入可能
-</div>
-<div class='icons__tag'>
-日本未上陸
 </div>
 </div>
-</div>
-</li>
-<li class='flexbox'>
-<div class='article-list__img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/sample3.png">
-</div>
-<div class='article-list__text'>
-<h3 class='list-title'>
-bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-</h3>
-<p class='list-read'>
-ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
-</p>
-<div class='icons flexbox'>
-<div class='icons__tag'>
-購入可能
-</div>
-<div class='icons__tag'>
-日本未上陸
-</div>
-</div>
-</div>
-</li>
-<li class='flexbox'>
-<div class='article-list__img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/sample1.png">
-</div>
-<div class='article-list__text'>
-<h3 class='list-title'>
-bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-</h3>
-<p class='list-read'>
-ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
-</p>
-<div class='icons flexbox'>
-<div class='icons__tag'>
-購入可能
-</div>
-<div class='icons__tag'>
-日本未上陸
-</div>
-</div>
-</div>
-</li>
-<li class='flexbox'>
-<div class='article-list__img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/sample2.png">
-</div>
-<div class='article-list__text'>
-<h3 class='list-title'>
-bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-</h3>
-<p class='list-read'>
-ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
-</p>
-<div class='icons flexbox'>
-<div class='icons__tag'>
-購入可能
-</div>
-<div class='icons__tag'>
-日本未上陸
-</div>
-</div>
-</div>
-</li>
-<li class='flexbox'>
-<div class='article-list__img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/sample3.png">
-</div>
-<div class='article-list__text'>
-<h3 class='list-title'>
-bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-</h3>
-<p class='list-read'>
-ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
-</p>
-<div class='icons flexbox'>
-<div class='icons__tag'>
-購入可能
-</div>
-<div class='icons__tag'>
-日本未上陸
-</div>
-</div>
-</div>
-</li>
-<li class='flexbox'>
-<div class='article-list__img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/sample1.png">
-</div>
-<div class='article-list__text'>
-<h3 class='list-title'>
-bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-</h3>
-<p class='list-read'>
-ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
-</p>
-<div class='icons flexbox'>
-<div class='icons__tag'>
-購入可能
-</div>
-<div class='icons__tag'>
-日本未上陸
-</div>
-</div>
-</div>
-</li>
-<li class='flexbox'>
-<div class='article-list__img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/sample2.png">
-</div>
-<div class='article-list__text'>
-<h3 class='list-title'>
-bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-</h3>
-<p class='list-read'>
-ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
-</p>
-<div class='icons flexbox'>
-<div class='icons__tag'>
-購入可能
-</div>
-<div class='icons__tag'>
-日本未上陸
-</div>
-</div>
-</div>
-</li>
-<li class='flexbox'>
-<div class='article-list__img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/sample3.png">
-</div>
-<div class='article-list__text'>
-<h3 class='list-title'>
-bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-</h3>
-<p class='list-read'>
-ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
-</p>
-<div class='icons flexbox'>
-<div class='icons__tag'>
-購入可能
-</div>
-<div class='icons__tag'>
-日本未上陸
-</div>
-</div>
-</div>
-</li>
-</ul>
+<?php include('components-php/related-article.php'); ?>
+<?php include('components-php/more-search-article.php'); ?>
+<div class='column-8 margin-center'>
 <?php include('components-php/sns-box.php'); ?>
+</div>
+<div class='column-8 margin-center'>
 <?php include('components-php/shopping-box.php'); ?>
 </div>
-<div class='column-4 side-contain'>
-<?php include('components-php/featured-box.php'); ?>
-<?php include('components-php/news-list.php'); ?>
-<?php include('components-php/keywords.php'); ?>
-<?php include('components-php/models-lists.php'); ?>
 </div>
 </div>
-</div>
-</body>
+</section>
 <?php include('components-php/footer.php'); ?>
+</body>
