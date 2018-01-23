@@ -1,0 +1,18 @@
+%header.outer__header
+  .flexbox--spacebetween
+    .sns-icons
+      .flexbox
+        <img src="<?php echo get_template_directory_uri(); ?>/images/facebook-icon.svg">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/twitter-icon.svg">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/instagram-icon.svg">
+    .info
+      %ul.nav-menu.flexbox
+        %li
+          ANNIEについて
+        %li
+          ポートランドオレゴン州
+      .search__box
+        %form{:class => "search__form", :action => "/"}
+          %input{:class => "search__input", :type => "text", :placeholder => "検索"}
+
+

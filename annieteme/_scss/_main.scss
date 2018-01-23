@@ -724,3 +724,48 @@ a{
     }
   }
 }
+
+/*
+
+	about page
+
+*************************************************/
+
+.about-page{
+
+  .related-article__content {
+    width: 23%;
+  }
+  .mission {
+    text-align: center;
+    .logo__img {
+      width: 300px;
+      margin: 0 auto;
+      padding-bottom: 80px;
+      img {
+        width: 100%;
+      }
+    }
+    &__header {
+      @include fts(10,10);
+      font-weight: bold;
+      letter-spacing: 0.8px;
+      padding-bottom: 50px;
+    }
+    &__read {
+      @include fts(8,8);
+      letter-spacing: 1px;
+      line-height: 1.4;
+      color: $font_sub_glay_color;
+    }
+    .yuka-sign__img {
+      width: 95px;
+      img{
+        width: 100%;
+      }
+    }
+
+  }
+
+
+}

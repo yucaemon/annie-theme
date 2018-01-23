@@ -1,220 +1,152 @@
 <?php /** *  Template Name:  aboutページ */ ?>
 <?php include('head.php'); ?>
 <body>
+<section class='about-page'>
 <div class='outer'>
-<?php include('components-php/header.php'); ?>
+<?php include('components-php/header02.php'); ?>
 <ul class='breadcrumb'>
 <li>
 aboutページ
 </li>
 </ul>
-<div class='outer__inner flexbox--h-center'>
-<?php include('components-php/side-menu-list.php'); ?>
-<div class='column-6 middle-contain'>
-<div class='bg-thumb-img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/index-top-banner.png" width="478px">
+<div class='outer__inner column-12'>
+<div class='mission'>
+<div class='logo__img'>
+<img src="<?php echo get_template_directory_uri(); ?>/images/annie-logo.svg">
 </div>
-<ul class='article-list'>
-<li class='flexbox'>
-<div class='article-list__img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/sample1.png">
-</div>
-<div class='article-list__text'>
-<h3 class='list-title'>
-bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-</h3>
-<p class='list-read'>
-ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
+<p class='mission__header'>
+”好きな服をずっと着る 。 自分らしく、自由奔放スタイルを楽しもう。”
 </p>
-<div class='icons flexbox'>
-<div class='icons__tag'>
-購入可能
+<p class='mission__read'>
+ぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶ
+ぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶららぶらぶ
+ぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶららぶら
+ぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶ
+ぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶららぶらぶ
+ぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶららぶら
+ぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶ
+ぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶららぶらぶ
+ぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶららぶら
+ぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶ
+ぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶららぶらぶ
+ぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶららぶら
+ぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶ
+ぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶららぶらぶ
+ぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶららぶら
+ぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶ
+ぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶららぶらぶ
+ぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶららぶら
+ぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶ
+ぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶららぶらぶ
+ぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶららぶら
+ぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶ
+ぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶららぶらぶ
+ぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶららぶら
+</p>
+<div class='yuka-sign__img'>
+<img src="<?php echo get_template_directory_uri(); ?>/images/yuka-sign.svg">
 </div>
-<div class='icons__tag'>
-日本未上陸
+</div>
+<div class='lists-box'>
+<div class='brands flexbox'>
+<div class='brands__header'>
+<p class='brands__txt'>
+アメリカ国内人気ブランド
+</p>
+<div class='brands__img'>
+<img src="<?php echo get_template_directory_uri(); ?>/images/brands-img.svg">
+</div>
+<div class='brands__btn'>
+ブランド一覧記事へ
 </div>
 </div>
-</div>
+<ul class='brands__lists flexbox'>
+<li>
+>genuine People
+<br>
+ジェーニーピーポー
 </li>
-<li class='flexbox'>
-<div class='article-list__img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/sample2.png">
-</div>
-<div class='article-list__text'>
-<h3 class='list-title'>
-bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-</h3>
-<p class='list-read'>
-ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
-</p>
-<div class='icons flexbox'>
-<div class='icons__tag'>
-購入可能
-</div>
-<div class='icons__tag'>
-日本未上陸
-</div>
-</div>
-</div>
+<li>
+>genuine People
+<br>
+ジェーニーピーポー
 </li>
-<li class='flexbox'>
-<div class='article-list__img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/sample3.png">
-</div>
-<div class='article-list__text'>
-<h3 class='list-title'>
-bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-</h3>
-<p class='list-read'>
-ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
-</p>
-<div class='icons flexbox'>
-<div class='icons__tag'>
-購入可能
-</div>
-<div class='icons__tag'>
-日本未上陸
-</div>
-</div>
-</div>
+<li>
+>genuine People
+<br>
+ジェーニーピーポー
 </li>
-<li class='flexbox'>
-<div class='article-list__img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/sample1.png">
+</ul>
 </div>
-<div class='article-list__text'>
-<h3 class='list-title'>
-bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-</h3>
-<p class='list-read'>
-ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
+<div class='brands flexbox'>
+<div class='brands__header'>
+<p class='brands__txt'>
+ポートランド人気ブランド
 </p>
-<div class='icons flexbox'>
-<div class='icons__tag'>
-購入可能
+<div class='brands__img'>
+<img src="<?php echo get_template_directory_uri(); ?>/images/portland-img.svg">
 </div>
-<div class='icons__tag'>
-日本未上陸
-</div>
+<div class='brands__btn'>
+ブランド一覧記事へ
 </div>
 </div>
+<ul class='brands__lists flexbox'>
+<li>
+>genuine People
+<br>
+ジェーニーピーポー
 </li>
-<li class='flexbox'>
-<div class='article-list__img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/sample2.png">
-</div>
-<div class='article-list__text'>
-<h3 class='list-title'>
-bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-</h3>
-<p class='list-read'>
-ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
-</p>
-<div class='icons flexbox'>
-<div class='icons__tag'>
-購入可能
-</div>
-<div class='icons__tag'>
-日本未上陸
-</div>
-</div>
-</div>
+<li>
+>genuine People
+<br>
+ジェーニーピーポー
 </li>
-<li class='flexbox'>
-<div class='article-list__img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/sample3.png">
-</div>
-<div class='article-list__text'>
-<h3 class='list-title'>
-bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-</h3>
-<p class='list-read'>
-ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
-</p>
-<div class='icons flexbox'>
-<div class='icons__tag'>
-購入可能
-</div>
-<div class='icons__tag'>
-日本未上陸
-</div>
-</div>
-</div>
+<li>
+>genuine People
+<br>
+ジェーニーピーポー
 </li>
-<li class='flexbox'>
-<div class='article-list__img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/sample1.png">
+</ul>
 </div>
-<div class='article-list__text'>
-<h3 class='list-title'>
-bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-</h3>
-<p class='list-read'>
-ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
+<div class='brands flexbox'>
+<div class='brands__header'>
+<p class='brands__txt'>
+アニーインスタ読者モデル
 </p>
-<div class='icons flexbox'>
-<div class='icons__tag'>
-購入可能
+<div class='brands__img'>
+<img src="<?php echo get_template_directory_uri(); ?>/images/models-img.svg">
 </div>
-<div class='icons__tag'>
-日本未上陸
-</div>
+<div class='brands__btn'>
+ブランド一覧記事へ
 </div>
 </div>
-</li>
+<ul class='models-lists'>
 <li class='flexbox'>
-<div class='article-list__img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/sample2.png">
+<div class='models-lists__prof-img'>
+<img src="<?php echo get_template_directory_uri(); ?>/images/yuca.png">
 </div>
-<div class='article-list__text'>
-<h3 class='list-title'>
-bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-</h3>
-<p class='list-read'>
-ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
-</p>
-<div class='icons flexbox'>
-<div class='icons__tag'>
-購入可能
+<div class='models-lists__text'>
+<div class='model-name'>
+beru
 </div>
-<div class='icons__tag'>
-日本未上陸
-</div>
-</div>
-</div>
-</li>
-<li class='flexbox'>
-<div class='article-list__img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/sample3.png">
-</div>
-<div class='article-list__text'>
-<h3 class='list-title'>
-bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-</h3>
-<p class='list-read'>
-ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
-</p>
-<div class='icons flexbox'>
-<div class='icons__tag'>
-購入可能
-</div>
-<div class='icons__tag'>
-日本未上陸
-</div>
+<div class='model-info'>
+アメリカポートランド在住
 </div>
 </div>
 </li>
 </ul>
+</div>
+</div>
+<?php include('components-php/related-article.php'); ?>
+<?php include('components-php/more-search-article.php'); ?>
+<div class='column-8 margin-center'>
 <?php include('components-php/sns-box.php'); ?>
+</div>
+<div class='column-8 margin-center'>
 <?php include('components-php/shopping-box.php'); ?>
 </div>
-<div class='column-4 side-contain'>
-<?php include('components-php/featured-box.php'); ?>
-<?php include('components-php/news-list.php'); ?>
-<?php include('components-php/keywords.php'); ?>
-<?php include('components-php/models-lists.php'); ?>
 </div>
 </div>
-</div>
-</body>
+</section>
 <?php include('components-php/footer.php'); ?>
+</body>

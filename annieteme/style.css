@@ -885,4 +885,38 @@ a {
     margin: 0 auto;
     line-height: 1.4; }
 
+/*
+
+	about page
+
+*************************************************/
+.about-page .related-article__content {
+  width: 23%; }
+.about-page .mission {
+  text-align: center; }
+  .about-page .mission .logo__img {
+    width: 300px;
+    margin: 0 auto;
+    padding-bottom: 80px; }
+    .about-page .mission .logo__img img {
+      width: 100%; }
+  .about-page .mission__header {
+    font-size: 10px;
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    padding-bottom: 50px; }
+  .about-page .mission__read {
+    font-size: 8px;
+    font-size: 0.8rem;
+    line-height: 1;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    color: #9c9c9c; }
+  .about-page .mission .yuka-sign__img {
+    width: 95px; }
+    .about-page .mission .yuka-sign__img img {
+      width: 100%; }
+
 /*# sourceMappingURL=style.css.map */
