@@ -738,6 +738,8 @@ a{
   }
   .mission {
     text-align: center;
+    border-bottom: solid 1px $border_color;
+    margin-bottom: 50px;
     .logo__img {
       width: 300px;
       margin: 0 auto;
@@ -757,15 +759,67 @@ a{
       letter-spacing: 1px;
       line-height: 1.4;
       color: $font_sub_glay_color;
+      text-align: left;
+      padding-bottom:60px;
     }
     .yuka-sign__img {
-      width: 95px;
+      width: 105px;
+      margin-left: auto;
+      padding-right: 46px;
+      padding-bottom: 80px;
+
       img{
         width: 100%;
       }
     }
 
   }
+  .lists-container {
+    margin-bottom: 50px;
+    border-bottom: solid 1px $border_color;
+  }
+    .brands {
+      &__header {
+        width: 190px;
+        padding-bottom: 50px;
+      }
+      &__txt {
+        margin-left: 17px;
+        @include fts(7, 7);
+        padding-bottom: 1px;
+        letter-spacing: 1.0px;
+      }
+      &__lists {
+        width: 700px;
+        margin-left: auto;
+        li {
+          width: 145px;
+          padding-left: 30px;
+          padding-bottom: 23px;
+          @include fts(8, 8);
+          color: $font_sub_glay_color;
+        }
+      }
+      .portland__img {
+        width: 252px;
+        img {
+          width: 100%;
+
+        }
+      }
+      .brands__lists_lang_eng:before {
+        content: ">";
+        padding-right: 10px;
+      }
+      .brands__lists_lang_eng {
+        padding-bottom: 10px;
+      }
+      .brands__lists_lang_jan {
+        padding-left: 19px;
+        @include fts(5, 5);
+      }
+    }
+
 
 
 }

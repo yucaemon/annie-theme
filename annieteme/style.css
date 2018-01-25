@@ -893,7 +893,9 @@ a {
 .about-page .related-article__content {
   width: 23%; }
 .about-page .mission {
-  text-align: center; }
+  text-align: center;
+  border-bottom: solid 1px #dcdcdc;
+  margin-bottom: 50px; }
   .about-page .mission .logo__img {
     width: 300px;
     margin: 0 auto;
@@ -913,10 +915,53 @@ a {
     line-height: 1;
     letter-spacing: 1px;
     line-height: 1.4;
-    color: #9c9c9c; }
+    color: #9c9c9c;
+    text-align: left;
+    padding-bottom: 60px; }
   .about-page .mission .yuka-sign__img {
-    width: 95px; }
+    width: 105px;
+    margin-left: auto;
+    padding-right: 46px;
+    padding-bottom: 80px; }
     .about-page .mission .yuka-sign__img img {
       width: 100%; }
+.about-page .lists-container {
+  margin-bottom: 50px;
+  border-bottom: solid 1px #dcdcdc; }
+.about-page .brands__header {
+  width: 190px;
+  padding-bottom: 50px; }
+.about-page .brands__txt {
+  margin-left: 17px;
+  font-size: 7px;
+  font-size: 0.7rem;
+  line-height: 1;
+  padding-bottom: 1px;
+  letter-spacing: 1.0px; }
+.about-page .brands__lists {
+  width: 700px;
+  margin-left: auto; }
+  .about-page .brands__lists li {
+    width: 145px;
+    padding-left: 30px;
+    padding-bottom: 23px;
+    font-size: 8px;
+    font-size: 0.8rem;
+    line-height: 1;
+    color: #9c9c9c; }
+.about-page .brands .portland__img {
+  width: 252px; }
+  .about-page .brands .portland__img img {
+    width: 100%; }
+.about-page .brands .brands__lists_lang_eng:before {
+  content: ">";
+  padding-right: 10px; }
+.about-page .brands .brands__lists_lang_eng {
+  padding-bottom: 10px; }
+.about-page .brands .brands__lists_lang_jan {
+  padding-left: 19px;
+  font-size: 5px;
+  font-size: 0.5rem;
+  line-height: 1; }
 
 /*# sourceMappingURL=style.css.map */

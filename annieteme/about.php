@@ -48,7 +48,7 @@ aboutページ
 </div>
 </div>
 <div class='lists-box'>
-<div class='brands flexbox'>
+<div class='lists-container brands flexbox'>
 <div class='brands__header'>
 <p class='brands__txt'>
 アメリカ国内人気ブランド
@@ -62,28 +62,77 @@ aboutページ
 </div>
 <ul class='brands__lists flexbox'>
 <li>
->genuine People
-<br>
+<p class='brands__lists_lang_eng'>
+genuine People
+</p>
+<p class='brands__lists_lang_jan'>
 ジェーニーピーポー
+</p>
 </li>
 <li>
->genuine People
-<br>
-ジェーニーピーポー
+<p class='brands__lists_lang_eng'>
+anthropologie
+</p>
+<p class='brands__lists_lang_jan'>
+アンソロポロジー
+</p>
 </li>
 <li>
->genuine People
-<br>
+<p class='brands__lists_lang_eng'>
+freepeople
+</p>
+<p class='brands__lists_lang_jan'>
+フリーピーポー
+</p>
+</li>
+<li>
+<p class='brands__lists_lang_eng'>
+madewell
+</p>
+<p class='brands__lists_lang_jan'>
+マクドウェル
+</p>
+</li>
+<li>
+<P class='brands__lists_lang_eng'>
+genuine People
+</P>
+<p class='brands__lists_lang_jan'>
 ジェーニーピーポー
+</p>
+</li>
+<li>
+<p class='brands__lists_lang_eng'>
+anthropologie
+</p>
+<p class='brands__lists_lang_jan'>
+アンソロポロジー
+</p>
+</li>
+<li>
+<p class='brands__lists_lang_eng'>
+freepeople
+</p>
+<p class='brands__lists_lang_jan'>
+フリーピーポー
+</p>
+</li>
+<li>
+<p class='brands__lists_lang_eng'>
+madewell
+</p>
+<p class='brands__lists_lang_jan'>
+マクドウェル
+</p>
 </li>
 </ul>
 </div>
-<div class='brands flexbox'>
+<div class='lists-container brands flexbox'>
 <div class='brands__header'>
 <p class='brands__txt'>
 ポートランド人気ブランド
 </p>
-<div class='brands__img'>
+<div class='portland__img'>
 <img src="<?php echo get_template_directory_uri(); ?>/images/portland-img.svg">
 </div>
 <div class='brands__btn'>
@@ -108,7 +157,7 @@ aboutページ
 </li>
 </ul>
 </div>
-<div class='brands flexbox'>
+<div class='lists-container brands flexbox'>
 <div class='brands__header'>
 <p class='brands__txt'>
 アニーインスタ読者モデル
