@@ -48,139 +48,353 @@ aboutページ
 </div>
 </div>
 <div class='lists-box'>
-<div class='lists-container brands flexbox'>
-<div class='brands__header'>
-<p class='brands__txt'>
+<div class='lists-container brands flexbox--v-center'>
+<div class='lists-container__header'>
+<p class='lists-container__txt'>
 アメリカ国内人気ブランド
 </p>
-<div class='brands__img'>
+<div class='brands-h-img'>
 <img src="<?php echo get_template_directory_uri(); ?>/images/brands-img.svg">
 </div>
-<div class='brands__btn'>
+<div class='lists-container__btn'>
 ブランド一覧記事へ
 </div>
 </div>
-<ul class='brands__lists flexbox'>
+<ul class='lists-container__lists flexbox'>
 <li>
-<p class='brands__lists_lang_eng'>
+<p class='lists-container__lists_lang_eng'>
 genuine People
 </p>
-<p class='brands__lists_lang_jan'>
+<p class='lists-container__lists_lang_jan'>
 ジェーニーピーポー
 </p>
 </li>
 <li>
-<p class='brands__lists_lang_eng'>
+<p class='lists-container__lists_lang_eng'>
 anthropologie
 </p>
-<p class='brands__lists_lang_jan'>
+<p class='lists-container__lists_lang_jan'>
 アンソロポロジー
 </p>
 </li>
 <li>
-<p class='brands__lists_lang_eng'>
+<p class='lists-container__lists_lang_eng'>
 freepeople
 </p>
-<p class='brands__lists_lang_jan'>
+<p class='lists-container__lists_lang_jan'>
 フリーピーポー
 </p>
 </li>
 <li>
-<p class='brands__lists_lang_eng'>
+<p class='lists-container__lists_lang_eng'>
 madewell
 </p>
-<p class='brands__lists_lang_jan'>
+<p class='lists-container__lists_lang_jan'>
 マクドウェル
 </p>
 </li>
 <li>
-<P class='brands__lists_lang_eng'>
+<P class='lists-container__lists_lang_eng'>
 genuine People
 </P>
-<p class='brands__lists_lang_jan'>
+<p class='lists-container__lists_lang_jan'>
 ジェーニーピーポー
 </p>
 </li>
 <li>
-<p class='brands__lists_lang_eng'>
+<p class='lists-container__lists_lang_eng'>
 anthropologie
 </p>
-<p class='brands__lists_lang_jan'>
+<p class='lists-container__lists_lang_jan'>
 アンソロポロジー
 </p>
 </li>
 <li>
-<p class='brands__lists_lang_eng'>
+<p class='lists-container__lists_lang_eng'>
 freepeople
 </p>
-<p class='brands__lists_lang_jan'>
+<p class='lists-container__lists_lang_jan'>
 フリーピーポー
 </p>
 </li>
 <li>
-<p class='brands__lists_lang_eng'>
+<p class='lists-container__lists_lang_eng'>
 madewell
 </p>
-<p class='brands__lists_lang_jan'>
+<p class='lists-container__lists_lang_jan'>
 マクドウェル
 </p>
 </li>
 </ul>
 </div>
-<div class='lists-container brands flexbox'>
-<div class='brands__header'>
-<p class='brands__txt'>
+<div class='lists-container brands flexbox--v-center'>
+<div class='lists-container__header'>
+<p class='lists-container__txt'>
 ポートランド人気ブランド
 </p>
-<div class='portland__img'>
+<div class='portland-h-img'>
 <img src="<?php echo get_template_directory_uri(); ?>/images/portland-img.svg">
 </div>
-<div class='brands__btn'>
+<div class='lists-container__btn'>
 ブランド一覧記事へ
 </div>
 </div>
-<ul class='brands__lists flexbox'>
+<ul class='lists-container__lists flexbox'>
 <li>
->genuine People
-<br>
+<p class='lists-container__lists_lang_eng'>
+genuine People
+</p>
+<p class='lists-container__lists_lang_jan'>
 ジェーニーピーポー
+</p>
 </li>
 <li>
->genuine People
-<br>
-ジェーニーピーポー
+<p class='lists-container__lists_lang_eng'>
+anthropologie
+</p>
+<p class='lists-container__lists_lang_jan'>
+アンソロポロジー
+</p>
 </li>
 <li>
->genuine People
-<br>
+<p class='lists-container__lists_lang_eng'>
+freepeople
+</p>
+<p class='lists-container__lists_lang_jan'>
+フリーピーポー
+</p>
+</li>
+<li>
+<p class='lists-container__lists_lang_eng'>
+madewell
+</p>
+<p class='lists-container__lists_lang_jan'>
+マクドウェル
+</p>
+</li>
+<li>
+<P class='lists-container__lists_lang_eng'>
+genuine People
+</P>
+<p class='lists-container__lists_lang_jan'>
 ジェーニーピーポー
+</p>
+</li>
+<li>
+<p class='lists-container__lists_lang_eng'>
+anthropologie
+</p>
+<p class='lists-container__lists_lang_jan'>
+アンソロポロジー
+</p>
+</li>
+<li>
+<p class='lists-container__lists_lang_eng'>
+freepeople
+</p>
+<p class='lists-container__lists_lang_jan'>
+フリーピーポー
+</p>
+</li>
+<li>
+<p class='lists-container__lists_lang_eng'>
+madewell
+</p>
+<p class='lists-container__lists_lang_jan'>
+マクドウェル
+</p>
+</li>
+<li>
+<p class='lists-container__lists_lang_eng'>
+genuine People
+</p>
+<p class='lists-container__lists_lang_jan'>
+ジェーニーピーポー
+</p>
+</li>
+<li>
+<p class='lists-container__lists_lang_eng'>
+anthropologie
+</p>
+<p class='lists-container__lists_lang_jan'>
+アンソロポロジー
+</p>
+</li>
+<li>
+<p class='lists-container__lists_lang_eng'>
+freepeople
+</p>
+<p class='lists-container__lists_lang_jan'>
+フリーピーポー
+</p>
+</li>
+<li>
+<p class='lists-container__lists_lang_eng'>
+madewell
+</p>
+<p class='lists-container__lists_lang_jan'>
+マクドウェル
+</p>
+</li>
+<li>
+<P class='lists-container__lists_lang_eng'>
+genuine People
+</P>
+<p class='lists-container__lists_lang_jan'>
+ジェーニーピーポー
+</p>
+</li>
+<li>
+<p class='lists-container__lists_lang_eng'>
+anthropologie
+</p>
+<p class='lists-container__lists_lang_jan'>
+アンソロポロジー
+</p>
+</li>
+<li>
+<p class='lists-container__lists_lang_eng'>
+freepeople
+</p>
+<p class='lists-container__lists_lang_jan'>
+フリーピーポー
+</p>
+</li>
+<li>
+<p class='lists-container__lists_lang_eng'>
+madewell
+</p>
+<p class='lists-container__lists_lang_jan'>
+マクドウェル
+</p>
 </li>
 </ul>
 </div>
-<div class='lists-container brands flexbox'>
-<div class='brands__header'>
-<p class='brands__txt'>
+<div class='lists-container models flexbox--v-center'>
+<div class='lists-container__header'>
+<p class='lists-container__txt'>
 アニーインスタ読者モデル
 </p>
-<div class='brands__img'>
+<div class='models-h-img'>
 <img src="<?php echo get_template_directory_uri(); ?>/images/models-img.svg">
 </div>
-<div class='brands__btn'>
-ブランド一覧記事へ
 </div>
-</div>
-<ul class='models-lists'>
-<li class='flexbox'>
-<div class='models-lists__prof-img'>
+<ul class='lists-container__lists models__lists flexbox'>
+<li class='flexbox--v-center'>
+<div class='models__img'>
 <img src="<?php echo get_template_directory_uri(); ?>/images/yuca.png">
 </div>
-<div class='models-lists__text'>
-<div class='model-name'>
+<div class='lists-container__text'>
+<p class='models__name'>
 beru
-</div>
-<div class='model-info'>
+</p>
+<P class='models__info'>
 アメリカポートランド在住
+</P>
 </div>
+</li>
+<li class='flexbox--v-center'>
+<div class='models__img'>
+<img src="<?php echo get_template_directory_uri(); ?>/images/yuca.png">
+</div>
+<div class='lists-container__text'>
+<p class='models__name'>
+beru
+</p>
+<P class='models__info'>
+アメリカポートランド在住
+</P>
+</div>
+</li>
+<li class='flexbox--v-center'>
+<div class='models__img'>
+<img src="<?php echo get_template_directory_uri(); ?>/images/yuca.png">
+</div>
+<div class='lists-container__text'>
+<p class='models__name'>
+beru
+</p>
+<P class='models__info'>
+アメリカポートランド在住
+</P>
+</div>
+</li>
+<li class='flexbox--v-center'>
+<div class='models__img'>
+<img src="<?php echo get_template_directory_uri(); ?>/images/yuca.png">
+</div>
+<div class='lists-container__text'>
+<p class='models__name'>
+beru
+</p>
+<P class='models__info'>
+アメリカポートランド在住
+</P>
+</div>
+</li>
+<li class='flexbox--v-center'>
+<div class='models__img'>
+<img src="<?php echo get_template_directory_uri(); ?>/images/yuca.png">
+</div>
+<div class='lists-container__text'>
+<p class='models__name'>
+beru
+</p>
+<P class='models__info'>
+アメリカポートランド在住
+</P>
+</div>
+</li>
+<li class='flexbox--v-center'>
+<div class='models__img'>
+<img src="<?php echo get_template_directory_uri(); ?>/images/yuca.png">
+</div>
+<div class='lists-container__text'>
+<p class='models__name'>
+beru
+</p>
+<P class='models__info'>
+アメリカポートランド在住
+</P>
+</div>
+</li>
+<li class='flexbox--v-center'>
+<div class='models__img'>
+<img src="<?php echo get_template_directory_uri(); ?>/images/yuca.png">
+</div>
+<div class='lists-container__text'>
+<p class='models__name'>
+beru
+</p>
+<P class='models__info'>
+アメリカポートランド在住
+</P>
+</div>
+</li>
+<li class='flexbox--v-center'>
+<div class='models__img'>
+<img src="<?php echo get_template_directory_uri(); ?>/images/yuca.png">
+</div>
+<div class='lists-container__text'>
+<p class='models__name'>
+beru
+</p>
+<P class='models__info'>
+アメリカポートランド在住
+</P>
+</div>
+</li>
+<li class='flexbox--v-center'>
+<div class='models__img'>
+<img src="<?php echo get_template_directory_uri(); ?>/images/yuca.png">
+</div>
+<div class='lists-container__text'>
+<p class='models__name'>
+beru
+</p>
+<P class='models__info'>
+アメリカポートランド在住
+</P>
 </div>
 </li>
 </ul>

@@ -4,11 +4,9 @@
 
 *************************************************/
 
-a{
+a {
   color: $link_color;
 }
-
-
 
 /*
 
@@ -154,37 +152,37 @@ a{
     }
   }
 
-  .items{
+  .items {
     &__content {
-      @include fts(10,10);
+      @include fts(10, 10);
       padding-left: 10px;
     }
-    &__list{
+    &__list {
       padding: 13px 0;
-      .fa-angle-right{
-        color:$border_color;
-        @include fts(15,15);
-        padding-right:10px;
+      .fa-angle-right {
+        color: $border_color;
+        @include fts(15, 15);
+        padding-right: 10px;
       }
     }
   }
 
-  .models-lists{
+  .models-lists {
     padding-bottom: 50px;
-    dd{
+    dd {
       padding-bottom: 20px;
     }
-    dd+dd{
+    dd + dd {
       border-top: solid $border_color 1px;
       padding-top: 20px;
     }
-    &__text{
-       padding-top: 7px;
+    &__text {
+      padding-top: 7px;
       .model-name:before {
         content: "@";
         color: $main_color;
       }
-      .model-name{
+      .model-name {
         text-transform: uppercase;
         padding-bottom: 6px;
       }
@@ -194,7 +192,7 @@ a{
       }
     }
   }
-  .models-lists__prof-img img{
+  .models-lists__prof-img img {
     @include border-radius(50%);
     height: 80%;
     width: 80%;
@@ -324,7 +322,7 @@ a{
 
 *************************************************/
 
-.single-page{
+.single-page {
   &__head-title {
     font-weight: bold;
     @include fts(15, 15);
@@ -338,7 +336,7 @@ a{
     padding-bottom: 15px;
     letter-spacing: 0.5px;
   }
-  .dates{
+  .dates {
     @extend .Published-brands-category
   }
   &__eyecatch-img {
@@ -387,88 +385,88 @@ a{
         color: $font_sub_glay_color;
       }
     }
-    .detail-box02{
+    .detail-box02 {
       border: solid 1px $border_color;
       margin: 30px 0;
-      a{
-        color:$font_color;
+      a {
+        color: $font_color;
       }
       &__img {
-       width: 25%;
+        width: 25%;
       }
-      &__txt{
-        color:$font_sub_color;
+      &__txt {
+        color: $font_sub_color;
         @include fts(7, 12);
-        padding:10px 0 0 10px;
+        padding: 10px 0 0 10px;
         width: 73%;
       }
-      &__title{
+      &__title {
         @include fts(9, 9);
         color: $font_color;
-        padding:7px 0;
+        padding: 7px 0;
 
       }
-      img{
+      img {
         padding: 0;
         width: 100%;
         height: 100%;
         object-fit: cover;
       }
     }
-    .detail-box03{
+    .detail-box03 {
       @extend .detail-box02;
       &__img {
         width: 40%;
       }
-      &__txt{
+      &__txt {
         width: 45%;
         padding: 35px 48px 0 48px;
-    }
+      }
       &__title {
         font-size: 18px;
         font-weight: bold;
         letter-spacing: 1px;
         padding-bottom: 20px;
       }
-      &__price{
+      &__price {
         @extend .detail-box03__title;
-        @include fts(8,8);
+        @include fts(8, 8);
         padding-bottom: 15px;
       }
-      &__brand{
-        @include fts(8,8);
-        color:$main_color;
+      &__brand {
+        @include fts(8, 8);
+        color: $main_color;
         padding-bottom: 12px;
         letter-spacing: 0.8px;
       }
-      &__read{
-        @include fts(7,7);
+      &__read {
+        @include fts(7, 7);
         color: $font_sub_glay_color;
         line-height: 16px;
         letter-spacing: 0.5px;
         padding: 5px 0 20px 0;
       }
-      &__shipping{
-        @include fts(8,8);
+      &__shipping {
+        @include fts(8, 8);
         padding-bottom: 15px;
       }
       &__similar-products {
-        @include fts(8,8);
+        @include fts(8, 8);
         color: $font_sub_glay_color;
         margin-bottom: 17px;
       }
-      &__btn{
-        background : $main_color;
-        border-radius : 5px;
-        -moz-border-radius : 5px;
-        -webkit-border-radius : 5px;
+      &__btn {
+        background: $main_color;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
         height: 43px;
         width: 250px;
         display: table-cell;
         text-align: center;
         vertical-align: middle;
         color: #fff;
-        margin-bottom:20px;
+        margin-bottom: 20px;
       }
       &__btn-subtxt {
         font-size: 0.7rem;
@@ -489,10 +487,9 @@ a{
 
 *************************************************/
 
-
 .more-search-article {
   &__title {
-    @include fts(12,12);
+    @include fts(12, 12);
     padding: 20px 0;
     text-align: center;
     background-color: #33333314;
@@ -500,7 +497,7 @@ a{
   }
   &__table {
     table {
-      width:100%;
+      width: 100%;
       height: 100px;
       border-collapse: collapse;
       color: $font_color;
@@ -509,8 +506,8 @@ a{
       border: solid 1px $border_color;
       vertical-align: middle;
       padding-left: 20px;
-      .fa-angle-right{
-        color:$font_sub_glay_color;
+      .fa-angle-right {
+        color: $font_sub_glay_color;
       }
     }
   }
@@ -527,12 +524,12 @@ a{
   height: 120px;
   margin-bottom: 20px;
 
-  &__container{
+  &__container {
     position: absolute;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%,   -50%);
-    transform: translate(-50%,   -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     text-align: center;
   }
   &__header {
@@ -554,17 +551,19 @@ a{
   }
 }
 
-.article-sns-btns{
-  padding-top:20px;
-}
-.article-sns-btns img{
-  width: 90px;
-}
-.article-sns-btns img + img{
-  padding-left:8px;
+.article-sns-btns {
+  padding-top: 20px;
 }
 
-.related-article{
+.article-sns-btns img {
+  width: 90px;
+}
+
+.article-sns-btns img + img {
+  padding-left: 8px;
+}
+
+.related-article {
   &__title {
     padding: 50px 0;
     font-size: 19px;
@@ -574,14 +573,14 @@ a{
     width: 30%;
     padding: 10px 0;
   }
-  &__img{
-    img{
+  &__img {
+    img {
       width: 100%;
       height: 100%;
     }
   }
   &__text {
-    @include fts(8,8);
+    @include fts(8, 8);
     padding: 10px 0;
     letter-spacing: 1px;
     font-weight: bold;
@@ -599,13 +598,13 @@ a{
 
   &__img img {
     width: 100%;
-    height:100%;
+    height: 100%;
     object-fit: cover;
   }
 
   &__info {
     text-align: center;
-    width:50%;
+    width: 50%;
     padding-top: 17px;
 
   }
@@ -630,7 +629,6 @@ a{
 .shopping-banner {
   margin-bottom: 50px;
 }
-
 
 .featured-box {
   background-color: $sub_color;
@@ -659,22 +657,21 @@ a{
 
 *************************************************/
 
-
-.archive-banner{
+.archive-banner {
   background-color: $sub_color;
   padding: 40px;
   margin-bottom: 70px;
 
- &__header {
+  &__header {
     color: #fff;
     text-transform: uppercase;
     font-family: 'Dosis', sans-serif;
-    @include fts(30,30);
+    @include fts(30, 30);
     letter-spacing: 1px;
   }
 
   &__sub-title {
-    @include fts(8,8);
+    @include fts(8, 8);
     color: #525252;
     padding-left: 20px;
     letter-spacing: 1px;
@@ -731,7 +728,7 @@ a{
 
 *************************************************/
 
-.about-page{
+.about-page {
 
   .related-article__content {
     width: 23%;
@@ -739,7 +736,7 @@ a{
   .mission {
     text-align: center;
     border-bottom: solid 1px $border_color;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     .logo__img {
       width: 300px;
       margin: 0 auto;
@@ -749,76 +746,126 @@ a{
       }
     }
     &__header {
-      @include fts(10,10);
+      @include fts(10, 10);
       font-weight: bold;
       letter-spacing: 0.8px;
-      padding-bottom: 50px;
+      padding-bottom: 100px;
     }
     &__read {
-      @include fts(8,8);
+      @include fts(8, 8);
       letter-spacing: 1px;
       line-height: 1.4;
       color: $font_sub_glay_color;
       text-align: left;
-      padding-bottom:60px;
+      padding-bottom: 100px;
     }
     .yuka-sign__img {
       width: 105px;
       margin-left: auto;
       padding-right: 46px;
-      padding-bottom: 80px;
+      padding-bottom: 100px;
 
-      img{
+      img {
         width: 100%;
       }
     }
 
   }
   .lists-container {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
     border-bottom: solid 1px $border_color;
-  }
+
+    &__header {
+      width: 190px;
+    }
+    &__txt {
+      margin-left: 15px;
+      @include fts(7, 7);
+      padding-bottom: 6px;
+      letter-spacing: 1.0px;
+    }
+    &__btn {
+      width: 100px;
+      margin-left: 15px;
+      font-size: 10px;
+      letter-spacing: 1px;
+      color: $main_color;
+      border: solid 1px $main_color;
+      padding: 7px;
+      border-radius: 5px;
+    }
+    &__lists {
+      width: 700px;
+      margin-left: auto;
+      li {
+        width: 145px;
+        padding-left: 30px;
+        padding-bottom: 23px;
+        @include fts(8, 8);
+        color: $font_sub_glay_color;
+      }
+    }
+    &__lists_lang_eng:before {
+      content: ">";
+      padding-right: 10px;
+    }
+    &__lists_lang_eng {
+      padding-bottom: 10px;
+    }
+
+    &__lists_lang_jan {
+      padding-left: 19px;
+      @include fts(5, 5);
+    }
+
     .brands {
-      &__header {
-        width: 190px;
-        padding-bottom: 50px;
-      }
-      &__txt {
-        margin-left: 17px;
-        @include fts(7, 7);
-        padding-bottom: 1px;
-        letter-spacing: 1.0px;
-      }
-      &__lists {
-        width: 700px;
-        margin-left: auto;
-        li {
-          width: 145px;
-          padding-left: 30px;
-          padding-bottom: 23px;
-          @include fts(8, 8);
-          color: $font_sub_glay_color;
-        }
-      }
-      .portland__img {
-        width: 252px;
+      &-h-img {
+        width: 200px;
         img {
           width: 100%;
 
         }
       }
-      .brands__lists_lang_eng:before {
-        content: ">";
-        padding-right: 10px;
-      }
-      .brands__lists_lang_eng {
-        padding-bottom: 10px;
-      }
-      .brands__lists_lang_jan {
-        padding-left: 19px;
-        @include fts(5, 5);
+    }
+    .portland-h-img {
+      width: 245px;
+      img {
+        width: 100%;
+
       }
     }
+
+    .models {
+      &__lists li {
+        width: 203px;
+      }
+      &__img img{
+        @include border-radius(50%);
+        height: 65%;
+        width: 65%;
+        padding: 0;
+
+      }
+
+      &__name:before {
+        content: "@";
+        color: $main_color;
+      }
+      &__name {
+        @include fts(8, 8);
+        line-height: 1;
+        text-transform: capitalize;
+        padding-bottom: 5px;
+        color: $font_color;
+        letter-spacing: 1px;
+      }
+      &__info {
+        @include fts(6, 6);
+        letter-spacing: 1px;
+      }
+    }
+  }
 
 
 
