@@ -887,37 +887,44 @@ a {
 
 /*
 
+	pages
+
+*************************************************/
+.pages .pages__container {
+  text-align: center;
+  margin-bottom: 100px; }
+.pages .logo__img {
+  width: 300px;
+  margin: 0 auto;
+  padding-bottom: 80px; }
+  .pages .logo__img img {
+    width: 100%; }
+.pages__header {
+  font-size: 10px;
+  font-size: 1rem;
+  line-height: 1;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+  padding-bottom: 100px; }
+.pages__read {
+  font-size: 8px;
+  font-size: 0.8rem;
+  line-height: 1;
+  letter-spacing: 1px;
+  line-height: 1.4;
+  color: #9c9c9c;
+  text-align: left;
+  padding-bottom: 100px; }
+.pages .related-article__content {
+  width: 23%; }
+
+/*
+
 	about page
 
 *************************************************/
-.about-page .related-article__content {
-  width: 23%; }
 .about-page .mission {
-  text-align: center;
-  border-bottom: solid 1px #dcdcdc;
-  margin-bottom: 100px; }
-  .about-page .mission .logo__img {
-    width: 300px;
-    margin: 0 auto;
-    padding-bottom: 80px; }
-    .about-page .mission .logo__img img {
-      width: 100%; }
-  .about-page .mission__header {
-    font-size: 10px;
-    font-size: 1rem;
-    line-height: 1;
-    font-weight: bold;
-    letter-spacing: 0.8px;
-    padding-bottom: 100px; }
-  .about-page .mission__read {
-    font-size: 8px;
-    font-size: 0.8rem;
-    line-height: 1;
-    letter-spacing: 1px;
-    line-height: 1.4;
-    color: #9c9c9c;
-    text-align: left;
-    padding-bottom: 100px; }
+  border-bottom: solid 1px #dcdcdc; }
   .about-page .mission .yuka-sign__img {
     width: 105px;
     margin-left: auto;
@@ -1005,5 +1012,18 @@ a {
     font-size: 0.6rem;
     line-height: 1;
     letter-spacing: 1px; }
+
+/*
+
+	security page
+
+*************************************************/
+.security-policy {
+  border: solid 1px #d2d1d1;
+  padding: 90px; }
+  .security-policy p.pages__read {
+    line-height: 1.6;
+    letter-spacing: 1.5px;
+    padding-bottom: 0; }
 
 /*# sourceMappingURL=style.css.map */

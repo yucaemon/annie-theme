@@ -724,47 +724,59 @@ a {
 
 /*
 
+	pages
+
+*************************************************/
+
+.pages {
+  .pages__container{
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  .logo__img {
+    width: 300px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+    img {
+      width: 100%;
+    }
+  }
+
+  &__header {
+    @include fts(10, 10);
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    padding-bottom: 100px;
+  }
+  &__read {
+    @include fts(8, 8);
+    letter-spacing: 1px;
+    line-height: 1.4;
+    color: $font_sub_glay_color;
+    text-align: left;
+    padding-bottom: 100px;
+  }
+  .related-article__content {
+    width: 23%;
+  }
+
+}
+
+
+/*
+
 	about page
 
 *************************************************/
 
-.about-page {
-
-  .related-article__content {
-    width: 23%;
-  }
+.about-page{
   .mission {
-    text-align: center;
     border-bottom: solid 1px $border_color;
-    margin-bottom: 100px;
-    .logo__img {
-      width: 300px;
-      margin: 0 auto;
-      padding-bottom: 80px;
-      img {
-        width: 100%;
-      }
-    }
-    &__header {
-      @include fts(10, 10);
-      font-weight: bold;
-      letter-spacing: 0.8px;
-      padding-bottom: 100px;
-    }
-    &__read {
-      @include fts(8, 8);
-      letter-spacing: 1px;
-      line-height: 1.4;
-      color: $font_sub_glay_color;
-      text-align: left;
-      padding-bottom: 100px;
-    }
     .yuka-sign__img {
       width: 105px;
       margin-left: auto;
       padding-right: 46px;
       padding-bottom: 100px;
-
       img {
         width: 100%;
       }
@@ -867,6 +879,22 @@ a {
     }
   }
 
+}
+
+/*
+
+	security page
+
+*************************************************/
 
 
+.security-policy {
+  border: solid 1px #d2d1d1;
+  padding: 90px;
+
+  p.pages__read {
+    line-height: 1.6;
+    letter-spacing: 1.5px;
+    padding-bottom: 0;
+  }
 }

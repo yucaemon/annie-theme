@@ -1,7 +1,7 @@
 <?php /** *  Template Name:  aboutページ */ ?>
 <?php include('head.php'); ?>
 <body>
-<section class='about-page'>
+<section class='about-page pages'>
 <div class='outer'>
 <?php include('components-php/header02.php'); ?>
 <ul class='breadcrumb'>
@@ -10,14 +10,15 @@ aboutページ
 </li>
 </ul>
 <div class='outer__inner column-12'>
-<div class='mission'>
+<div class='pages__container'>
 <div class='logo__img'>
 <img src="<?php echo get_template_directory_uri(); ?>/images/annie-logo.svg">
 </div>
-<p class='mission__header'>
+<div class='mission'>
+<p class='pages__header'>
 ”好きな服をずっと着る 。 自分らしく、自由奔放スタイルを楽しもう。”
 </p>
-<p class='mission__read'>
+<p class='pages__read'>
 ぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶ
 ぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶららぶらぶ
 ぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶららぶら
@@ -45,6 +46,7 @@ aboutページ
 </p>
 <div class='yuka-sign__img'>
 <img src="<?php echo get_template_directory_uri(); ?>/images/yuka-sign.svg">
+</div>
 </div>
 </div>
 <div class='lists-box'>
