@@ -274,7 +274,8 @@ select::-ms-expand {
 
 *************************************************/
 a {
-  color: #f2716e; }
+  text-decoration: none;
+  color: #333; }
 
 /*
 
@@ -501,18 +502,20 @@ a {
   .middle-contain .bg-thumb-img {
     margin-bottom: 30px; }
   .middle-contain .article-list li {
-    height: 123px; }
+    height: 123px;
+    padding-bottom: 14px; }
   .middle-contain .article-list__img {
     width: 137px; }
   .middle-contain .article-list__text {
     width: 328px;
-    padding-left: 13px; }
+    padding-left: 13px;
+    word-wrap: break-word; }
     .middle-contain .article-list__text h3.list-title {
       font-size: 9px;
       font-size: 0.9rem;
       line-height: 1.22222;
       font-weight: bold;
-      padding: 6px 0;
+      padding-bottom: 6px;
       letter-spacing: 2px; }
     .middle-contain .article-list__text p.list-read {
       font-size: 5px;
