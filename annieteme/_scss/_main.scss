@@ -96,17 +96,23 @@ a {
     text-align: center;
     margin-bottom: 20px;
   }
-  dd {
+  li {
     padding-left: 25px;
+    list-style: none;
     .japanese {
       @include fts(5, 5);
       padding-left: 13px;
     }
   }
-  dd + dd {
+  li:before{
+    content: ">";
+    color: #dcdcdc;
+    padding-right: 5px;
+  }
+  li + li {
     padding-top: 10px;
   }
-  dl {
+  .side-menu-list__li {
     padding-bottom: 50px;
   }
   .arrow {

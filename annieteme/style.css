@@ -353,16 +353,21 @@ a {
     background-color: #ffede9;
     text-align: center;
     margin-bottom: 20px; }
-  .side-menu-list dd {
-    padding-left: 25px; }
-    .side-menu-list dd .japanese {
+  .side-menu-list li {
+    padding-left: 25px;
+    list-style: none; }
+    .side-menu-list li .japanese {
       font-size: 5px;
       font-size: 0.5rem;
       line-height: 1;
       padding-left: 13px; }
-  .side-menu-list dd + dd {
+  .side-menu-list li:before {
+    content: ">";
+    color: #dcdcdc;
+    padding-right: 5px; }
+  .side-menu-list li + li {
     padding-top: 10px; }
-  .side-menu-list dl {
+  .side-menu-list .side-menu-list__li {
     padding-bottom: 50px; }
   .side-menu-list .arrow {
     color: #dcdcdc; }
