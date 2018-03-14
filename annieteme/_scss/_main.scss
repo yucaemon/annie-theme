@@ -133,15 +133,16 @@ a {
       width: 21px;
     }
     &__thumb-img {
-      padding: 0 8px;
+      padding-right: 18px;
       img {
-        width: 90px;
+        width: 100px;
+        height: 70px;
       }
     }
     &__title {
       padding-top: 3px;
       width: 185px;
-      @include fts(8, 9);
+      @include fts(7, 9);
       font-weight: bold;
     }
   }
@@ -293,6 +294,11 @@ a {
     }
     &__img {
       width: 137px;
+      height: 88px;
+      img {
+       width: 100%;
+        height: 100%;
+      }
     }
     &__text {
       width: 328px;
@@ -658,6 +664,7 @@ a {
     padding: 10px 0;
     img {
       width: 272px;
+      height: 178px;
     }
   }
 }

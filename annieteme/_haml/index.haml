@@ -14,134 +14,37 @@
           <img src="<?php echo get_template_directory_uri(); ?>/images/index-top-banner.png" width="478px">
         :plain
           <ul class='article-list'>
-          <?php if(have_posts()): while(have_posts()):the_post(); ?>
-            <li class='flexbox'>
-              <div class='article-list__img'>
-                <img src="<?php echo get_template_directory_uri(); ?>/images/sample2.png">
-              </div>
-              <div class='article-list__text'>
-                <h3 class='list-title'>
-                  <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-                </h3>
-                <p class='list-read'><?php echo mb_substr(strip_tags($post-> post_content),0,200) ; ?></p>
-                <div class='icons flexbox'>
-                  <div class='icons__tag'>
-                    購入可能
-                  </div>
-                  <div class='icons__tag'>
-                    日本未上陸
-                  </div>
-                </div>
-              </div>
-            </li>
-          <?php endwhile; endif; ?>
+            <?php $args = array(
+              'numberposts' => 10,                //表示（取得）する記事の数
+              'post_type' => 'post'    //投稿タイプの指定
+            );
+            $posts = get_posts( $args );
+              if( $posts ) : foreach( $posts as $post) : setup_postdata( $post ); ?>
+                  <li class='flexbox'>
+                    <div class='article-list__img'>
+                      <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
+                    </div>
+                    <div class='article-list__text'>
+                      <h3 class='list-title'>
+                        <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                      </h3>
+                      <p class='list-read'><?php echo mb_substr(strip_tags($post-> post_content),0,200) ; ?></p>
+                      <div class='icons flexbox'>
+                        <div class='icons__tag'>
+                          購入可能
+                        </div>
+                        <div class='icons__tag'>
+                          日本未上陸
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+              <?php endforeach; ?>
+              <?php else : //記事が無い場合 ?>
+                <li><p>記事はまだありません。</p></li>
+              <?php endif;
+              wp_reset_postdata(); //クエリのリセット ?>
           </ul>
-
-        %ul.article-list
-          %li.flexbox
-            .article-list__img
-              <img src="<?php echo get_template_directory_uri(); ?>/images/sample2.png">
-            .article-list__text
-              %h3.list-title
-                bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-              %p.list-read
-                ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
-              .icons.flexbox
-                .icons__tag
-                  購入可能
-                .icons__tag
-                  日本未上陸
-          %li.flexbox
-            .article-list__img
-              <img src="<?php echo get_template_directory_uri(); ?>/images/sample3.png">
-            .article-list__text
-              %h3.list-title
-                bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-              %p.list-read
-                ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
-              .icons.flexbox
-                .icons__tag
-                  購入可能
-                .icons__tag
-                  日本未上陸
-          %li.flexbox
-            .article-list__img
-              <img src="<?php echo get_template_directory_uri(); ?>/images/sample1.png">
-            .article-list__text
-              %h3.list-title
-                bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-              %p.list-read
-                ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
-              .icons.flexbox
-                .icons__tag
-                  購入可能
-                .icons__tag
-                  日本未上陸
-          %li.flexbox
-            .article-list__img
-              <img src="<?php echo get_template_directory_uri(); ?>/images/sample2.png">
-            .article-list__text
-              %h3.list-title
-                bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-              %p.list-read
-                ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
-              .icons.flexbox
-                .icons__tag
-                  購入可能
-                .icons__tag
-                  日本未上陸
-          %li.flexbox
-            .article-list__img
-              <img src="<?php echo get_template_directory_uri(); ?>/images/sample3.png">
-            .article-list__text
-              %h3.list-title
-                bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-              %p.list-read
-                ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
-              .icons.flexbox
-                .icons__tag
-                  購入可能
-                .icons__tag
-                  日本未上陸
-          %li.flexbox
-            .article-list__img
-              <img src="<?php echo get_template_directory_uri(); ?>/images/sample1.png">
-            .article-list__text
-              %h3.list-title
-                bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-              %p.list-read
-                ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
-              .icons.flexbox
-                .icons__tag
-                  購入可能
-                .icons__tag
-                  日本未上陸
-          %li.flexbox
-            .article-list__img
-              <img src="<?php echo get_template_directory_uri(); ?>/images/sample2.png">
-            .article-list__text
-              %h3.list-title
-                bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-              %p.list-read
-                ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
-              .icons.flexbox
-                .icons__tag
-                  購入可能
-                .icons__tag
-                  日本未上陸
-          %li.flexbox
-            .article-list__img
-              <img src="<?php echo get_template_directory_uri(); ?>/images/sample3.png">
-            .article-list__text
-              %h3.list-title
-                bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-              %p.list-read
-                ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
-              .icons.flexbox
-                .icons__tag
-                  購入可能
-                .icons__tag
-                  日本未上陸
         <?php include('components-php/sns-box.php'); ?>
         <?php include('components-php/shopping-box.php'); ?>
       .column-4.side-contain
