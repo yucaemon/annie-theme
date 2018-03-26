@@ -391,13 +391,14 @@ a {
   line-height: 1.28571;
   font-weight: bold; }
 .side-contain .keywords__content {
-  margin-bottom: 30px; }
-.side-contain .keywords__tag:before {
+  margin-bottom: 20px; }
+.side-contain .keywords a:before {
   content: "#";
-  color: #f2716e; }
-.side-contain .keywords__tag {
-  padding: 5px 6px;
-  font-size: 13px; }
+  color: #f2716e;
+  padding-right: 3px; }
+.side-contain .keywords a {
+  padding-right: 15px;
+  padding-bottom: 15px; }
 .side-contain .items__content {
   font-size: 10px;
   font-size: 1rem;

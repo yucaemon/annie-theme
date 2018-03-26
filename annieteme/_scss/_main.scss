@@ -149,15 +149,17 @@ a {
 
   .keywords {
     &__content {
-      margin-bottom: 30px;
+      margin-bottom: 20px;
     }
-    &__tag:before {
+    a:before {
       content: "#";
       color: $main_color;
+      padding-right: 3px;
     }
-    &__tag {
-      padding: 5px 6px;
-      font-size: 13px;
+    a {
+      padding-right: 15px;
+      padding-bottom: 15px;
+
     }
   }
 
