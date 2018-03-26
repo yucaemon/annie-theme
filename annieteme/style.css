@@ -420,7 +420,8 @@ a {
     border-top: solid #dcdcdc 1px;
     padding-top: 20px; }
   .side-contain .models-lists__text {
-    padding-top: 7px; }
+    padding-top: 7px;
+    padding-left: 10px; }
     .side-contain .models-lists__text .model-name:before {
       content: "@";
       color: #f2716e; }
@@ -433,14 +434,14 @@ a {
       line-height: 1.125;
       color: #9c9c9c; }
 .side-contain .models-lists__prof-img img {
+  height: 50px;
+  width: 50px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  height: 80%;
-  width: 80%; }
+  background-clip: padding-box; }
 
 /*
 

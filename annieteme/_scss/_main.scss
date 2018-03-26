@@ -189,6 +189,7 @@ a {
     }
     &__text {
       padding-top: 7px;
+      padding-left: 10px;
       .model-name:before {
         content: "@";
         color: $main_color;
@@ -203,10 +204,15 @@ a {
       }
     }
   }
-  .models-lists__prof-img img {
-    @include border-radius(50%);
-    height: 80%;
-    width: 80%;
+  .models-lists__prof-img {
+
+    img {
+      height: 50px;
+      width: 50px;
+      @include border-radius(50%);
+    }
+
+
   }
 
 }

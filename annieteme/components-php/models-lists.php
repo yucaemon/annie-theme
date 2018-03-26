@@ -2,69 +2,21 @@
 <dt class='header-img'>
 <img src="<?php echo get_template_directory_uri(); ?>/images/models.svg">
 </dt>
-<dd class='flexbox'>
-<div class='models-lists__prof-img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/yuca.png">
-</div>
-<div class='models-lists__text'>
-<div class='model-name'>
-beru
-</div>
-<div class='model-info'>
-アメリカポートランド在住
-</div>
-</div>
+<?php $users = get_users( array() ); ?>
+<?php foreach($users as $user) {
+$uid = $user->ID; ?>
+<dd class="flexbox">
+    <div class="models-lists__prof-img">
+      <?php echo get_avatar( $uid ,300 ); ?>
+    </div>
+    <div class="models-lists__text">
+      <div class="model-name">
+        <?php echo $user->display_name ; ?>
+      </div>
+      <div class="model-info">
+        <?php echo $user->user_description ; ?>
+      </div>
+    </div>
 </dd>
-<dd class='flexbox'>
-<div class='models-lists__prof-img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/yuca.png">
-</div>
-<div class='models-lists__text'>
-<div class='model-name'>
-beru
-</div>
-<div class='model-info'>
-アメリカポートランド在住
-</div>
-</div>
-</dd>
-<dd class='flexbox'>
-<div class='models-lists__prof-img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/yuca.png">
-</div>
-<div class='models-lists__text'>
-<div class='model-name'>
-beru
-</div>
-<div class='model-info'>
-アメリカポートランド在住
-</div>
-</div>
-</dd>
-<dd class='flexbox'>
-<div class='models-lists__prof-img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/yuca.png">
-</div>
-<div class='models-lists__text'>
-<div class='model-name'>
-beru
-</div>
-<div class='model-info'>
-アメリカポートランド在住
-</div>
-</div>
-</dd>
-<dd class='flexbox'>
-<div class='models-lists__prof-img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/yuca.png">
-</div>
-<div class='models-lists__text'>
-<div class='model-name'>
-beru
-</div>
-<div class='model-info'>
-アメリカポートランド在住
-</div>
-</div>
-</dd>
+<?php } ?>
 </dl>
