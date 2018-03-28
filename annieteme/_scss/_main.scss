@@ -44,30 +44,40 @@ a {
       margin: 0 10px;
     }
   }
+  .screen-reader-text {
+    display: none;
+  }
+
   .search__box {
-    .search__form {
+    #searchsubmit {
+      display: none;
+    }
+
+    form#searchform {
       background-color: white;
       width: 200px;
       height: 20px;
       border: 1px $main_color solid;
       border-radius: 10px;
-    }
-    .search__form input {
-      width: 190px;
-      vertical-align: top;
-      margin: 0px;
-      height: 100%;
-      box-sizing: border-box;
-      background-color: transparent;
-    }
-    .search__input {
-      border: none;
-      width: 170px;
-      padding-left: 10px;
-      background-image: url(../images/sarch-icon.svg);
-      background-position: right;
-      background-size: auto 73%;
-      background-repeat: no-repeat;
+      color:$main_color;
+      padding: 2px 12px;
+      #s {
+        input {
+          width: 190px;
+          vertical-align: top;
+          margin: 0px;
+          height: 100%;
+          box-sizing: border-box;
+          background-color: transparent;
+        }
+        border: none;
+        margin-left: 3px;
+        background-image: url(../images/sarch-icon.svg);
+        background-position: right;
+        background-size: auto 73%;
+        background-repeat: no-repeat;
+        width: 173px;
+      }
     }
   }
 }
@@ -104,7 +114,7 @@ a {
       padding-left: 13px;
     }
   }
-  li:before{
+  li:before {
     content: ">";
     color: #dcdcdc;
     padding-right: 5px;
@@ -212,7 +222,6 @@ a {
       @include border-radius(50%);
     }
 
-
   }
 
 }
@@ -304,7 +313,7 @@ a {
       width: 137px;
       height: 88px;
       img {
-       width: 100%;
+        width: 100%;
         height: 100%;
       }
     }
@@ -755,7 +764,7 @@ a {
 *************************************************/
 
 .pages {
-  .pages__container{
+  .pages__container {
     text-align: center;
     margin-bottom: 100px;
   }
@@ -788,14 +797,13 @@ a {
 
 }
 
-
 /*
 
 	about page
 
 *************************************************/
 
-.about-page{
+.about-page {
   .mission {
     border-bottom: solid 1px $border_color;
     .yuka-sign__img {
@@ -878,7 +886,7 @@ a {
       &__lists li {
         width: 203px;
       }
-      &__img img{
+      &__img img {
         @include border-radius(50%);
         height: 65%;
         width: 65%;
@@ -912,7 +920,6 @@ a {
 	security page
 
 *************************************************/
-
 
 .security-policy {
   border: solid 1px #d2d1d1;

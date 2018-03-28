@@ -60,3 +60,7 @@ select {
 select::-ms-expand {
   display: none;
 }
+
+input[type="text"]:focus {
+  outline: 0;
+}

@@ -165,6 +165,9 @@ select {
 select::-ms-expand {
   display: none; }
 
+input[type="text"]:focus {
+  outline: 0; }
+
 .outer__header {
   margin: 40px 30px; }
 .outer__inner {
@@ -306,27 +309,33 @@ a {
       border-left: solid 1px #000000;
       padding: 0 10px;
       margin: 0 10px; }
-  .info .search__box .search__form {
+  .info .screen-reader-text {
+    display: none; }
+  .info .search__box #searchsubmit {
+    display: none; }
+  .info .search__box form#searchform {
     background-color: white;
     width: 200px;
     height: 20px;
     border: 1px #f2716e solid;
-    border-radius: 10px; }
-  .info .search__box .search__form input {
-    width: 190px;
-    vertical-align: top;
-    margin: 0px;
-    height: 100%;
-    box-sizing: border-box;
-    background-color: transparent; }
-  .info .search__box .search__input {
-    border: none;
-    width: 170px;
-    padding-left: 10px;
-    background-image: url(../images/sarch-icon.svg);
-    background-position: right;
-    background-size: auto 73%;
-    background-repeat: no-repeat; }
+    border-radius: 10px;
+    color: #f2716e;
+    padding: 2px 12px; }
+    .info .search__box form#searchform #s {
+      border: none;
+      margin-left: 3px;
+      background-image: url(../images/sarch-icon.svg);
+      background-position: right;
+      background-size: auto 73%;
+      background-repeat: no-repeat;
+      width: 173px; }
+      .info .search__box form#searchform #s input {
+        width: 190px;
+        vertical-align: top;
+        margin: 0px;
+        height: 100%;
+        box-sizing: border-box;
+        background-color: transparent; }
 
 .notice-bar {
   background-color: #f2716e;

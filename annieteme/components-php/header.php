@@ -25,9 +25,7 @@ ANNIEについて
 </li>
 </ul>
 <div class='search__box'>
-<form action='/' class='search__form'>
-<input class='search__input' placeholder='検索' type='text'>
-</form>
+<?php get_search_form(); ?>
 </div>
 </div>
 </div>
