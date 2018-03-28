@@ -380,6 +380,8 @@ a {
     p {
       @include fts(10, 10);
       line-height: 22px;
+      word-wrap: break-word;
+      padding-bottom: 25px;
     }
     .headline-second {
       @include fts(13.5, 13.5);

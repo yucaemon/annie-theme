@@ -10,32 +10,29 @@
     .outer__inner.flexbox--h-center
       .column-8.middle-contain
         %h1.single-page__head-title
-          H1-bohoスタイルの火付け役『アンソポロジー』のゆるふあチェックマフラーが可愛い♡
+          <?php the_title_attribute(); ?>
         .Published-brands-category
           掲載ブランド :
           %span
-            spelldesigns
-          %span
-            anthropologie
+            <?php $slug_name = basename(get_permalink()); ?>
         .flexbox--spacebetween
           .article-sns-btns.flexbox
             <img src="<?php echo get_template_directory_uri(); ?>/images/facebook-btn.svg">
             <img src="<?php echo get_template_directory_uri(); ?>/images/twitter-btn.svg">
             <img src="<?php echo get_template_directory_uri(); ?>/images/poket-btn.svg">
           .dates
-            2017/11/26
+            <?php the_time('Y/m/d'); ?>
 
         .single-page__eyecatch-img
           <img src="<?php echo get_template_directory_uri(); ?>/images/single-img-top.png" width="644px">
 
         .single-page__entry-content
-          %p
-            本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１
-            本文１本文１本文１本文１本文１本文１本文１本文１本文１本本文１本文１本文
-            １本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文
-            １本文１本文１本文１本文１本文１本文１本本文１本文１本文１本文１本文１本
-            文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本
-            文１本文１本文１本文１本
+          <?php
+          $this_content= wpautop($post->post_content);
+          echo $this_content;
+          ?>
+
+
           %h2.headline-second
             未上陸ブランドを購入しよう！冬の『BOHO』ファッション特集
           <img src="<?php echo get_template_directory_uri(); ?>/images/instagram-pic-test1.png">

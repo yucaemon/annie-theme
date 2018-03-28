@@ -13,15 +13,12 @@
 <div class='outer__inner flexbox--h-center'>
 <div class='column-8 middle-contain'>
 <h1 class='single-page__head-title'>
-H1-bohoスタイルの火付け役『アンソポロジー』のゆるふあチェックマフラーが可愛い♡
+<?php the_title_attribute(); ?>
 </h1>
 <div class='Published-brands-category'>
 掲載ブランド :
 <span>
-spelldesigns
-</span>
-<span>
-anthropologie
+<?php $slug_name = basename(get_permalink()); ?>
 </span>
 </div>
 <div class='flexbox--spacebetween'>
@@ -31,21 +28,17 @@ anthropologie
 <img src="<?php echo get_template_directory_uri(); ?>/images/poket-btn.svg">
 </div>
 <div class='dates'>
-2017/11/26
+<?php the_time('Y/m/d'); ?>
 </div>
 </div>
 <div class='single-page__eyecatch-img'>
 <img src="<?php echo get_template_directory_uri(); ?>/images/single-img-top.png" width="644px">
 </div>
 <div class='single-page__entry-content'>
-<p>
-本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１
-本文１本文１本文１本文１本文１本文１本文１本文１本文１本本文１本文１本文
-１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文
-１本文１本文１本文１本文１本文１本文１本本文１本文１本文１本文１本文１本
-文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本文１本
-文１本文１本文１本文１本
-</p>
+<?php
+$this_content= wpautop($post->post_content);
+echo $this_content;
+?>
 <h2 class='headline-second'>
 未上陸ブランドを購入しよう！冬の『BOHO』ファッション特集
 </h2>
