@@ -11,8 +11,8 @@
 <div class='logo__img'>
 <img src="<?php echo get_template_directory_uri(); ?>/images/annie-logo.svg" width="250">
 </div>
-<h1>
-アメリカ『自由奔放』bohoファッションをお届けするWEBマガジン
+<h1 class='sub-title'>
+未上陸！アメリカ『自由奔放 boho』ブランドをお届け。買えるWEBマガジン
 </h1>
 </div>
 <div class='info'>

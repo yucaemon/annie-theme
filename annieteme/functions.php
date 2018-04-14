@@ -4,9 +4,11 @@
 add_theme_support('post-thumbnails');
 
 
-//　改行の時に自動的にPタグが挿入されるのを防ぐ
+// 記事の自動整形を無効化
 remove_filter('the_content', 'wpautop');
-remove_filter( 'the_excerpt', 'wpautop' );
+// 抜粋の自動整形を無効化
+remove_filter('the_excerpt', 'wpautop');
+
 
 add_action('wp_footer', 'my_load_widget_scripts');
 
