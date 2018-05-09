@@ -1,6 +1,6 @@
 <div class='more-search-article'>
 <div class='more-search-article__title'>
-もっとファッションの記事を探す
+アイテムから記事を探す
 </div>
 <div class='more-search-article__table'>
 <table>

@@ -620,7 +620,7 @@ a {
 }
 
 .article-sns-btns {
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .article-sns-btns img {
@@ -643,12 +643,14 @@ a {
   }
   &__img {
     img {
-      width: 100%;
-      height: 100%;
+      width: 200px;
+      height: 150px;
+      object-fit: cover;
     }
   }
   &__text {
     @include fts(8, 8);
+    width: 200PX;
     padding: 10px 0;
     letter-spacing: 1px;
     font-weight: bold;

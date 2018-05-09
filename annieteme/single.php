@@ -15,20 +15,24 @@
 <h1 class='single-page__head-title'>
 <?php the_title_attribute(); ?>
 </h1>
+<div class='flexbox--spacebetween'>
 <div class='Published-brands-category'>
-掲載ブランド :
+<i class='fa fa-tag'></i>
+<?php the_tags( '分類タグ : ',' 　' ); ?>
 <span>
 <?php $slug_name = basename(get_permalink()); ?>
 </span>
+</div>
+<div class='dates'>
+<i class='fa fa-clock-o'></i>
+<?php the_time('Y/m/d'); ?>
+</div>
 </div>
 <div class='flexbox--spacebetween'>
 <div class='article-sns-btns flexbox'>
 <img src="<?php echo get_template_directory_uri(); ?>/images/facebook-btn.svg">
 <img src="<?php echo get_template_directory_uri(); ?>/images/twitter-btn.svg">
 <img src="<?php echo get_template_directory_uri(); ?>/images/poket-btn.svg">
-</div>
-<div class='dates'>
-<?php the_time('Y/m/d'); ?>
 </div>
 </div>
 <div class='single-page__eyecatch-img'>

@@ -1,4 +1,4 @@
-<dl class='news-list'>
+<dl class='recommend-list'>
 <dt>
 <div class='header-img'>
 <img src="<?php echo get_template_directory_uri(); ?>/images/recommend.svg">

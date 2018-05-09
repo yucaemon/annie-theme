@@ -3,7 +3,7 @@
 <p class='side-menu-list__title'>
 記事
 </p>
-<?php wp_list_categories('child_of=3&title_li='); ?>
+<?php wp_list_categories('title_li=&depth=1'); ?>
 </div>
 <div class='side-menu-list__li'>
 <p class='side-menu-list__title'>

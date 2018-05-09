@@ -1,49 +1,8 @@
-.related-article
-  .related-article__title
-    おすすめの『ファッション』関連記事
-  .related-article__container.flexbox--spacebetween
-    .related-article__content
-      .related-article__img
-        <img src="<?php echo get_template_directory_uri(); ?>/images/sample1.png">
-      .related-article__text
-        bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-    .related-article__content
-      .related-article__img
-        <img src="<?php echo get_template_directory_uri(); ?>/images/sample2.png">
-      .related-article__text
-        bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-    .related-article__content
-      .related-article__img
-        <img src="<?php echo get_template_directory_uri(); ?>/images/sample3.png">
-      .related-article__text
-        bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-    .related-article__content
-      .related-article__img
-        <img src="<?php echo get_template_directory_uri(); ?>/images/sample1.png">
-      .related-article__text
-        bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-    .related-article__content
-      .related-article__img
-        <img src="<?php echo get_template_directory_uri(); ?>/images/sample2.png">
-      .related-article__text
-        bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-    .related-article__content
-      .related-article__img
-        <img src="<?php echo get_template_directory_uri(); ?>/images/sample3.png">
-      .related-article__text
-        bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-    .related-article__content
-      .related-article__img
-        <img src="<?php echo get_template_directory_uri(); ?>/images/sample1.png">
-      .related-article__text
-        bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-    .related-article__content
-      .related-article__img
-        <img src="<?php echo get_template_directory_uri(); ?>/images/sample2.png">
-      .related-article__text
-        bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-    .related-article__content
-      .related-article__img
-        <img src="<?php echo get_template_directory_uri(); ?>/images/sample3.png">
-      .related-article__text
-        bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
+%div.related-article__title
+ こちらの記事も人気！
+:plain
+  <?php
+    $post_id = get_the_ID();    //記事の投稿IDを取得
+    $tags = get_the_tags();     //この記事が含むタグをゲット
+    echo get_template_part('part-tag-relatedpost'); //関連記事呼び出しテンプレート
+  ?>
