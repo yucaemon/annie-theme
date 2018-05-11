@@ -16,14 +16,14 @@
 <?php the_title_attribute(); ?>
 </h1>
 <div class='flexbox--spacebetween'>
-<div class='Published-brands-category'>
+<div class='single-page__tags'>
 <i class='fa fa-tag'></i>
 <?php the_tags( '分類タグ : ',' 　' ); ?>
 <span>
 <?php $slug_name = basename(get_permalink()); ?>
 </span>
 </div>
-<div class='dates'>
+<div class='single-page__dates'>
 <i class='fa fa-clock-o'></i>
 <?php the_time('Y/m/d'); ?>
 </div>
@@ -47,6 +47,7 @@ echo $this_content;
 <?php include('components-php/wrote-models-box.php'); ?>
 <?php include('components-php/article-sns-btns.php'); ?>
 <?php include('components-php/related-article.php'); ?>
+<?php include('components-php/this-page-tags.php'); ?>
 <?php include('components-php/more-search-article.php'); ?>
 <?php include('components-php/sns-box.php'); ?>
 <?php include('components-php/shopping-box.php'); ?>

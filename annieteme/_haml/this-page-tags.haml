@@ -1,0 +1,8 @@
+.this-page
+  .this-page__title
+    この記事に関するキーワード
+    %i.fa.fa-tag
+  .this-page__tags
+    <?php the_tags( ' ',' 　' ); ?>
+    %span.tag
+      <?php $slug_name = basename(get_permalink()); ?>

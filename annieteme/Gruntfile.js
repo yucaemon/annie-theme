@@ -55,6 +55,7 @@ module.exports = function (grunt) {
                     'components-php/related-article.php': '_haml/related-article.haml',
                     'components-php/more-search-article.php': '_haml/more-search-article.haml',
                     'components-php/sns-box.php': '_haml/sns-box.haml',
+                    'components-php/this-page-tags.php': '_haml/this-page-tags.haml',
 
                     'index.php': '_haml/index.haml',
                     'single.php': '_haml/single.haml',

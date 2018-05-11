@@ -594,7 +594,7 @@ a {
   letter-spacing: 1px;
   padding-bottom: 15px;
   line-height: 31px; }
-.single-page .Published-brands-category, .single-page .dates {
+.single-page__tags, .single-page__dates {
   font-size: 8px;
   font-size: 0.8rem;
   line-height: 1;
@@ -805,10 +805,11 @@ a {
 .article-sns-btns img + img {
   padding-left: 8px; }
 
-.related-article__title {
+.related-article__title, .this-page__title {
   padding: 50px 0;
   font-size: 19px;
   font-weight: bold; }
+
 .related-article__content {
   width: 30%;
   padding: 10px 0; }
@@ -1079,5 +1080,22 @@ a {
     line-height: 1.6;
     letter-spacing: 1.5px;
     padding-bottom: 0; }
+
+/*
+
+	components-parts.php
+
+*************************************************/
+.this-page__tags a {
+  border: #f2716e 1px solid;
+  padding: 4px;
+  border-radius: 5px;
+  margin-right: -10px;
+  display: inline-block;
+  margin-bottom: 10px; }
+.this-page__tags a:before {
+  content: "#";
+  color: #f2716e;
+  padding-right: 3px; }
 
 /*# sourceMappingURL=style.css.map */

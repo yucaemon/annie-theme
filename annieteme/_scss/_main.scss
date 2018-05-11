@@ -393,14 +393,14 @@ a {
     padding-bottom: 15px;
     line-height: 31px;
   }
-  .Published-brands-category {
+  &__tags{
     @include fts(8, 8);
     color: $font_sub_glay_color;
     padding-bottom: 15px;
     letter-spacing: 0.5px;
   }
-  .dates {
-    @extend .Published-brands-category
+  &__dates {
+    @extend .single-page__tags
   }
   &__eyecatch-img {
     padding: 30px 0;
@@ -631,12 +631,15 @@ a {
   padding-left: 8px;
 }
 
-.related-article {
+.related-article,.this-page{
   &__title {
     padding: 50px 0;
     font-size: 19px;
     font-weight: bold;
   }
+}
+
+.related-article {
   &__content {
     width: 30%;
     padding: 10px 0;
@@ -968,3 +971,30 @@ a {
     padding-bottom: 0;
   }
 }
+
+
+/*
+
+	components-parts.php
+
+*************************************************/
+
+.this-page{
+  &__tags a{
+    border: #f2716e 1px solid;
+    padding: 4px;
+    border-radius: 5px;
+    margin-right: -10px;
+    display: inline-block;
+    margin-bottom: 10px;
+
+  }
+  &__tags a:before {
+    content: "#";
+    color: #f2716e;
+    padding-right: 3px;
+
+  }
+
+}
+
