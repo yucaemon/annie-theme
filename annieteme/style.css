@@ -400,11 +400,12 @@ a {
     width: 100px;
     height: 70px; }
 .side-contain .news-list__title {
+  padding-left: 12px;
   padding-top: 3px;
   width: 180px;
-  font-size: 7px;
-  font-size: 0.7rem;
-  line-height: 1.28571;
+  font-size: 8px;
+  font-size: 0.8rem;
+  line-height: 1.125;
   font-weight: bold; }
 .side-contain .recommend-list dd + dd {
   padding-top: 18px; }
@@ -840,7 +841,7 @@ a {
   .sns-area__info {
     text-align: center;
     width: 50%;
-    padding-top: 17px; }
+    padding-top: 20px; }
   .sns-area__title {
     padding: 13px 0;
     font-size: 8px;
@@ -856,6 +857,9 @@ a {
     margin: 0 auto; }
     .sns-area .sns-icons img {
       width: 15%; }
+
+.single-page .sns-area__info {
+  padding-top: 40px; }
 
 .shopping-banner {
   margin-bottom: 50px; }

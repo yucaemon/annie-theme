@@ -53,6 +53,7 @@
 </div>
 <div class='column-4 side-contain'>
 <?php include('components-php/featured-box.php'); ?>
+<!--総合人気コンテンツは、ある程度、記事が集まってから表示する-->
 <?php include('components-php/recommend-list.php'); ?>
 <?php include('components-php/keywords.php'); ?>
 <?php include('components-php/models-lists.php'); ?>

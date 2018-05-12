@@ -1,26 +1,24 @@
-%dl.recommend-list
+%dl.news-list
   %dt
     .header-img
-      <img src="<?php echo get_template_directory_uri(); ?>/images/recommend.svg">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/total-popular.svg">
   :plain
     <?php
     $posts = get_posts(array(
     'posts_per_page' => 5, // 表示件数
-    'category' => '82' // カテゴリIDもしくはスラッグ名
     ));
     ?>
     <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
 
       <!--表示する内容が入ります。-->
-      <dd class="recommend-list__content flexbox">
-        <div class="recommend-list__thumb-img">
+      <dd class="news-list__content flexbox">
+        <div class="news-list__thumb-img">
           <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
         </div>
-        <p class="recommend-list__title">
+        <p class="news-list__title">
           <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
         </p>
       </dd>
       <!--表示する内容ここまで-->
 
     <?php endforeach; endif; ?>
-

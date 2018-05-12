@@ -54,6 +54,7 @@ echo $this_content;
 </div>
 <div class='column-4 side-contain'>
 <?php include('components-php/featured-box.php'); ?>
+<?php include('components-php/category-popular.php'); ?>
 <?php include('components-php/news-list.php'); ?>
 <?php include('components-php/items.php'); ?>
 <?php include('components-php/keywords.php'); ?>

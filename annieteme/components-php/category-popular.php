@@ -1,16 +1,25 @@
 <dl class='news-list'>
 <dt>
 <div class='header-img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/news.svg">
+<img src="<?php echo get_template_directory_uri(); ?>/images/category-popular.svg">
 </div>
 </dt>
 <?php
-$posts = get_posts(array(
-'posts_per_page' => 5, // 表示件数
-));
+$post_id = get_the_ID();
+foreach((get_the_category()) as $cat) {
+$cat_id = $cat->cat_ID ;
+break ;
+}
+query_posts(
+array(
+'cat' => $cat_id,
+'showposts' => 5,
+'post__not_in' => array($post_id)
+)
+);
+if(have_posts()) :
 ?>
-<?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
-
+<?php while (have_posts()) : the_post(); ?>
   <!--表示する内容が入ります。-->
   <dd class="news-list__content flexbox">
     <div class="news-list__thumb-img">
@@ -21,6 +30,7 @@ $posts = get_posts(array(
     </p>
   </dd>
   <!--表示する内容ここまで-->
-
-<?php endforeach; endif; ?>
+<?php endwhile; ?>
+<?php endif; ?>
+<?php wp_reset_query(); ?>
 </dl>

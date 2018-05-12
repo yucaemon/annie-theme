@@ -7,7 +7,7 @@
 <?php
 $posts = get_posts(array(
 'posts_per_page' => 5, // 表示件数
-'category' => '21' // カテゴリIDもしくはスラッグ名
+'category' => '82' // カテゴリIDもしくはスラッグ名
 ));
 ?>
 <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>

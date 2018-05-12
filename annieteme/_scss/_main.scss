@@ -159,9 +159,10 @@ a {
       }
     }
     &__title {
+      padding-left: 12px;
       padding-top: 3px;
       width: 180px;
-      @include fts(7, 9);
+      @include fts(8, 9);
       font-weight: bold;
     }
   }
@@ -661,6 +662,7 @@ a {
   }
 }
 
+
 .sns-area {
   border: solid 1px $font_sub_color;
   margin: 50px 0;
@@ -679,7 +681,7 @@ a {
   &__info {
     text-align: center;
     width: 50%;
-    padding-top: 17px;
+    padding-top: 20px;
 
   }
   &__title {
@@ -697,6 +699,12 @@ a {
     img {
       width: 15%;
     }
+  }
+}
+
+.single-page{
+  .sns-area__info {
+    padding-top: 40px;
   }
 }
 
