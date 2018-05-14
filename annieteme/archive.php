@@ -8,15 +8,24 @@
 一覧ページ
 </li>
 </ul>
-<div class='archive-banner flexbox--v-center'>
+<div class='archive-banner'>
 <h1 class='archive-banner__header'>
-thee bird nest
+<?php echo get_the_archive_title(); ?> に関する記事一覧
 </h1>
-<div class='archive-banner__sub-title'>
-アメリカ国内人気ブランド
+<?php if ( is_category( 'lifestyle' ) ) : ?>
+  <div class="archive-banner__keyword">
+    <div class="keywords">
+      <ul class="archive-banner__lists">
+        <li class="archive-banner__list"><a href="<?php echo get_tag_link(83); ?>">雑貨</a></li>
+        <li class="archive-banner__list"><a href="<?php echo get_tag_link(83); ?>">ガーデニング</a></li>
+        <li class="archive-banner__list"><a href="<?php echo get_tag_link(83); ?>">DIY</a></li>
+        <li class="archive-banner__list"><a href="<?php echo get_tag_link(83); ?>">ライフスタイル</a></li>
+    </div>
+  </div>
+<?php endif; ?>
+　
 </div>
-</div>
-<div class='outer__inner flexbox--h-center'>
+<div class='outer__inner flexbox--h-center flexbox--spacearound'>
 <?php include('components-php/side-menu-list.php'); ?>
 <div class='column-6 middle-contain'>
 <ul class='article-list'>

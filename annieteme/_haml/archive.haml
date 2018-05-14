@@ -6,12 +6,24 @@
     %ul.breadcrumb
       %li
         一覧ページ
-    .archive-banner.flexbox--v-center
+    .archive-banner
       %h1.archive-banner__header
-        thee bird nest
-      .archive-banner__sub-title
-        アメリカ国内人気ブランド
-    .outer__inner.flexbox--h-center
+        <?php echo get_the_archive_title(); ?> に関する記事一覧
+      :plain
+        <?php if ( is_category( 'lifestyle' ) ) : ?>
+          <div class="archive-banner__keyword">
+            <div class="keywords">
+              <ul class="archive-banner__lists">
+                <li class="archive-banner__list"><a href="<?php echo get_tag_link(83); ?>">雑貨</a></li>
+                <li class="archive-banner__list"><a href="<?php echo get_tag_link(83); ?>">ガーデニング</a></li>
+                <li class="archive-banner__list"><a href="<?php echo get_tag_link(83); ?>">DIY</a></li>
+                <li class="archive-banner__list"><a href="<?php echo get_tag_link(83); ?>">ライフスタイル</a></li>
+            </div>
+          </div>
+        <?php endif; ?>
+      　
+
+    .outer__inner.flexbox--h-center.flexbox--spacearound
       <?php include('components-php/side-menu-list.php'); ?>
       .column-6.middle-contain
         %ul.article-list

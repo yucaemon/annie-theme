@@ -10,6 +10,15 @@ a {
   color: #333;
 }
 
+.keywords {
+  a:before {
+    content: "#";
+    color: $main_color;
+    padding-right: 3px;
+  }
+}
+
+
 /*
 
 	header
@@ -140,6 +149,18 @@ a {
 }
 
 .side-contain {
+
+  .keywords {
+    &__content {
+      margin-bottom: 20px;
+    }
+    a {
+      padding-right: 15px;
+      padding-bottom: 15px;
+
+    }
+  }
+
   .header-img {
     padding: 30px 0;
   }
@@ -187,21 +208,6 @@ a {
     }
   }
 
-  .keywords {
-    &__content {
-      margin-bottom: 20px;
-    }
-    a:before {
-      content: "#";
-      color: $main_color;
-      padding-right: 3px;
-    }
-    a {
-      padding-right: 15px;
-      padding-bottom: 15px;
-
-    }
-  }
 
   .items {
     &__content {
@@ -745,22 +751,30 @@ a {
   padding: 40px;
   margin-bottom: 70px;
 
+
+
   &__header {
-    color: #fff;
+    color: $font_sub_glay_color;
     text-transform: uppercase;
     font-family: 'Dosis', sans-serif;
-    @include fts(30, 30);
+    @include fts(15, 30);
     letter-spacing: 1px;
   }
-
-  &__sub-title {
-    @include fts(8, 8);
-    color: #525252;
-    padding-left: 20px;
-    letter-spacing: 1px;
+  &__lists {
+    @include fts(8,8);
+    letter-spacing: 1.2px;
+    padding-top: 15px;
+  }
+  &__list{
+    background-color: #fff;
+    border-radius: 3px;
+    padding:10px;
+    display: inline-block;
+    margin: 0;
   }
 
 }
+
 
 /*
 
@@ -995,12 +1009,6 @@ a {
     margin-right: -10px;
     display: inline-block;
     margin-bottom: 10px;
-
-  }
-  &__tags a:before {
-    content: "#";
-    color: #f2716e;
-    padding-right: 3px;
 
   }
 
