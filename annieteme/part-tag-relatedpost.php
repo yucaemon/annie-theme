@@ -20,7 +20,7 @@
         the_post();
     ?>
         <?php if( !$relatedpost_count ): /* 最初の記事の場合、ヘッダを付与 */ ?>
-            <div class="related-article__container flexbox--spacebetween">
+            <div class="related-article__container flexbox">
         <?php endif; ?>
                 <a href="<?php echo get_permalink(); ?>" target="_blank" class="hover_fade" style="cursor: pointer;">
                     <div class="related-article__content">

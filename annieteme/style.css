@@ -814,7 +814,8 @@ a {
 
 .related-article__content {
   width: 30%;
-  padding: 10px 0; }
+  padding-top: 10px;
+  padding-right: 12px; }
 .related-article__img img {
   width: 200px;
   height: 150px;
