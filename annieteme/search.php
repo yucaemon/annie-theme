@@ -27,15 +27,17 @@
   $total_results = $wp_query->found_posts;
   $search_query = get_search_query();
 ?>
+<?php if ( $total_results >0 ) : ?>
+  <div class="search-content__header">
+  　<i class="fa fa-search"></i>
+  『<?php echo $search_query; ?>』の関連記事が<span>（<?php echo $total_results; ?>件）あります</span>
+  </div>
+<?php endif; ?>
 <?php
 if( $total_results >0 ):
 if(have_posts()):
 while(have_posts()): the_post();
 ?>
-<div class="search-content__header">
-　<i class="fa fa-search"></i>
-『<?php echo $search_query; ?>』の関連記事が<span>（<?php echo $total_results; ?>件）あります</span>
-</div>
 <a href="<?php the_permalink(); ?>">
 <li class='flexbox'>
 <?php the_post_thumbnail( 'post-thumbnails', array('class' => 'article-list__img') ); ?>

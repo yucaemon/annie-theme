@@ -88,4 +88,18 @@ add_filter( 'get_the_archive_title', function ($title) {
 
 });
 
+
+/* 固定ページを検索結果から除外 */
+
+function my_posy_search($search) {
+  if(is_search()) {
+    $search .= " AND post_type = 'post'";
+  }
+  return $search;
+}
+add_filter('posts_search', 'my_posy_search');
+
 ?>
+
+
+
