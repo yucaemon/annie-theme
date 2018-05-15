@@ -8,207 +8,46 @@
 検索一覧ページ
 </li>
 </ul>
-<div class='archive-banner flexbox--v-center'>
+<div class='archive-banner search-content flexbox--v-center'>
 <h1 class='archive-banner__header'>
-<?php the_search_query(); ?>の検索結果
+<?php
+  global $wp_query;
+  $total_results = $wp_query->found_posts;
+  $search_query = get_search_query();
+?>
+『 <?php echo $search_query; ?> 』の検索結果<span>（<?php echo $total_results; ?>件）</span>
 </h1>
-<div class='archive-banner__sub-title'>
-以下、２件ヒットしました
-</div>
 </div>
 <div class='outer__inner flexbox--h-center'>
 <?php include('components-php/side-menu-list.php'); ?>
 <div class='column-6 middle-contain'>
-<ul class='article-list'>
+<ul class="article-list">
+<?php
+  global $wp_query;
+  $total_results = $wp_query->found_posts;
+  $search_query = get_search_query();
+?>
+<?php
+if( $total_results >0 ):
+if(have_posts()):
+while(have_posts()): the_post();
+?>
+<div class="search-content__header">
+　<i class="fa fa-search"></i>
+『<?php echo $search_query; ?>』の関連記事が<span>（<?php echo $total_results; ?>件）あります</span>
+</div>
+<a href="<?php the_permalink(); ?>">
 <li class='flexbox'>
-<div class='article-list__img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/sample1.png">
-</div>
-<div class='article-list__text'>
-<h3 class='list-title'>
-bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-</h3>
-<p class='list-read'>
-ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
-</p>
-<div class='icons flexbox'>
-<div class='icons__tag'>
-購入可能
-</div>
-<div class='icons__tag'>
-日本未上陸
-</div>
-</div>
+<?php the_post_thumbnail( 'post-thumbnails', array('class' => 'article-list__img') ); ?>
+<div class="article-list__text">
+<h3 class="list-title"><?php echo mb_substr($post->post_title, 0, 20).'…'; ?></h3>
+<p class='list-read'><?php echo mb_substr(strip_tags($post-> post_content),0,100) ; ?></p>
 </div>
 </li>
-<li class='flexbox'>
-<div class='article-list__img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/sample2.png">
-</div>
-<div class='article-list__text'>
-<h3 class='list-title'>
-bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-</h3>
-<p class='list-read'>
-ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
-</p>
-<div class='icons flexbox'>
-<div class='icons__tag'>
-購入可能
-</div>
-<div class='icons__tag'>
-日本未上陸
-</div>
-</div>
-</div>
-</li>
-<li class='flexbox'>
-<div class='article-list__img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/sample3.png">
-</div>
-<div class='article-list__text'>
-<h3 class='list-title'>
-bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-</h3>
-<p class='list-read'>
-ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
-</p>
-<div class='icons flexbox'>
-<div class='icons__tag'>
-購入可能
-</div>
-<div class='icons__tag'>
-日本未上陸
-</div>
-</div>
-</div>
-</li>
-<li class='flexbox'>
-<div class='article-list__img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/sample1.png">
-</div>
-<div class='article-list__text'>
-<h3 class='list-title'>
-bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-</h3>
-<p class='list-read'>
-ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
-</p>
-<div class='icons flexbox'>
-<div class='icons__tag'>
-購入可能
-</div>
-<div class='icons__tag'>
-日本未上陸
-</div>
-</div>
-</div>
-</li>
-<li class='flexbox'>
-<div class='article-list__img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/sample2.png">
-</div>
-<div class='article-list__text'>
-<h3 class='list-title'>
-bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-</h3>
-<p class='list-read'>
-ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
-</p>
-<div class='icons flexbox'>
-<div class='icons__tag'>
-購入可能
-</div>
-<div class='icons__tag'>
-日本未上陸
-</div>
-</div>
-</div>
-</li>
-<li class='flexbox'>
-<div class='article-list__img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/sample3.png">
-</div>
-<div class='article-list__text'>
-<h3 class='list-title'>
-bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-</h3>
-<p class='list-read'>
-ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
-</p>
-<div class='icons flexbox'>
-<div class='icons__tag'>
-購入可能
-</div>
-<div class='icons__tag'>
-日本未上陸
-</div>
-</div>
-</div>
-</li>
-<li class='flexbox'>
-<div class='article-list__img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/sample1.png">
-</div>
-<div class='article-list__text'>
-<h3 class='list-title'>
-bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-</h3>
-<p class='list-read'>
-ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
-</p>
-<div class='icons flexbox'>
-<div class='icons__tag'>
-購入可能
-</div>
-<div class='icons__tag'>
-日本未上陸
-</div>
-</div>
-</div>
-</li>
-<li class='flexbox'>
-<div class='article-list__img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/sample2.png">
-</div>
-<div class='article-list__text'>
-<h3 class='list-title'>
-bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-</h3>
-<p class='list-read'>
-ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
-</p>
-<div class='icons flexbox'>
-<div class='icons__tag'>
-購入可能
-</div>
-<div class='icons__tag'>
-日本未上陸
-</div>
-</div>
-</div>
-</li>
-<li class='flexbox'>
-<div class='article-list__img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/sample3.png">
-</div>
-<div class='article-list__text'>
-<h3 class='list-title'>
-bohoスタイルの火付け役『アンソロジー』のゆるふあチェックカーデが可愛い。
-</h3>
-<p class='list-read'>
-ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。ここ人は本文が入ります。
-</p>
-<div class='icons flexbox'>
-<div class='icons__tag'>
-購入可能
-</div>
-<div class='icons__tag'>
-日本未上陸
-</div>
-</div>
-</div>
-</li>
+</a>
+<?php endwhile; endif; else: ?>
+『 <?php echo $search_query; ?> 』 に一致する情報は見つかりませんでした。
+<?php endif; ?>
 </ul>
 <?php include('components-php/more-search-article.php'); ?>
 <?php include('components-php/sns-box.php'); ?>

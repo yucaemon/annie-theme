@@ -775,6 +775,21 @@ a {
 
 }
 
+/*
+
+	search page
+
+*************************************************/
+
+
+.search-content {
+  &__header {
+    border-bottom: solid 1px $border_color;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+  }
+}
+
 
 /*
 

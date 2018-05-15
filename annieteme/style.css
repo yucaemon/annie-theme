@@ -918,6 +918,16 @@ a {
 
 /*
 
+	search page
+
+*************************************************/
+.search-content__header {
+  border-bottom: solid 1px #dcdcdc;
+  padding-bottom: 20px;
+  margin-bottom: 25px; }
+
+/*
+
 	featured page
 
 *************************************************/

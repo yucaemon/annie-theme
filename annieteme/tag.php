@@ -18,18 +18,21 @@
 <div class='column-6 middle-contain'>
 <ul class="article-list">
 <?php if(have_posts()): while(have_posts()):the_post(); ?>
-  <li class='flexbox'>
-  <?php if( has_post_thumbnail() ): ?>
-  <?php the_post_thumbnail( 'post-thumbnails', array('class' => 'article-list__img') ); ?>
-  <div class="article-list__text">
-    <h3 class="list-title"><?php echo mb_substr($post->post_title, 0, 20).'…'; ?></h3>
-    <p class='list-read'><?php echo mb_substr(strip_tags($post-> post_content),0,100) ; ?></p>
-  </div>
-　<?php else: ?>
+  <a href="<?php the_permalink(); ?>">
+    <li class='flexbox'>
+      <?php if( has_post_thumbnail() ): ?>
+      <?php the_post_thumbnail( 'post-thumbnails', array('class' => 'article-list__img') ); ?>
+      <div class="article-list__text">
+      <h3 class="list-title"><?php echo mb_substr($post->post_title, 0, 20).'…'; ?></h3>
+       <p class='list-read'><?php echo mb_substr(strip_tags($post-> post_content),0,100) ; ?></p>
+      </div>
+    </li>
+  </a>
+  <?php else: ?>
 　<?php endif; ?>
-  </li>
+  </ul>
+
 <?php endwhile; endif; ?>
-</ul>
 <?php include('components-php/more-search-article.php'); ?>
 <?php include('components-php/sns-box.php'); ?>
 <?php include('components-php/shopping-box.php'); ?>
