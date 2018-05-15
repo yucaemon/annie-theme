@@ -65,7 +65,10 @@ module.exports = function (grunt) {
                     'archive_featured.php': '_haml/archive_featured.haml',
                     'about.php': '_haml/about.haml',
                     'security.php': '_haml/security.haml',
-                    'search.php': '_haml/search.haml'
+                    'search.php': '_haml/search.haml',
+                    'category.php': '_haml/category.haml',
+                    'tag.php': '_haml/tag.haml'
+
                 }
             }
 

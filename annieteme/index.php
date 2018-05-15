@@ -31,7 +31,7 @@
             <h3 class='list-title'>
               <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
             </h3>
-            <p class='list-read'><?php echo mb_substr(strip_tags($post-> post_content),0,200) ; ?></p>
+            <p class='list-read'><?php echo mb_substr(strip_tags($post-> post_content),0,98) ; ?></p>
             <div class='icons flexbox'>
               <div class='icons__tag'>
                 購入可能
