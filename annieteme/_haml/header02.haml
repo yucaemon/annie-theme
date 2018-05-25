@@ -12,7 +12,6 @@
         %li
           ポートランドオレゴン州
       .search__box
-        %form{:class => "search__form", :action => "/"}
-          %input{:class => "search__input", :type => "text", :placeholder => "検索"}
+        <?php get_search_form(); ?>
 
 

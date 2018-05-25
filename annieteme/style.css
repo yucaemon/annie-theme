@@ -458,16 +458,21 @@ a {
       content: "@";
       color: #f2716e; }
     .side-contain .models-lists__text .model-name {
+      font-size: 8px;
+      font-size: 0.8rem;
+      line-height: 1.25;
+      letter-spacing: 0.1em;
       text-transform: uppercase;
       padding-bottom: 6px; }
     .side-contain .models-lists__text .model-info {
-      font-size: 8px;
-      font-size: 0.8rem;
-      line-height: 1.125;
+      font-size: 7px;
+      font-size: 0.7rem;
+      line-height: 1;
       color: #9c9c9c; }
 .side-contain .models-lists__prof-img img {
-  height: 50px;
-  width: 50px;
+  margin-top: 9px;
+  height: 35px;
+  width: 35px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -808,7 +813,7 @@ a {
   padding-left: 8px; }
 
 .related-article__title, .this-page__title {
-  padding: 50px 0;
+  padding: 50px 0 15px 0;
   font-size: 19px;
   font-weight: bold; }
 
@@ -1108,7 +1113,6 @@ a {
 
 *************************************************/
 .this-page__tags a {
-  border: #f2716e 1px solid;
   padding: 4px;
   border-radius: 5px;
   margin-right: -10px;

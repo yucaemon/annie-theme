@@ -275,10 +275,10 @@ madewell
 <div class='lists-container models flexbox--v-center'>
 <div class='lists-container__header'>
 <p class='lists-container__txt'>
-アニーインスタ読者モデル
+ポートランドのクリエーターズ
 </p>
 <div class='models-h-img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/models-img.svg">
+<img src="<?php echo get_template_directory_uri(); ?>/images/gypsys-img.svg">
 </div>
 </div>
 <ul class='lists-container__lists models__lists flexbox'>

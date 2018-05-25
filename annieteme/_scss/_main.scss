@@ -241,11 +241,13 @@ a {
         color: $main_color;
       }
       .model-name {
+        @include fts(8, 10);
+        letter-spacing: 0.1em;
         text-transform: uppercase;
         padding-bottom: 6px;
       }
       .model-info {
-        @include fts(8, 9);
+        @include fts(7, 7);
         color: $font_sub_glay_color;
       }
     }
@@ -253,8 +255,9 @@ a {
   .models-lists__prof-img {
 
     img {
-      height: 50px;
-      width: 50px;
+      margin-top: 9px;
+      height: 35px;
+      width: 35px;
       @include border-radius(50%);
     }
 
@@ -640,7 +643,7 @@ a {
 
 .related-article,.this-page{
   &__title {
-    padding: 50px 0;
+    padding: 50px 0 15px 0;
     font-size: 19px;
     font-weight: bold;
   }
@@ -1019,7 +1022,6 @@ a {
 
 .this-page{
   &__tags a{
-    border: #f2716e 1px solid;
     padding: 4px;
     border-radius: 5px;
     margin-right: -10px;
