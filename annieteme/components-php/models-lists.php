@@ -1,6 +1,6 @@
 <dl class='models-lists'>
 <dt class='header-img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/models.svg">
+<img src="<?php echo get_template_directory_uri(); ?>/images/gypsys.svg">
 </dt>
 <?php $users = get_users( array() ); ?>
 <?php foreach($users as $user) {

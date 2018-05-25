@@ -402,9 +402,9 @@ beru
 </ul>
 </div>
 </div>
-<?php include('components-php/related-article.php'); ?>
+<?php include('components-php/news-articles.php'); ?>
 <?php include('components-php/more-search-article.php'); ?>
-<div class='column-8 margin-center'>
+<div class='column-6 margin-center'>
 <?php include('components-php/sns-box.php'); ?>
 </div>
 <div class='column-8 margin-center'>

@@ -649,6 +649,11 @@ a {
   }
 }
 
+.articles{
+
+
+}
+
 .related-article {
   &__content {
     width: 30%;
@@ -671,6 +676,33 @@ a {
     line-height: 17px;
   }
 }
+
+.news-articles {
+  &__content {
+    width: 23%;
+    padding-top: 10px;
+  }
+  &__img {
+    img {
+      width: 230px;
+      height: 150px;
+      object-fit: cover;
+    }
+  }
+  &__text {
+    @include fts(8, 8);
+    padding: 10px 0;
+    letter-spacing: 1px;
+    font-weight: bold;
+    line-height: 17px;
+  }
+  &__title {
+    font-size: 19px;
+    font-weight: bold;
+    padding-bottom: 30px;
+  }
+}
+
 
 
 .sns-area {

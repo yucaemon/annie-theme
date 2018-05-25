@@ -18,6 +18,10 @@
 <i class='fa fa-angle-right'></i>
 冬物コート
 </td>
+<td>
+<i class='fa fa-angle-right'></i>
+冬物コート
+</td>
 </tr>
 <tr>
 <td>
@@ -27,6 +31,10 @@
 <td>
 <i class='fa fa-angle-right'></i>
 ジーンズ
+</td>
+<td>
+<i class='fa fa-angle-right'></i>
+ジャケット
 </td>
 <td>
 <i class='fa fa-angle-right'></i>

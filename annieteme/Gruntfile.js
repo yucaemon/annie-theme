@@ -58,6 +58,8 @@ module.exports = function (grunt) {
                     'components-php/this-page-tags.php': '_haml/this-page-tags.haml',
                     'components-php/category-popular.php': '_haml/category-popular.haml',
                     'components-php/total-popular.php': '_haml/total-popular.haml',
+                    'components-php/news-articles.php': '_haml/news-articles.haml',
+
 
                     'index.php': '_haml/index.haml',
                     'single.php': '_haml/single.haml',
