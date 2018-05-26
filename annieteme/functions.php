@@ -99,7 +99,5 @@ function my_posy_search($search) {
 }
 add_filter('posts_search', 'my_posy_search');
 
-?>
-
 
 
