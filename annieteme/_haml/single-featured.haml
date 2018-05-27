@@ -1,0 +1,55 @@
+<?php include('head.php'); ?>
+%body
+  .single-page.outer
+    <?php include('components-php/header.php'); ?>
+    %h2.notice-bar
+      お知らせ：ショッピングサイト『アニー』OPEN!!! ファッションの街、ポートランドから日本へ現地の新商品を紹介。
+    %ul.breadcrumb
+      %li
+        シングルページ(特集)
+    .outer__inner.flexbox--h-center
+      .column-8.middle-contain
+        %h1.single-page__head-title
+          <?php the_title_attribute(); ?>
+        .flexbox--spacebetween
+          .single-page__tags
+            /%i.fa.fa-tag
+            %span
+              <?php $slug_name = basename(get_permalink()); ?>
+          .single-page__dates
+            %i.fa.fa-clock-o
+            <?php the_time('Y/m/d'); ?>
+        .flexbox--spacebetween
+          .article-sns-btns.flexbox
+            <img src="<?php echo get_template_directory_uri(); ?>/images/facebook-btn.svg">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/twitter-btn.svg">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/poket-btn.svg">
+
+        .single-page__eyecatch-img
+          <img src="<?php echo get_template_directory_uri(); ?>/images/single-img-top.png" width="644px">
+
+        .single-page__entry-content
+          <?php
+          $this_content= wpautop($post->post_content);
+          echo $this_content;
+          ?>
+
+        <?php include('components-php/wrote-models-box.php'); ?>
+        <?php include('components-php/article-sns-btns.php'); ?>
+        <?php include('components-php/featured_articles.php'); ?>
+
+        <?php include('components-php/more-search-article.php'); ?>
+        <?php include('components-php/sns-box.php'); ?>
+        <?php include('components-php/shopping-box.php'); ?>
+
+
+
+      .column-4.side-contain
+        <?php include('components-php/featured-box.php'); ?>
+        <?php include('components-php/recommend-list.php'); ?>
+        <?php include('components-php/news-list.php'); ?>
+        <?php include('components-php/items.php'); ?>
+        <?php include('components-php/keywords.php'); ?>
+        <?php include('components-php/models-lists.php'); ?>
+<?php include('components-php/footer.php'); ?>
+

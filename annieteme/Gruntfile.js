@@ -70,7 +70,8 @@ module.exports = function (grunt) {
                     'security.php': '_haml/security.haml',
                     'search.php': '_haml/search.haml',
                     'category.php': '_haml/category.haml',
-                    'tag.php': '_haml/tag.haml'
+                    'tag.php': '_haml/tag.haml',
+                    'single-featured.php': '_haml/single-featured.haml',
 
                 }
             }
