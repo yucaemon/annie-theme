@@ -641,7 +641,7 @@ a {
   padding-left: 8px;
 }
 
-.related-article,.this-page{
+.related-article,.this-page,.featured-articles{
   &__title {
     padding: 50px 0 15px 0;
     font-size: 19px;
@@ -702,6 +702,29 @@ a {
     padding-bottom: 30px;
   }
 }
+
+.featured-articles {
+  &__content {
+    padding-top: 10px;
+    padding-right: 44px;
+  }
+  &__img {
+    img {
+      width: 200px;
+      height: 150px;
+      object-fit: cover;
+    }
+  }
+  &__text {
+    @include fts(8, 8);
+    width: 200PX;
+    padding: 10px 0;
+    letter-spacing: 1px;
+    font-weight: bold;
+    line-height: 17px;
+  }
+}
+
 
 
 

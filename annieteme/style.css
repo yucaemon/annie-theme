@@ -812,7 +812,7 @@ a {
 .article-sns-btns img + img {
   padding-left: 8px; }
 
-.related-article__title, .this-page__title {
+.related-article__title, .this-page__title, .featured-articles__title {
   padding: 50px 0 15px 0;
   font-size: 19px;
   font-weight: bold; }
@@ -854,6 +854,23 @@ a {
   font-size: 19px;
   font-weight: bold;
   padding-bottom: 30px; }
+
+.featured-articles__content {
+  padding-top: 10px;
+  padding-right: 44px; }
+.featured-articles__img img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover; }
+.featured-articles__text {
+  font-size: 8px;
+  font-size: 0.8rem;
+  line-height: 1;
+  width: 200PX;
+  padding: 10px 0;
+  letter-spacing: 1px;
+  font-weight: bold;
+  line-height: 17px; }
 
 .sns-area {
   border: solid 1px #dcdcdc;

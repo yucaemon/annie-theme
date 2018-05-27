@@ -59,6 +59,7 @@ module.exports = function (grunt) {
                     'components-php/category-popular.php': '_haml/category-popular.haml',
                     'components-php/total-popular.php': '_haml/total-popular.haml',
                     'components-php/news-articles.php': '_haml/news-articles.haml',
+                    'components-php/featured_articles.php': '_haml/featured_articles.haml',
 
 
                     'index.php': '_haml/index.haml',
