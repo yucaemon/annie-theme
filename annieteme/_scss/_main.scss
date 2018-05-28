@@ -18,6 +18,37 @@ a {
   }
 }
 
+.search__box {
+  #searchsubmit {
+    display: none;
+  }
+  form#searchform {
+    background-color: white;
+    width: 200px;
+    height: 20px;
+    border: 1px $main_color solid;
+    border-radius: 10px;
+    color:$main_color;
+    padding: 2px 12px;
+    #s {
+      input {
+        width: 190px;
+        vertical-align: top;
+        margin: 0px;
+        height: 100%;
+        box-sizing: border-box;
+        background-color: transparent;
+      }
+      border: none;
+      margin-left: 3px;
+      background-image: url(../images/sarch-icon.svg);
+      background-position: right;
+      background-size: auto 73%;
+      background-repeat: no-repeat;
+      width: 173px;
+    }
+  }
+}
 
 /*
 
@@ -63,38 +94,6 @@ a {
     display: none;
   }
 
-  .search__box {
-    #searchsubmit {
-      display: none;
-    }
-
-    form#searchform {
-      background-color: white;
-      width: 200px;
-      height: 20px;
-      border: 1px $main_color solid;
-      border-radius: 10px;
-      color:$main_color;
-      padding: 2px 12px;
-      #s {
-        input {
-          width: 190px;
-          vertical-align: top;
-          margin: 0px;
-          height: 100%;
-          box-sizing: border-box;
-          background-color: transparent;
-        }
-        border: none;
-        margin-left: 3px;
-        background-image: url(../images/sarch-icon.svg);
-        background-position: right;
-        background-size: auto 73%;
-        background-repeat: no-repeat;
-        width: 173px;
-      }
-    }
-  }
 }
 
 .notice-bar {
@@ -900,6 +899,9 @@ a {
 *************************************************/
 
 .pages {
+
+
+
   .pages__container {
     text-align: center;
     margin-bottom: 100px;
@@ -1068,6 +1070,38 @@ a {
   }
 }
 
+/*
+
+	404page
+
+*************************************************/
+
+.error-page{
+  .notfind__img{
+    width: 300px;
+    margin: 0 auto;
+  }
+  p.notfind__text{
+    color: #bdbdbd;
+    @include fts(9, 9);
+    letter-spacing: 1.1px;
+  }
+  .notfind__btn {
+    margin: 30px auto;
+    width: 150px;
+    padding: 10px;
+    background-color: $main_color;
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+  }
+
+  .search__box {
+    width: 222px;
+    margin: 0 auto;
+  }
+}
 
 /*
 

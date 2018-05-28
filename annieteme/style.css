@@ -285,6 +285,32 @@ a {
   color: #f2716e;
   padding-right: 3px; }
 
+.search__box #searchsubmit {
+  display: none; }
+.search__box form#searchform {
+  background-color: white;
+  width: 200px;
+  height: 20px;
+  border: 1px #f2716e solid;
+  border-radius: 10px;
+  color: #f2716e;
+  padding: 2px 12px; }
+  .search__box form#searchform #s {
+    border: none;
+    margin-left: 3px;
+    background-image: url(../images/sarch-icon.svg);
+    background-position: right;
+    background-size: auto 73%;
+    background-repeat: no-repeat;
+    width: 173px; }
+    .search__box form#searchform #s input {
+      width: 190px;
+      vertical-align: top;
+      margin: 0px;
+      height: 100%;
+      box-sizing: border-box;
+      background-color: transparent; }
+
 /*
 
 	header
@@ -322,31 +348,6 @@ a {
       margin: 0 10px; }
   .info .screen-reader-text {
     display: none; }
-  .info .search__box #searchsubmit {
-    display: none; }
-  .info .search__box form#searchform {
-    background-color: white;
-    width: 200px;
-    height: 20px;
-    border: 1px #f2716e solid;
-    border-radius: 10px;
-    color: #f2716e;
-    padding: 2px 12px; }
-    .info .search__box form#searchform #s {
-      border: none;
-      margin-left: 3px;
-      background-image: url(../images/sarch-icon.svg);
-      background-position: right;
-      background-size: auto 73%;
-      background-repeat: no-repeat;
-      width: 173px; }
-      .info .search__box form#searchform #s input {
-        width: 190px;
-        vertical-align: top;
-        margin: 0px;
-        height: 100%;
-        box-sizing: border-box;
-        background-color: transparent; }
 
 .notice-bar {
   background-color: #f2716e;
@@ -1143,6 +1144,33 @@ a {
     line-height: 1.6;
     letter-spacing: 1.5px;
     padding-bottom: 0; }
+
+/*
+
+	404page
+
+*************************************************/
+.error-page .notfind__img {
+  width: 300px;
+  margin: 0 auto; }
+.error-page p.notfind__text {
+  color: #bdbdbd;
+  font-size: 9px;
+  font-size: 0.9rem;
+  line-height: 1;
+  letter-spacing: 1.1px; }
+.error-page .notfind__btn {
+  margin: 30px auto;
+  width: 150px;
+  padding: 10px;
+  background-color: #f2716e;
+  color: #fff;
+  font-size: 13px;
+  letter-spacing: 2px;
+  border-radius: 5px; }
+.error-page .search__box {
+  width: 222px;
+  margin: 0 auto; }
 
 /*
 
