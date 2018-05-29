@@ -3,11 +3,6 @@
 <body>
 <div class='outer'>
 <?php include('components-php/header.php'); ?>
-<ul class='breadcrumb'>
-<li>
-検索一覧ページ
-</li>
-</ul>
 <div class='archive-banner search-content flexbox--v-center'>
 <h1 class='archive-banner__header'>
 <?php

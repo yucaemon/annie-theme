@@ -24,11 +24,6 @@ ANNIEについて
 </div>
 </div>
 </header>
-<ul class='breadcrumb'>
-<li>
-404ページ
-</li>
-</ul>
 <div class='outer__inner column-12'>
 <div class='pages__container'>
 <div class='notfind__img'>

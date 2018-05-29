@@ -4,11 +4,6 @@
 <section class='about-page pages'>
 <div class='outer'>
 <?php include('components-php/header02.php'); ?>
-<ul class='breadcrumb'>
-<li>
-aboutページ
-</li>
-</ul>
 <div class='outer__inner column-12'>
 <div class='pages__container'>
 <div class='logo__img'>

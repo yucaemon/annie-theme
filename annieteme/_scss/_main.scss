@@ -50,6 +50,13 @@ a {
   }
 }
 
+.breadcrumbs {
+  font-size: 12px;
+  color: #a5a5a5;
+  letter-spacing: 1px;
+  padding-top: 35px;
+}
+
 /*
 
 	header
@@ -101,11 +108,9 @@ a {
   @include fts(8, 20);
   text-align: center;
   color: #fff;
+  margin-bottom: 50px;
 }
 
-.breadcrumb {
-  padding: 20px 30px;
-}
 
 
 

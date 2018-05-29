@@ -3,11 +3,6 @@
 <body>
 <div class='outer'>
 <?php include('components-php/header.php'); ?>
-<ul class='breadcrumb'>
-<li>
-カテゴリー：一覧ページ
-</li>
-</ul>
 <div class='archive-banner'>
 <h1 class='archive-banner__header'>
 <?php echo get_the_archive_title(); ?> に関する記事一覧

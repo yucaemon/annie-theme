@@ -4,11 +4,6 @@
 <section class='featured-page'>
 <div class='outer'>
 <?php include('components-php/header.php'); ?>
-<ul class='breadcrumb'>
-<li>
-特集一覧ページ
-</li>
-</ul>
 <div class='outer__inner column-12'>
 <div class='featured flexbox--v-center'>
 <div class='column-6'>
