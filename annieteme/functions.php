@@ -100,5 +100,33 @@ function my_posy_search($search) {
 add_filter('posts_search', 'my_posy_search');
 
 
+/* ページャーを表示する*/
+
+function pager_keni() {
+
+    $pager = "";
+
+    global $wp_query;
+    $max_page = $wp_query->max_num_pages;
+    $now_page = get_query_var('paged');
+    if ($now_page == 0) {
+        $now_page =1;
+    }
+      if ($max_page > $now_page) {
+         $pager .= "<li class=\"nav-prev\">". get_next_posts_link('以前の記事へ') ."</li>\n";
+     }
+
+      if (is_paged()) {
+          $pager .= "<li class=\"nav-next\">". get_previous_posts_link('新しい記事へ')."</li>\n";
+     }
+
+     if ($pager != "") {
+          echo "<div class=\"cont-menu-wp\">\n<ul>\n".$pager."</ul>\n</div>\n";
+     }
+        echo "<div class=\"cont-menu-wp\">";
+        wp_pagenavi();
+        echo "</div>";
+}
+
 
 

@@ -750,12 +750,12 @@ a {
   &__info {
     text-align: center;
     width: 50%;
-    padding-top: 20px;
+    padding-top: 14px;
 
   }
   &__title {
-    padding: 13px 0;
-    @include fts(8, 10);
+    padding: 9px 0;
+    @include fts(7, 10);
     width: 152px;
     margin: 0 auto;
     letter-spacing: 2px;

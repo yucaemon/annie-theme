@@ -1,6 +1,6 @@
 <div class='sns-area flexbox'>
 <div class='sns-area__img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/liked-box-pic.png">
+<img src="<?php echo get_template_directory_uri(); ?>/images/liked-box-pic.jpg">
 </div>
 <div class='sns-area__info'>
 <div class='sns-area__logo'>

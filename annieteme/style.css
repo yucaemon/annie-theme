@@ -890,12 +890,12 @@ a {
   .sns-area__info {
     text-align: center;
     width: 50%;
-    padding-top: 20px; }
+    padding-top: 14px; }
   .sns-area__title {
-    padding: 13px 0;
-    font-size: 8px;
-    font-size: 0.8rem;
-    line-height: 1.25;
+    padding: 9px 0;
+    font-size: 7px;
+    font-size: 0.7rem;
+    line-height: 1.42857;
     width: 152px;
     margin: 0 auto;
     letter-spacing: 2px; }

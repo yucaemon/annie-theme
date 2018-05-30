@@ -13,7 +13,7 @@
 </div>
 <ul class='article-list'>
   <?php $args = array(
-    'numberposts' => 10,                //表示（取得）する記事の数
+    'numberposts' => 1,                //表示（取得）する記事の数
     'post_type' => 'post'    //投稿タイプの指定
   );
   $posts = get_posts( $args );
@@ -43,6 +43,7 @@
     <?php endif;
     wp_reset_postdata(); //クエリのリセット ?>
 </ul>
+<?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } ?>
 <?php include('components-php/sns-box.php'); ?>
 <?php include('components-php/shopping-box.php'); ?>
 </div>
