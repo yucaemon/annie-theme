@@ -23,6 +23,7 @@ ANNIEについて
 </ul>
 </div>
 </div>
+<?php include('components-php/breadcrumb.php'); ?>
 </header>
 <div class='outer__inner column-12'>
 <div class='pages__container'>

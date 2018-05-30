@@ -13,7 +13,9 @@
 『 <?php echo $search_query; ?> 』の検索結果<span>（<?php echo $total_results; ?>件）</span>
 </h1>
 </div>
-<div class='outer__inner flexbox--h-center'>
+<div class='outer__inner'>
+<?php include('components-php/breadcrumb.php'); ?>
+<div class='flexbox--h-center'>
 <?php include('components-php/side-menu-list.php'); ?>
 <div class='column-6 middle-contain'>
 <ul class="article-list">
@@ -55,6 +57,7 @@ while(have_posts()): the_post();
 <?php include('components-php/news-list.php'); ?>
 <?php include('components-php/keywords.php'); ?>
 <?php include('components-php/models-lists.php'); ?>
+</div>
 </div>
 </div>
 </div>

@@ -54,8 +54,20 @@ a {
   font-size: 12px;
   color: #a5a5a5;
   letter-spacing: 1px;
-  padding-top: 35px;
+  padding-bottom: 50px;
+
 }
+
+.error-page {
+  .breadcrumbs {
+    padding-top: 20px;
+  }
+  .outer__inner {
+    margin: 0 auto;
+  }
+}
+
+
 
 /*
 
@@ -108,7 +120,7 @@ a {
   @include fts(8, 20);
   text-align: center;
   color: #fff;
-  margin-bottom: 50px;
+  margin-bottom: 23px;
 }
 
 
@@ -812,7 +824,7 @@ a {
 .archive-banner {
   background-color: $sub_color;
   padding: 40px;
-  margin-bottom: 70px;
+  margin-bottom: 35px;
 
 
 

@@ -1,4 +1,4 @@
-<header class='outer__header'>
+<header class='outer__header header'>
 <div class='flexbox--spacebetween'>
 <div class='sns-icons'>
 <div class='flexbox'>
@@ -27,14 +27,6 @@ ANNIEについて
 <div class='search__box'>
 <?php get_search_form(); ?>
 </div>
-</div>
-</div>
-<div class='breadcrumb'>
-<div class="breadcrumbs">
-  <?php if(function_exists('bcn_display'))
-  {
-  bcn_display();
-  }?>
 </div>
 </div>
 </header>

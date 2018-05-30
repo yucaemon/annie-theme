@@ -5,7 +5,9 @@
 <h2 class='notice-bar'>
 お知らせ：ショッピングサイト『アニー』OPEN!!! ファッションの街、ポートランドから日本へ現地の新商品を紹介。
 </h2>
-<div class='outer__inner flexbox--h-center'>
+<div class='outer__inner'>
+<?php include('components-php/breadcrumb.php'); ?>
+<div class='flexbox--h-center'>
 <div class='column-8 middle-contain'>
 <h1 class='single-page__head-title'>
 <?php the_title_attribute(); ?>
@@ -54,6 +56,7 @@ echo $this_content;
 <?php include('components-php/items.php'); ?>
 <?php include('components-php/keywords.php'); ?>
 <?php include('components-php/models-lists.php'); ?>
+</div>
 </div>
 </div>
 </div>

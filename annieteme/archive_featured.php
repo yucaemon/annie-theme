@@ -4,6 +4,7 @@
 <section class='featured-page'>
 <div class='outer'>
 <?php include('components-php/header.php'); ?>
+<?php include('components-php/breadcrumb.php'); ?>
 <div class='outer__inner column-12'>
 <div class='featured flexbox--v-center'>
 <div class='column-6'>

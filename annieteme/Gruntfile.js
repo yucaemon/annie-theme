@@ -60,6 +60,7 @@ module.exports = function (grunt) {
                     'components-php/total-popular.php': '_haml/total-popular.haml',
                     'components-php/news-articles.php': '_haml/news-articles.haml',
                     'components-php/featured_articles.php': '_haml/featured_articles.haml',
+                    'components-php/breadcrumb.php': '_haml/breadcrumb.haml',
 
 
                     'index.php': '_haml/index.haml',

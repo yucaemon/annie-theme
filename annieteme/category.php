@@ -20,7 +20,9 @@
 <?php endif; ?>
 　
 </div>
-<div class='outer__inner flexbox--h-center flexbox--spacearound'>
+<div class='outer__inner'>
+<?php include('components-php/breadcrumb.php'); ?>
+<div class='flexbox--spacearound'>
 <?php include('components-php/side-menu-list.php'); ?>
 <div class='column-6 middle-contain'>
 <?php
@@ -61,6 +63,7 @@
 <?php include('components-php/featured-box.php'); ?>
 <?php include('components-php/news-list.php'); ?>
 <?php include('components-php/keywords.php'); ?>
+</div>
 <?php include('components-php/models-lists.php'); ?>
 </div>
 </div>

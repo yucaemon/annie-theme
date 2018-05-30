@@ -1,4 +1,4 @@
-<header class='outer__header'>
+<header class='outer__header header02'>
 <div class='flexbox--spacebetween'>
 <div class='sns-icons'>
 <div class='flexbox'>
