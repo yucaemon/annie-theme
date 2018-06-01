@@ -18,12 +18,7 @@
             .single-page__dates
               %i.fa.fa-clock-o
               <?php the_time('Y/m/d'); ?>
-          .flexbox--spacebetween
-            .article-sns-btns.flexbox
-              <img src="<?php echo get_template_directory_uri(); ?>/images/facebook-btn.svg">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/twitter-btn.svg">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/poket-btn.svg">
-
+          <?php include('components-php/article-sns-btns.php'); ?>
           .single-page__eyecatch-img
             <img src="<?php echo get_template_directory_uri(); ?>/images/single-img-top.png" width="644px">
 

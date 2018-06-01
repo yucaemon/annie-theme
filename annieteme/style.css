@@ -817,10 +817,8 @@ a {
   padding-top: 10px; }
 
 .article-sns-btns img {
-  width: 90px; }
-
-.article-sns-btns img + img {
-  padding-left: 8px; }
+  width: 90px;
+  padding-right: 5px; }
 
 .related-article__title, .this-page__title, .featured-articles__title {
   padding: 50px 0 15px 0;

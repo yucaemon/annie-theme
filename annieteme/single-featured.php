@@ -24,13 +24,7 @@
 <?php the_time('Y/m/d'); ?>
 </div>
 </div>
-<div class='flexbox--spacebetween'>
-<div class='article-sns-btns flexbox'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/facebook-btn.svg">
-<img src="<?php echo get_template_directory_uri(); ?>/images/twitter-btn.svg">
-<img src="<?php echo get_template_directory_uri(); ?>/images/poket-btn.svg">
-</div>
-</div>
+<?php include('components-php/article-sns-btns.php'); ?>
 <div class='single-page__eyecatch-img'>
 <img src="<?php echo get_template_directory_uri(); ?>/images/single-img-top.png" width="644px">
 </div>

@@ -651,11 +651,10 @@ a {
 
 .article-sns-btns img {
   width: 90px;
+  padding-right: 5px;
 }
 
-.article-sns-btns img + img {
-  padding-left: 8px;
-}
+
 
 .related-article,.this-page,.featured-articles{
   &__title {
