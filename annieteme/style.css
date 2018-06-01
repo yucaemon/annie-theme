@@ -317,9 +317,9 @@ a {
   letter-spacing: 1px;
   padding-bottom: 50px; }
 
-.error-page .breadcrumbs {
+.pages .breadcrumbs {
   padding-top: 20px; }
-.error-page .outer__inner {
+.pages .outer__inner {
   margin: 0 auto; }
 
 /*
@@ -1024,7 +1024,7 @@ a {
 .pages .logo__img {
   width: 300px;
   margin: 0 auto;
-  padding-bottom: 80px; }
+  padding-bottom: 40px; }
   .pages .logo__img img {
     width: 100%; }
 .pages__header {

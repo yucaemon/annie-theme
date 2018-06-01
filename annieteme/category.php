@@ -63,8 +63,8 @@
 <?php include('components-php/featured-box.php'); ?>
 <?php include('components-php/news-list.php'); ?>
 <?php include('components-php/keywords.php'); ?>
-</div>
 <?php include('components-php/models-lists.php'); ?>
+</div>
 </div>
 </div>
 </div>

@@ -1,11 +1,11 @@
 <?php /** *  Template Name:  特集一覧ページ */ ?>
 <?php include('head.php'); ?>
 <body>
-<section class='featured-page'>
+<section class='featured-page pages'>
 <div class='outer'>
 <?php include('components-php/header.php'); ?>
-<?php include('components-php/breadcrumb.php'); ?>
 <div class='outer__inner column-12'>
+<?php include('components-php/breadcrumb.php'); ?>
 <div class='featured flexbox--v-center'>
 <div class='column-6'>
 <?php include('components-php/featured-box.php'); ?>

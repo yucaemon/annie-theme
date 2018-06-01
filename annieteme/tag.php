@@ -8,7 +8,9 @@
 <?php echo get_the_archive_title(); ?> に関する記事一覧
 </h1>
 </div>
-<div class='outer__inner flexbox--h-center flexbox--spacearound'>
+<div class='outer__inner'>
+<?php include('components-php/breadcrumb.php'); ?>
+<div class='flexbox--h-center'>
 <?php include('components-php/side-menu-list.php'); ?>
 <div class='column-6 middle-contain'>
 <ul class="article-list">
@@ -37,6 +39,7 @@
 <?php include('components-php/news-list.php'); ?>
 <?php include('components-php/keywords.php'); ?>
 <?php include('components-php/models-lists.php'); ?>
+</div>
 </div>
 </div>
 </div>
