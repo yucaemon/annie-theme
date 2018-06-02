@@ -19,11 +19,6 @@
 <?php include('components-php/side-menu-list.php'); ?>
 <div class='column-6 middle-contain'>
 <ul class="article-list">
-<?php
-  global $wp_query;
-  $total_results = $wp_query->found_posts;
-  $search_query = get_search_query();
-?>
 <?php if ( $total_results >0 ) : ?>
   <div class="search-content__header">
   　<i class="fa fa-search"></i>

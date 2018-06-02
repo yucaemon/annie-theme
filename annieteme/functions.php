@@ -89,7 +89,7 @@ add_filter( 'get_the_archive_title', function ($title) {
 });
 
 
-/* 固定ページを検索結果から除外 */
+// 固定ページを検索結果から除外
 
 function my_posy_search($search) {
   if(is_search()) {
@@ -100,33 +100,29 @@ function my_posy_search($search) {
 add_filter('posts_search', 'my_posy_search');
 
 
-/* ページャーを表示する*/
 
-function pager_keni() {
 
-    $pager = "";
 
-    global $wp_query;
-    $max_page = $wp_query->max_num_pages;
-    $now_page = get_query_var('paged');
-    if ($now_page == 0) {
-        $now_page =1;
-    }
-      if ($max_page > $now_page) {
-         $pager .= "<li class=\"nav-prev\">". get_next_posts_link('以前の記事へ') ."</li>\n";
-     }
+//　ショートコード---初心者
 
-      if (is_paged()) {
-          $pager .= "<li class=\"nav-next\">". get_previous_posts_link('新しい記事へ')."</li>\n";
-     }
-
-     if ($pager != "") {
-          echo "<div class=\"cont-menu-wp\">\n<ul>\n".$pager."</ul>\n</div>\n";
-     }
-        echo "<div class=\"cont-menu-wp\">";
-        wp_pagenavi();
-        echo "</div>";
+function h2Func( $atts, $content = null ) {
+    return '<h2 class="headline-second">' . $content . '</h2>';
 }
+add_shortcode('見出し2', 'h2Func');
+
+
+//見出しのショートコード
+function titleFunc( $atts, $content = null ) {
+    extract( shortcode_atts( array(
+        'element' => 'h2',
+        'class' => 'headline-default'
+    ), $atts ) );
+    return '<'.$element.' class="'.$class.'">' . $content . '</'.$element.'>';
+}
+add_shortcode('title', 'titleFunc');
+
+
+
 
 
 

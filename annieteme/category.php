@@ -31,7 +31,7 @@
   $cat_slug  = $cat[0]->category_nicename; // カテゴリースラッグ
   $args = array(
     'post_type' => 'post', //投稿を表示
-    'posts_per_page' => 10, //表示する件数
+    'posts_per_page' => -1, //表示する件数
     'category_name' => $cat_slug,
   );
   $the_query = new WP_Query( $args );
@@ -55,6 +55,7 @@
   </ul>
     <?php endwhile; ?>
     <?php endif; ?>
+    <?php wp_reset_postdata(); ?>
 <?php include('components-php/more-search-article.php'); ?>
 <?php include('components-php/sns-box.php'); ?>
 <?php include('components-php/shopping-box.php'); ?>

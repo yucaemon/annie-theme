@@ -30,10 +30,12 @@
 <img src="<?php echo get_template_directory_uri(); ?>/images/single-img-top.png" width="644px">
 </div>
 <div class='single-page__entry-content'>
-<?php
-$this_content= wpautop($post->post_content);
-echo $this_content;
-?>
+<?php if ( have_posts() ) : ?>
+<?php while ( have_posts() ) : the_post(); ?>
+<?php the_content();?>
+<?php endwhile; ?>
+<?php else : ?>
+<?php endif; ?>
 </div>
 <?php include('components-php/wrote-models-box.php'); ?>
 <?php include('components-php/article-sns-btns.php'); ?>
