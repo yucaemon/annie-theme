@@ -121,8 +121,39 @@ function titleFunc( $atts, $content = null ) {
 }
 add_shortcode('title', 'titleFunc');
 
+function my_user_contact_methods( $user_contact ) {
+	$user_contact['twitter'] = 'Instagram アカウント';
+	return $user_contact;
+}
+add_filter( 'user_contactmethods', 'my_user_contact_methods' );
 
 
 
+
+/**
+ * プロフィールの内容を取得します。
+ *
+ * @param int $avatar_image_size アバター画像の幅と高さ。デフォルト 96。
+ * @return string プロフィールの HTML。
+ */
+function my_get_the_post_profile( $avatar_image_size = 96 ) {
+	$description = get_the_author_meta( 'description' );
+
+	if ( !$description )
+		return '';
+
+	$twitter = get_the_author_meta( 'twitter' );
+
+	$html =
+		'<div class="author-profile content-bottom-widgets">' .
+			'<div class="author-profile-description">' .
+				'<div class="author-profile-sns">' .
+					( empty( $twitter ) ? '' : '<a href="' . $twitter .'" title="twitter">instagramフォローする</a>' ) .
+				'</div>' .
+			'</div>' .
+		'</div>';
+
+	return $html. "\n";
+}
 
 
