@@ -14,4 +14,5 @@
   <link href="favicon.ico" rel="shortcut icon">
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
   <?php wp_head(); ?>
+  <script src="<?php echo get_template_directory_uri(); ?>/js/infinite-scroll.pkgd.min.js"></script>
 </head>
