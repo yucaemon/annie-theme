@@ -1,6 +1,6 @@
 <div class='articles related-article'>
-<div class='related-article__title'>
-関連記事
+<div class='related-article__title components-title'>
+こちらの記事も人気！関連記事
 </div>
  <?php
    $post_id = get_the_ID();    //記事の投稿IDを取得

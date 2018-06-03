@@ -1,5 +1,5 @@
 <div class='articles featured-articles'>
-<div class='featured-articles__title'>
+<div class='featured-articles__title components-title'>
 過去の特集記事の一覧はこちら
 </div>
 <?php

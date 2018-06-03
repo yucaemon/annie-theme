@@ -13,7 +13,6 @@ a {
 .keywords {
   a:before {
     content: "#";
-    color: $main_color;
     padding-right: 3px;
   }
 }
@@ -67,7 +66,16 @@ a {
   }
 }
 
+.components-title {
+  @include fts(10, 10);
+  padding: 20px 0;
+  text-align: center;
+  margin: 30px 0;
+  letter-spacing: 0.9px;
+  color: #737373;
+  background-color: #ffede9;
 
+}
 
 /*
 
@@ -171,8 +179,8 @@ a {
       margin-bottom: 20px;
     }
     a {
-      padding-right: 15px;
-      padding-bottom: 15px;
+      //padding-right: 15px;
+      //padding-bottom: 15px;
 
     }
   }
@@ -582,30 +590,22 @@ a {
 *************************************************/
 
 .more-search-article {
-  &__title {
-    @include fts(12, 12);
-    padding: 20px 0;
-    text-align: center;
-    background-color: #33333314;
-    margin: 30px 0;
-  }
-  &__table {
-    table {
-      width: 100%;
-      height: 100px;
-      border-collapse: collapse;
-      color: $font_color;
-    }
-    table th, table td {
-      border: solid 1px $border_color;
-      vertical-align: middle;
-      padding-left: 20px;
-      .fa-angle-right {
-        color: $font_sub_glay_color;
-      }
-    }
+
+  li.more-search-article__list {
+    padding: 10px;
+    width: 117px;
+    font-size: 13px;
+    border: 4px solid #fff0ed;
+    margin-bottom: 12px;
+    margin-right: 14px;
   }
 
+  .fa-angle-right {
+    color: #dcdcdc;
+    padding-right: 3px;
+    @include fts(10, 10);
+
+  }
 }
 
 .instagram-models-lists {
@@ -656,7 +656,7 @@ a {
 
 
 
-.related-article,.this-page,.featured-articles{
+.featured-articles{
   &__title {
     padding: 50px 0 15px 0;
     font-size: 19px;
@@ -664,10 +664,6 @@ a {
   }
 }
 
-.articles{
-
-
-}
 
 .related-article {
   &__content {
@@ -1125,15 +1121,30 @@ a {
 
 *************************************************/
 
-.this-page{
-  &__tags a{
-    padding: 4px;
+.this-page__tags a ,.tag-cloud-link{
+    padding: 8px;
     border-radius: 5px;
-    margin-right: -10px;
     display: inline-block;
     margin-bottom: 10px;
+    background-color: #ffede9;
+    color: #ffa5a5;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
 
-  }
+.tag-cloud-link{
+  margin-right: 10px;
+}
+
+.author-profile-sns{
+  padding: 8px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 10px;
+  background-color: #ffede9;
+  color: #ffa5a5;
+  letter-spacing: 1px;
+  font-size: 15px;
 
 }
 
