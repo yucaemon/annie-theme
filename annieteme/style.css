@@ -1198,14 +1198,47 @@ a {
 .tag-cloud-link {
   margin-right: 10px; }
 
-.author-profile-sns {
-  padding: 8px;
-  border-radius: 5px;
-  display: inline-block;
-  margin-bottom: 10px;
-  background-color: #ffede9;
-  color: #ffa5a5;
-  letter-spacing: 1px;
-  font-size: 15px; }
+.wrote-models-lists {
+  padding: 30px 0;
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc; }
+  .wrote-models-lists__header {
+    font-size: 8px;
+    font-size: 0.8rem;
+    line-height: 1;
+    color: #9c9c9c;
+    letter-spacing: 1px;
+    padding-right: 10px; }
+  .wrote-models-lists__img {
+    padding-right: 17px; }
+    .wrote-models-lists__img img {
+      margin-top: 9px;
+      height: 35px;
+      width: 35px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      -moz-background-clip: padding;
+      -webkit-background-clip: padding-box;
+      background-clip: padding-box; }
+  .wrote-models-lists .author-profile-sns {
+    line-height: 5px;
+    height: 11px;
+    vertical-align: middle;
+    padding: 8px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: #ffede9;
+    color: #ffede9;
+    letter-spacing: 1px;
+    font-size: 15px; }
+    .wrote-models-lists .author-profile-sns a {
+      color: #ffa5a5;
+      font-size: 10px;
+      padding: 10px; }
 
 /*# sourceMappingURL=style.css.map */
