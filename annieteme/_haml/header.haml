@@ -1,11 +1,12 @@
 %header.outer__header.header
   .flexbox--spacebetween
-    <?php include('sns-icons.php'); ?>
-    .logo
-      .logo__img
-        <img src="<?php echo get_template_directory_uri(); ?>/images/annie-logo.svg" width="250">
-      %h1.sub-title
-        ポートランドから、自由奔放『BOHO』ファッションをお届け。海外通販メディア
+    .sns-icons.flexbox
+      .sns-icons__icon
+        <a href="https://www.facebook.com/Annie-Jene-226289061241623/"><img src="<?php echo get_template_directory_uri(); ?>/images/facebook-icon.svg"></a>
+      .sns-icons__icon
+        <a href="https://twitter.com/bohostyle_love"><img src="<?php echo get_template_directory_uri(); ?>/images/twitter-icon.svg"></a>
+      .sns-icons__icon
+        <a href="https://www.instagram.com/annie_jene/"><img src="<?php echo get_template_directory_uri(); ?>/images/instagram-icon.svg"></a>
     .info
       %ul.nav-menu.flexbox
         %li
@@ -13,4 +14,10 @@
         %li
           ポートランドオレゴン州
       .search__box
-        <?php get_search_form(); ?>
+        .search__form
+          <?php get_search_form(); ?>
+  .logo
+    .logo__img
+      <img src="<?php echo get_template_directory_uri(); ?>/images/annie-logo.svg" width="250">
+    %h1.sub-title
+      ポートランドから、自由奔放『BOHO』ファッションをお届け。海外通販メディア

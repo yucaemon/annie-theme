@@ -82,26 +82,35 @@ a {
 	header
 
 *************************************************/
+.header{
+  .sns-icons {
+    width: 300px;
+    &__icon {
+      width: 32px;
+      padding-right: 10px;
+    }
+  }
+}
 
 .sub-title{
   @include fts(9, 9);
+  line-height: 1;
+  padding-bottom: 16px;
 }
-
-
 
 
 .logo {
   img {
-    width: 43%;
-    padding-bottom: 20px;
+    width: 45%;
+    padding-bottom: 27px;
+    margin-top: -21px;
   }
   width: 553px;
-  padding-top: 10px;
   text-align: center;
+  margin:0 auto;
 }
 
 .info {
-  width: 300px;
   .nav-menu {
     @include fts(8, 10);
     padding-bottom: 15px;
@@ -119,10 +128,12 @@ a {
 
 .notice-bar {
   background-color: $main_color;
-  @include fts(8, 20);
-  text-align: center;
+  @include fts(6, 6);
   color: #fff;
-  margin-bottom: 23px;
+  line-height: 3.1;
+  padding-left: 29px;
+  margin-bottom: 50px;
+  letter-spacing: 1px;
 }
 
 
