@@ -25,6 +25,9 @@
 <div class='flexbox--spacearound'>
 <?php include('components-php/side-menu-list.php'); ?>
 <div class='column-6 middle-contain'>
+<div class="search-content__header">
+『 <?php echo get_the_archive_title(); ?> 』の関連記事一覧
+</div>
 <?php
   $cat = get_the_category();
   $cat_name = $cat[0]->cat_name; // カテゴリー名

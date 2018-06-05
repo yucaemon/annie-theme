@@ -13,6 +13,9 @@
 <div class='flexbox--h-center'>
 <?php include('components-php/side-menu-list.php'); ?>
 <div class='column-6 middle-contain'>
+<div class="search-content__header">
+『 <?php echo get_the_archive_title(); ?> 』の関連記事一覧
+</div>
 <ul class="article-list">
 <?php if(have_posts()): while(have_posts()):the_post(); ?>
   <a href="<?php the_permalink(); ?>">

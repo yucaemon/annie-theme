@@ -1,12 +1,6 @@
 <header class='outer__header header'>
 <div class='flexbox--spacebetween'>
-<div class='sns-icons'>
-<div class='flexbox'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/facebook-icon.svg">
-<img src="<?php echo get_template_directory_uri(); ?>/images/twitter-icon.svg">
-<img src="<?php echo get_template_directory_uri(); ?>/images/instagram-icon.svg">
-</div>
-</div>
+<?php include('sns-icons.php'); ?>
 <div class='logo'>
 <div class='logo__img'>
 <img src="<?php echo get_template_directory_uri(); ?>/images/annie-logo.svg" width="250">
@@ -18,7 +12,7 @@
 <div class='info'>
 <ul class='nav-menu flexbox'>
 <li>
-ANNIEについて
+<a title="Site Map" href="./about.php">ANNIEについて</a>
 </li>
 <li>
 ポートランドオレゴン州
