@@ -82,7 +82,7 @@ a {
 	header
 
 *************************************************/
-.header{
+.header,.header02{
   .sns-icons {
     width: 300px;
     &__icon {
@@ -1190,4 +1190,9 @@ a {
       padding: 10px;
     }
   }
+}
+
+
+.instagram-widget{
+  padding-bottom:50px;
 }

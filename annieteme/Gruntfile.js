@@ -74,8 +74,7 @@ module.exports = function (grunt) {
                     'category.php': '_haml/category.haml',
                     'tag.php': '_haml/tag.haml',
                     'single-featured.php': '_haml/single-featured.haml',
-                    '404.php': '_haml/404.haml',
-                    'sns-icons.php': '_haml/sns-icons.haml',
+                    '404.php': '_haml/404.haml'
 
                 }
             }
