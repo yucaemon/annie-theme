@@ -1,9 +1,10 @@
 <?php /** *  Template Name:  ポリシーページ */ ?>
 <?php include('head.php'); ?>
 <body>
-<section class='pages security-page'>
+<section class='pages policy-page'>
 <div class='outer'>
 <?php include('components-php/header02.php'); ?>
+<?php include('components-php/breadcrumb.php'); ?>
 <div class='outer__inner column-12'>
 <div class='pages__container'>
 <div class='logo__img'>
@@ -98,7 +99,7 @@
 担当窓口
 </h2>
 <p>
-個人情報保護の方針に関するお問い合わせは、以下の窓口よりご連絡下さい。お問い合わせ窓口:annie.jane@gmail.com
+個人情報保護の方針に関するお問い合わせは、以下の窓口よりご連絡下さい。お問い合わせ窓口: annie.jane@gmail.com
 </p>
 </div>
 <div class='pages__date-info'>

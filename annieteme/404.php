@@ -19,7 +19,7 @@
 <div class='info'>
 <ul class='nav-menu flexbox'>
 <li>
-ANNIEについて
+<a href="<?php echo esc_url( home_url( '/about/' ) ); ?>">Annienについて</a>
 </li>
 <li>
 ポートランドオレゴン州
@@ -27,8 +27,8 @@ ANNIEについて
 </ul>
 </div>
 </div>
-<?php include('components-php/breadcrumb.php'); ?>
 </header>
+<?php include('components-php/breadcrumb.php'); ?>
 <div class='outer__inner column-12'>
 <div class='pages__container'>
 <div class='notfind__img'>

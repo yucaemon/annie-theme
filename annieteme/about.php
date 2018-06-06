@@ -4,15 +4,16 @@
 <section class='about-page pages'>
 <div class='outer'>
 <?php include('components-php/header02.php'); ?>
+<?php include('components-php/breadcrumb.php'); ?>
 <div class='outer__inner column-12'>
 <div class='pages__container'>
 <div class='logo__img'>
 <img src="<?php echo get_template_directory_uri(); ?>/images/annie-logo.svg">
 </div>
 <div class='mission'>
-<p class='pages__header'>
+<h1 class='pages__header'>
 ”好きな服をずっと着る 。 自分らしく、自由奔放スタイルを楽しもう。”
-</p>
+</h1>
 <p class='pages__read'>
 ぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶ
 ぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶららぶらぶ

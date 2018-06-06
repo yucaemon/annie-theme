@@ -14,7 +14,7 @@
 <div class='info'>
 <ul class='nav-menu flexbox'>
 <li>
-<a title="Site Map" href="./about.php">ANNIEについて</a>
+<a href="<?php echo esc_url( home_url( '/about/' ) ); ?>">Annienについて</a>
 </li>
 <li>
 ポートランドオレゴン州
@@ -23,14 +23,6 @@
 <div class='search__box'>
 <?php get_search_form(); ?>
 </div>
-</div>
-</div>
-<div class='breadcrumb'>
-<div class="breadcrumbs">
-  <?php if(function_exists('bcn_display'))
-  {
-  bcn_display();
-  }?>
 </div>
 </div>
 </header>

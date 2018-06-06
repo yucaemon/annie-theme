@@ -22,12 +22,10 @@
 <dd>
 <ul>
 <li>
-> 利用規約
+<a href="<?php echo esc_url( home_url( '/rules/' ) ); ?>">>利用規約</a>
 </li>
 <li>
-<a href='./policy.php'>
-> プライバシーポリシー
-</a>
+<a href="<?php echo esc_url( home_url( '/policy/' ) ); ?>">>プライバシーポリシー</a>
 </li>
 </ul>
 </dd>
@@ -95,7 +93,7 @@
 <dd>
 <ul>
 <li>
-> アニーについて
+<a href="<?php echo esc_url( home_url( '/about/' ) ); ?>">> アニーについて</a>
 </li>
 <li>
 > annie.jane@gmail.com

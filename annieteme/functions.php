@@ -155,5 +155,3 @@ function my_get_the_post_profile( $avatar_image_size = 96 ) {
 
 	return $html. "\n";
 }
-
-
