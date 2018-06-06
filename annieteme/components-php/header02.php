@@ -14,7 +14,7 @@
 <div class='info'>
 <ul class='nav-menu flexbox'>
 <li>
-ANNIEについて
+<a title="Site Map" href="./about.php">ANNIEについて</a>
 </li>
 <li>
 ポートランドオレゴン州

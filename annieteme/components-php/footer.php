@@ -17,15 +17,17 @@
 <div class='footer__container'>
 <dl>
 <dt>
-ANNIEについて
+セキュリティー
 </dt>
 <dd>
 <ul>
 <li>
-> ANNIEとは
+> 利用規約
 </li>
 <li>
-> セリュリテーポリシー
+<a href='./policy.php'>
+> プライバシーポリシー
+</a>
 </li>
 </ul>
 </dd>
@@ -93,10 +95,10 @@ ANNIEについて
 <dd>
 <ul>
 <li>
-> annie.jane@gmail.com
+> アニーについて
 </li>
 <li>
-> ポートランド　オレゴン州
+> annie.jane@gmail.com
 </li>
 </ul>
 </dd>

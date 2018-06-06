@@ -169,7 +169,7 @@ input[type="text"]:focus {
   outline: 0; }
 
 .outer__header {
-  margin: 0 30px 30px 30px; }
+  margin: 0 30px 0 30px; }
 .outer__inner {
   width: 1170px;
   margin: 0 auto; }
@@ -332,17 +332,17 @@ a {
   color: #737373;
   background-color: #ffede9; }
 
+.sns-icons {
+  width: 300px; }
+  .sns-icons__icon {
+    width: 32px;
+    padding-right: 10px; }
+
 /*
 
 	header
 
 *************************************************/
-.header .sns-icons, .header02 .sns-icons {
-  width: 300px; }
-  .header .sns-icons__icon, .header02 .sns-icons__icon {
-    width: 32px;
-    padding-right: 10px; }
-
 .sub-title {
   font-size: 9px;
   font-size: 0.9rem;
@@ -373,6 +373,7 @@ a {
 
 .notice-bar {
   background-color: #f2716e;
+  margin-top: 15px;
   font-size: 6px;
   font-size: 0.6rem;
   line-height: 1;
@@ -954,7 +955,7 @@ a {
 .archive-banner {
   background-color: #ffede9;
   padding: 40px;
-  margin-bottom: 35px; }
+  margin: 35px 0; }
   .archive-banner__header {
     color: #9c9c9c;
     text-transform: uppercase;
@@ -1026,13 +1027,24 @@ a {
 	pages
 
 *************************************************/
+.pages h1.pages__header {
+  font-size: 10px;
+  font-size: 1rem;
+  line-height: 1;
+  color: #444343; }
+.pages h2.pages__header {
+  padding-bottom: 11px;
+  color: #8c8c8c;
+  font-size: 8px;
+  font-size: 0.8rem;
+  line-height: 1; }
 .pages .pages__container {
   text-align: center;
   margin-bottom: 100px; }
 .pages .logo__img {
-  width: 300px;
+  width: 264px;
   margin: 0 auto;
-  padding-bottom: 40px; }
+  padding-bottom: 58px; }
   .pages .logo__img img {
     width: 100%; }
 .pages__header {
@@ -1040,17 +1052,37 @@ a {
   font-size: 1rem;
   line-height: 1;
   font-weight: bold;
-  letter-spacing: 0.8px;
-  padding-bottom: 100px; }
+  letter-spacing: 0.8px; }
 .pages__read {
+  padding-top: 65px;
   font-size: 8px;
   font-size: 0.8rem;
   line-height: 1;
   letter-spacing: 1px;
   line-height: 1.4;
-  color: #9c9c9c;
+  color: #b1b1b1;
   text-align: left;
-  padding-bottom: 100px; }
+  padding-bottom: 40px; }
+  .pages__read p {
+    padding-bottom: 15px;
+    color: #b1b1b1; }
+  .pages__read ul {
+    margin-left: 14px;
+    font-size: 11px;
+    margin-bottom: 10px;
+    color: #b1b1b1; }
+.pages__date-info {
+  width: 300px;
+  margin-left: auto;
+  text-align: right;
+  padding-top: 20px;
+  font-size: 8px;
+  font-size: 0.8rem;
+  line-height: 1;
+  letter-spacing: 1px;
+  color: #8c8c8c; }
+  .pages__date-info p {
+    padding-bottom: 10px; }
 .pages .related-article__content {
   width: 23%; }
 
