@@ -1,5 +1,5 @@
 <div class ="instagram-widget">
-    <!-- InstaWidget -->
-    <a href="https://instawidget.net/v/user/annie_jene" id="link-f8a0699b3309b3ce5805c710b0cca6b59d042ffc6c31c38b8d3eeaada2d95a1e">@annie_jene</a>
-    <script src="https://instawidget.net/js/instawidget.js?u=f8a0699b3309b3ce5805c710b0cca6b59d042ffc6c31c38b8d3eeaada2d95a1e&width=312px"></script>
+<!-- InstaWidget -->
+<a href="https://instawidget.net/v/user/annie_jene" id="link-969e7eb5b8fe0ea85aab89e9cf63c63ff3cf0ca776e5d65b8ec4eeeb26881d2c">@annie_jene</a>
+<script src="https://instawidget.net/js/instawidget.js?u=969e7eb5b8fe0ea85aab89e9cf63c63ff3cf0ca776e5d65b8ec4eeeb26881d2c&width=312px"></script>
 </div>
