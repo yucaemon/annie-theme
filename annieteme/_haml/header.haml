@@ -10,11 +10,11 @@
     .info
       %ul.nav-menu.flexbox
         %li
-          <a title="Site Map" href="about.php">ANNIEについて</a>
+          <a href="<?php echo esc_url( home_url( '/about/' ) ); ?>">Annienについて</a>
         %li
           ポートランドオレゴン州
       .search__box
-        .search__form
+        .search__formvcft
           <?php get_search_form(); ?>
   .logo
     .logo__img

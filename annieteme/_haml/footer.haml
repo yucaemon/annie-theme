@@ -17,10 +17,9 @@
           %dd
             %ul
               %li
-                > 利用規約
+                <a href="<?php echo esc_url( home_url( '/rules/' ) ); ?>">>利用規約</a>
               %li
-                %a{:href => "./policy.php"}
-                  > プライバシーポリシー
+                <a href="<?php echo esc_url( home_url( '/policy/' ) ); ?>">>プライバシーポリシー</a>
       .footer__container
         %dl
           %dt
@@ -60,7 +59,7 @@
           %dd
             %ul
               %li
-                > アニーについて
+                <a href="<?php echo esc_url( home_url( '/about/' ) ); ?>">> アニーについて</a>
               %li
                 > annie.jane@gmail.com
 .copyright
