@@ -278,7 +278,13 @@ input[type="text"]:focus {
 *************************************************/
 a {
   text-decoration: none;
-  color: #333; }
+  color: #666; }
+
+a:hover {
+  text-decoration: underline; }
+
+a:hover img {
+  opacity: 0.5; }
 
 .keywords a:before {
   content: "#";
@@ -356,7 +362,8 @@ a {
   font-size: 0.9rem;
   line-height: 1;
   line-height: 1;
-  padding-bottom: 16px; }
+  padding-bottom: 16px;
+  text-align: center; }
 
 .logo {
   width: 553px;
@@ -396,6 +403,15 @@ a {
 	side
 
 *************************************************/
+.side-menu-list li a {
+  display: block;
+  padding: 10px 0 10px 8px;
+  font-size: 13px; }
+
+.side-menu-list li a:hover {
+  background-color: #f5f5f5;
+  text-decoration: none; }
+
 .side-menu-list {
   font-size: 9px;
   font-size: 0.9rem;
@@ -404,21 +420,19 @@ a {
   .side-menu-list__title {
     background-color: #ffede9;
     text-align: center;
-    margin-bottom: 20px; }
+    height: 40px;
+    line-height: 40px; }
   .side-menu-list li {
-    padding-left: 25px;
     list-style: none; }
     .side-menu-list li .japanese {
       font-size: 5px;
       font-size: 0.5rem;
       line-height: 1;
       padding-left: 13px; }
-  .side-menu-list li:before {
+  .side-menu-list li a:before {
     content: ">";
     color: #dcdcdc;
     padding-right: 5px; }
-  .side-menu-list li + li {
-    padding-top: 10px; }
   .side-menu-list .side-menu-list__li {
     padding-bottom: 50px; }
   .side-menu-list .arrow {
