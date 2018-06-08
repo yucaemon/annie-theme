@@ -14,7 +14,7 @@
 <div class='info'>
 <ul class='nav-menu flexbox'>
 <li>
-<a href="<?php echo esc_url( home_url( '/about/' ) ); ?>">Annienについて</a>
+<a title="Annieについて | ANNE [アニー] " href="<?php echo esc_url( home_url( '/about/' ) ); ?>">Annieについて</a>
 </li>
 <li>
 ポートランドオレゴン州

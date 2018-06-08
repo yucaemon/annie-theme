@@ -320,7 +320,7 @@ a {
   font-size: 12px;
   color: #a5a5a5;
   letter-spacing: 1px;
-  padding-bottom: 50px; }
+  padding-bottom: 30px; }
   .breadcrumbs .fa-home {
     font-size: 16px; }
 
@@ -328,9 +328,6 @@ a {
   padding: 20px 0 0 30px; }
 .pages .outer__inner {
   margin: 0 auto; }
-
-.single-page .breadcrumbs {
-  padding-left: 30px; }
 
 .components-title {
   font-size: 10px;

@@ -14,7 +14,7 @@
 <div class='info'>
 <ul class='nav-menu flexbox'>
 <li>
-<a href="<?php echo esc_url( home_url( '/about/' ) ); ?>">Annienについて</a>
+<a title="Annieについて | ANNE [アニー] " href="<?php echo esc_url( home_url( '/about/' ) ); ?>">Annieについて</a>
 </li>
 <li>
 ポートランドオレゴン州
@@ -31,8 +31,5 @@
 <div class='logo__img'>
 <img src="<?php echo get_template_directory_uri(); ?>/images/annie-logo.svg" width="250">
 </div>
-<h1 class='sub-title'>
-ポートランドから、自由奔放『BOHO』ファッションをお届け。海外通販メディア
-</h1>
 </div>
 </header>

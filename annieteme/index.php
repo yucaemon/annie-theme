@@ -2,6 +2,9 @@
 <body>
 <div class='outer'>
 <?php include('components-php/header.php'); ?>
+<h1 class='sub-title'>
+ポートランドから、自由奔放『BOHO』ファッションをお届け。海外通販メディア
+</h1>
 <h2 class='notice-bar'>
 お知らせ：ショッピングサイト『アニー』OPEN!!! ファッションの街、ポートランドから日本へ現地の新商品を紹介。
 </h2>

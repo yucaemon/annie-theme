@@ -22,14 +22,13 @@
       .logo
         .logo__img
           <img src="<?php echo get_template_directory_uri(); ?>/images/annie-logo.svg" width="250">
-        .sub-title
-          ポートランドから、自由奔放『BOHO』ファッションをお届け。海外通販メディア
     .notice-bar
       お知らせ：ショッピングサイト『アニー』OPEN!!! ファッションの街、ポートランドから日本へ現地の新商品を紹介。
-    <?php include('components-php/breadcrumb.php'); ?>
+
     .outer__inner
       .flexbox--h-center
         .column-8.middle-contain
+          <?php include('components-php/breadcrumb.php'); ?>
           %h1.single-page__head-title
             <?php the_title_attribute(); ?>
           .flexbox--spacebetween
