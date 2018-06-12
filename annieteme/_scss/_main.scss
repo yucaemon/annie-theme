@@ -427,10 +427,11 @@ a.iscurrent {
     &__img {
       width: 137px;
       height: 88px;
+      object-fit: cover;
       img {
         width: 100%;
         height: 100%;
-        object-fit: cover;
+
       }
     }
     &__text {
@@ -529,15 +530,27 @@ a.iscurrent {
       padding: 20px;
       margin: 30px 0;
       &__title {
-        padding-bottom: 10px;
         border-bottom: solid 1px $border_color;
-        margin-bottom: 10px;
-        letter-spacing: 1px;
+        margin-bottom: 20px;
+        @include fts(10, 10);
+        padding-bottom: 15px;
+        letter-spacing: 2.2px;
+        font-weight: bold;
       }
-      &__contain {
+      &__contain p {
         letter-spacing: 1.2px;
-        @include fts(7, 12);
+        @include fts(8, 8);
         color: $font_sub_glay_color;
+        padding-bottom: 11px;
+        i.fa{
+          @include fts(9, 9);
+          padding-right: 10px;
+        }
+        a{
+          @include fts(8, 8);
+          color: $font_sub_glay_color;
+        }
+
       }
     }
     .detail-box02 {
@@ -632,6 +645,15 @@ a.iscurrent {
 
     }
 
+  }
+
+  .sourcelink {
+    @include fts(7,7);
+    color: #b5b5b5;
+    padding-bottom: 10px;
+    a{
+      color: #b5b5b5;
+    }
   }
 
 }

@@ -103,7 +103,7 @@ add_filter('posts_search', 'my_posy_search');
 
 
 
-//　ショートコード---初心者
+//　ショートコード
 
 function h2Func( $atts, $content = null ) {
     return '<h2 class="headline-second">' . $content . '</h2>';
@@ -116,11 +116,6 @@ function h3Func( $atts, $content = null ) {
 }
 add_shortcode('見出し3', 'h3Func');
 
-
-function box1Func( $atts, $content = null ) {
-    return '<div class="detail-box01">' . $content . '</div>';
-}
-add_shortcode('横型box1', 'box1Func');
 
 
 function box2Func( $atts, $content = null ) {
@@ -146,13 +141,38 @@ function titleFunc( $atts, $content = null ) {
 }
 add_shortcode('title', 'titleFunc');
 
-function my_user_contact_methods( $user_contact ) {
-	$user_contact['twitter'] = 'Instagram アカウント';
-	return $user_contact;
+
+//出典のショートコード
+function sourceFunc( $atts, $content = null ) {
+    extract( shortcode_atts( array(
+    ), $atts ) );
+    return '<div class="sourcelink">出典 <a href="' . $content . '" target="_blank">' . $content . '</a></div>';
 }
-add_filter( 'user_contactmethods', 'my_user_contact_methods' );
+add_shortcode('出典', 'sourceFunc');
 
 
+//お店詳細のショートコード
+function shopBoxFunc( $atts, $content = null ) {
+    extract( shortcode_atts( array(
+        'name' => '不明',
+        'time' => '不明',
+        'address' => '不明',
+        'website' => '不明'
+    ), $atts ) );
+    return '<div class="detail-box01"><div class="detail-box01__title">' . $name . '</div><div class="detail-box01__contain"><p><i class="fa fa-map-marker" aria-hidden="true"></i>' . $address . '</p><p><i class="fa fa-clock-o" aria-hidden="true"></i>' . $time . '</a></p><p><a href="' . $website . '" target="_blank"><i class="fa fa-link" aria-hidden="true"></i>WEBサイト</a></p></div></div>';
+}
+add_shortcode('お店詳細', 'shopBoxFunc');
+
+
+//詳細テンプレのショートコード
+function detailBoxFunc( $atts, $content = null ) {
+    extract( shortcode_atts( array(
+        'title' => '不明',
+        'detail' => '不明'
+    ), $atts ) );
+    return '<div class="detail-box01"><div class="detail-box01__title">' . $title . '</div><div class="detail-box01__contain"><p>' . $detail . '<p></div></div>';
+}
+add_shortcode('詳細テンプレ', 'detailBoxFunc');
 
 
 /**
