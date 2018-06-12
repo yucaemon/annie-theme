@@ -419,10 +419,10 @@ a.iscurrent {
   line-height: 2.22222;
   width: 169px; }
   .side-menu-list__title {
-    background-color: #ffede9;
-    text-align: center;
+    border-bottom: solid 1px #dcdcdc;
     height: 40px;
-    line-height: 40px; }
+    line-height: 40px;
+    padding-left: 5px; }
   .side-menu-list li {
     list-style: none; }
     .side-menu-list li .japanese {
@@ -537,6 +537,11 @@ a.iscurrent {
   background-color: #f2716e;
   color: #fff;
   padding-bottom: 50px; }
+  .footer a {
+    text-decoration: none;
+    color: #fff; }
+  .footer a:hover {
+    text-decoration: underline; }
   .footer__sns-icons img {
     width: 30px;
     height: 30px; }
@@ -581,7 +586,7 @@ a.iscurrent {
   font-size: 0.4rem;
   line-height: 1;
   color: #9c9c9c;
-  width: 212px;
+  width: 227px;
   margin: 0 auto;
   letter-spacing: 2px; }
 

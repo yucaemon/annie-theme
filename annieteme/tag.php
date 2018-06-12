@@ -41,6 +41,7 @@
 <?php include('components-php/news-list.php'); ?>
 <?php include('components-php/keywords.php'); ?>
 <?php include('components-php/models-lists.php'); ?>
+<?php include('chatbox.php'); ?>
 </div>
 </div>
 </div>

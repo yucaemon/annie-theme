@@ -2,6 +2,7 @@
 
   .side-menu-list__li
     %p.side-menu-list__title
+      %i.fa.fa-list-ul
       カテゴリーから探す
       %ul
         %li
@@ -14,12 +15,13 @@
           <a href="<?php bloginfo('url'); ?>/category/cosmetics/" <?php if(is_category('cosmetics')) echo 'class="iscurrent"'; ?>>美容/コスメ</a>
   .side-menu-list__li
     %p.side-menu-list__title
+      %i.fa.fa-heart
       アイテムから探す
       %ul
         %li
-          <a href="<?php bloginfo('url'); ?>/tag/tops/" <?php if(is_tag('tops')) echo 'class="iscurrent"'; ?>>上着</a>
+          <a href="<?php bloginfo('url'); ?>/tag/tops/" <?php if(is_tag('tops')) echo 'class="iscurrent"'; ?>>トップス</a>
         %li
-          <a href="<?php bloginfo('url'); ?>/tag/bottoms/" <?php if(is_tag('bottoms')) echo 'class="iscurrent"'; ?>>下着</a>
+          <a href="<?php bloginfo('url'); ?>/tag/bottoms/" <?php if(is_tag('bottoms')) echo 'class="iscurrent"'; ?>>ボトムス</a>
         %li
           <a href="<?php bloginfo('url'); ?>/tag/dresses/" <?php if(is_tag('dresses')) echo 'class="iscurrent"'; ?>>ドレス</a>
         %li
@@ -28,6 +30,7 @@
           <a href="<?php bloginfo('url'); ?>/tag/lingerie/" <?php if(is_tag('lingerie')) echo 'class="iscurrent"'; ?>>ランジェリー</a>
   .side-menu-list__li
     %p.side-menu-list__title
+      %i.fa.fa-bookmark
       ブランドから探す
       %ul
         %li

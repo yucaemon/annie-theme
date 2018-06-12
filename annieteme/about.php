@@ -405,6 +405,7 @@ beru
 <div class='column-8 margin-center'>
 <?php include('components-php/shopping-box.php'); ?>
 </div>
+<?php include('chatbox.php'); ?>
 </div>
 </div>
 </section>

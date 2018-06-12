@@ -2,56 +2,14 @@
   .outer__foot
     .footer__top-content.flexbox
       .footer__sns-icons.flexbox
-        <img src="<?php echo get_template_directory_uri(); ?>/images/white-facebook.svg">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/white-twitter.svg">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/white-instagram.svg">
+        <a href="https://www.facebook.com/Annie-Jene-226289061241623/"><img src="<?php echo get_template_directory_uri(); ?>/images/white-facebook.svg"></a>
+        <a href="https://twitter.com/bohostyle_love"><img src="<?php echo get_template_directory_uri(); ?>/images/white-twitter.svg"></a>
+        <a href="https://www.instagram.com/annie_jene/"><img src="<?php echo get_template_directory_uri(); ?>/images/white-instagram.svg"></a>
       .footer__logo-img
-        <img src="<?php echo get_template_directory_uri(); ?>/images/white-logo.svg" width="50">
+        <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/white-logo.svg" width="50"></a>
       %p.footer__about-detail-text
         アニーは、日本ではまだ知られていないアメリカ現地の人気（日本未上陸）ブランドを紹介するオンラインショッピングメディアです。
     .footer__bottom-content.flexbox--h-center
-      .footer__container
-        %dl
-          %dt
-            セキュリティー
-          %dd
-            %ul
-              %li
-                <a href="<?php echo esc_url( home_url( '/rules/' ) ); ?>">>利用規約</a>
-              %li
-                <a href="<?php echo esc_url( home_url( '/policy/' ) ); ?>">>プライバシーポリシー</a>
-      .footer__container
-        %dl
-          %dt
-            カテゴリー
-          %dd
-            %ul.flexbox
-              .footer__box1
-                %li
-                  > ファッション
-                %li
-                  > ビューティー
-              .footer__box2
-                %li
-                  > ライフスタイル
-                %li
-                  > インテリア
-      .footer__container
-        %dl
-          %dt
-            アイテム
-          %dd
-            %ul.flexbox
-              .footer__box1
-                %li
-                  > トップス
-                %li
-                  > ボトムス
-              .footer__box2
-                %li
-                  > アクセサリー
-                %li
-                  > 下着
       .footer__container
         %dl
           %dt
@@ -62,5 +20,47 @@
                 <a href="<?php echo esc_url( home_url( '/about/' ) ); ?>">> アニーについて</a>
               %li
                 > annie.jane@gmail.com
+      .footer__container
+        %dl
+          %dt
+            カテゴリー
+          %dd
+            %ul.flexbox
+              .footer__box1
+                %li
+                  <a href="<?php echo esc_url( home_url( '/category/fashion/' ) ); ?>">> ファッション</a>
+                %li
+                  <a href="<?php echo esc_url( home_url( '/category/gourmet/' ) ); ?>">> お出かけ/グルメ</a>
+              .footer__box2
+                %li
+                  <a href="<?php echo esc_url( home_url( '/category/lifestyle/' ) ); ?>">> ライフ/DIY</a>
+                %li
+                  <a href="<?php echo esc_url( home_url( '/category/cosmetics/' ) ); ?>">> 美容/コスメ</a>
+      .footer__container
+        %dl
+          %dt
+            アイテム
+          %dd
+            %ul.flexbox
+              .footer__box1
+                %li
+                  <a href="<?php echo esc_url( home_url( '/tag/tops/' ) ); ?>">> トップス</a>
+                %li
+                  <a href="<?php echo esc_url( home_url( '/tag/bottoms/' ) ); ?>">> ボトムス</a>
+              .footer__box2
+                %li
+                  <a href="<?php echo esc_url( home_url( '/tag/dresses/' ) ); ?>">> ドレス</a>
+                %li
+                  <a href="<?php echo esc_url( home_url( '/tag/accessories/' ) ); ?>">> アクセサリー</a>
+      .footer__container
+        %dl
+          %dt
+            利用について
+          %dd
+            %ul
+              %li
+                <a href="<?php echo esc_url( home_url( '/rules/' ) ); ?>">> 利用規約</a>
+              %li
+                <a href="<?php echo esc_url( home_url( '/policy/' ) ); ?>">> プライバシーポリシー</a>
 .copyright
-  ©ANNIE&CO. All Rights Reserved.
+  © ANNIE JENE. All Rights Reserved.

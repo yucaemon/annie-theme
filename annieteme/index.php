@@ -45,22 +45,6 @@
 </ul>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- ul class='article-list'>
   <?php $args = array(
     'posts_per_page' => 1,                //表示（取得）する記事の数
@@ -112,4 +96,5 @@
 </div>
 </div>
 </body>
+　
 <?php include('components-php/footer.php'); ?>

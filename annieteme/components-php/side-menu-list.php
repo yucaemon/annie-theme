@@ -1,6 +1,7 @@
 <div class='side-menu-list'>
 <div class='side-menu-list__li'>
 <p class='side-menu-list__title'>
+<i class='fa fa-list-ul'></i>
 カテゴリーから探す
 <ul>
 <li>
@@ -20,13 +21,14 @@
 </div>
 <div class='side-menu-list__li'>
 <p class='side-menu-list__title'>
+<i class='fa fa-heart'></i>
 アイテムから探す
 <ul>
 <li>
-<a href="<?php bloginfo('url'); ?>/tag/tops/" <?php if(is_tag('tops')) echo 'class="iscurrent"'; ?>>上着</a>
+<a href="<?php bloginfo('url'); ?>/tag/tops/" <?php if(is_tag('tops')) echo 'class="iscurrent"'; ?>>トップス</a>
 </li>
 <li>
-<a href="<?php bloginfo('url'); ?>/tag/bottoms/" <?php if(is_tag('bottoms')) echo 'class="iscurrent"'; ?>>下着</a>
+<a href="<?php bloginfo('url'); ?>/tag/bottoms/" <?php if(is_tag('bottoms')) echo 'class="iscurrent"'; ?>>ボトムス</a>
 </li>
 <li>
 <a href="<?php bloginfo('url'); ?>/tag/dresses/" <?php if(is_tag('dresses')) echo 'class="iscurrent"'; ?>>ドレス</a>
@@ -42,6 +44,7 @@
 </div>
 <div class='side-menu-list__li'>
 <p class='side-menu-list__title'>
+<i class='fa fa-bookmark'></i>
 ブランドから探す
 <ul>
 <li>
