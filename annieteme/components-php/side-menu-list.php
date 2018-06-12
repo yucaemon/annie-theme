@@ -1,26 +1,53 @@
 <div class='side-menu-list'>
 <div class='side-menu-list__li'>
 <p class='side-menu-list__title'>
-記事
+カテゴリーから探す
+<ul>
+<li>
+<a href="<?php bloginfo('url'); ?>/category/fashion/" <?php if(is_category('fashion')) echo 'class="iscurrent"'; ?>>ファション</a>
+</li>
+<li>
+<a href="<?php bloginfo('url'); ?>/category/gourmet/" <?php if(is_category('gourmet')) echo 'class="iscurrent"'; ?>>お出かけ/グルメ</a>
+</li>
+<li>
+<a href="<?php bloginfo('url'); ?>/category/lifestyle/" <?php if(is_category('lifestyle')) echo 'class="iscurrent"'; ?>>ライフ/DIY</a>
+</li>
+<li>
+<a href="<?php bloginfo('url'); ?>/category/cosmetics/" <?php if(is_category('cosmetics')) echo 'class="iscurrent"'; ?>>美容/コスメ</a>
+</li>
+</ul>
 </p>
-<?php wp_list_categories('title_li=&depth=1'); ?>
 </div>
 <div class='side-menu-list__li'>
 <p class='side-menu-list__title'>
-購入アイテム
+アイテムから探す
+<ul>
+<li>
+<a href="<?php bloginfo('url'); ?>/tag/tops/" <?php if(is_tag('tops')) echo 'class="iscurrent"'; ?>>上着</a>
+</li>
+<li>
+<a href="<?php bloginfo('url'); ?>/tag/bottoms/" <?php if(is_tag('bottoms')) echo 'class="iscurrent"'; ?>>下着</a>
+</li>
+<li>
+<a href="<?php bloginfo('url'); ?>/tag/dresses/" <?php if(is_tag('dresses')) echo 'class="iscurrent"'; ?>>ドレス</a>
+</li>
+<li>
+<a href="<?php bloginfo('url'); ?>/tag/accessories/" <?php if(is_tag('accessories')) echo 'class="iscurrent"'; ?>>アクセサリー</a>
+</li>
+<li>
+<a href="<?php bloginfo('url'); ?>/tag/lingerie/" <?php if(is_tag('lingerie')) echo 'class="iscurrent"'; ?>>ランジェリー</a>
+</li>
+</ul>
 </p>
-<?php wp_list_categories('child_of=7&title_li='); ?>
 </div>
 <div class='side-menu-list__li'>
 <p class='side-menu-list__title'>
-日本未上陸ブランド
+ブランドから探す
+<ul>
+<li>
+<a href="<?php bloginfo('url'); ?>/tag/genuineeople/" <?php if(is_tag('genuineeople')) echo 'class="iscurrent"'; ?>>genuine People</a>
+</li>
+</ul>
 </p>
-<?php wp_list_categories('child_of=15&title_li='); ?>
-</div>
-<div class='side-menu-list__li'>
-<p class='side-menu-list__title'>
-ポートランドブランド
-</p>
-<?php wp_list_categories('child_of=18&title_li='); ?>
 </div>
 </div>
