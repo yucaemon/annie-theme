@@ -1,34 +1,12 @@
 <?php include('head.php'); ?>
 %body
   .single-page.outer
-    %header.outer__header.header
-      .flexbox--spacebetween
-        .sns-icons.flexbox
-          .sns-icons__icon
-            <a href="https://www.facebook.com/Annie-Jene-226289061241623/"><img src="<?php echo get_template_directory_uri(); ?>/images/facebook-icon.svg"></a>
-          .sns-icons__icon
-            <a href="https://twitter.com/bohostyle_love"><img src="<?php echo get_template_directory_uri(); ?>/images/twitter-icon.svg"></a>
-          .sns-icons__icon
-            <a href="https://www.instagram.com/annie_jene/"><img src="<?php echo get_template_directory_uri(); ?>/images/instagram-icon.svg"></a>
-        .info
-          %ul.nav-menu.flexbox
-            %li
-              <a href="<?php echo esc_url( home_url( '/about/' ) ); ?>">Annienについて</a>
-            %li
-              ポートランドオレゴン州
-          .search__box
-            .search__formvcft
-              <?php get_search_form(); ?>
-      .logo
-        .logo__img
-          <img src="<?php echo get_template_directory_uri(); ?>/images/annie-logo.svg" width="250">
+    <?php include('components-php/header03.php'); ?>
     .notice-bar
       お知らせ：ショッピングサイト『アニー』OPEN!!! ファッションの街、ポートランドから日本へ現地の新商品を紹介。
-
     .outer__inner
       .flexbox--h-center
         .column-8.middle-contain
-          <?php include('components-php/breadcrumb.php'); ?>
           %h1.single-page__head-title
             <?php the_title_attribute(); ?>
           .flexbox--spacebetween

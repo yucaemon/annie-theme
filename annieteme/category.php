@@ -1,8 +1,8 @@
-<?php /** *  Template Name: 一覧ページ */ ?>
+<?php /** *  Template Name: カテゴリーページ */ ?>
 <?php include('head.php'); ?>
 <body>
 <div class='outer'>
-<?php include('components-php/header.php'); ?>
+<?php include('components-php/header03.php'); ?>
 <div class='archive-banner'>
 <h1 class='archive-banner__header'>
 <?php echo get_the_archive_title(); ?> に関する記事一覧
@@ -18,10 +18,8 @@
     </div>
   </div>
 <?php endif; ?>
-　
 </div>
 <div class='outer__inner'>
-<?php include('components-php/breadcrumb.php'); ?>
 <div class='flexbox--spacearound'>
 <?php include('components-php/side-menu-list.php'); ?>
 <div class='column-6 middle-contain'>

@@ -71,7 +71,7 @@ a.iscurrent {
   font-size: 12px;
   color: #a5a5a5;
   letter-spacing: 1px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   .fa-home {
     font-size: 16px;
   }
@@ -81,7 +81,7 @@ a.iscurrent {
 
 .pages {
   .breadcrumbs {
-    padding: 20px 0 0 30px;
+    //padding: 20px 0 0 30px;
   }
   .outer__inner {
     margin: 0 auto;
@@ -853,7 +853,8 @@ a.iscurrent {
 .archive-banner {
   background-color: $sub_color;
   padding: 40px;
-  margin: 35px 0;
+  margin-bottom: 60px;
+  margin-top: 10px;
 
 
 
@@ -962,6 +963,7 @@ a.iscurrent {
   .pages__container {
     text-align: center;
     margin-bottom: 100px;
+    padding-top:50px;
   }
   .logo__img {
     width: 264px;

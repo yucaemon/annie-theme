@@ -111,6 +111,31 @@ function h2Func( $atts, $content = null ) {
 add_shortcode('見出し2', 'h2Func');
 
 
+function h3Func( $atts, $content = null ) {
+    return '<h3 class="headline-second">' . $content . '</h3>';
+}
+add_shortcode('見出し3', 'h3Func');
+
+
+function box1Func( $atts, $content = null ) {
+    return '<div class="detail-box01">' . $content . '</div>';
+}
+add_shortcode('横型box1', 'box1Func');
+
+
+function box2Func( $atts, $content = null ) {
+    return '<div class="detail-box02 flexbox">' . $content . '</div>';
+}
+add_shortcode('画像入りbox2', 'box2Func');
+
+function box3Func( $atts, $content = null ) {
+    return '<div class="detail-box03 flexbox">' . $content . '</div>';
+}
+add_shortcode('商品box', 'box3Func');
+
+
+
+
 //見出しのショートコード
 function titleFunc( $atts, $content = null ) {
     extract( shortcode_atts( array(

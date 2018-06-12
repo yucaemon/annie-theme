@@ -329,12 +329,10 @@ a.iscurrent {
   font-size: 12px;
   color: #a5a5a5;
   letter-spacing: 1px;
-  padding-bottom: 30px; }
+  padding-bottom: 10px; }
   .breadcrumbs .fa-home {
     font-size: 16px; }
 
-.pages .breadcrumbs {
-  padding: 20px 0 0 30px; }
 .pages .outer__inner {
   margin: 0 auto; }
 
@@ -972,7 +970,8 @@ a.iscurrent {
 .archive-banner {
   background-color: #ffede9;
   padding: 40px;
-  margin: 35px 0; }
+  margin-bottom: 60px;
+  margin-top: 10px; }
   .archive-banner__header {
     color: #9c9c9c;
     text-transform: uppercase;
@@ -1057,7 +1056,8 @@ a.iscurrent {
   line-height: 1; }
 .pages .pages__container {
   text-align: center;
-  margin-bottom: 100px; }
+  margin-bottom: 100px;
+  padding-top: 50px; }
 .pages .logo__img {
   width: 264px;
   margin: 0 auto;

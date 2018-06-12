@@ -1,4 +1,4 @@
-%header.outer__header.header02
+%header.outer__header.header
   .flexbox--spacebetween
     .sns-icons.flexbox
       .sns-icons__icon
@@ -10,10 +10,14 @@
     .info
       %ul.nav-menu.flexbox
         %li
-          <a title="Annieについて | ANNE [アニー] " href="<?php echo esc_url( home_url( '/about/' ) ); ?>">Annieについて</a>
+          <a href="<?php echo esc_url( home_url( '/about/' ) ); ?>">Annienについて</a>
         %li
           ポートランドオレゴン州
       .search__box
-        <?php get_search_form(); ?>
+        .search__formvcft
+          <?php get_search_form(); ?>
+  .logo
+    .logo__img
+      <img src="<?php echo get_template_directory_uri(); ?>/images/annie-logo.svg" width="250">
   .breadcrumb-container
     <?php include('breadcrumb.php'); ?>

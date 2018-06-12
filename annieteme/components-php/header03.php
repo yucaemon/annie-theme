@@ -1,4 +1,4 @@
-<header class='outer__header header02'>
+<header class='outer__header header'>
 <div class='flexbox--spacebetween'>
 <div class='sns-icons flexbox'>
 <div class='sns-icons__icon'>
@@ -14,15 +14,22 @@
 <div class='info'>
 <ul class='nav-menu flexbox'>
 <li>
-<a title="Annieについて | ANNE [アニー] " href="<?php echo esc_url( home_url( '/about/' ) ); ?>">Annieについて</a>
+<a href="<?php echo esc_url( home_url( '/about/' ) ); ?>">Annienについて</a>
 </li>
 <li>
 ポートランドオレゴン州
 </li>
 </ul>
 <div class='search__box'>
+<div class='search__formvcft'>
 <?php get_search_form(); ?>
 </div>
+</div>
+</div>
+</div>
+<div class='logo'>
+<div class='logo__img'>
+<img src="<?php echo get_template_directory_uri(); ?>/images/annie-logo.svg" width="250">
 </div>
 </div>
 <div class='breadcrumb-container'>

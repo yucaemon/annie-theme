@@ -4,12 +4,8 @@
 <section class='pages policy-page'>
 <div class='outer'>
 <?php include('components-php/header02.php'); ?>
-<?php include('components-php/breadcrumb.php'); ?>
 <div class='outer__inner column-12'>
 <div class='pages__container'>
-<div class='logo__img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/annie-logo.svg">
-</div>
 <div class='security-policy'>
 <h1 class='pages__header'>
 プライバシーポリシー
