@@ -175,6 +175,60 @@ function detailBoxFunc( $atts, $content = null ) {
 add_shortcode('詳細テンプレ', 'detailBoxFunc');
 
 
+//関連リンクのショートコード
+function relatedLinksBoxFunc( $atts, $content = null ) {
+    extract( shortcode_atts( array(
+        'title' => '不明',
+        'img' => '不明',
+        'url' => '不明'
+
+    ), $atts ) );
+    return '<div class="detail-box02 flexbox"><div class="detail-box02__img"><a href="' . $url . '" target="_blank"><img src="' . $img . '"/></a></div><div class="detail-box02__txt"><p>＞関連記事リンク</p><div class="detail-box02__title"><a href="' . $url . '" target="_blank">' . $title . '<i class="fa fa-external-link" aria-hidden="true"></i></a></div></div></div>';
+}
+add_shortcode('関連リンク', 'relatedLinksBoxFunc');
+
+
+
+//購入商品のショートコード
+function purchasableProductBoxFunc( $atts, $content = null ) {
+    extract( shortcode_atts( array(
+        'img' => '不明',
+        'product_name' => '不明',
+        'price' => '不明',
+        'brand' => '不明',
+        'brand_link' => '不明',
+        'read' => '不明',
+        'link' => '不明',
+        'shipping' => 'アメリカ発送のみ',
+        'purchasebtn' => '不明'
+
+    ), $atts ) );
+    return '<div class="detail-box03 flexbox"><div class="detail-box03__img"><img src="' . $img . '"/></div><div class="detail-box03__txt"><div class="detail-box03__title"><i class="fa fa-angle-right"></i>' . $product_name . '</div><div class="detail-box03__price">' . $price . '</div><div class="detail-box03__brand"><a href="' . $brand_link . '" target="_blank">' . $brand . ' <i class="fa fa-external-link"></i></a></div><div class="detail-box03__read">' . $read . '</div><div class="flexbox--spacebetween"><div class="detail-box03__shipping">' . $shipping . '</div><div class="detail-box03__similar-products"><i class="fa fa-arrow-right"></i><a href="' . $link . '" target="_blank"> 類似の商品をもっと探す</a></div></div><div class="detail-box03__btn"><a href="' . $purchasebtn . '" target="_blank">この商品を購入する</a></div></div></div>';
+}
+add_shortcode('購入可能商品', 'purchasableProductBoxFunc');
+
+
+//希望商品のショートコード
+function productBoxFunc( $atts, $content = null ) {
+    extract( shortcode_atts( array(
+        'img' => '不明',
+        'product_name' => '不明',
+        'price' => '不明',
+        'brand' => '不明',
+        'brand_link' => '不明',
+        'read' => '不明',
+        'link' => '不明',
+        'shipping' => 'アメリカ発送のみ',
+        'purchasebtn' => '不明'
+
+    ), $atts ) );
+    return '<div class="detail-box03 flexbox"><div class="detail-box03__img"><img src="' . $img . '"/></div><div class="detail-box03__txt"><div class="detail-box03__title"><i class="fa fa-angle-right"></i>' . $product_name . '</div><div class="detail-box03__price">' . $price . '</div><div class="detail-box03__brand"><a href="' . $brand_link . '" target="_blank">' . $brand . ' <i class="fa fa-external-link"></i></a></div><div class="detail-box03__read">' . $read . '</div><div class="flexbox--spacebetween"><div class="detail-box03__shipping">' . $shipping . '</div><div class="detail-box03__similar-products"><i class="fa fa-arrow-right"></i><a href="' . $link . '" target="_blank"> 類似の商品をもっと探す</a></div></div><a class="detail-box03__btn href="' . $purchasebtn . '" target="_blank">♡この商品欲しい (1)</a></div></div>';
+}
+add_shortcode('希望商品', 'productBoxFunc');
+
+
+
+
 /**
  * プロフィールの内容を取得します。
  *

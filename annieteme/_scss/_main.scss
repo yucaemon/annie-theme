@@ -560,18 +560,25 @@ a.iscurrent {
         color: $font_color;
       }
       &__img {
-        width: 25%;
+        width: 21%;
+        padding-right: 15px;
       }
       &__txt {
+        padding-top: 10px;
+        width: 492px;
+      p{
         color: $font_sub_color;
         @include fts(7, 12);
-        padding: 10px 0 0 10px;
-        width: 73%;
+        padding-bottom: 0;
+      }
       }
       &__title {
         @include fts(9, 9);
         color: $font_color;
         padding: 7px 0;
+        font-weight: bold;
+        letter-spacing: 1px;
+        line-height: 20px;
 
       }
       img {
@@ -591,10 +598,11 @@ a.iscurrent {
         padding: 35px 48px 0 48px;
       }
       &__title {
-        font-size: 18px;
+        @include fts(10,10);
         font-weight: bold;
         letter-spacing: 1px;
         padding-bottom: 20px;
+        line-height: 1.4;
       }
       &__price {
         @extend .detail-box03__title;
@@ -603,9 +611,11 @@ a.iscurrent {
       }
       &__brand {
         @include fts(8, 8);
-        color: $main_color;
         padding-bottom: 12px;
         letter-spacing: 0.8px;
+        a{
+          color: $main_color;
+        }
       }
       &__read {
         @include fts(7, 7);
@@ -622,6 +632,9 @@ a.iscurrent {
         @include fts(8, 8);
         color: $font_sub_glay_color;
         margin-bottom: 17px;
+        a{
+          color: #9c9c9c;
+        }
       }
       &__btn {
         background: $main_color;
@@ -633,14 +646,28 @@ a.iscurrent {
         display: table-cell;
         text-align: center;
         vertical-align: middle;
-        color: #fff;
         margin-bottom: 20px;
+        a{
+          color: #fff;
+        }
+
       }
+      .detail-box03__btn:hover {
+        background: #ffdcdb;
+        color: #333;
+        text-underline: none;
+      }
+
+
       &__btn-subtxt {
         font-size: 0.7rem;
         line-height: 1;
         padding-top: 14px;
         color: $font_sub_glay_color;
+      }
+
+      i.fa{
+        padding-right: 6px;
       }
 
     }
@@ -657,6 +684,7 @@ a.iscurrent {
   }
 
 }
+
 
 /*
 
