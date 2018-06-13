@@ -7,7 +7,7 @@ $posts = get_posts(array(
 'posts_per_page' => 12, // 表示件数
 ));
 ?>
-<div class="news-articles__container flexbox">
+<div class="news-articles__container flexbox--spacebetween">
   <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
       <!--表示する内容が入ります。-->
       <div class="news-articles__content">

@@ -22,6 +22,4 @@ $posts = get_posts(array(
     </p>
   </dd>
   <!--表示する内容ここまで-->
-
-<?php endforeach; endif; ?>
 </dl>

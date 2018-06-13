@@ -214,6 +214,10 @@ a.iscurrent {
     color: $font_sub_color;
   }
 
+  i.fa{
+    color: #ff9999;
+  }
+
 }
 
 .side-contain {
@@ -431,6 +435,7 @@ a.iscurrent {
       img {
         width: 100%;
         height: 100%;
+        object-fit: cover;
 
       }
     }
@@ -763,10 +768,14 @@ a.iscurrent {
 
 .related-article {
   &__content {
-    width: 30%;
     padding-top: 10px;
-    padding-right: 12px;
   }
+  .related-article__container::after{
+    content:"";
+    display: block;
+    width:30%;
+  }
+
   &__img {
     img {
       width: 200px;
@@ -784,15 +793,29 @@ a.iscurrent {
   }
 }
 
+
+
 .news-articles {
   &__content {
-    width: 23%;
     padding-top: 10px;
-    padding-right:19px;
+    width:23%;
   }
+
+  &__container::before{
+    content:"";
+    display: block;
+    width:23%;
+    order:1;
+  }
+  &__container::after{
+    content:"";
+    display: block;
+    width:23%;
+  }
+
   &__img {
     img {
-      width: 230px;
+      width: 226px;
       height: 150px;
       object-fit: cover;
     }

@@ -3,7 +3,7 @@
     global $post_id;    //グローバル変数より投稿IDをゲット
     global $tags;       //グローバル変数よりタグ情報をゲット
     $relatedpost_count = 0; //関連記事を出力した数(カウンタ)
-    $relatedpost_max = 9;   //関連記事を出力する最大数
+    $relatedpost_max = 6;   //関連記事を出力する最大数
     $related_taglist = [];  //関連記事を出力する為のタグリスト
 
     //記事からタグを集める
@@ -20,18 +20,20 @@
         the_post();
     ?>
         <?php if( !$relatedpost_count ): /* 最初の記事の場合、ヘッダを付与 */ ?>
-            <div class="related-article__container flexbox">
+            <ul class="related-article__container flexbox--spacebetween">
         <?php endif; ?>
-                <a href="<?php echo get_permalink(); ?>" target="_blank" class="hover_fade" style="cursor: pointer;">
-                    <div class="related-article__content">
+
+                    <li class="related-article__content">
+                      <a href="<?php echo get_permalink(); ?>" target="_blank" class="hover_fade" style="cursor: pointer;">
                         <div class="related-article__img">
                           <?php the_post_thumbnail(); ?>
                         </div>
                         <div class="related-article__text">
                           <?php the_title(); ?>
                         </div>
-                    </div>
-                </a>
+                      </a>
+                    </li>
+
     <?php
         $relatedpost_count++;   //記事を出力した数を加算
         if( !($relatedpost_count < $relatedpost_max ) ): //[if]目的の数記事を出力した場合
@@ -39,7 +41,27 @@
         endif;
     endwhile;
     if( $relatedpost_count ):   ?>
-            </div><!--id:related_post_wrap close-->
+            </ul><!--id:related_post_wrap close-->
+    <?php else : ?>
+        <?php
+        $posts = get_posts(array(
+        ));
+        ?>
+        <ul class="related-article__container flexbox">
+          <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
+              <!--表示する内容が入ります。-->
+              <li class="related-article__content">
+                <div class="related-article__img">
+                  <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
+                </div>
+                <div class="related-article__text">
+                  <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                </div>
+              </li>
+              <!--表示する内容ここまで-->
+          <?php endforeach; endif; ?>
+         </ul>
+    　　　
     <?php
     endif;
     wp_reset_query();   //元のクエリを復帰
