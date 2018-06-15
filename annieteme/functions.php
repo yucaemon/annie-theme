@@ -254,3 +254,14 @@ function my_get_the_post_profile( $avatar_image_size = 96 ) {
 
 	return $html. "\n";
 }
+
+/**
+ * jqueryを読み込む
+**/
+
+add_action('wp_enqueue_scripts', 'my_enqueue_scripts');
+
+function my_enqueue_scripts() {
+
+    wp_enqueue_script('jquery');
+}

@@ -17,16 +17,19 @@
   <link href="favicon.ico" rel="shortcut icon">
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
   <?php wp_head(); ?>
+  <script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
   <script src="<?php echo get_template_directory_uri(); ?>/js/infinite-scroll.pkgd.min.js"></script>
   <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.tubular.1.0.js"></script>
 
 </head>
 
 <script>
-$(document).ready(function() {
-     $('body').tubular({
+
+jQuery(document).ready(function($) {
+     $('.youtube').tubular({
            videoId: 'HFUreAm3Kt8'
      });
 });
+
 </script>
 
