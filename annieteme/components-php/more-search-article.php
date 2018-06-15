@@ -4,44 +4,34 @@
 </div>
 <ul class='more-search-article__lists flexbox'>
 <li class='more-search-article__list'>
-<icon class='fa fa-angle-right'></icon>
-スカート
+<a class="more-search-article__btn" href="<?php bloginfo('url'); ?>/tag/tops/" <?php if(is_tag('tops')) echo 'class="iscurrent"'; ?>><i class="fa fa-angle-right"></i>トップス</a>
 </li>
 <li class='more-search-article__list'>
-<icon class='fa fa-angle-right'></icon>
-ジャケット
+<a class="more-search-article__btn" href="<?php bloginfo('url'); ?>/tag/tops/" <?php if(is_tag('tops')) echo 'class="iscurrent"'; ?>><i class="fa fa-angle-right"></i>ジャケット</a>
 </li>
 <li class='more-search-article__list'>
-<icon class='fa fa-angle-right'></icon>
-ジーンズ
+<a class="more-search-article__btn" href="<?php bloginfo('url'); ?>/tag/tops/" <?php if(is_tag('tops')) echo 'class="iscurrent"'; ?>><i class="fa fa-angle-right"></i>ジーンズ</a>
 </li>
 <li class='more-search-article__list'>
-<icon class='fa fa-angle-right'></icon>
-Tシャツ
+<a class="more-search-article__btn" href="<?php bloginfo('url'); ?>/tag/tops/" <?php if(is_tag('tops')) echo 'class="iscurrent"'; ?>><i class="fa fa-angle-right"></i> Tシャツ</a>
 </li>
 <li class='more-search-article__list'>
-<icon class='fa fa-angle-right'></icon>
-ジャケット
+<a class="more-search-article__btn" href="<?php bloginfo('url'); ?>/tag/tops/" <?php if(is_tag('tops')) echo 'class="iscurrent"'; ?>><i class="fa fa-angle-right"></i>ジャケット</a>
 </li>
 <li class='more-search-article__list'>
-<icon class='fa fa-angle-right'></icon>
-ワンピース
+<a class="more-search-article__btn" href="<?php bloginfo('url'); ?>/tag/tops/" <?php if(is_tag('tops')) echo 'class="iscurrent"'; ?>><i class="fa fa-angle-right"></i>ワンピース</a>
 </li>
 <li class='more-search-article__list'>
-<icon class='fa fa-angle-right'></icon>
-下着
+<a class="more-search-article__btn" href="<?php bloginfo('url'); ?>/tag/tops/" <?php if(is_tag('tops')) echo 'class="iscurrent"'; ?>><i class="fa fa-angle-right"></i>下着</a>
 </li>
 <li class='more-search-article__list'>
-<icon class='fa fa-angle-right'></icon>
-夏物
+<a class="more-search-article__btn" href="<?php bloginfo('url'); ?>/tag/tops/" <?php if(is_tag('tops')) echo 'class="iscurrent"'; ?>><i class="fa fa-angle-right"></i>夏物</a>
 </li>
 <li class='more-search-article__list'>
-<icon class='fa fa-angle-right'></icon>
-アクセサリー
+<a class="more-search-article__btn" href="<?php bloginfo('url'); ?>/tag/tops/" <?php if(is_tag('tops')) echo 'class="iscurrent"'; ?>><i class="fa fa-angle-right"></i>アクセサリー</a>
 </li>
 <li class='more-search-article__list'>
-<icon class='fa fa-angle-right'></icon>
-アロマ
+<a class="more-search-article__btn" href="<?php bloginfo('url'); ?>/tag/tops/" <?php if(is_tag('tops')) echo 'class="iscurrent"'; ?>><i class="fa fa-angle-right"></i>アロマ</a>
 </li>
 </ul>
 </div>

@@ -3,11 +3,9 @@
 <div class='outer'>
 <?php include('components-php/header.php'); ?>
 <h1 class='sub-title'>
-ポートランドから、自由奔放『BOHO』ファッションをお届け。海外通販メディア
+旅するように。自由奔放に。『BOHO(ボーホー)』ファッションをお届け。
 </h1>
-<h2 class='notice-bar'>
-お知らせ：ショッピングサイト『アニー』OPEN!!! ファッションの街、ポートランドから日本へ現地の新商品を紹介。
-</h2>
+<div class='notice-bar'></div>
 <div class='outer__inner flexbox--h-center'>
 <?php include('components-php/side-menu-list.php'); ?>
 <div class='column-6 middle-contain'>

@@ -26,7 +26,7 @@
 </div>
 <?php include('components-php/article-sns-btns.php'); ?>
 <div class='single-page__eyecatch-img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/single-img-top.png" width="644px">
+<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
 </div>
 <div class='single-page__entry-content'>
 <?php if ( have_posts() ) : ?>
