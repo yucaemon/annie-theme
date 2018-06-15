@@ -21,6 +21,7 @@
 </div>
 <div class='side-menu-list__li'>
 <p class='side-menu-list__title'>
+<i class='fa fa-heart'></i>
 アイテムから探す
 <ul>
 <li>
