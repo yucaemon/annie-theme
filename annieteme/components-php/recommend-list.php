@@ -10,16 +10,16 @@ $posts = get_posts(array(
 'tag_id' => 76
 ));
 ?>
-<?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
-
-  <!--表示する内容が入ります。-->
-  <dd class="recommend-list__content flexbox">
-    <div class="recommend-list__thumb-img">
-      <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
-    </div>
-    <p class="recommend-list__title">
-      <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-    </p>
-  </dd>
-  <!--表示する内容ここまで-->
+  <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
+      <dd class="recommend-list__content flexbox">
+        <div class="recommend-list__thumb-img">
+          <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
+        </div>
+        <p class="recommend-list__title">
+          <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+        </p>
+      </dd>
+  <?php endforeach; ?>
+<?php wp_reset_postdata();?>
+<?php endif; ?>
 </dl>
