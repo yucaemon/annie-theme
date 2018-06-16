@@ -1,3 +1,23 @@
+#douga{
+  height: 500px;
+  overflow: hidden;
+
+}
+.douga{
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  z-index: 1000;
+}
+
+#douga iframe{
+  position: relative;
+  left: 0 !important;
+  top: -316px !important;
+  width: 100% !important;
+  height: 300% !important;
+}
+
 /*
 
 	common
@@ -449,6 +469,7 @@ a:hover img { opacity: 0.5 ; }
   }
 
   .article-list {
+    margin-top:50px;
     li {
       height: 123px;
       padding-bottom: 14px;

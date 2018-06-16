@@ -8,10 +8,9 @@
 <div class='notice-bar'></div>
 <div class='outer__inner flexbox--h-center'>
 <?php include('components-php/side-menu-list.php'); ?>
-<div class='column-6 middle-contain'>
-<div class='youtube'></div>
-<div class='bg-thumb-img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/index-top-banner.png" width="478px">
+<div class='column-7 middle-contain'>
+<div id='douga'>
+<div class='douga'></div>
 </div>
 <ul class='article-list'>
 <?php $paged = get_query_var('paged')? get_query_var('paged') : 1; ?>
