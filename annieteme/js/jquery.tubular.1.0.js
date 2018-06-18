@@ -17,8 +17,8 @@
 // defaults
     var defaults = {
         ratio: 16/9, // usually either 4/3 or 16/9 -- tweak as needed
-        videoId: 'w9e9YbO7wUg', // toy robot in space is a good default, no?
-        mute: false,
+        videoId: 'HFUreAm3Kt8', // toy robot in space is a good default, no?
+        mute: true,
         repeat: true,
         width: $(window).width(),
         wrapperZIndex: 99,
@@ -29,6 +29,7 @@
         volumeDownClass: 'tubular-volume-down',
         increaseVolumeBy: 10,
         start: 0
+
     };
 
 // methods
@@ -55,7 +56,7 @@
                 videoId: options.videoId,
                 playerVars: {
                     controls: 0,
-                    showinfo: 0,
+                    showinfo:0,
                     modestbranding: 1,
                     wmode: 'transparent'
                 },
@@ -130,7 +131,7 @@
 // load yt iframe js api
 
     var tag = document.createElement('script');
-    tag.src = "//www.youtube.com/iframe_api";
+    tag.src = "https://www.youtube.com/iframe_api";
     var firstScriptTag = document.getElementsByTagName('script')[0];
     firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 

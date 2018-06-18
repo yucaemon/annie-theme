@@ -8,7 +8,7 @@ console.log('test');
 
 
 $('document').ready(function() {
-    var options = { videoId: 'w9e9YbO7wUg'};
+    var options = { videoId: 'HFUreAm3Kt8'};
     $('#douga').tubular(options);
 });
 
