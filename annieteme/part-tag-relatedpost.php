@@ -47,7 +47,7 @@
         $posts = get_posts(array(
         ));
         ?>
-        <ul class="related-article__container flexbox">
+        <ul class="related-article__container flexbox--spacebetween">
           <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
               <!--表示する内容が入ります。-->
               <li class="related-article__content">

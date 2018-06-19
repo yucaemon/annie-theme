@@ -2,7 +2,7 @@
 <?php include('head.php'); ?>
 <body>
 <div class='outer'>
-<?php include('components-php/header.php'); ?>
+<?php include('components-php/header03.php'); ?>
 <div class='archive-banner search-content flexbox--v-center'>
 <h1 class='archive-banner__header'>
 <?php
@@ -14,7 +14,6 @@
 </h1>
 </div>
 <div class='outer__inner'>
-<?php include('components-php/breadcrumb.php'); ?>
 <div class='flexbox--h-center'>
 <?php include('components-php/side-menu-list.php'); ?>
 <div class='column-6 middle-contain'>

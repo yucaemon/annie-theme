@@ -2,9 +2,7 @@
 <body>
 <div class='single-page outer'>
 <?php include('components-php/header03.php'); ?>
-<div class='notice-bar'>
-お知らせ：ショッピングサイト『アニー』OPEN!!! ファッションの街、ポートランドから日本へ現地の新商品を紹介。
-</div>
+<div class='notice-bar'></div>
 <div class='outer__inner'>
 <div class='flexbox--h-center'>
 <div class='column-8 middle-contain'>
