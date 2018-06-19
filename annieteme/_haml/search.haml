@@ -2,7 +2,7 @@
 <?php include('head.php'); ?>
 %body
   .outer
-    <?php include('components-php/header.php'); ?>
+    <?php include('components-php/header03.php'); ?>
     .archive-banner.search-content.flexbox--v-center
       %h1.archive-banner__header
         :plain
@@ -14,7 +14,6 @@
           『 <?php echo $search_query; ?> 』の検索結果<span>（<?php echo $total_results; ?>件）</span>
 
     .outer__inner
-      <?php include('components-php/breadcrumb.php'); ?>
       .flexbox--h-center
         <?php include('components-php/side-menu-list.php'); ?>
         .column-6.middle-contain
