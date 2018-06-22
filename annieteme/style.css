@@ -273,7 +273,7 @@ input[type="text"]:focus {
   width: 1225px; }
 
 #douga {
-  height: 500px;
+  height: 307px;
   overflow: hidden;
   background: url("images/index-top-banner.png") no-repeat;
   margin-bottom: 50px; }
@@ -312,6 +312,29 @@ a:hover img {
 
 ::selection {
   background: #ffe0e0; }
+
+.big-btn {
+  background: #f2716e;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  height: 43px;
+  width: 250px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 20px;
+  color: #fff !important;
+  transition: .2s; }
+  .big-btn a {
+    color: #ffff; }
+  .big-btn a:hover {
+    text-decoration: none; }
+
+.big-btn:hover {
+  background: #ffdcdb;
+  color: #f2716e !important;
+  text-underline: none; }
 
 ::-moz-selection {
   background: #ffe0e0; }
@@ -402,7 +425,8 @@ a:hover img {
 .logo {
   width: 553px;
   text-align: center;
-  margin: 0 auto; }
+  margin: 0 auto;
+  height: 78px; }
   .logo img {
     width: 45%;
     padding-bottom: 30px;
@@ -679,6 +703,10 @@ a:hover img {
       -webkit-background-clip: padding-box;
       background-clip: padding-box;
       padding: 4px 7px; }
+  .middle-contain .more-page {
+    display: block;
+    margin: 0 auto;
+    width: 250px; }
 
 /*
 
@@ -849,23 +877,6 @@ a:hover img {
   margin-bottom: 17px; }
   .single-page__entry-content .detail-box03__similar-products a {
     color: #9c9c9c; }
-.single-page__entry-content .detail-box03__btn {
-  background: #f2716e;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  height: 43px;
-  width: 250px;
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-  margin-bottom: 20px;
-  color: #fff !important;
-  transition: .2s; }
-.single-page__entry-content .detail-box03 .detail-box03__btn:hover {
-  background: #ffdcdb;
-  color: #f2716e !important;
-  text-underline: none; }
 .single-page__entry-content .detail-box03__btn-subtxt {
   font-size: 0.7rem;
   line-height: 1;
@@ -1162,7 +1173,7 @@ a:hover img {
 .pages .pages__container {
   text-align: center;
   margin-bottom: 100px;
-  padding-top: 50px; }
+  padding-top: 20px; }
 .pages .logo__img {
   width: 264px;
   margin: 0 auto;

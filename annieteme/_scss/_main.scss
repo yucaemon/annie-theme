@@ -1,5 +1,5 @@
 #douga{
-  height: 500px;
+  height: 307px;
   overflow: hidden;
   background: url("images/index-top-banner.png") no-repeat;
   margin-bottom: 50px;
@@ -49,6 +49,37 @@ a:hover img { opacity: 0.5 ; }
 ::selection {
   background: #ffe0e0;
 }
+
+
+.big-btn {
+  background: $main_color;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  height: 43px;
+  width: 250px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 20px;
+  color: #fff !important;
+  transition: .2s;
+
+  a {
+    color: #ffff;
+  }
+  a:hover{
+    text-decoration:none;
+  }
+
+}
+.big-btn:hover {
+  background: #ffdcdb;
+  color: $main_color !important;
+  text-underline: none;
+}
+
+
 
 
 
@@ -174,6 +205,7 @@ a:hover img { opacity: 0.5 ; }
   width: 553px;
   text-align: center;
   margin:0 auto;
+  height: 78px;
 }
 
 .info {
@@ -519,7 +551,13 @@ a:hover img { opacity: 0.5 ; }
     }
   }
 
-}
+  .more-page{
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    }
+  }
+
 
 /*
 
@@ -698,29 +736,6 @@ a:hover img { opacity: 0.5 ; }
           color: #9c9c9c;
         }
       }
-      &__btn {
-        background: $main_color;
-        border-radius: 5px;
-        -moz-border-radius: 5px;
-        -webkit-border-radius: 5px;
-        height: 43px;
-        width: 250px;
-        display: table-cell;
-        text-align: center;
-        vertical-align: middle;
-        margin-bottom: 20px;
-        color: #fff !important;
-        transition: .2s;
-
-
-      }
-      .detail-box03__btn:hover {
-        background: #ffdcdb;
-        color: $main_color !important;
-        text-underline: none;
-      }
-
-
       &__btn-subtxt {
         font-size: 0.7rem;
         line-height: 1;
@@ -1109,7 +1124,7 @@ a:hover img { opacity: 0.5 ; }
   .pages__container {
     text-align: center;
     margin-bottom: 100px;
-    padding-top:50px;
+    padding-top:20px;
   }
   .logo__img {
     width: 264px;

@@ -276,6 +276,19 @@ madewell
 <img src="<?php echo get_template_directory_uri(); ?>/images/gypsys-img.svg">
 </div>
 </div>
+<?php $users = get_users( array('orderby'=>ID,'order'=>ASC) ); ?>
+<ul class="lists-container__lists.models__lists flexbox">
+<?php foreach($users as $user) {
+$uid = $user->ID; ?>
+<li class="flexbox--v-center">
+  <div class="models__img"><?php echo get_avatar( $uid ,300 ); ?></div>
+  <div class="lists-container__text">
+    <p class="models__name"><?php echo $user->display_name ; ?></p>
+    <p class="models__info"><?php echo $user->user_description ; ?></p>
+  </div>
+</li>
+<?php } ?>
+</ul>
 <ul class='lists-container__lists models__lists flexbox'>
 <li class='flexbox--v-center'>
 <div class='models__img'>
