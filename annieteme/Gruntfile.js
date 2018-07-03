@@ -62,6 +62,8 @@ module.exports = function (grunt) {
                     'components-php/news-articles.php': '_haml/news-articles.haml',
                     'components-php/featured_articles.php': '_haml/featured_articles.haml',
                     'components-php/breadcrumb.php': '_haml/breadcrumb.haml',
+                    'components-php/header-sp.php': '_haml/header-sp.haml',
+
 
 
 

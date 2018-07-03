@@ -1,0 +1,45 @@
+%header.outer__header.header-sp
+  .drawer.drawer--left
+    %btn.drawer-toggle.drawer-hamburger
+      %i.fa.fa-align-justify
+    .drawer-nav
+      .drawer-nav__title
+        %i.fa.fa-list-ul
+        カテゴリーから探す
+      %ul.drawer-menu
+        %li.drawer-menu__li
+          <a href="<?php bloginfo('url'); ?>/category/fashion/">ファション</a>
+        %li.drawer-menu__li
+          <a href="<?php bloginfo('url'); ?>/category/gourmet/">お出かけ/グルメ</a>
+        %li.drawer-menu__li
+          <a href="<?php bloginfo('url'); ?>/category/lifestyle/">ライフ/DIY</a>
+        %li.drawer-menu__li
+          <a href="<?php bloginfo('url'); ?>/category/cosmetics/">美容/コスメ</a>
+      .drawer-nav__title
+        %i.fa.fa-heart
+        アイテムから探す
+      %ul.drawer-menu
+        %li.drawer-menu__li
+          <a href="<?php bloginfo('url'); ?>/tag/tops/">トップス</a>
+        %li.drawer-menu__li
+          <a href="<?php bloginfo('url'); ?>/tag/bottoms/">ボトムス</a>
+        %li.drawer-menu__li
+          <a href="<?php bloginfo('url'); ?>/tag/dresses/">ドレス</a>
+        %li.drawer-menu__li
+          <a href="<?php bloginfo('url'); ?>/tag/accessories/">アクセサリー</a>
+        %li.drawer-menu__li
+          <a href="<?php bloginfo('url'); ?>/tag/lingerie/">ランジェリー</a>
+      .drawer-nav__title
+        %i.fa.fa-bookmark
+        ブランドから探す
+      %ul.drawer-menu
+        %li.drawer-menu__li
+          <a href="<?php bloginfo('url'); ?>/tag/genuineeople/">genuine People</a>
+
+    .logo
+      .logo__img
+        <img src="<?php echo get_template_directory_uri(); ?>/images/annie-logo.svg" width="250">
+    .search
+      %i.fa.fa-search
+
+

@@ -1,5 +1,4 @@
 .side-menu-list
-
   .side-menu-list__li
     %p.side-menu-list__title
       %i.fa.fa-list-ul
@@ -13,6 +12,7 @@
           <a href="<?php bloginfo('url'); ?>/category/lifestyle/" <?php if(is_category('lifestyle')) echo 'class="iscurrent"'; ?>>ライフ/DIY</a>
         %li
           <a href="<?php bloginfo('url'); ?>/category/cosmetics/" <?php if(is_category('cosmetics')) echo 'class="iscurrent"'; ?>>美容/コスメ</a>
+
   .side-menu-list__li
     %p.side-menu-list__title
       %i.fa.fa-heart
@@ -28,6 +28,7 @@
           <a href="<?php bloginfo('url'); ?>/tag/accessories/" <?php if(is_tag('accessories')) echo 'class="iscurrent"'; ?>>アクセサリー</a>
         %li
           <a href="<?php bloginfo('url'); ?>/tag/lingerie/" <?php if(is_tag('lingerie')) echo 'class="iscurrent"'; ?>>ランジェリー</a>
+
   .side-menu-list__li
     %p.side-menu-list__title
       %i.fa.fa-bookmark

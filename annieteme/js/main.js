@@ -24,9 +24,6 @@ for (i = 0; i < $grid.find('.cell').length; i++) {
 
 $grid.append(emptyCells);
 
-//test
-
-
-
+$('.drawer').drawer();
 
 });

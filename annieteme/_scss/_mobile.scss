@@ -1,0 +1,57 @@
+/*
+
+	mobile settings
+
+**************************************************/
+
+
+@media (max-width: 680px) {
+
+  .sns-icons{
+    display: none;
+  }
+  #douga{
+    display: none;
+  }
+  .header{
+    display: none;
+  }
+  .sub-title{
+    display: none;
+  }
+  .side-menu-list{
+    display:none;
+  }
+  .side-contain{
+    display:none;
+  }
+
+
+}
+
+@media (max-width: 480px) {
+  .header-sp{
+    display: block;
+    .drawer-nav{
+      padding: 25px 0 0 20px;
+      width: 240px;
+      .drawer-menu {
+        padding-bottom: 15px;
+        &__li {
+          padding-bottom: 20px;
+          padding-left: 22px;
+          @include fts(10, 10);
+          color: #808080;
+        }
+      }
+      &__title {
+        padding-bottom: 20px;
+        i.fa {
+          color: $main_color;
+        }
+      }
+    }
+
+  }
+
+}

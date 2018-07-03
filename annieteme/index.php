@@ -2,6 +2,7 @@
 <body>
 <div class='outer'>
 <?php include('components-php/header.php'); ?>
+<?php include('components-php/header-sp.php'); ?>
 <h1 class='sub-title'>
 旅するように。自由奔放に。『BOHO(ボーホー)』ファッションをお届け。
 </h1>

@@ -1419,4 +1419,50 @@ a:hover img {
 .instagram-widget {
   padding-bottom: 50px; }
 
+@media (min-width: 680px) {
+  .header-sp {
+    display: none; } }
+/*
+
+	mobile settings
+
+**************************************************/
+@media (max-width: 680px) {
+  .sns-icons {
+    display: none; }
+
+  #douga {
+    display: none; }
+
+  .header {
+    display: none; }
+
+  .sub-title {
+    display: none; }
+
+  .side-menu-list {
+    display: none; }
+
+  .side-contain {
+    display: none; } }
+@media (max-width: 480px) {
+  .header-sp {
+    display: block; }
+    .header-sp .drawer-nav {
+      padding: 25px 0 0 20px;
+      width: 240px; }
+      .header-sp .drawer-nav .drawer-menu {
+        padding-bottom: 15px; }
+        .header-sp .drawer-nav .drawer-menu__li {
+          padding-bottom: 20px;
+          padding-left: 22px;
+          font-size: 10px;
+          font-size: 1rem;
+          line-height: 1;
+          color: #808080; }
+      .header-sp .drawer-nav__title {
+        padding-bottom: 20px; }
+        .header-sp .drawer-nav__title i.fa {
+          color: #f2716e; } }
+
 /*# sourceMappingURL=style.css.map */
