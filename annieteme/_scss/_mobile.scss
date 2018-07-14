@@ -27,8 +27,10 @@
   .header-sp {
     display: block;
     .logo__img {
-      width: 65%;
-      padding-bottom: 20px;
+      width: 45%;
+      //padding-bottom: 40px;
+      height: 0;
+      margin-bottom:  20%;
       img {
         margin: 0;
         padding: 0;
@@ -45,7 +47,6 @@
     }
     .drawer-nav {
       position: absolute;
-      width: 60%;
       .drawer-menu {
         padding: 5px 43px;
         &__li {
@@ -67,7 +68,6 @@
     margin: 0;
   }
 
-
   .alternate-banner {
     width: 100%;
     height: 260px;
@@ -86,30 +86,35 @@
         padding-bottom: 0;
       }
       &__text {
-        width: 52%;
+        width: 50%;
       }
       &__img {
 
       }
-  }
+    }
     .more-page {
-      margin:0 auto 50px auto;
+      margin: 0 auto 50px auto;
     }
   }
 
-  .side-contain{
+  .side-contain {
     width: 100%;
 
-    .featured-box{
-      padding:0;
+    .featured-box {
+      padding: 0;
 
       &__content {
         margin: 0 auto;
         width: 73%;
         padding: 15px 0;
       }
-      &__read{
+      &__read {
         display: none;
+      }
+
+      .featured-img img {
+        width: 240px;
+        height: 178px;
       }
     }
 
@@ -123,14 +128,14 @@
         font-weight: bold;
         padding-bottom: 6px;
         letter-spacing: 2px;
-        width: 52%;
+        width: 50%;
         padding-left: 13px;
         word-wrap: break-word;
       }
     }
   }
 
-  .post-lists{
+  .post-lists {
     padding: 30px 20px;
     &__img {
       width: 44% !important;
@@ -138,10 +143,37 @@
       object-fit: cover;
     }
 
-    .footer-sp{
-      .sns-icons img{
-        width: 200px;
+  }
+
+  .footer-sp {
+
+    .sns-info {
+      text-align: center;
+      font-size: 16px;
+      padding-bottom: 20px;
+    }
+    &__sns-icons img {
+      width: 40px;
+      height: 40px;
+    }
+    &__bottom-content {
+      background-color: #f2716e;
+      padding-bottom: 50px;
+      color: #fff;
+      text-align: center;
+      padding-top: 30px;
+    }
+    &__container {
+      text-align: left;
+      color: #fff;
+      padding-left: 30px;
+      li {
+        padding-bottom: 10px;
       }
+
+    }
+    &__logo-img {
+      padding-bottom: 20px;
     }
 
   }
@@ -150,6 +182,7 @@
 
   .sns-icons {
     display: none;
+
   }
   #douga {
     display: none;
@@ -157,8 +190,8 @@
   .header {
     display: none;
   }
-  .footer{
-    display:none;
+  .footer {
+    display: none;
   }
   .sub-title {
     display: none;
@@ -179,11 +212,11 @@
   .keywords {
     display: none;
   }
-  .list-read{
+  .list-read {
     display: none;
   }
-  .instagram-widget{
-    display:none;
+  .instagram-widget {
+    display: none;
   }
 
 }

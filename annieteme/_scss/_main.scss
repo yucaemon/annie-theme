@@ -426,21 +426,13 @@ a:hover img { opacity: 0.5 ; }
 
 *************************************************/
 
-.footer {
+.footer,.footer-sp {
   a {
     text-decoration: none;
     color: #fff;
   }
   a:hover{
     text-decoration: underline;
-  }
-
-  background-color: $main_color;
-  color: #fff;
-  padding-bottom: 50px;
-  &__sns-icons img {
-    width: 30px;
-    height: 30px;
   }
   &__top-content {
     text-align: center;
@@ -940,11 +932,11 @@ a:hover img { opacity: 0.5 ; }
   border: solid 1px $font_sub_color;
   margin: 50px 0;
 
-  &__img {
+  .sns-area__img {
     width: 50%;
   }
 
-  &__img img {
+  .sns-area__img img {
     width: 100%;
     height: 100%;
     object-fit: cover;

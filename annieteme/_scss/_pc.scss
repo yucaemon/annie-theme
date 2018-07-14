@@ -15,6 +15,16 @@
 
   }
 
+  .footer{
+    background-color: #f2716e;
+    color: #fff;
+    padding-bottom: 50px;
+    &__sns-icons img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
 
   .header-sp{
    display: none;
