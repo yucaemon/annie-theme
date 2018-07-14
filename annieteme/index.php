@@ -7,13 +7,14 @@
 旅するように。自由奔放に。『BOHO(ボーホー)』ファッションをお届け。
 </h1>
 <div class='notice-bar'></div>
+<div class='alternate-banner'></div>
 <div class='outer__inner flexbox--h-center'>
 <?php include('components-php/side-menu-list.php'); ?>
-<div class='column-7 middle-contain'>
+<div class='middle-contain'>
 <div id='douga'>
 <div class='douga'></div>
 </div>
-<ul class='article-list'>
+<ul class='post-lists article-list'>
   <?php $args = array(
     'posts_per_page' => 20,                //表示（取得）する記事の数
     'post_type' => 'post'    //投稿タイプの指定
@@ -21,22 +22,22 @@
   $posts = get_posts( $args );
     if( $posts ) : foreach( $posts as $post) : setup_postdata( $post ); ?>
         <li class='flexbox'>
-          <div class='article-list__img'>
+          <div class='post-lists__img article-list__img'>
             <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
           </div>
-          <div class='article-list__text'>
-            <h3 class='list-title'>
+          <div class='post-lists__text article-list__text'>
+            <h3 class='post-lists__title list-title'>
               <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
             </h3>
-            <p class='list-read'><?php echo mb_substr(strip_tags($post-> post_content),0,95) ; ?></p>
-            <div class='icons flexbox'>
+            <p class='post-lists__read list-read'><?php echo mb_substr(strip_tags($post-> post_content),0,95) ; ?></p>
+            <!-- div class='icons flexbox'>
               <div class='icons__tag'>
                 購入可能
               </div>
               <div class='icons__tag'>
                 日本未上陸
               </div>
-            </div>
+            </div -->
           </div>
         </li>
     <?php endforeach; ?>
@@ -57,7 +58,7 @@
 <?php include('components-php/sns-box.php'); ?>
 <?php include('components-php/shopping-box.php'); ?>
 </div>
-<div class='column-4 side-contain'>
+<div class='side-contain'>
 <?php include('components-php/featured-box.php'); ?>
 <?php include('components-php/recommend-list.php'); ?>
 <?php include('components-php/keywords.php'); ?>

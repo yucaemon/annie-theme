@@ -4,54 +4,177 @@
 
 **************************************************/
 
+@media (max-width: 680px) { /*windowサイズが680以下になった時の処理*/
 
-@media (max-width: 680px) {
+  .outer {
+    &__header {
+      margin: 0;
+    }
+    &__inner {
+      width: 100%;
+      margin: 0 auto;
+    }
+    &__foot {
+      width: 100%;
+      margin: 0 auto;
+    }
+    .footer__top-content {
+      width: 100%;
+    }
 
-  .sns-icons{
-    display: none;
-  }
-  #douga{
-    display: none;
-  }
-  .header{
-    display: none;
-  }
-  .sub-title{
-    display: none;
-  }
-  .side-menu-list{
-    display:none;
-  }
-  .side-contain{
-    display:none;
   }
 
-
-}
-
-@media (max-width: 480px) {
-  .header-sp{
+  .header-sp {
     display: block;
-    .drawer-nav{
-      padding: 25px 0 0 20px;
-      width: 240px;
+    .logo__img {
+      width: 65%;
+      padding-bottom: 20px;
+      img {
+        margin: 0;
+        padding: 0;
+      }
+    }
+
+    .search {
+      padding-top: 15px;
+      padding-right: 13px;
+    }
+    .drawer-hamburger {
+      position: absolute;
+
+    }
+    .drawer-nav {
+      position: absolute;
+      width: 60%;
       .drawer-menu {
-        padding-bottom: 15px;
+        padding: 5px 43px;
         &__li {
           padding-bottom: 20px;
-          padding-left: 22px;
           @include fts(10, 10);
           color: #808080;
         }
       }
       &__title {
-        padding-bottom: 20px;
+        padding: 20px;
         i.fa {
           color: $main_color;
         }
       }
     }
+  }
 
+  .notice-bar {
+    margin: 0;
+  }
+
+
+  .alternate-banner {
+    width: 100%;
+    height: 260px;
+    background: url("images/index-top-banner.png") no-repeat;
+    background-size: cover;
+
+  }
+
+  .middle-contain {
+    margin: 0;
+    width: 100%;
+    .article-list {
+      padding: 30px 20px;
+      li {
+        height: 110px;
+        padding-bottom: 0;
+      }
+      &__text {
+        width: 52%;
+      }
+      &__img {
+
+      }
+  }
+    .more-page {
+      margin:0 auto 50px auto;
+    }
+  }
+
+  .side-contain{
+    width: 100%;
+
+    .featured-box{
+      padding:0;
+
+      &__content {
+        margin: 0 auto;
+        width: 73%;
+        padding: 15px 0;
+      }
+      &__read{
+        display: none;
+      }
+    }
+
+    .recommend-list {
+      &__thumb-img {
+        padding-right: 0;
+      }
+
+      &__title {
+        @include fts(9, 11);
+        font-weight: bold;
+        padding-bottom: 6px;
+        letter-spacing: 2px;
+        width: 52%;
+        padding-left: 13px;
+        word-wrap: break-word;
+      }
+    }
+  }
+
+  .post-lists{
+    padding: 30px 20px;
+    &__img {
+      width: 44% !important;
+      height: 88px;
+      object-fit: cover;
+    }
+
+  }
+
+  /*要素を消す*/
+
+  .sns-icons {
+    display: none;
+  }
+  #douga {
+    display: none;
+  }
+  .header {
+    display: none;
+  }
+  .sub-title {
+    display: none;
+  }
+  .side-menu-list {
+    display: none;
+  }
+
+  .shopping-banner {
+    display: none;
+  }
+  .sns-area {
+    display: none;
+  }
+  .models-lists {
+    display: none;
+  }
+  .keywords {
+    display: none;
+  }
+  .list-read{
+    display: none;
+  }
+  .instagram-widget{
+    display:none;
   }
 
 }

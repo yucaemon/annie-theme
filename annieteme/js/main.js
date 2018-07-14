@@ -5,6 +5,7 @@
 jQuery(document).ready(function($) {
 
 
+
 //youtube動画の読み込み
 
 $('document').ready(function() {

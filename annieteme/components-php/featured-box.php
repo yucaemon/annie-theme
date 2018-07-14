@@ -1,4 +1,5 @@
 <div class='featured-box'>
+<div class='featured-box__content'>
 <?php $args = array(
   'numberposts' => 1,                //表示（取得）する記事の数
   'post_type' => 'featured'    //投稿タイプの指定
@@ -21,4 +22,5 @@ if( $posts ) : foreach( $posts as $post) : setup_postdata( $post ); ?>
   <li><p>記事はまだありません。</p></li>
 <?php endif;
 wp_reset_postdata(); //クエリのリセット ?>
+</div>
 </div>

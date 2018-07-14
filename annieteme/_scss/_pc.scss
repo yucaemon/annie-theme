@@ -1,7 +1,40 @@
 @media (min-width: 680px) {
-.header-sp{
-  display: none;
 
-}
+  .outer{
+    &__header{
+      //margin: 0 30px 0 30px;
+    }
+    &__inner{
+      width: 100%;
+      margin: 0 auto;
+    }
+    &__foot{
+      width: 100%;
+      margin: 0 auto;
+    }
+
+  }
+
+
+  .header-sp{
+   display: none;
+  }
+  .alternate-banner{
+    display: none;
+  }
+
+  .container{
+    padding: $base_margin;
+    min-width: $base_width;
+  }
+
+  .middle-contain{
+    width: 561px;
+  }
+
+  .side-contain{
+    width: 312px;
+  }
+
 
 }

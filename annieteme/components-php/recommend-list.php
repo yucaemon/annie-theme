@@ -1,4 +1,4 @@
-<dl class='recommend-list'>
+<dl class='recommend-list post-lists'>
 <dt>
 <div class='header-img'>
 <img src="<?php echo get_template_directory_uri(); ?>/images/recommend.svg">
@@ -12,10 +12,10 @@ $posts = get_posts(array(
 ?>
   <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
       <dd class="recommend-list__content flexbox">
-        <div class="recommend-list__thumb-img">
+        <div class="post-lists__img recommend-list__thumb-img">
           <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
         </div>
-        <p class="recommend-list__title">
+        <p class="post-lists__title recommend-list__title">
           <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
         </p>
       </dd>

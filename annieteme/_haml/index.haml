@@ -6,14 +6,14 @@
     %h1.sub-title
       旅するように。自由奔放に。『BOHO(ボーホー)』ファッションをお届け。
     .notice-bar
-
+    .alternate-banner
     .outer__inner.flexbox--h-center
       <?php include('components-php/side-menu-list.php'); ?>
-      .column-7.middle-contain
+      .middle-contain
         #douga
           .douga
         :plain
-          <ul class='article-list'>
+          <ul class='post-lists article-list'>
             <?php $args = array(
               'posts_per_page' => 20,                //表示（取得）する記事の数
               'post_type' => 'post'    //投稿タイプの指定
@@ -21,22 +21,22 @@
             $posts = get_posts( $args );
               if( $posts ) : foreach( $posts as $post) : setup_postdata( $post ); ?>
                   <li class='flexbox'>
-                    <div class='article-list__img'>
+                    <div class='post-lists__img article-list__img'>
                       <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
                     </div>
-                    <div class='article-list__text'>
-                      <h3 class='list-title'>
+                    <div class='post-lists__text article-list__text'>
+                      <h3 class='post-lists__title list-title'>
                         <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
                       </h3>
-                      <p class='list-read'><?php echo mb_substr(strip_tags($post-> post_content),0,95) ; ?></p>
-                      <div class='icons flexbox'>
+                      <p class='post-lists__read list-read'><?php echo mb_substr(strip_tags($post-> post_content),0,95) ; ?></p>
+                      <!-- div class='icons flexbox'>
                         <div class='icons__tag'>
                           購入可能
                         </div>
                         <div class='icons__tag'>
                           日本未上陸
                         </div>
-                      </div>
+                      </div -->
                     </div>
                   </li>
               <?php endforeach; ?>
@@ -58,7 +58,7 @@
 
 
 
-      .column-4.side-contain
+      .side-contain
         <?php include('components-php/featured-box.php'); ?>
         <?php include('components-php/recommend-list.php'); ?>
         <?php include('components-php/keywords.php'); ?>
