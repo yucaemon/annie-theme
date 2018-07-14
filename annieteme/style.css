@@ -1417,6 +1417,9 @@ a:hover img {
   .header-sp {
     display: none; }
 
+  .footer-sp {
+    display: none; }
+
   .alternate-banner {
     display: none; }
 
@@ -1527,6 +1530,8 @@ a:hover img {
       width: 44% !important;
       height: 88px;
       object-fit: cover; }
+    .post-lists .footer-sp .sns-icons img {
+      width: 200px; }
 
   /*要素を消す*/
   .sns-icons {
@@ -1536,6 +1541,9 @@ a:hover img {
     display: none; }
 
   .header {
+    display: none; }
+
+  .footer {
     display: none; }
 
   .sub-title {

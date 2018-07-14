@@ -63,7 +63,7 @@ module.exports = function (grunt) {
                     'components-php/featured_articles.php': '_haml/featured_articles.haml',
                     'components-php/breadcrumb.php': '_haml/breadcrumb.haml',
                     'components-php/header-sp.php': '_haml/header-sp.haml',
-
+                    'components-php/footer-sp.php': '_haml/footer-sp.haml',
 
 
 

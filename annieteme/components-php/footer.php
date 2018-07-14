@@ -104,7 +104,7 @@
 </div>
 </div>
 </div>
-</footer>
 <div class='copyright'>
 © ANNIE JENE. All Rights Reserved.
 </div>
+</footer>
