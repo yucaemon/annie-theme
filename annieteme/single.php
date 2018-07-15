@@ -5,7 +5,7 @@
 <div class='notice-bar'></div>
 <div class='outer__inner'>
 <div class='flexbox--h-center'>
-<div class='column-8 middle-contain'>
+<div class='middle-contain'>
 <h1 class='single-page__head-title'>
 <?php the_title_attribute(); ?>
 </h1>

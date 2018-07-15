@@ -415,7 +415,6 @@ a:hover img {
   margin: 0 auto;
   height: 78px; }
   .logo__img img {
-    width: 100%;
     padding-bottom: 30px;
     margin-top: -21px; }
 
@@ -588,9 +587,9 @@ a:hover img {
   text-decoration: underline; }
 .footer__top-content, .footer-sp__top-content {
   text-align: center;
-  width: 100%;
-  margin: 0 30px 0 auto;
-  padding: 35px 0; }
+  width: 735px;
+  margin: 0 114px 0 auto;
+  padding: 45px 0; }
 .footer__sns-icons img, .footer-sp__sns-icons img {
   width: 20px;
   height: 20px;
@@ -693,6 +692,8 @@ a:hover img {
 	single.page
 
 *************************************************/
+.single-page .middle-contain {
+  width: 644px; }
 .single-page__eyecatch-img img {
   width: 644px;
   height: 380px;
@@ -1155,11 +1156,10 @@ a:hover img {
   margin-bottom: 100px;
   padding-top: 20px; }
 .pages .logo__img {
-  width: 45%;
   margin: 0 auto;
   padding-bottom: 58px; }
   .pages .logo__img img {
-    width: 100%; }
+    width: 290px; }
 .pages__header {
   font-size: 10px;
   font-size: 1rem;
@@ -1400,20 +1400,21 @@ a:hover img {
   padding-bottom: 50px; }
 
 @media (min-width: 680px) {
+  .outer__header {
+    margin: 20px; }
   .outer__inner {
-    width: 100%;
     margin: 0 auto; }
   .outer__foot {
     width: 100%;
     margin: 0 auto; }
 
-  .footer {
+  .footer__sns-icons img {
+    width: 30px;
+    height: 30px; }
+  .footer__bottom-content {
     background-color: #f2716e;
     color: #fff;
     padding-bottom: 50px; }
-    .footer__sns-icons img {
-      width: 30px;
-      height: 30px; }
 
   .header-sp {
     display: none; }
@@ -1452,9 +1453,10 @@ a:hover img {
     width: 100%; }
 
   .header-sp {
-    display: block; }
+    display: block;
+    height: 132px; }
     .header-sp .logo__img {
-      width: 45%;
+      width: 63%;
       height: 0;
       margin-bottom: 20%; }
       .header-sp .logo__img img {

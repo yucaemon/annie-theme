@@ -32,4 +32,7 @@
 <img src="<?php echo get_template_directory_uri(); ?>/images/annie-logo.svg" width="250">
 </div>
 </div>
+<h1 class='sub-title'>
+旅するように。自由奔放に。『BOHO(ボーホー)』ファッションをお届け。
+</h1>
 </header>

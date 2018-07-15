@@ -2,10 +2,10 @@
 
   .outer{
     &__header{
-      //margin: 0 30px 0 30px;
+      margin: 20px;
     }
     &__inner{
-      width: 100%;
+      //width: 100%;
       margin: 0 auto;
     }
     &__foot{
@@ -13,16 +13,22 @@
       margin: 0 auto;
     }
 
+
+
+
   }
 
   .footer{
-    background-color: #f2716e;
-    color: #fff;
-    padding-bottom: 50px;
     &__sns-icons img {
       width: 30px;
       height: 30px;
     }
+    &__bottom-content{
+      background-color: #f2716e;
+      color: #fff;
+      padding-bottom: 50px;
+    }
+
   }
 
 
