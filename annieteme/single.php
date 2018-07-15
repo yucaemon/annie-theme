@@ -1,15 +1,16 @@
 <?php include('head.php'); ?>
 <body>
 <div class='single-page outer'>
-<?php include('components-php/header03.php'); ?>
+<?php include('components-php/header.php'); ?>
+<?php include('components-php/header-sp.php'); ?>
 <div class='notice-bar'></div>
 <div class='outer__inner'>
-<div class='flexbox--h-center'>
+<div class='single__container flexbox--h-center'>
 <div class='middle-contain'>
 <h1 class='single-page__head-title'>
 <?php the_title_attribute(); ?>
 </h1>
-<div class='flexbox--spacebetween'>
+<div class='flexbox--spacebetween single-page__detail'>
 <div class='single-page__tags'>
 <i class='fa fa-tag'></i>
 <?php the_tags( '分類タグ : ',' 　' ); ?>

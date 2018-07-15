@@ -56,5 +56,36 @@
     width: 312px;
   }
 
+  /*
 
+	single.page
+
+*************************************************/
+
+
+  .single-page {
+
+    .middle-contain {
+      width: 644px;
+    }
+
+    &__eyecatch-img img {
+      width: 644px;
+      height: 380px;
+      object-fit: cover;
+    }
+
+    &__eyecatch-img {
+      padding: 30px 0;
+    }
+
+    &__entry-content {
+      .detail-box02 {
+        &__title {
+          @include fts(9, 9);
+          line-height: 21px;
+        }
+      }
+    }
+  }
 }

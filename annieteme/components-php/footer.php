@@ -1,5 +1,5 @@
 <footer class='footer'>
-<div class='outer__foot'>
+<div class='outer__foot footer__bottom-content'>
 <div class='footer__top-content flexbox'>
 <div class='footer__sns-icons flexbox'>
 <a href="https://www.facebook.com/Annie-Jene-226289061241623/"><img src="<?php echo get_template_directory_uri(); ?>/images/white-facebook.svg"></a>

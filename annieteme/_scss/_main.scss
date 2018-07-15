@@ -561,15 +561,6 @@ a:hover img { opacity: 0.5 ; }
 
 .single-page {
 
-  .middle-contain{
-    width: 644px;
-  }
-
-  &__eyecatch-img img{
-    width: 644px;
-    height: 380px;
-    object-fit: cover;
-  }
 
   &__head-title {
     font-weight: bold;
@@ -586,9 +577,6 @@ a:hover img { opacity: 0.5 ; }
   }
   &__dates {
     @extend .single-page__tags
-  }
-  &__eyecatch-img {
-    padding: 30px 0;
   }
   &__entry-content {
     p {
