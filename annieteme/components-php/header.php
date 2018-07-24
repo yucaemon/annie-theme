@@ -35,4 +35,7 @@
 <h1 class='sub-title'>
 旅するように。自由奔放に。『BOHO(ボーホー)』ファッションをお届け。
 </h1>
+<div class='breadcrumb-container'>
+<?php include('breadcrumb.php'); ?>
+</div>
 </header>
