@@ -47,6 +47,15 @@
   .instagram-widget {
     display: none;
   }
+  .this-page {
+    display: none;
+  }
+  .more-search-article{
+    display: none;
+  }
+  .items{
+    display: none;
+  }
 
 
 
@@ -158,8 +167,7 @@
       }
 
       .featured-img img {
-        width: 240px;
-        height: 178px;
+        width: 100%;
       }
     }
 
@@ -195,6 +203,7 @@
       text-align: center;
       font-size: 16px;
       padding-bottom: 20px;
+      padding-top: 50px;
     }
     &__sns-icons img {
       width: 40px;
@@ -292,6 +301,61 @@
 
     }
 
+  }
+
+  /*
+
+  recomend-list-part
+
+*************************************************/
+
+  .side-contain {
+    .news-list {
+      &__thumb-img {
+        padding-right: 3px;
+        img {
+          width: 160px;
+          height: 100px;
+          object-fit: cover;
+        }
+      }
+      &__title {
+        @include fts(15, 13);
+      }
+    }
+
+  }
+
+
+  .related-article__content {
+    width: 100%;
+    display: flex;
+  }
+  .related-article__img img{
+    width: 160px;
+    height: 100px;
+  }
+
+  .related-article__text{
+    padding-left: 12px;
+    width: 180px;
+    @include fts(15, 16);
+
+  }
+  .articles.related-article {
+    padding-bottom: 30px;
+  }
+
+  .recommend-list {
+
+    &__thumb-img {
+      width: 50px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
   }
 
 }

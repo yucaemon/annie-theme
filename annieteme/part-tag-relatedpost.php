@@ -22,17 +22,17 @@
         <?php if( !$relatedpost_count ): /* 最初の記事の場合、ヘッダを付与 */ ?>
             <ul class="related-article__container flexbox--spacebetween">
         <?php endif; ?>
-
+                  <a href="<?php echo get_permalink(); ?>" target="_blank" class="hover_fade" style="cursor: pointer;">
                     <li class="related-article__content">
-                      <a href="<?php echo get_permalink(); ?>" target="_blank" class="hover_fade" style="cursor: pointer;">
+
                         <div class="related-article__img">
                           <?php the_post_thumbnail(); ?>
                         </div>
                         <div class="related-article__text">
                           <?php the_title(); ?>
                         </div>
-                      </a>
                     </li>
+                   </a>
 
     <?php
         $relatedpost_count++;   //記事を出力した数を加算

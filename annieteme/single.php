@@ -58,3 +58,4 @@
 </div>
 </body>
 <?php include('components-php/footer.php'); ?>
+<?php include('components-php/footer-sp.php'); ?>
