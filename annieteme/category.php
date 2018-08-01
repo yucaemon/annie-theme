@@ -1,8 +1,10 @@
 <?php /** *  Template Name: カテゴリーページ */ ?>
 <?php include('head.php'); ?>
 <body>
-<div class='outer'>
+<div class='outer category-page'>
 <?php include('components-php/header03.php'); ?>
+<?php include('components-php/header-sp.php'); ?>
+<div class='notice-bar'></div>
 <div class='archive-banner'>
 <h1 class='archive-banner__header'>
 <?php echo get_the_archive_title(); ?> に関する記事一覧
@@ -26,6 +28,7 @@
 <div class="search-content__header">
 『 <?php echo get_the_archive_title(); ?> 』の関連記事一覧
 </div>
+<ul class="article-list">
 <?php
   $cat = get_the_category();
   $cat_name = $cat[0]->cat_name; // カテゴリー名
@@ -39,24 +42,24 @@
   if ( $the_query->have_posts() ) :
   ?>
   <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-
-  <ul class="article-list">
-    <a href="<?php the_permalink(); ?>">
         <li class='flexbox'>
-          <?php if (has_post_thumbnail()) : ?>
-          <?php the_post_thumbnail( 'post-thumbnails', array('class' => 'article-list__img') ); ?>
-          <?php else : ?>
-          <?php endif ; ?>
-          <div class="article-list__text">
-          <h3 class="list-title"><?php echo mb_substr($post->post_title, 0, 20).'…'; ?></h3>
-          <p class='list-read'><?php echo mb_substr(strip_tags($post-> post_content),0,100) ; ?></p>
-          </div>
+            <?php if (has_post_thumbnail()) : ?>
+              <a href="<?php the_permalink(); ?>">
+               <?php the_post_thumbnail( 'post-thumbnails', array('class' => 'article-list__img') ); ?>
+              </a>
+            <?php else : ?>
+            <?php endif ; ?>
+            <div class="article-list__text">
+              <a href="<?php the_permalink(); ?>">
+                <h3 class="list-title"><?php echo mb_substr($post->post_title, 0, 20).'…'; ?></h3>
+               <p class='list-read'><?php echo mb_substr(strip_tags($post-> post_content),0,100) ; ?></p>
+              </a>
+            </div>
         </li>
-    </a>
-  </ul>
     <?php endwhile; ?>
     <?php endif; ?>
     <?php wp_reset_postdata(); ?>
+   </ul>
 <?php include('components-php/more-search-article.php'); ?>
 <?php include('components-php/sns-box.php'); ?>
 <?php include('components-php/shopping-box.php'); ?>
@@ -73,3 +76,4 @@
 </div>
 </body>
 <?php include('components-php/footer.php'); ?>
+<?php include('components-php/footer-sp.php'); ?>

@@ -501,7 +501,10 @@ a:hover img {
   padding-left: 12px;
   padding-top: 3px;
   width: 180px;
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 7px;
+  font-size: 0.7rem;
+  line-height: 1; }
 .side-contain .recommend-list dd + dd {
   padding-top: 18px; }
 .side-contain .recommend-list__thumb-img {
@@ -1514,6 +1517,9 @@ a:hover img {
   .items {
     display: none; }
 
+  .search-content__header {
+    display: none; }
+
   .outer__header {
     margin: 0; }
   .outer__inner {
@@ -1647,7 +1653,8 @@ a:hover img {
   .single-page__eyecatch-img img {
     width: 100%;
     height: 240px;
-    padding: 20px 0 !important; }
+    padding: 20px 0 !important;
+    object-fit: cover; }
   .single-page__entry-content img {
     width: 100%; }
   .single-page__entry-content .detail-box02__txt {
@@ -1676,22 +1683,56 @@ a:hover img {
   .single-page__entry-content .detail-box03__shipping {
     display: none; }
 
+  .archive-banner {
+    margin-top: 0;
+    margin-bottom: 20px; }
+
+  .category-page .middle-contain .article-list {
+    padding: 20px 20px; }
+
+  .middle-contain .article-list li + li {
+    border-top: solid 1px #eaeaea;
+    padding-top: 30px; }
+
   /*
 
-  recomend-list-part
+  recomend-list-part(新着記事)
 
 *************************************************/
   .side-contain .news-list__thumb-img {
     padding-right: 3px; }
     .side-contain .news-list__thumb-img img {
-      width: 160px;
-      height: 100px;
+      width: 137px;
+      height: 88px;
       object-fit: cover; }
   .side-contain .news-list__title {
-    font-size: 15px;
-    font-size: 1.5rem;
-    line-height: 0.86667; }
+    font-size: 9px;
+    font-size: 0.9rem;
+    line-height: 1; }
+  .side-contain .news-list__container {
+    padding: 20px 20px; }
+    .side-contain .news-list__container .news-list__content {
+      height: 110px; }
+    .side-contain .news-list__container .news-list__content + .news-list__content {
+      border-top: solid 1px #eaeaea;
+      padding-top: 30px; }
 
+  /*
+
+recommend-list(おすすめ記事)
+
+*************************************************/
+  .recommend-list__content {
+    height: 110px; }
+  .recommend-list__content + .recommend-list__content {
+    border-top: solid 1px #eaeaea;
+    padding-top: 30px; }
+
+  /*
+
+related-article(関連記事)
+
+*************************************************/
   .related-article__content {
     width: 100%;
     display: flex; }
@@ -1703,9 +1744,9 @@ a:hover img {
   .related-article__text {
     padding-left: 12px;
     width: 180px;
-    font-size: 15px;
-    font-size: 1.5rem;
-    line-height: 1.06667; }
+    font-size: 9px;
+    font-size: 0.9rem;
+    line-height: 1; }
 
   .articles.related-article {
     padding-bottom: 30px; }

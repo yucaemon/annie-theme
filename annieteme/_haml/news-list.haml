@@ -41,13 +41,14 @@
   %dt
     .header-img
       <img src="<?php echo get_template_directory_uri(); ?>/images/news.svg">
-  :plain
-    <?php
-    $posts = get_posts(array(
-    'posts_per_page' => 5, // 表示件数
-    ));
-    ?>
-    <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
+  .news-list__container
+    :plain
+      <?php
+      $posts = get_posts(array(
+      'posts_per_page' => 5, // 表示件数
+      ));
+      ?>
+      <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
 
       <!--表示する内容が入ります。-->
       <dd class="news-list__content flexbox">
@@ -60,4 +61,4 @@
       </dd>
       <!--表示する内容ここまで-->
 
-    <?php endforeach; endif; ?>
+      <?php endforeach; endif; ?>

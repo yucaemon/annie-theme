@@ -330,6 +330,7 @@ a:hover img { opacity: 0.5 ; }
       padding-top: 3px;
       width: 180px;
       font-weight: bold;
+      @include fts(7,7)
     }
   }
 
