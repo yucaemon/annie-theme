@@ -2,7 +2,9 @@
 <?php include('head.php'); ?>
 <body>
 <div class='outer'>
+<?php include('components-php/header-sp.php'); ?>
 <?php include('components-php/header03.php'); ?>
+<div class='notice-bar'></div>
 <div class='archive-banner search-content flexbox--v-center'>
 <h1 class='archive-banner__header'>
 <?php
@@ -29,15 +31,17 @@ if( $total_results >0 ):
 if(have_posts()):
 while(have_posts()): the_post();
 ?>
-<a href="<?php the_permalink(); ?>">
 <li class='flexbox'>
-<?php the_post_thumbnail( 'post-thumbnails', array('class' => 'article-list__img') ); ?>
-<div class="article-list__text">
-<h3 class="list-title"><?php echo mb_substr($post->post_title, 0, 20).'…'; ?></h3>
-<p class='list-read'><?php echo mb_substr(strip_tags($post-> post_content),0,100) ; ?></p>
-</div>
+  <a href="<?php the_permalink(); ?>">
+    <?php the_post_thumbnail( 'post-thumbnails', array('class' => 'article-list__img') ); ?>
+  </a>
+  <a href="<?php the_permalink(); ?>">
+    <div class="article-list__text">
+    <h3 class="list-title"><?php echo mb_substr($post->post_title, 0, 20).'…'; ?></h3>
+    <p class='list-read'><?php echo mb_substr(strip_tags($post-> post_content),0,100) ; ?></p>
+    </div>
+  </a>
 </li>
-</a>
 <?php endwhile; endif; else: ?>
 『 <?php echo $search_query; ?> 』 に一致する情報は見つかりませんでした。
 <?php endif; ?>
@@ -57,3 +61,4 @@ while(have_posts()): the_post();
 </div>
 </body>
 <?php include('components-php/footer.php'); ?>
+<?php include('components-php/footer-sp.php'); ?>

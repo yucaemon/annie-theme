@@ -2,7 +2,9 @@
 <?php include('head.php'); ?>
 <body>
 <div class='tag-page outer'>
+<?php include('components-php/header-sp.php'); ?>
 <?php include('components-php/header03.php'); ?>
+<div class='notice-bar'></div>
 <div class='archive-banner'>
 <h1 class='archive-banner__header'>
 <?php echo get_the_archive_title(); ?> に関する記事一覧
@@ -15,23 +17,24 @@
 <div class="search-content__header">
 『 <?php echo get_the_archive_title(); ?> 』の関連記事一覧
 </div>
-
-<?php if(have_posts()): while(have_posts()):the_post(); ?>
-  <ul class="article-list">
-    <a href="<?php the_permalink(); ?>">
+<ul class="article-list">
+  <?php if(have_posts()): while(have_posts()):the_post(); ?>
       <li class='flexbox'>
         <?php if( has_post_thumbnail() ): ?>
-        <?php the_post_thumbnail( 'post-thumbnails', array('class' => 'article-list__img') ); ?>
-        <div class="article-list__text">
-        <h3 class="list-title"><?php echo mb_substr($post->post_title, 0, 20).'…'; ?></h3>
-        <p class='list-read'><?php echo mb_substr(strip_tags($post-> post_content),0,100) ; ?></p>
+        <a href="<?php the_permalink(); ?>">
+          <?php the_post_thumbnail( 'post-thumbnails', array('class' => 'article-list__img') ); ?>
+        </a>
+        <a href="<?php the_permalink(); ?>">
+          <div class="article-list__text">
+          <h3 class="list-title"><?php echo mb_substr($post->post_title, 0, 20).'…'; ?></h3>
+          <p class='list-read'><?php echo mb_substr(strip_tags($post-> post_content),0,100) ; ?></p>
+        </a>
         </div>
       </li>
-    </a>
-   </ul>
-<?php else: ?>
-<?php endif; ?>
-<?php endwhile; endif; ?>
+  <?php else: ?>
+  <?php endif; ?>
+  <?php endwhile; endif; ?>
+</ul>
 <?php include('components-php/more-search-article.php'); ?>
 <?php include('components-php/sns-box.php'); ?>
 <?php include('components-php/shopping-box.php'); ?>
@@ -48,3 +51,4 @@
 </div>
 </body>
 <?php include('components-php/footer.php'); ?>
+<?php include('components-php/footer-sp.php'); ?>
