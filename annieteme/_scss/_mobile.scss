@@ -512,4 +512,31 @@ related-article(関連記事)
       padding: 20px;
     }
   }
+
+  /*
+
+ .about-page (アバウトページ)
+
+*********** **************************************/
+
+  .about-page {
+    .mission .yuka-sign__img {
+      width: 25%;
+      margin-left: auto;
+      padding-right: 25px;
+      padding-bottom: 0;
+    }
+
+    .pages__container {
+      padding-top: 50px;
+    }
+    .pages__header{
+      letter-spacing: 0.3px;
+      font-size: 15px !important;
+      line-height: 1.5 !important;
+    }
+    .pages__read {
+      padding-top: 42px;;
+    }
+  }
 }

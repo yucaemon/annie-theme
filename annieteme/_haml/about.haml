@@ -4,13 +4,15 @@
   %section.about-page.pages
     .outer
       <?php include('components-php/header02.php'); ?>
-      .outer__inner.column-12
+      <?php include('components-php/header-sp.php'); ?>
+      .notice-bar
+      .outer__inner
         .pages__container
           .logo__img
             <img src="<?php echo get_template_directory_uri(); ?>/images/annie-logo.svg">
           .mission
             %h1.pages__header
-              ”好きな服をずっと着る 。 自分らしく、自由奔放スタイルを楽しもう。”
+              ”旅するように暮らそう。自分らしく『自由奔放』を楽しもう。”
             %p.pages__read
               ぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶ
               ぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶららぶらぶ
@@ -38,242 +40,6 @@
               ぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶらぶららぶら
             .yuka-sign__img
               <img src="<?php echo get_template_directory_uri(); ?>/images/yuka-sign.svg">
-        .lists-box
-          .lists-container.brands.flexbox--v-center
-            .lists-container__header
-              %p.lists-container__txt
-                アメリカ国内人気ブランド
-              .brands-h-img
-                <img src="<?php echo get_template_directory_uri(); ?>/images/brands-img.svg">
-              .lists-container__btn
-                ブランド一覧記事へ
-            %ul.lists-container__lists.flexbox
-              %li
-                %p.lists-container__lists_lang_eng
-                  genuine People
-                %p.lists-container__lists_lang_jan
-                  ジェーニーピーポー
-              %li
-                %p.lists-container__lists_lang_eng
-                  anthropologie
-                %p.lists-container__lists_lang_jan
-                  アンソロポロジー
-              %li
-                %p.lists-container__lists_lang_eng
-                  freepeople
-                %p.lists-container__lists_lang_jan
-                  フリーピーポー
-              %li
-                %p.lists-container__lists_lang_eng
-                  madewell
-                %p.lists-container__lists_lang_jan
-                  マクドウェル
-              %li
-                %P.lists-container__lists_lang_eng
-                  genuine People
-                %p.lists-container__lists_lang_jan
-                  ジェーニーピーポー
-              %li
-                %p.lists-container__lists_lang_eng
-                  anthropologie
-                %p.lists-container__lists_lang_jan
-                  アンソロポロジー
-              %li
-                %p.lists-container__lists_lang_eng
-                  freepeople
-                %p.lists-container__lists_lang_jan
-                  フリーピーポー
-              %li
-                %p.lists-container__lists_lang_eng
-                  madewell
-                %p.lists-container__lists_lang_jan
-                  マクドウェル
-
-          .lists-container.brands.flexbox--v-center
-            .lists-container__header
-              %p.lists-container__txt
-                ポートランド人気ブランド
-              .portland-h-img
-                <img src="<?php echo get_template_directory_uri(); ?>/images/portland-img.svg">
-              .lists-container__btn
-                ブランド一覧記事へ
-            %ul.lists-container__lists.flexbox
-              %li
-                %p.lists-container__lists_lang_eng
-                  genuine People
-                %p.lists-container__lists_lang_jan
-                  ジェーニーピーポー
-              %li
-                %p.lists-container__lists_lang_eng
-                  anthropologie
-                %p.lists-container__lists_lang_jan
-                  アンソロポロジー
-              %li
-                %p.lists-container__lists_lang_eng
-                  freepeople
-                %p.lists-container__lists_lang_jan
-                  フリーピーポー
-              %li
-                %p.lists-container__lists_lang_eng
-                  madewell
-                %p.lists-container__lists_lang_jan
-                  マクドウェル
-              %li
-                %P.lists-container__lists_lang_eng
-                  genuine People
-                %p.lists-container__lists_lang_jan
-                  ジェーニーピーポー
-              %li
-                %p.lists-container__lists_lang_eng
-                  anthropologie
-                %p.lists-container__lists_lang_jan
-                  アンソロポロジー
-              %li
-                %p.lists-container__lists_lang_eng
-                  freepeople
-                %p.lists-container__lists_lang_jan
-                  フリーピーポー
-              %li
-                %p.lists-container__lists_lang_eng
-                  madewell
-                %p.lists-container__lists_lang_jan
-                  マクドウェル
-              %li
-                %p.lists-container__lists_lang_eng
-                  genuine People
-                %p.lists-container__lists_lang_jan
-                  ジェーニーピーポー
-              %li
-                %p.lists-container__lists_lang_eng
-                  anthropologie
-                %p.lists-container__lists_lang_jan
-                  アンソロポロジー
-              %li
-                %p.lists-container__lists_lang_eng
-                  freepeople
-                %p.lists-container__lists_lang_jan
-                  フリーピーポー
-              %li
-                %p.lists-container__lists_lang_eng
-                  madewell
-                %p.lists-container__lists_lang_jan
-                  マクドウェル
-              %li
-                %P.lists-container__lists_lang_eng
-                  genuine People
-                %p.lists-container__lists_lang_jan
-                  ジェーニーピーポー
-              %li
-                %p.lists-container__lists_lang_eng
-                  anthropologie
-                %p.lists-container__lists_lang_jan
-                  アンソロポロジー
-              %li
-                %p.lists-container__lists_lang_eng
-                  freepeople
-                %p.lists-container__lists_lang_jan
-                  フリーピーポー
-              %li
-                %p.lists-container__lists_lang_eng
-                  madewell
-                %p.lists-container__lists_lang_jan
-                  マクドウェル
-
-          .lists-container.models.flexbox--v-center
-            .lists-container__header
-              %p.lists-container__txt
-                ポートランドのクリエーターズ
-              .models-h-img
-                <img src="<?php echo get_template_directory_uri(); ?>/images/gypsys-img.svg">
-            :plain
-              <?php $users = get_users( array('orderby'=>ID,'order'=>ASC) ); ?>
-              <ul class="lists-container__lists.models__lists flexbox">
-              <?php foreach($users as $user) {
-              $uid = $user->ID; ?>
-              <li class="flexbox--v-center">
-                <div class="models__img"><?php echo get_avatar( $uid ,300 ); ?></div>
-                <div class="lists-container__text">
-                  <p class="models__name"><?php echo $user->display_name ; ?></p>
-                  <p class="models__info"><?php echo $user->user_description ; ?></p>
-                </div>
-              </li>
-              <?php } ?>
-              </ul>
-
-            %ul.lists-container__lists.models__lists.flexbox
-              %li.flexbox--v-center
-                .models__img
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/yuca.png">
-                .lists-container__text
-                  %p.models__name
-                    beru
-                  %P.models__info
-                    アメリカポートランド在住
-              %li.flexbox--v-center
-                .models__img
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/yuca.png">
-                .lists-container__text
-                  %p.models__name
-                    beru
-                  %P.models__info
-                    アメリカポートランド在住
-              %li.flexbox--v-center
-                .models__img
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/yuca.png">
-                .lists-container__text
-                  %p.models__name
-                    beru
-                  %P.models__info
-                    アメリカポートランド在住
-              %li.flexbox--v-center
-                .models__img
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/yuca.png">
-                .lists-container__text
-                  %p.models__name
-                    beru
-                  %P.models__info
-                    アメリカポートランド在住
-              %li.flexbox--v-center
-                .models__img
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/yuca.png">
-                .lists-container__text
-                  %p.models__name
-                    beru
-                  %P.models__info
-                    アメリカポートランド在住
-              %li.flexbox--v-center
-                .models__img
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/yuca.png">
-                .lists-container__text
-                  %p.models__name
-                    beru
-                  %P.models__info
-                    アメリカポートランド在住
-              %li.flexbox--v-center
-                .models__img
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/yuca.png">
-                .lists-container__text
-                  %p.models__name
-                    beru
-                  %P.models__info
-                    アメリカポートランド在住
-              %li.flexbox--v-center
-                .models__img
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/yuca.png">
-                .lists-container__text
-                  %p.models__name
-                    beru
-                  %P.models__info
-                    アメリカポートランド在住
-              %li.flexbox--v-center
-                .models__img
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/yuca.png">
-                .lists-container__text
-                  %p.models__name
-                    beru
-                  %P.models__info
-                    アメリカポートランド在住
-
         <?php include('components-php/news-articles.php'); ?>
         <?php include('components-php/more-search-article.php'); ?>
         .column-6.margin-center
@@ -282,5 +48,6 @@
           <?php include('components-php/shopping-box.php'); ?>
         <?php include('chatbox.php'); ?>
 
-  <?php include('components-php/footer.php'); ?>
+<?php include('components-php/footer.php'); ?>
+<?php include('components-php/footer-sp.php'); ?>
 

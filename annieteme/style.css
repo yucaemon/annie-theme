@@ -1143,8 +1143,8 @@ a:hover img {
   margin: 0 auto; }
 .pages__container {
   text-align: center;
-  margin-bottom: 100px;
-  padding-top: 20px; }
+  margin-bottom: 30px;
+  padding-top: 50px; }
 .pages .logo__img {
   margin: 0 auto;
   padding-bottom: 58px; }
@@ -1194,15 +1194,13 @@ a:hover img {
 	about page
 
 *************************************************/
-.about-page .mission {
-  border-bottom: solid 1px #dcdcdc; }
-  .about-page .mission .yuka-sign__img {
-    width: 105px;
-    margin-left: auto;
-    padding-right: 46px;
-    padding-bottom: 100px; }
-    .about-page .mission .yuka-sign__img img {
-      width: 100%; }
+.about-page .mission .yuka-sign__img {
+  width: 105px;
+  margin-left: auto;
+  padding-right: 46px;
+  padding-bottom: 100px; }
+  .about-page .mission .yuka-sign__img img {
+    width: 100%; }
 .about-page .lists-container {
   margin-bottom: 100px;
   padding-bottom: 100px;
@@ -1827,6 +1825,25 @@ related-article(関連記事)
 
 *********** **************************************/
   .category-page .news-list__container {
-    padding: 20px; } }
+    padding: 20px; }
+
+  /*
+
+ .about-page (アバウトページ)
+
+*********** **************************************/
+  .about-page .mission .yuka-sign__img {
+    width: 25%;
+    margin-left: auto;
+    padding-right: 25px;
+    padding-bottom: 0; }
+  .about-page .pages__container {
+    padding-top: 50px; }
+  .about-page .pages__header {
+    letter-spacing: 0.3px;
+    font-size: 15px !important;
+    line-height: 1.5 !important; }
+  .about-page .pages__read {
+    padding-top: 42px; } }
 
 /*# sourceMappingURL=style.css.map */
