@@ -4,7 +4,9 @@
 <section class='pages error-page'>
 <div class='outer'>
 <?php include('components-php/header02.php'); ?>
-<div class='outer__inner column-12'>
+<?php include('components-php/header-sp.php'); ?>
+<div class='notice-bar'></div>
+<div class='outer__inner'>
 <div class='pages__container'>
 <div class='notfind__img'>
 <img src="<?php echo get_template_directory_uri(); ?>/images/notfind.svg">
@@ -31,5 +33,6 @@
 </div>
 </div>
 </section>
-<?php include('components-php/footer.php'); ?>
 </body>
+<?php include('components-php/footer.php'); ?>
+<?php include('components-php/footer-sp.php'); ?>

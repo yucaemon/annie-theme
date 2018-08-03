@@ -5,6 +5,7 @@
 <div class='outer'>
 <?php include('components-php/header02.php'); ?>
 <?php include('components-php/header-sp.php'); ?>
+<div class='notice-bar'></div>
 <div class='outer__inner'>
 <div class='pages__container'>
 <div class='logo__img'>
