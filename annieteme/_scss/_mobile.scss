@@ -19,6 +19,20 @@
   .header {
     display: none;
   }
+  .header02{
+    display: none;
+  }
+  .pages__container{
+    padding: 30px;
+    .logo__img{
+      display: none
+    }
+    .security-policy {
+      padding: 30px;
+    }
+
+  }
+
   .footer {
     display: none;
   }
@@ -83,6 +97,8 @@
   .header-sp {
     display: block;
     height: 132px;
+
+    padding-bottom: 20px;
     .logo__img {
       width: 63%;
       height: 0;
@@ -143,7 +159,7 @@
         padding-bottom: 0;
       }
       &__text {
-        width: 180px;
+        width: 165px;
       }
     }
     .more-page {
@@ -408,6 +424,50 @@ related-article(関連記事)
         height: 100%;
         object-fit: cover;
       }
+    }
+  }
+
+
+  /*
+
+　シングルページ .page
+
+*************************************************/
+
+  .pages {
+  &__container {
+    padding-top: 30px;
+    margin-bottom: 30px;
+  }
+    .outer__inner {
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+
+  /*
+
+　最新の記事はこちら news-articles
+
+*************************************************/
+  .news-articles {
+    &__container {
+      display: flow-root;
+      clear: both;
+      padding: 30px 30px;
+    }
+    &__content {
+      display: flex;
+      width: 100%;
+      .news-articles__img img {
+        height: 105px;
+        width: 170px;
+        object-fit: cover;
+      }
+    }
+    &__text{
+      padding-left: 15px;
+
     }
   }
 
