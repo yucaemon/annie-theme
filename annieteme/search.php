@@ -1,7 +1,7 @@
 <?php /** *  Template Name: 検索ページ */ ?>
 <?php include('head.php'); ?>
 <body>
-<div class='outer'>
+<div class='outer search-page'>
 <?php include('components-php/header-sp.php'); ?>
 <?php include('components-php/header03.php'); ?>
 <div class='notice-bar'></div>

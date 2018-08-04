@@ -145,7 +145,7 @@
       &__form {
         width: 100%;
         margin: 0 auto;
-        padding-top: 70px;
+        padding-top: 50px;
       }
 
       .search-icon {
@@ -402,7 +402,6 @@
         @include fts(9, 9);
       }
       &__container {
-        //padding: 20px 20px;
         .news-list__content{
         height: 110px;
       }
@@ -416,6 +415,19 @@
 
     }
 
+  }
+
+/*
+
+search-page(検索ページ)
+
+*************************************************/
+
+
+  .search-page {
+    .side-contain .news-list__container {
+      padding: 0 20px;
+    }
   }
 
   /*
