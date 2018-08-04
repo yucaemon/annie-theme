@@ -12,7 +12,19 @@
           <a href="<?php bloginfo('url'); ?>/category/lifestyle/" <?php if(is_category('lifestyle')) echo 'class="iscurrent"'; ?>>ライフ/DIY</a>
         %li
           <a href="<?php bloginfo('url'); ?>/category/cosmetics/" <?php if(is_category('cosmetics')) echo 'class="iscurrent"'; ?>>美容/コスメ</a>
-
+  .side-menu-list__li
+    %p.side-menu-list__title
+      %i.fa.fa-star
+      キーワードから探す
+      %ul
+        %li
+          <a href="<?php bloginfo('url'); ?>/tag/tops/" <?php if(is_tag('tops')) echo 'class="iscurrent"'; ?>>オーガニック</a>
+        %li
+          <a href="<?php bloginfo('url'); ?>/tag/bottoms/" <?php if(is_tag('bottoms')) echo 'class="iscurrent"'; ?>>エシカル</a>
+        %li
+          <a href="<?php bloginfo('url'); ?>/tag/dresses/" <?php if(is_tag('dresses')) echo 'class="iscurrent"'; ?>>フェアトレード</a>
+        %li
+          <a href="<?php bloginfo('url'); ?>/tag/accessories/" <?php if(is_tag('accessories')) echo 'class="iscurrent"'; ?>>ローカル</a>
   .side-menu-list__li
     %p.side-menu-list__title
       %i.fa.fa-heart

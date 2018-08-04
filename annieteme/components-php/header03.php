@@ -29,7 +29,7 @@
 </div>
 <div class='logo'>
 <div class='logo__img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/annie-logo.svg" width="250">
+<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/annie-logo.svg" width="250"></a>
 </div>
 </div>
 <div class='breadcrumb-container'>

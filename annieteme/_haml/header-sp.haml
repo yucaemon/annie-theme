@@ -37,10 +37,14 @@
           %li.drawer-menu__li
             <a href="<?php bloginfo('url'); ?>/tag/genuineeople/">genuine People</a>
     .search
-      %i.fa.fa-search
+      %btn.search-icon
+        %i.fa.fa-search
+      .search__box.textArea
+        .search__form
+          <?php get_search_form(); ?>
   .logo
     .logo__img
-      <img src="<?php echo get_template_directory_uri(); ?>/images/annie-logo.svg" width="250">
+      <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/annie-logo.svg" width="250"></a>
 
 
 

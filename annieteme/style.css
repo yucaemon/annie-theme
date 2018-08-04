@@ -1549,15 +1549,43 @@ a:hover img {
     .header-sp .logo__img {
       width: 100%;
       height: 0;
-      margin-bottom: 20%; }
+      margin-bottom: 20%;
+      padding-top: 3%; }
       .header-sp .logo__img img {
         margin: 0;
         padding: 0; }
     .header-sp .search {
       padding-top: 15px;
       padding-right: 13px; }
+      .header-sp .search__box {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding-bottom: 2px;
+        background-color: white;
+        z-index: 100; }
+        .header-sp .search__box form#searchform {
+          width: 100%;
+          border: none;
+          padding: 31px 12px;
+          text-align: center; }
+          .header-sp .search__box form#searchform .fa {
+            font-size: 33px;
+            padding-right: 10px; }
+        .header-sp .search__box form#searchform #s {
+          font-size: 24px;
+          width: auto; }
+      .header-sp .search__form {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 70px; }
+      .header-sp .search .search-icon {
+        position: relative;
+        z-index: 200; }
     .header-sp .drawer-hamburger {
-      position: absolute; }
+      position: absolute;
+      z-index: 300; }
     .header-sp .drawer-nav {
       position: absolute; }
       .header-sp .drawer-nav .drawer-menu {
@@ -1810,6 +1838,9 @@ related-article(関連記事)
     display: none; }
   .error-page .notfind__img {
     width: 60%; }
+  .error-page p.notfind__text {
+    font-size: 0.7rem;
+    padding-top: 7px; }
 
   /*
 

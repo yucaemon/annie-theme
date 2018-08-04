@@ -21,7 +21,7 @@
 </li>
 </ul>
 <div class='search__box'>
-<div class='search__formvcft'>
+<div class='search__form'>
 <?php get_search_form(); ?>
 </div>
 </div>
@@ -29,7 +29,7 @@
 </div>
 <div class='logo'>
 <div class='logo__img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/annie-logo.svg" width="250">
+<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/annie-logo.svg" width="250"></a>
 </div>
 </div>
 <h1 class='sub-title'>

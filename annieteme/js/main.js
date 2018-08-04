@@ -31,4 +31,14 @@ $grid.append(emptyCells);
 
 $('.drawer').drawer();
 
+    $(".textArea").hide();
+
+    $(".search-icon").click(function(){
+        $($(this).next(".textArea")).animate(
+            {height: "toggle", opacity: "toggle"},
+            "nomal"
+        );
+
+    });
+
 });

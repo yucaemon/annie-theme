@@ -103,6 +103,7 @@
       width: 100%;
       height: 0;
       margin-bottom:  20%;
+      padding-top: 3%;
       img {
         margin: 0;
         padding: 0;
@@ -112,9 +113,54 @@
     .search {
       padding-top: 15px;
       padding-right: 13px;
+
+      &__box {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding-bottom: 2px;
+        background-color: white;
+        z-index: 100;
+
+        form#searchform {
+          width: 100%;
+          border: none;
+          padding: 31px 12px;
+          text-align: center;
+
+          .fa{
+            font-size: 33px;
+            padding-right: 10px;
+          }
+        }
+
+        form#searchform #s{
+            font-size: 24px;
+             width: auto;
+          }
+
+      }
+
+      &__form {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 70px;
+      }
+
+      .search-icon {
+        position: relative;
+        z-index: 200;
+
+      }
+
+
+
+
     }
     .drawer-hamburger {
       position: absolute;
+      z-index: 300;
 
     }
     .drawer-nav {
@@ -487,6 +533,10 @@ related-article(関連記事)
     }
     .notfind__img {
       width: 60%;
+    }
+    p.notfind__text{
+      font-size: 0.7rem;
+      padding-top: 7px;
     }
   }
 

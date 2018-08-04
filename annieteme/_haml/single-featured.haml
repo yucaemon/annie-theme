@@ -1,40 +1,18 @@
 <?php include('head.php'); ?>
 %body
   .single-page.outer
-    %header.outer__header.header
-      .flexbox--spacebetween
-        .sns-icons.flexbox
-          .sns-icons__icon
-            <a href="https://www.facebook.com/Annie-Jene-226289061241623/"><img src="<?php echo get_template_directory_uri(); ?>/images/facebook-icon.svg"></a>
-          .sns-icons__icon
-            <a href="https://twitter.com/bohostyle_love"><img src="<?php echo get_template_directory_uri(); ?>/images/twitter-icon.svg"></a>
-          .sns-icons__icon
-            <a href="https://www.instagram.com/annie_jene/"><img src="<?php echo get_template_directory_uri(); ?>/images/instagram-icon.svg"></a>
-        .info
-          %ul.nav-menu.flexbox
-            %li
-              <a href="<?php echo esc_url( home_url( '/about/' ) ); ?>">Annienについて</a>
-            %li
-              ポートランドオレゴン州
-          .search__box
-            .search__formvcft
-              <?php get_search_form(); ?>
-      .logo
-        .logo__img
-          <img src="<?php echo get_template_directory_uri(); ?>/images/annie-logo.svg" width="250">
-        .sub-title
-          ポートランドから、自由奔放『BOHO』ファッションをお届け。海外通販メディア
+    <?php include('components-php/header.php'); ?>
+    <?php include('components-php/header-sp.php'); ?>
     .notice-bar
-      お知らせ：ショッピングサイト『アニー』OPEN!!! ファッションの街、ポートランドから日本へ現地の新商品を紹介。
-    <?php include('components-php/breadcrumb.php'); ?>
     .outer__inner
-      .flexbox--h-center
-        .column-8.middle-contain
+      .single__container.flexbox--h-center
+        .middle-contain
           %h1.single-page__head-title
             <?php the_title_attribute(); ?>
-          .flexbox--spacebetween
+          .flexbox--spacebetween.single-page__detail
             .single-page__tags
-              /%i.fa.fa-tag
+              %i.fa.fa-tag
+              <?php the_tags( '分類タグ : ',' 　' ); ?>
               %span
                 <?php $slug_name = basename(get_permalink()); ?>
             .single-page__dates
@@ -42,13 +20,15 @@
               <?php the_time('Y/m/d'); ?>
           <?php include('components-php/article-sns-btns.php'); ?>
           .single-page__eyecatch-img
-            <img src="<?php echo get_template_directory_uri(); ?>/images/single-img-top.png" width="644px">
-
+            <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
           .single-page__entry-content
-            <?php
-            $this_content= wpautop($post->post_content);
-            echo $this_content;
-            ?>
+            <?php if ( have_posts() ) : ?>
+            <?php while ( have_posts() ) : the_post(); ?>
+            <?php the_content();?>
+            <?php endwhile; ?>
+            <?php else : ?>
+            <?php endif; ?>
+
 
           <?php include('components-php/wrote-models-box.php'); ?>
           <?php include('components-php/article-sns-btns.php'); ?>
@@ -62,10 +42,15 @@
 
         .column-4.side-contain
           <?php include('components-php/featured-box.php'); ?>
-          <?php include('components-php/recommend-list.php'); ?>
+          <?php include('components-php/category-popular.php'); ?>
           <?php include('components-php/news-list.php'); ?>
           <?php include('components-php/items.php'); ?>
           <?php include('components-php/keywords.php'); ?>
           <?php include('components-php/models-lists.php'); ?>
+          <?php include('instagram-widget.php'); ?>
+          <?php include('chatbox.php'); ?>
+
 <?php include('components-php/footer.php'); ?>
+<?php include('components-php/footer-sp.php'); ?>
+
 

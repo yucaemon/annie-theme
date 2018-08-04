@@ -21,6 +21,26 @@
 </div>
 <div class='side-menu-list__li'>
 <p class='side-menu-list__title'>
+<i class='fa fa-star'></i>
+キーワードから探す
+<ul>
+<li>
+<a href="<?php bloginfo('url'); ?>/tag/tops/" <?php if(is_tag('tops')) echo 'class="iscurrent"'; ?>>オーガニック</a>
+</li>
+<li>
+<a href="<?php bloginfo('url'); ?>/tag/bottoms/" <?php if(is_tag('bottoms')) echo 'class="iscurrent"'; ?>>エシカル</a>
+</li>
+<li>
+<a href="<?php bloginfo('url'); ?>/tag/dresses/" <?php if(is_tag('dresses')) echo 'class="iscurrent"'; ?>>フェアトレード</a>
+</li>
+<li>
+<a href="<?php bloginfo('url'); ?>/tag/accessories/" <?php if(is_tag('accessories')) echo 'class="iscurrent"'; ?>>ローカル</a>
+</li>
+</ul>
+</p>
+</div>
+<div class='side-menu-list__li'>
+<p class='side-menu-list__title'>
 <i class='fa fa-heart'></i>
 アイテムから探す
 <ul>

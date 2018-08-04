@@ -56,12 +56,19 @@
 </div>
 </div>
 <div class='search'>
+<btn class='search-icon'>
 <i class='fa fa-search'></i>
+</btn>
+<div class='search__box textArea'>
+<div class='search__form'>
+<?php get_search_form(); ?>
+</div>
+</div>
 </div>
 </div>
 <div class='logo'>
 <div class='logo__img'>
-<img src="<?php echo get_template_directory_uri(); ?>/images/annie-logo.svg" width="250">
+<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/annie-logo.svg" width="250"></a>
 </div>
 </div>
 </header>
