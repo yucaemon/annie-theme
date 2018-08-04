@@ -963,8 +963,7 @@ a:hover img { opacity: 0.5 ; }
 }
 
 .featured-box {
-  background-color: $sub_color;
-  padding: 10px 20px;
+
   &__header {
     @include fts(11, 13);
     padding: 10px 0;

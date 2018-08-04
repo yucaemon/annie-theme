@@ -30,8 +30,7 @@ for (i = 0; i < $grid.find('.cell').length; i++) {
 $grid.append(emptyCells);
 
 $('.drawer').drawer();
-
-    $(".textArea").hide();
+$(".textArea").hide();
 
     $(".search-icon").click(function(){
         $($(this).next(".textArea")).animate(

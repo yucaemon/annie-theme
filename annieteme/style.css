@@ -1025,26 +1025,23 @@ a:hover img {
 .shopping-banner {
   margin-bottom: 50px; }
 
-.featured-box {
-  background-color: #ffede9;
-  padding: 10px 20px; }
-  .featured-box__header {
-    font-size: 11px;
-    font-size: 1.1rem;
-    line-height: 1.18182;
-    padding: 10px 0;
-    font-weight: bold; }
-  .featured-box__read {
-    font-size: 9px;
-    font-size: 0.9rem;
-    line-height: 1.33333;
-    padding-top: 4px;
-    padding-bottom: 25px; }
-  .featured-box .featured-img {
-    padding: 10px 0; }
-    .featured-box .featured-img img {
-      width: 272px;
-      height: 178px; }
+.featured-box__header {
+  font-size: 11px;
+  font-size: 1.1rem;
+  line-height: 1.18182;
+  padding: 10px 0;
+  font-weight: bold; }
+.featured-box__read {
+  font-size: 9px;
+  font-size: 0.9rem;
+  line-height: 1.33333;
+  padding-top: 4px;
+  padding-bottom: 25px; }
+.featured-box .featured-img {
+  padding: 10px 0; }
+  .featured-box .featured-img img {
+    width: 272px;
+    height: 178px; }
 
 /*
 
