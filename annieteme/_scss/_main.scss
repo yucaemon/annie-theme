@@ -11,7 +11,7 @@
 }
 
 #douga{
-  height: 359px;
+  height: 422px;
   overflow: hidden;
   background: url(images/index-top-banner02.png) no-repeat;
   margin-bottom: 50px;
@@ -93,6 +93,9 @@ a:hover img { opacity: 0.5 ; }
 }
 
 
+.outer__inner {
+  padding-top: 30px;
+}
 
 
 
@@ -134,10 +137,9 @@ a:hover img { opacity: 0.5 ; }
 }
 
 .breadcrumbs {
-  font-size: 12px;
+  font-size: 10px;
   color: #a5a5a5;
   letter-spacing: 1px;
-  padding-bottom: 10px;
   .fa-home {
     font-size: 16px;
   }
@@ -201,7 +203,7 @@ a:hover img { opacity: 0.5 ; }
 .sub-title{
   @include fts(8.3, 9);
   line-height: 1;
-  padding-bottom: 36px;
+  padding-bottom: 30px;
   text-align: center;
   font-weight: bold;
   color: #353535;
@@ -245,7 +247,7 @@ a:hover img { opacity: 0.5 ; }
   @include fts(6, 6);
   color: #fff;
   height: 0.8px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   letter-spacing: 1px;
 }
 
@@ -576,6 +578,9 @@ a:hover img { opacity: 0.5 ; }
 
 .single-page {
 
+  .sub-title{
+    display: none;
+  }
 
   &__head-title {
     font-weight: bold;
@@ -1027,7 +1032,7 @@ a:hover img { opacity: 0.5 ; }
 .archive-banner {
   background-color: $sub_color;
   padding: 40px;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   margin-top: 10px;
 
 

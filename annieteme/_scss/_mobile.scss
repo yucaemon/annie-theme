@@ -97,8 +97,8 @@
   .header-sp {
     display: block;
     height: 132px;
-
     padding-bottom: 20px;
+
     .logo__img {
       width: 100%;
       height: 0;
@@ -107,6 +107,7 @@
       img {
         margin: 0;
         padding: 0;
+        width: 235px;
       }
     }
 
@@ -212,7 +213,7 @@
       li {
         height: 110px;
         padding-bottom: 0;
-        margin-bottom: 25px;
+       // margin-bottom: 25px;
       }
       &__text {
         width: 165px;
@@ -657,6 +658,10 @@ related-article(関連記事)
       padding-left: 12px;
     }
 
+  }
+
+  .pages .notice-bar {
+    display: block;
   }
 
 }

@@ -49,6 +49,13 @@
     width: 312px;
   }
 
+  .outer__header {
+    padding: 0 20px;
+  }
+
+
+
+
   /*
 
   index.page
@@ -68,6 +75,12 @@
 *************************************************/
 
   .single-page {
+
+    .header{
+      .logo__img {
+        padding-bottom: 20px;
+      }
+    }
 
     .middle-contain {
       width: 644px;
@@ -122,6 +135,18 @@
         height: 100%;
         object-fit: cover;
       }
+    }
+  }
+
+  /*
+
+  category-page
+
+*************************************************/
+
+  .category-page ,.tag-page{
+    .logo__img {
+      padding-bottom: 30px;
     }
   }
 }

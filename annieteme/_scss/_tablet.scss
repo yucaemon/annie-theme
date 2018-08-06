@@ -7,8 +7,6 @@
 @media (max-width: 768px) and (min-width: 680px)  {
 
 
-
-
   .middle-contain .post-lists.article-list {
     width: 640px;
     margin: 0 auto;
@@ -38,12 +36,42 @@
   }
 
 
+  .related-article__img img {
+    width: 176px;
+    height: 125px;
+    object-fit: cover;
+  }
+
 
 }
 
 
 
 @media (max-width: 1024px) and (min-width: 680px)  {
+
+  .index {
+    .middle-contain {
+      .post-lists.article-list {
+        width: 660px;
+      }
+      .article-list {
+        li {
+          width: 196px;
+          height: 190px;
+        }
+
+       .article-list__img {
+          width: 400px;
+        }
+
+      }
+
+    }
+  }
+
+  #douga {
+    margin-bottom: 0;
+  }
 
   .pages{
 

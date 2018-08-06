@@ -1,6 +1,6 @@
 <?php include('head.php'); ?>
 <body>
-<div class='outer'>
+<div class='outer index'>
 <?php include('components-php/header.php'); ?>
 <?php include('components-php/header-sp.php'); ?>
 <div class='notice-bar'></div>

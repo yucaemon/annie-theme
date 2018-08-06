@@ -269,7 +269,7 @@ input[type="text"]:focus {
   display: none !important; }
 
 #douga {
-  height: 359px;
+  height: 422px;
   overflow: hidden;
   background: url(images/index-top-banner02.png) no-repeat;
   margin-bottom: 50px;
@@ -333,6 +333,9 @@ a:hover img {
   color: #f2716e !important;
   text-underline: none; }
 
+.outer__inner {
+  padding-top: 30px; }
+
 ::-moz-selection {
   background: #ffe0e0; }
 
@@ -363,10 +366,9 @@ a:hover img {
       background-color: transparent; }
 
 .breadcrumbs {
-  font-size: 12px;
+  font-size: 10px;
   color: #a5a5a5;
-  letter-spacing: 1px;
-  padding-bottom: 10px; }
+  letter-spacing: 1px; }
   .breadcrumbs .fa-home {
     font-size: 16px; }
 
@@ -413,7 +415,7 @@ a:hover img {
   font-size: 0.83rem;
   line-height: 1.08434;
   line-height: 1;
-  padding-bottom: 36px;
+  padding-bottom: 30px;
   text-align: center;
   font-weight: bold;
   color: #353535;
@@ -449,7 +451,7 @@ a:hover img {
   line-height: 1;
   color: #fff;
   height: 0.8px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   letter-spacing: 1px; }
 
 /*
@@ -701,6 +703,8 @@ a:hover img {
 	single.page
 
 *************************************************/
+.single-page .sub-title {
+  display: none; }
 .single-page__head-title {
   font-weight: bold;
   font-size: 15px;
@@ -1077,7 +1081,7 @@ a:hover img {
 .archive-banner {
   background-color: #ffede9;
   padding: 40px;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   margin-top: 10px; }
   .archive-banner__header {
     color: #9c9c9c;
@@ -1444,6 +1448,9 @@ a:hover img {
   .side-contain {
     width: 312px; }
 
+  .outer__header {
+    padding: 0 20px; }
+
   /*
 
   index.page
@@ -1457,6 +1464,8 @@ a:hover img {
 	single.page
 
 *************************************************/
+  .single-page .header .logo__img {
+    padding-bottom: 20px; }
   .single-page .middle-contain {
     width: 644px; }
   .single-page__eyecatch-img img {
@@ -1492,7 +1501,15 @@ a:hover img {
     .recommend-list__thumb-img img {
       width: 100%;
       height: 100%;
-      object-fit: cover; } }
+      object-fit: cover; }
+
+  /*
+
+  category-page
+
+*************************************************/
+  .category-page .logo__img, .tag-page .logo__img {
+    padding-bottom: 30px; } }
 /*
 
 	mobile settings windowサイズが680以下になった時の処理
@@ -1581,7 +1598,8 @@ a:hover img {
       padding-top: 3%; }
       .header-sp .logo__img img {
         margin: 0;
-        padding: 0; }
+        padding: 0;
+        width: 235px; }
     .header-sp .search {
       padding-top: 15px;
       padding-right: 13px; }
@@ -1649,8 +1667,7 @@ a:hover img {
         object-fit: cover; }
       .middle-contain .article-list li {
         height: 110px;
-        padding-bottom: 0;
-        margin-bottom: 25px; }
+        padding-bottom: 0; }
       .middle-contain .article-list__text {
         width: 165px; }
     .middle-contain .more-page {
@@ -1941,7 +1958,10 @@ related-article(関連記事)
       object-fit: cover; }
     .featured-articles__text {
       width: 177px;
-      padding-left: 12px; } }
+      padding-left: 12px; }
+
+  .pages .notice-bar {
+    display: block; } }
 /*
 
 	mobile settings windowサイズが1024以下- 680以上になった時の処理
@@ -1967,8 +1987,24 @@ related-article(関連記事)
 
   .outer__inner {
     width: 620px !important;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+
+  .related-article__img img {
+    width: 176px;
+    height: 125px;
+    object-fit: cover; } }
 @media (max-width: 1024px) and (min-width: 680px) {
+  .index .middle-contain .post-lists.article-list {
+    width: 660px; }
+  .index .middle-contain .article-list li {
+    width: 196px;
+    height: 190px; }
+  .index .middle-contain .article-list .article-list__img {
+    width: 400px; }
+
+  #douga {
+    margin-bottom: 0; }
+
   .pages .outer__inner {
     width: 820px;
     margin: 0 auto; }
