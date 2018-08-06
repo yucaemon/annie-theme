@@ -40,10 +40,10 @@
             $node = $(node); // cache wrapper node
 
 // build container
-        var test = '<div id="tubular-container" style="overflow: hidden; position: relative; z-index: 1; width: 561px; height: 316px"><div id="tubular-player" style="position: relative"></div></div><div id="tubular-shield" style="width: 100%; height: 500px; z-index: 2; position: absolute; left: 0; top: 0;"></div>';
+        var test = '<div id="tubular-container" style="overflow: hidden; position: relative; z-index: 100; width: 660px; height: 316px; margin: 0 auto;"><div id="tubular-player" style="position: relative"></div></div><div id="tubular-shield" style="width: 100%; height: 500px; z-index: 2; position: absolute; left: 0; top: 0;"></div>';
 
 // set up css prereq's, inject tubular container and set up wrapper defaults
-        $('#douga').css({'width': '100%', 'height': 'auto'});
+        $('#douga').css({'width': '660px', 'height': 'auto',  'margin': '0 auto'});
         $('#douga').prepend(test);
         $node.css({position: 'relative', 'z-index': options.wrapperZIndex});
 

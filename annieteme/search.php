@@ -4,7 +4,6 @@
 <div class='outer search-page'>
 <?php include('components-php/header-sp.php'); ?>
 <?php include('components-php/header03.php'); ?>
-<div class='notice-bar'></div>
 <div class='archive-banner search-content flexbox--v-center'>
 <h1 class='archive-banner__header'>
 <?php

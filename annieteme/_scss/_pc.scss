@@ -1,12 +1,14 @@
-@media (min-width: 680px) {
+@media (min-width: 1025px) {
 
   .outer {
     &__header {
-      margin: 20px;
+      margin: 20px auto;
+      width: 1246px;
     }
     &__inner {
       //width: 100%;
       margin: 0 auto;
+      width: 1246px;
     }
     &__foot {
       width: 100%;
@@ -19,11 +21,6 @@
     &__sns-icons img {
       width: 30px;
       height: 30px;
-    }
-    &__bottom-content {
-      background-color: #f2716e;
-      color: #fff;
-      padding-bottom: 50px;
     }
 
   }
@@ -45,12 +42,24 @@
   }
 
   .middle-contain {
-    width: 561px;
+    width: 660px;
   }
 
   .side-contain {
     width: 312px;
   }
+
+  /*
+
+  index.page
+
+*************************************************/
+
+  ul.post-lists.article-list {
+    padding-top: 30px !important;
+  }
+
+
 
   /*
 

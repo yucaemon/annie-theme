@@ -17,17 +17,9 @@ $('document').ready(function() {
     $('#douga').tubular(options);
 });
 
-//Flexbox で全体を中央に配置しつつ最後の行を左揃えにする処理
 
-var $grid = $('.grid'),
-    emptyCells = [],
-    i;
 
-for (i = 0; i < $grid.find('.cell').length; i++) {
-    emptyCells.push($('<ul>', { class: 'cell is-empty' }));
-}
-
-$grid.append(emptyCells);
+//モバイル時のハンバーグナビの処理
 
 $('.drawer').drawer();
 $(".textArea").hide();
@@ -39,5 +31,7 @@ $(".textArea").hide();
         );
 
     });
+
+
 
 });

@@ -4,7 +4,6 @@
 <div class='outer category-page'>
 <?php include('components-php/header03.php'); ?>
 <?php include('components-php/header-sp.php'); ?>
-<div class='notice-bar'></div>
 <div class='archive-banner'>
 <h1 class='archive-banner__header'>
 <?php echo get_the_archive_title(); ?> に関する記事一覧

@@ -1,10 +1,10 @@
 /*
 
-	mobile settings
+	mobile settings windowサイズが680以下になった時の処理
 
 **************************************************/
 
-@media (max-width: 680px) { /*windowサイズが680以下になった時の処理*/
+@media (max-width: 680px) {
   /*要素を消す*/
 
   /*indexページ*/
@@ -198,11 +198,21 @@
   .middle-contain {
     margin: 0;
     width: 100%;
+
     .article-list {
       padding: 30px 20px;
+      //width: 100% !important;
+
+      &__img {
+        width: 137px;
+        height: 88px;
+        object-fit: cover;
+      }
+
       li {
         height: 110px;
         padding-bottom: 0;
+        margin-bottom: 25px;
       }
       &__text {
         width: 165px;
@@ -505,6 +515,10 @@ related-article(関連記事)
     &__date-info {
       width: 100%;
     }
+
+    .notice-bar {
+     display: none;
+    }
   }
 
   /*
@@ -516,17 +530,28 @@ related-article(関連記事)
     &__container {
       display: flow-root;
       clear: both;
-      padding: 30px 30px;
+      padding: 0 30px;
     }
     &__content {
       display: flex;
       width: 100%;
+      height: 120px;
+
       .news-articles__img img {
-        height: 105px;
-        width: 170px;
+        height: 95px;
+        width: 150px;
         object-fit: cover;
+
       }
     }
+
+    &__content + &__content{
+      border-top: solid 1px #eaeaea;
+      padding-top: 30px;
+    }
+
+
+
     &__text{
       padding-left: 15px;
 
@@ -601,4 +626,37 @@ related-article(関連記事)
       padding-top: 42px;;
     }
   }
+
+  .featured-articles {
+
+    padding-bottom: 20px;
+
+    &__content {
+      width: 100%;
+      padding-top: 10px;
+      display: flex;
+      padding-right: -4px;
+      height: 110px;
+    }
+
+    .featured-articles__content + .featured-articles__content{
+
+      border-top: solid 1px #eaeaea;
+      padding-top: 30px;
+
+    }
+
+    &__img img {
+      width: 137px;
+      height: 88px;
+      object-fit: cover;
+    }
+
+    &__text {
+      width: 177px;
+      padding-left: 12px;
+    }
+
+  }
+
 }

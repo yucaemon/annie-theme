@@ -70,5 +70,8 @@
 <div class='logo__img'>
 <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/annie-logo.svg" width="250"></a>
 </div>
+<h1 class='sub-title'>
+旅するように暮らそう。『BOHO(ボーホー)』スタイルをお届け。
+</h1>
 </div>
 </header>
