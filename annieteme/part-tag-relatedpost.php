@@ -7,7 +7,7 @@
     $related_taglist = [];  //関連記事を出力する為のタグリスト
 
     //記事からタグを集める
-    foreach( $tags as $tag ):   //記事に含まれるタグの数だけ繰り返し
+    foreach( (array)$tags as $tag ):   //記事に含まれるタグの数だけ繰り返し
         $related_taglist[] = $tag -> term_id;    //タグIDをリスト配列に追加
     endforeach;
 
@@ -48,7 +48,7 @@
         ));
         ?>
         <ul class="related-article__container flexbox--spacebetween">
-          <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
+          <?php if($posts): foreach((array)$posts as $post): setup_postdata($post); ?>
               <!--表示する内容が入ります。-->
               <li class="related-article__content">
                 <div class="related-article__img">
