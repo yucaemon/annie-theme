@@ -22,7 +22,11 @@ get_header(); ?>
 			while ( have_posts() ) : the_post();
 				get_template_part( 'template-parts/page/content', 'front-page' );
 			endwhile;
+<<<<<<< HEAD
 		else : // I'm not sure it's possible to have no posts when this page is shown, but WTH.
+=======
+		else :
+>>>>>>> 1484eecae7f317769b48837425064f1c8f79584c
 			get_template_part( 'template-parts/post/content', 'none' );
 		endif; ?>
 
