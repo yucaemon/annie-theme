@@ -1,6 +1,12 @@
 <div class='side-menu-list'>
 <div class='side-menu-list__li'>
 <p class='side-menu-list__title'>
+<i class='fa fa-home'></i>
+<a href="<?php echo esc_url( home_url( '/' ) ); ?>">ホームに戻る</a>
+</p>
+</div>
+<div class='side-menu-list__li'>
+<p class='side-menu-list__title'>
 <i class='fa fa-list-ul'></i>
 カテゴリーから探す
 <ul>

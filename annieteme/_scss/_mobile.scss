@@ -71,7 +71,7 @@
     display: none;
   }
   .search-content__header{
-    display: none;
+    //display: none;
   }
 
 
@@ -120,7 +120,7 @@
         top: 0;
         left: 0;
         width: 100%;
-        padding-bottom: 47px;
+        padding-bottom: 4px;
         background-color: white;
         z-index: 100;
 
@@ -151,11 +151,11 @@
 
       .search-icon {
         position: relative;
-        z-index: 200;
-        top: -45px;
+        right: 7px;
+        top: 2px;
+        z-index: 1000;
 
       }
-
 
 
 
@@ -371,9 +371,11 @@
         }
       }
 
-
-
-
+    }
+    &__entry-content .headline-third{
+      line-height: 28px;
+      padding:0 0 0 1em;
+      text-indent: -1em;
     }
 
   }
@@ -411,7 +413,7 @@
         }
       }
       &__title {
-        @include fts(9, 9);
+        @include fts(9, 13);
       }
       &__container {
         .news-list__content{
@@ -512,7 +514,9 @@ related-article(関連記事)
     .outer__inner {
       width: 100%;
       margin: 0 auto;
+      padding-top: 0;
     }
+
 
     &__date-info {
       width: 100%;
@@ -521,6 +525,14 @@ related-article(関連記事)
     .notice-bar {
      display: none;
     }
+
+    .breadcrumbs {
+      font-size: 10px;
+      color: #a5a5a5;
+      letter-spacing: 1px;
+      padding: 20px 11px;
+    }
+
   }
 
   /*
@@ -617,7 +629,7 @@ related-article(関連記事)
     }
 
     .pages__container {
-      padding-top: 50px;
+      padding-top: 30px;
     }
     .pages__header{
       letter-spacing: 0.3px;
