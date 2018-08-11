@@ -512,9 +512,10 @@ a:hover img { opacity: 0.5 ; }
   padding: 15px 0;
   @include fts(4, 4);
   color: $font_sub_glay_color;
-  width: 227px;
-  margin: 0 auto;
+  width: 100%;
+  text-align: center;
   letter-spacing: 2px;
+
 }
 
 /*

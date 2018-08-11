@@ -650,8 +650,8 @@ a:hover img {
   font-size: 0.4rem;
   line-height: 1;
   color: #9c9c9c;
-  width: 227px;
-  margin: 0 auto;
+  width: 100%;
+  text-align: center;
   letter-spacing: 2px; }
 
 /*
