@@ -1,0 +1,9 @@
+# 「.DS_Store」や「._.DS_Store」を除外
+*.DS_Store
+
+# 「.idea」には入っている中身を全て除外
+*.idea/
+
+
+
+

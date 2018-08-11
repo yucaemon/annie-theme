@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="38a5d896-ec35-4a51-bca8-652a8005f7d4" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/annieteme/components-php/header.php" afterPath="$PROJECT_DIR$/annieteme/components-php/header.php" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="this-page-tags.haml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/annieteme/_haml/this-page-tags.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.haml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/annieteme/_haml/header.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="archive.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/annieteme/archive.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="breadcrumb.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/annieteme/breadcrumb.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.haml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/annieteme/_haml/index.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/annieteme/images/1.svg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="brands-img.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/annieteme/images/brands-img.svg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.haml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/annieteme/_haml/about.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="annie.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/annieteme/images/annie.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rules.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/annieteme/rules.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="61" lean-forward="false" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>flex-start</find>
+      <find>ind</find>
+      <find>index</find>
+      <find>margin-top: 32px !important;</find>
+      <find>32px !important;</find>
+      <find>32px</find>
+      <find>32p</find>
+      <find>h</find>
+      <find>html{}</find>
+      <find>html{</find>
+      <find>htm</find>
+      <find>d</find>
+      <find>html</find>
+      <find>.pages</find>
+      <find>.breadcrumb</find>
+      <find>__entry-content</find>
+      <find>entry-conten</find>
+      <find>.featured-boxer</find>
+      <find>.this-page</find>
+      <find>content-bottom-widgets</find>
+      <find>content-bottom-widget</find>
+      <find>author-profile-sns</find>
+      <find>.s</find>
+      <find>related-article</find>
+      <find>.detail-box01</find>
+      <find>.wrote-models-lists</find>
+      <find>foreach</find>
+      <find>annie-logo.svg</find>
+      <find>annie-logo.png</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>.lists-container</replace>
+      <replace>%p</replace>
+      <replace>.models__img</replace>
+      <replace>news-articles</replace>
+      <replace>featured-articles</replace>
+      <replace />
+      <replace>.footer-sp</replace>
+      <replace>%li</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/annieteme/_haml/header-foundation" />
+        <option value="$PROJECT_DIR$/annieteme/_haml/header-foundation.haml" />
+        <option value="$PROJECT_DIR$/annieteme/_haml/header04.haml" />
+        <option value="$PROJECT_DIR$/annieteme/js/jquery.infinite-scroll.js" />
+        <option value="$PROJECT_DIR$/annieteme/_haml/archive.haml" />
+        <option value="$PROJECT_DIR$/annieteme/_haml/archive_featured.haml" />
+        <option value="$PROJECT_DIR$/annieteme/style.css.map" />
+        <option value="$PROJECT_DIR$/annieteme/head.php" />
+        <option value="$PROJECT_DIR$/annieteme/style.css" />
+        <option value="$PROJECT_DIR$/annieteme/_haml/recommend-list.haml" />
+        <option value="$PROJECT_DIR$/annieteme/_haml/mobile-footer.haml" />
+        <option value="$PROJECT_DIR$/annieteme/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/annieteme/_haml/sns-box.haml" />
+        <option value="$PROJECT_DIR$/annieteme/components-php/header.php" />
+        <option value="$PROJECT_DIR$/annieteme/breadcrumb.php" />
+        <option value="$PROJECT_DIR$/annieteme/_haml/breadcrumb.haml" />
+        <option value="$PROJECT_DIR$/annieteme/_haml/news-list.haml" />
+        <option value="$PROJECT_DIR$/annieteme/_haml/header03.haml" />
+        <option value="$PROJECT_DIR$/annieteme/js/jquery.tubular.1.0.js" />
+        <option value="$PROJECT_DIR$/annieteme/_scss/_ tablet.scss" />
+        <option value="$PROJECT_DIR$/annieteme/_scss/style.scss" />
+        <option value="$PROJECT_DIR$/annieteme/js/main.js" />
+        <option value="$PROJECT_DIR$/annieteme/_haml/side-menu-list.haml" />
+        <option value="$PROJECT_DIR$/annieteme/_haml/header-sp.haml" />
+        <option value="$PROJECT_DIR$/annieteme/_haml/items.haml" />
+        <option value="$PROJECT_DIR$/annieteme/_haml/more-search-article.haml" />
+        <option value="$PROJECT_DIR$/annieteme/_haml/index.haml" />
+        <option value="$PROJECT_DIR$/annieteme/_haml/404.haml" />
+        <option value="$PROJECT_DIR$/annieteme/_scss/_mobile.scss" />
+        <option value="$PROJECT_DIR$/annieteme/_haml/tag.haml" />
+        <option value="$PROJECT_DIR$/annieteme/_haml/category.haml" />
+        <option value="$PROJECT_DIR$/annieteme/_haml/search.haml" />
+        <option value="$PROJECT_DIR$/annieteme/_haml/single.haml" />
+        <option value="$PROJECT_DIR$/annieteme/_scss/_layout.scss" />
+        <option value="$PROJECT_DIR$/annieteme/_haml/header02.haml" />
+        <option value="$PROJECT_DIR$/annieteme/_haml/rules.haml" />
+        <option value="$PROJECT_DIR$/annieteme/_haml/policy.haml" />
+        <option value="$PROJECT_DIR$/annieteme/_scss/_tablet.scss" />
+        <option value="$PROJECT_DIR$/annieteme/_scss/_setting.scss" />
+        <option value="$PROJECT_DIR$/annieteme/_haml/featured-box.haml" />
+        <option value="$PROJECT_DIR$/annieteme/_scss/_pc.scss" />
+        <option value="$PROJECT_DIR$/annieteme/functions.php" />
+        <option value="$PROJECT_DIR$/annieteme/_haml/single-featured.haml" />
+        <option value="$PROJECT_DIR$/annieteme/_haml/wrote-models-box.haml" />
+        <option value="$PROJECT_DIR$/annieteme/_scss/_main.scss" />
+        <option value="$PROJECT_DIR$/annieteme/_haml/footer.haml" />
+        <option value="$PROJECT_DIR$/annieteme/_haml/footer-sp.haml" />
+        <option value="$PROJECT_DIR$/annieteme/about.php" />
+        <option value="$PROJECT_DIR$/annieteme/part-tag-relatedpost.php" />
+        <option value="$PROJECT_DIR$/annieteme/_haml/about.haml" />
+        <option value="$PROJECT_DIR$/annieteme/_haml/header.haml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/annieteme/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="561" />
+    <option name="y" value="23" />
+    <option name="width" value="1248" />
+    <option name="height" value="777" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="annieteme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="annieteme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_haml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Applications/MAMP/htdocs/annie/wp-content/themes/annieteme/js/jquery.tubular.1.0.js" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/annieteme/images" />
+      <recent name="$PROJECT_DIR$/annieteme/js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/annieteme/images" />
+      <recent name="$PROJECT_DIR$/annieteme/_scss" />
+      <recent name="$PROJECT_DIR$/annieteme/js" />
+      <recent name="$PROJECT_DIR$/annieteme" />
+      <recent name="$PROJECT_DIR$/annieteme/_haml" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38a5d896-ec35-4a51-bca8-652a8005f7d4" name="Default" comment="" />
+      <created>1516334560276</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1516334560276</updated>
+      <workItem from="1516334563299" duration="22000" />
+      <workItem from="1516334787646" duration="19022000" />
+      <workItem from="1516515685604" duration="9843000" />
+      <workItem from="1516821565825" duration="15795000" />
+      <workItem from="1517724090683" duration="342000" />
+      <workItem from="1518067751553" duration="12106000" />
+      <workItem from="1519096648463" duration="12342000" />
+      <workItem from="1520581529490" duration="456000" />
+      <workItem from="1520935469370" duration="2967000" />
+      <workItem from="1521943113876" duration="17884000" />
+      <workItem from="1522701708830" duration="466000" />
+      <workItem from="1523613317968" duration="10583000" />
+      <workItem from="1524854934960" duration="913000" />
+      <workItem from="1525755845479" duration="46000" />
+      <workItem from="1525755895332" duration="32870000" />
+      <workItem from="1526341951252" duration="5422000" />
+      <workItem from="1526363927209" duration="7483000" />
+      <workItem from="1526415139744" duration="14093000" />
+      <workItem from="1527100611301" duration="3917000" />
+      <workItem from="1527207047130" duration="29000" />
+      <workItem from="1527207131300" duration="66000" />
+      <workItem from="1527207222192" duration="3983000" />
+      <workItem from="1527319828450" duration="10715000" />
+      <workItem from="1527614331072" duration="24039000" />
+      <workItem from="1528005500335" duration="11088000" />
+      <workItem from="1528095682699" duration="3485000" />
+      <workItem from="1528159484349" duration="6272000" />
+      <workItem from="1528223205773" duration="44000" />
+      <workItem from="1528223255650" duration="29574000" />
+      <workItem from="1528483366139" duration="537000" />
+      <workItem from="1528485065575" duration="7991000" />
+      <workItem from="1528774458181" duration="26710000" />
+      <workItem from="1528873919553" duration="20815000" />
+      <workItem from="1529061483791" duration="640000" />
+      <workItem from="1529062127976" duration="10202000" />
+      <workItem from="1529092466055" duration="470000" />
+      <workItem from="1529093115776" duration="5253000" />
+      <workItem from="1529123550691" duration="2263000" />
+      <workItem from="1529226883983" duration="20510000" />
+      <workItem from="1529391550622" duration="5413000" />
+      <workItem from="1529816321525" duration="771000" />
+      <workItem from="1530047777892" duration="566000" />
+      <workItem from="1530431706836" duration="16000" />
+      <workItem from="1530472124347" duration="15000" />
+      <workItem from="1530472193071" duration="18345000" />
+      <workItem from="1530949865060" duration="28889000" />
+      <workItem from="1532302879553" duration="29861000" />
+      <workItem from="1532558065987" duration="55004000" />
+      <workItem from="1533508452650" duration="19714000" />
+      <workItem from="1533585308867" duration="432000" />
+      <workItem from="1533585905518" duration="1640000" />
+      <workItem from="1533603120923" duration="2155000" />
+      <workItem from="1533613234225" duration="548000" />
+      <workItem from="1533615337268" duration="7536000" />
+      <workItem from="1533666253864" duration="4841000" />
+      <workItem from="1533723198376" duration="45000" />
+      <workItem from="1533723279055" duration="7450000" />
+      <workItem from="1533758603485" duration="1970000" />
+      <workItem from="1533778812346" duration="334000" />
+      <workItem from="1533779343084" duration="16000" />
+      <workItem from="1533779362536" duration="118000" />
+      <workItem from="1533779502720" duration="1222000" />
+      <workItem from="1533784145122" duration="96000" />
+      <workItem from="1533785513627" duration="444000" />
+      <workItem from="1533786825345" duration="541000" />
+      <workItem from="1533787452458" duration="1286000" />
+      <workItem from="1533791267681" duration="844000" />
+      <workItem from="1533792269043" duration="1249000" />
+      <workItem from="1533796865779" duration="1381000" />
+      <workItem from="1533799154440" duration="338000" />
+      <workItem from="1533799936802" duration="793000" />
+      <workItem from="1533800742862" duration="685000" />
+      <workItem from="1533801445964" duration="1957000" />
+      <workItem from="1533805782012" duration="432000" />
+      <workItem from="1533808679251" duration="263000" />
+      <workItem from="1533808945398" duration="364000" />
+      <workItem from="1533809316094" duration="94000" />
+      <workItem from="1533809415906" duration="245000" />
+      <workItem from="1533809674833" duration="337000" />
+      <workItem from="1533810020419" duration="39000" />
+      <workItem from="1533810062643" duration="861000" />
+      <workItem from="1533811064367" duration="1163000" />
+      <workItem from="1533812828122" duration="189000" />
+      <workItem from="1533813020385" duration="109000" />
+      <workItem from="1533813132767" duration="381000" />
+      <workItem from="1533813526579" duration="195000" />
+      <workItem from="1533935376735" duration="61000" />
+    </task>
+    <task id="LOCAL-00059" summary="add link for side list">
+      <created>1528502147484</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1528502147485</updated>
+    </task>
+    <task id="LOCAL-00060" summary="add link for side menu">
+      <created>1528761924096</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1528761924096</updated>
+    </task>
+    <task id="LOCAL-00061" summary="modification for bradcramb's position">
+      <created>1528799350541</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1528799350541</updated>
+    </task>
+    <task id="LOCAL-00062" summary="modification for bradcramb's position">
+      <created>1528799951334</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1528799951334</updated>
+    </task>
+    <task id="LOCAL-00063" summary="modification for footer link and side link">
+      <created>1528804035112</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1528804035113</updated>
+    </task>
+    <task id="LOCAL-00064" summary="modification for footer link and side link">
+      <created>1528843875722</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1528843875723</updated>
+    </task>
+    <task id="LOCAL-00065" summary="modification for shortcut keys">
+      <created>1528914280046</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1528914280047</updated>
+    </task>
+    <task id="LOCAL-00066" summary="get new-articles when there are no post instead of recommend tag post.">
+      <created>1528924268869</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1528924268870</updated>
+    </task>
+    <task id="LOCAL-00067" summary="modification">
+      <created>1529038192935</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1529038192935</updated>
+    </task>
+    <task id="LOCAL-00068" summary="modification">
+      <created>1529039087768</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1529039087768</updated>
+    </task>
+    <task id="LOCAL-00069" summary="modification">
+      <created>1529062241839</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1529062241839</updated>
+    </task>
+    <task id="LOCAL-00070" summary="modification for grad layout using js">
+      <created>1529066302247</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1529066302248</updated>
+    </task>
+    <task id="LOCAL-00071" summary="put in youtube using tubular.">
+      <created>1529122991898</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1529122991898</updated>
+    </task>
+    <task id="LOCAL-00072" summary="modification for youtube">
+      <created>1529355555756</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1529355555757</updated>
+    </task>
+    <task id="LOCAL-00073" summary="modification for header">
+      <created>1529366669444</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1529366669444</updated>
+    </task>
+    <task id="LOCAL-00074" summary="modification for header">
+      <created>1529368763093</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1529368763093</updated>
+    </task>
+    <task id="LOCAL-00075" summary="modification">
+      <created>1529626894557</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1529626894558</updated>
+    </task>
+    <task id="LOCAL-00076" summary="modification for btn">
+      <created>1529643026132</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1529643026132</updated>
+    </task>
+    <task id="LOCAL-00077" summary="making for mobile page : add humberg nav">
+      <created>1530642828209</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1530642828210</updated>
+    </task>
+    <task id="LOCAL-00078" summary="making for mobile page : modification for layout index page">
+      <created>1531526834224</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1531526834225</updated>
+    </task>
+    <task id="LOCAL-00079" summary="making for mobile page : modification for footer">
+      <created>1531529650648</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1531529650648</updated>
+    </task>
+    <task id="LOCAL-00080" summary="making for mobile page : done">
+      <created>1531548979664</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1531548979665</updated>
+    </task>
+    <task id="LOCAL-00081" summary="making for mobile page : done">
+      <created>1531682422217</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1531682422217</updated>
+    </task>
+    <task id="LOCAL-00082" summary="making for mobile page : single-page layout">
+      <created>1531693409430</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1531693409431</updated>
+    </task>
+    <task id="LOCAL-00083" summary="put new photo">
+      <created>1532420085489</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1532420085491</updated>
+    </task>
+    <task id="LOCAL-00084" summary="mobile for single-page">
+      <created>1532598256055</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1532598256056</updated>
+    </task>
+    <task id="LOCAL-00085" summary="mobile for category-page">
+      <created>1533158390953</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1533158390954</updated>
+    </task>
+    <task id="LOCAL-00086" summary="mobile for tag &amp; search-page">
+      <created>1533165579399</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1533165579399</updated>
+    </task>
+    <task id="LOCAL-00087" summary="mobile for rules and policy-page">
+      <created>1533255446370</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1533255446370</updated>
+    </task>
+    <task id="LOCAL-00088" summary="mobile for rules and 404-page">
+      <created>1533258160522</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1533258160523</updated>
+    </task>
+    <task id="LOCAL-00089" summary="mobile for about-page">
+      <created>1533262184001</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1533262184001</updated>
+    </task>
+    <task id="LOCAL-00090" summary="remove for youtube when modile layout">
+      <created>1533326876197</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1533326876197</updated>
+    </task>
+    <task id="LOCAL-00091" summary="making for mobile search-box">
+      <created>1533353084103</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1533353084103</updated>
+    </task>
+    <task id="LOCAL-00092" summary="changed img">
+      <created>1533365104418</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1533365104422</updated>
+    </task>
+    <task id="LOCAL-00093" summary="modification">
+      <created>1533367176231</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1533367176231</updated>
+    </task>
+    <task id="LOCAL-00094" summary="making for tablet layout">
+      <created>1533539303129</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1533539303132</updated>
+    </task>
+    <task id="LOCAL-00095" summary="modification">
+      <created>1533548878943</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1533548878944</updated>
+    </task>
+    <task id="LOCAL-00096" summary=" modification">
+      <created>1533618917767</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1533618917768</updated>
+    </task>
+    <task id="LOCAL-00097" summary=" modification">
+      <created>1533723466858</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1533723466859</updated>
+    </task>
+    <task id="LOCAL-00098" summary=" modification">
+      <created>1533730093086</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1533730093086</updated>
+    </task>
+    <task id="LOCAL-00099" summary=" modification">
+      <created>1533734326084</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1533734326084</updated>
+    </task>
+    <task id="LOCAL-00100" summary=" modification">
+      <created>1533778791484</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1533778791485</updated>
+    </task>
+    <task id="LOCAL-00101" summary=" modification">
+      <created>1533779416751</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1533779416751</updated>
+    </task>
+    <task id="LOCAL-00102" summary="ver4">
+      <created>1533797030894</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1533797030899</updated>
+    </task>
+    <task id="LOCAL-00103" summary="bag_foreach">
+      <created>1533799864147</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1533799864147</updated>
+    </task>
+    <task id="LOCAL-00104" summary="modification-img">
+      <created>1533805858669</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1533805858670</updated>
+    </task>
+    <task id="LOCAL-00105" summary="modification-img">
+      <created>1533811558431</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1533811558431</updated>
+    </task>
+    <task id="LOCAL-00106" summary="modification-img">
+      <created>1533811817607</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1533811817607</updated>
+    </task>
+    <task id="LOCAL-00107" summary="modification">
+      <created>1533813222678</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1533813222678</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="552506000" />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="561" y="23" width="1248" height="777" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17848411" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14567527" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34901366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14425428" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3383915" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1229135" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14567527" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34901366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3383915" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20863895" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1229135" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14425428" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="put in youtube using tubular." />
+    <MESSAGE value="modification for youtube" />
+    <MESSAGE value="modification for header" />
+    <MESSAGE value="modification for btn" />
+    <MESSAGE value="making for mobile page : add humberg nav" />
+    <MESSAGE value="making for mobile page : modification for layout index page" />
+    <MESSAGE value="making for mobile page : modification for footer" />
+    <MESSAGE value="making for mobile page : done" />
+    <MESSAGE value="making for mobile page : single-page layout" />
+    <MESSAGE value="put new photo" />
+    <MESSAGE value="mobile for single-page" />
+    <MESSAGE value="mobile for category-page" />
+    <MESSAGE value="mobile for tag &amp; search-page" />
+    <MESSAGE value="mobile for rules and policy-page" />
+    <MESSAGE value="mobile for rules and 404-page" />
+    <MESSAGE value="mobile for about-page" />
+    <MESSAGE value="remove for youtube when modile layout" />
+    <MESSAGE value="making for mobile search-box" />
+    <MESSAGE value="changed img" />
+    <MESSAGE value="making for tablet layout" />
+    <MESSAGE value=" modification" />
+    <MESSAGE value="ver4" />
+    <MESSAGE value="bag_foreach" />
+    <MESSAGE value="modification-img" />
+    <MESSAGE value="modification" />
+    <option name="LAST_COMMIT_MESSAGE" value="modification" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/annieteme/_haml/more-search-article.haml" />
+    <entry file="file://$PROJECT_DIR$/annieteme/images/link-box.png" />
+    <entry file="file://$PROJECT_DIR$/annieteme/images/liked-box-pic.jpg" />
+    <entry file="file://$PROJECT_DIR$/annieteme/_haml/404.haml" />
+    <entry file="file://$PROJECT_DIR$/annieteme/tag.php" />
+    <entry file="file://$PROJECT_DIR$/annieteme/_haml/tag.haml" />
+    <entry file="file://$PROJECT_DIR$/annieteme/_haml/category.haml" />
+    <entry file="file://$PROJECT_DIR$/annieteme/_haml/search.haml" />
+    <entry file="file://$PROJECT_DIR$/annieteme/images/shopping-baner.svg" />
+    <entry file="file://$PROJECT_DIR$/annieteme/head.php" />
+    <entry file="file://$PROJECT_DIR$/annieteme/js/main.js" />
+    <entry file="file://$PROJECT_DIR$/annieteme/js/jquery.autopager-1.0.0.js" />
+    <entry file="file://$PROJECT_DIR$/annieteme/js/jquery.tubular.1.0.js" />
+    <entry file="file://$PROJECT_DIR$/annieteme/_scss/_reset.scss" />
+    <entry file="file://$PROJECT_DIR$/annieteme/_scss/style.scss" />
+    <entry file="file://$PROJECT_DIR$/annieteme/_scss/_layout.scss" />
+    <entry file="file://$PROJECT_DIR$/annieteme/_haml/header02.haml" />
+    <entry file="file://$PROJECT_DIR$/annieteme/_haml/security.haml" />
+    <entry file="file://$PROJECT_DIR$/annieteme/_haml/rules.haml" />
+    <entry file="file://$PROJECT_DIR$/annieteme/_haml/policy.haml" />
+    <entry file="file://$PROJECT_DIR$/annieteme/_haml/featured-box.haml" />
+    <entry file="file://$PROJECT_DIR$/annieteme/_haml/models-lists.haml" />
+    <entry file="file://$PROJECT_DIR$/annieteme/_scss/_tablet.scss" />
+    <entry file="file://$PROJECT_DIR$/annieteme/_scss/_pc.scss" />
+    <entry file="file://$PROJECT_DIR$/annieteme/functions.php" />
+    <entry file="file://$PROJECT_DIR$/annieteme/_haml/featured_articles.haml" />
+    <entry file="file://$PROJECT_DIR$/annieteme/_haml/single.haml" />
+    <entry file="file://$PROJECT_DIR$/annieteme/_haml/single-featured.haml" />
+    <entry file="file://$PROJECT_DIR$/annieteme/_haml/wrote-models-box.haml" />
+    <entry file="file://$PROJECT_DIR$/annieteme/_scss/_main.scss" />
+    <entry file="file://$PROJECT_DIR$/annieteme/_scss/_mixin.scss" />
+    <entry file="file://$PROJECT_DIR$/annieteme/_scss/_mobile.scss" />
+    <entry file="file://$PROJECT_DIR$/annieteme/_scss/_setting.scss" />
+    <entry file="file://$PROJECT_DIR$/annieteme/_haml/footer.haml" />
+    <entry file="file://$PROJECT_DIR$/annieteme/_haml/footer-sp.haml" />
+    <entry file="file://$PROJECT_DIR$/annieteme/part-tag-relatedpost.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="64" column="9" lean-forward="false" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annieteme/rules.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="61" lean-forward="false" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annieteme/images/annie-logo.png" />
+    <entry file="file://$PROJECT_DIR$/annieteme/images/annie-logo.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annieteme/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annieteme/_haml/this-page-tags.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annieteme/_haml/about.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annieteme/images/annie.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annieteme/images/1.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annieteme/images/black-logo.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annieteme/images/brands-img.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annieteme/_haml/index.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annieteme/images/side-test1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annieteme/breadcrumb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annieteme/archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annieteme/_haml/header.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
