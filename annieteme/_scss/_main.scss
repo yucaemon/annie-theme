@@ -509,11 +509,11 @@ a:hover img { opacity: 0.5 ; }
 }
 
 .copyright {
+  width: 100%;
+  text-align: center;
   padding: 15px 0;
   @include fts(4, 4);
   color: $font_sub_glay_color;
-  width: 100%;
-  text-align: center;
   letter-spacing: 2px;
 
 }
