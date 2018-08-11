@@ -371,9 +371,11 @@
         }
       }
 
-
-
-
+    }
+    &__entry-content .headline-third{
+      line-height: 28px;
+      padding:0 0 0 1em;
+      text-indent: -1em;
     }
 
   }
