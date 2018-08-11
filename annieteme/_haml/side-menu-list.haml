@@ -1,6 +1,10 @@
 .side-menu-list
   .side-menu-list__li
     %p.side-menu-list__title
+      %i.fa.fa-home
+      <a href="<?php echo esc_url( home_url( '/' ) ); ?>">ホームに戻る</a>
+  .side-menu-list__li
+    %p.side-menu-list__title
       %i.fa.fa-list-ul
       カテゴリーから探す
       %ul

@@ -1666,8 +1666,8 @@ a:hover img {
         padding-top: 50px; }
       .header-sp .search .search-icon {
         position: relative;
-        right: 12px;
-        top: 5px;
+        right: 7px;
+        top: 2px;
         z-index: 1000; }
     .header-sp .drawer-hamburger {
       position: absolute;
@@ -1842,7 +1842,7 @@ a:hover img {
   .side-contain .news-list__title {
     font-size: 9px;
     font-size: 0.9rem;
-    line-height: 1; }
+    line-height: 1.44444; }
   .side-contain .news-list__container .news-list__content {
     height: 110px; }
   .side-contain .news-list__container .news-list__content + .news-list__content {
@@ -1908,11 +1908,17 @@ related-article(関連記事)
     margin-bottom: 30px; }
   .pages .outer__inner {
     width: 100%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding-top: 0; }
   .pages__date-info {
     width: 100%; }
   .pages .notice-bar {
     display: none; }
+  .pages .breadcrumbs {
+    font-size: 10px;
+    color: #a5a5a5;
+    letter-spacing: 1px;
+    padding: 20px 11px; }
 
   /*
 
@@ -1977,7 +1983,7 @@ related-article(関連記事)
     padding-right: 25px;
     padding-bottom: 0; }
   .about-page .pages__container {
-    padding-top: 50px; }
+    padding-top: 30px; }
   .about-page .pages__header {
     letter-spacing: 0.3px;
     font-size: 15px !important;

@@ -151,9 +151,10 @@
 
       .search-icon {
         position: relative;
-        right: 12px;
-        top: 5px;
+        right: 7px;
+        top: 2px;
         z-index: 1000;
+
       }
 
 
@@ -412,7 +413,7 @@
         }
       }
       &__title {
-        @include fts(9, 9);
+        @include fts(9, 13);
       }
       &__container {
         .news-list__content{
@@ -513,7 +514,9 @@ related-article(関連記事)
     .outer__inner {
       width: 100%;
       margin: 0 auto;
+      padding-top: 0;
     }
+
 
     &__date-info {
       width: 100%;
@@ -522,6 +525,14 @@ related-article(関連記事)
     .notice-bar {
      display: none;
     }
+
+    .breadcrumbs {
+      font-size: 10px;
+      color: #a5a5a5;
+      letter-spacing: 1px;
+      padding: 20px 11px;
+    }
+
   }
 
   /*
@@ -618,7 +629,7 @@ related-article(関連記事)
     }
 
     .pages__container {
-      padding-top: 50px;
+      padding-top: 30px;
     }
     .pages__header{
       letter-spacing: 0.3px;
