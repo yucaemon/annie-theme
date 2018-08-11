@@ -1614,9 +1614,6 @@ a:hover img {
   .items {
     display: none; }
 
-  .search-content__header {
-    display: none; }
-
   .outer__header {
     margin: 0; }
   .outer__inner {
@@ -1649,7 +1646,7 @@ a:hover img {
         top: 0;
         left: 0;
         width: 100%;
-        padding-bottom: 47px;
+        padding-bottom: 4px;
         background-color: white;
         z-index: 100; }
         .header-sp .search__box form#searchform {
@@ -1669,8 +1666,9 @@ a:hover img {
         padding-top: 50px; }
       .header-sp .search .search-icon {
         position: relative;
-        z-index: 200;
-        top: -45px; }
+        right: 12px;
+        top: 5px;
+        z-index: 1000; }
     .header-sp .drawer-hamburger {
       position: absolute;
       z-index: 300; }
