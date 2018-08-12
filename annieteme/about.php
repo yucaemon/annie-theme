@@ -25,6 +25,14 @@
 <div class='yuka-sign__img'>
 <img src="<?php echo get_template_directory_uri(); ?>/images/yuka-sign.svg">
 </div>
+<div class='pages__date-info'>
+<p>
+2018年 8月 11日
+</p>
+<p>
+Portland, Oregon USA
+</p>
+</div>
 </div>
 </div>
 <?php include('components-php/news-articles.php'); ?>

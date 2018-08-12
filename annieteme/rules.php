@@ -90,7 +90,7 @@
 </div>
 <div class='pages__date-info'>
 <p>
-2018年 8月 8日
+2018年 8月 11日
 </p>
 <p>
 Annie Jene

@@ -10,7 +10,7 @@
 <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/white-logo.svg" width="50"></a>
 </div>
 <p class='footer__about-detail-text'>
-ANNIEは、ポートランドから 最新の『boho(ボーホー)ファッション＆スタイルをお届けする、WEBマガジンです。
+ANNIEは、ポートランドから 最新の『boho(ボーホー)』ファッション＆スタイルをお届けする、WEBマガジンです。
 </p>
 </div>
 <div class='footer__bottom-content flexbox--h-center'>

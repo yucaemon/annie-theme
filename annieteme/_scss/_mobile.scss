@@ -166,7 +166,9 @@
 
     }
     .drawer-nav {
-      position: absolute;
+      &__container {
+        padding: 20px 0;
+      }
       .drawer-menu {
         padding: 5px 43px;
         &__li {
@@ -176,7 +178,7 @@
         }
       }
       &__title {
-        padding: 20px;
+        padding: 0 20px 20px 20px;
         i.fa {
           color: $main_color;
         }

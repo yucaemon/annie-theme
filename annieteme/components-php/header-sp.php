@@ -5,6 +5,11 @@
 <i class='fa fa-align-justify'></i>
 </btn>
 <div class='drawer-nav'>
+<div class='drawer-nav__container'>
+<div class='drawer-nav__title'>
+<i class='fa fa-home'></i>
+<a href="<?php echo esc_url( home_url( '/' ) ); ?>">ホームに戻る</a>
+</div>
 <div class='drawer-nav__title'>
 <i class='fa fa-list-ul'></i>
 カテゴリーから探す
@@ -86,6 +91,7 @@
 <a href="<?php bloginfo('url'); ?>/tag/portland-gear/">Portland Gear</a>
 </li>
 </ul>
+</div>
 </div>
 </div>
 <div class='search'>
