@@ -728,6 +728,10 @@ a:hover img { opacity: 0.5 ; }
       }
     }
     .detail-box03 {
+      a {
+        color: #f5f2f2;
+      }
+
       @extend .detail-box02;
       &__img {
         width: 40%;

@@ -15,7 +15,7 @@
 お探しのページが見つかりませんでした。
 </p>
 <div class='notfind__btn'>
-トップページへ戻る
+<a href="<?php echo esc_url( home_url( '/about/' ) ); ?>">>トップページへ戻る</a>
 </div>
 </div>
 <?php include('components-php/news-articles.php'); ?>
