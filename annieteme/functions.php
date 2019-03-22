@@ -3,6 +3,22 @@
 //　アイキャッチ機能を追加
 add_theme_support('post-thumbnails');
 
+//アイキャッチ画像取得時のhttps化
+function ssl_post_thumbnail_urls($url, $post_id) {
+  //アイキャッチ画像が不在の場合はスキップ
+  if(!wp_attachment_is_image($post_id))
+    return $url;
+
+  //https接続のためのプロトコルを保存
+  list($protocol, $uri) = explode('://', $url, 2);
+
+  //SSL接続であればhttpsを利用する
+  $protocol = is_ssl() ? 'https' : 'http';
+
+  return $protocol.'://'.$uri;
+}
+add_filter('wp_get_attachment_url', 'ssl_post_thumbnail_urls', 10, 2);
+
 
 // 記事の自動整形を無効化
 remove_filter('the_content', 'wpautop');
