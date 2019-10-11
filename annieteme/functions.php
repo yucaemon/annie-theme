@@ -263,3 +263,73 @@ function my_enqueue_scripts() {
 }
 
 
+
+//h2の前にアドセンス広告ユニットを挿入するコード
+
+function ads_unit($content){
+    if(!is_single()){
+        return $content;
+    }else{
+/* 設定 */
+        $adsCode1=<<<EOC
+<!-- Adsense Code Start -->
+
+<div class="google-ads google-ads--h2">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <!-- アニーディスプレイ広告-H2-記事広告 -->
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-8076392401031288"
+       data-ad-slot="6451856960"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</div>
+
+<!-- Adsense Code End -->
+EOC;
+
+        $adsCode2=<<<EOC
+<!-- Adsense Code Start -->
+
+<div class="google-ads google-ads--h2">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <!-- アニーディスプレイ広告-H2-記事広告 -->
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-8076392401031288"
+       data-ad-slot="6451856960"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</div>
+
+<!-- Adsense Code End -->
+EOC;
+        $dmt='<h2';
+        $pos2=array(1,3,5,7,9,11,13,15,17,19,20);
+/* 設定END 以降は変更しない！ */
+        $content = preg_replace('/<!--[\s\S]*?-->/s', '', $content);
+        $paragraphs=explode($dmt,$content);
+        foreach($paragraphs as $pg){
+            if($c>=1){
+                if(in_array($c,$pos1)){
+                    $customContent.=$adsCode1.$dmt.$pg;
+                }if(in_array($c,$pos2)){
+                    $customContent.=$adsCode2.$dmt.$pg;
+                }else{
+                    $customContent.=$dmt.$pg;
+                }
+            }else{
+                $customContent.=$pg;
+            }
+            $c++;
+        }
+        return $customContent;
+    }
+}
+add_filter('the_content','ads_unit');

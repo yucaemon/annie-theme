@@ -39,6 +39,17 @@
 <?php endif; ?>
 </div>
 <?php include('components-php/wrote-models-box.php'); ?>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- display-Horizontal-シングルページ記者名下 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8076392401031288"
+     data-ad-slot="4410364590"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <?php include('components-php/article-sns-btns.php'); ?>
 <?php include('components-php/related-article.php'); ?>
 <?php include('components-php/this-page-tags.php'); ?>
@@ -47,6 +58,7 @@
 <?php include('components-php/shopping-box.php'); ?>
 </div>
 <div class='column-4 side-contain'>
+<?php include('components-php/amazon-ad-sky.php'); ?>
 <?php include('components-php/featured-box.php'); ?>
 <?php include('components-php/category-popular.php'); ?>
 <?php include('components-php/news-list.php'); ?>

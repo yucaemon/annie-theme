@@ -64,6 +64,7 @@ module.exports = function (grunt) {
                     'components-php/breadcrumb.php': '_haml/breadcrumb.haml',
                     'components-php/header-sp.php': '_haml/header-sp.haml',
                     'components-php/footer-sp.php': '_haml/footer-sp.haml',
+                    'components-php/amazon-ad-sky.php': '_haml/amazon-ad-sky.haml',
 
 
 

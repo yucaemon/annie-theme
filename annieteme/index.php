@@ -56,6 +56,7 @@
 <?php include('components-php/shopping-box.php'); ?>
 </div>
 <div class='side-contain'>
+<?php include('components-php/amazon-ad-sky.php'); ?>
 <?php include('components-php/featured-box.php'); ?>
 <?php include('components-php/recommend-list.php'); ?>
 <?php include('components-php/keywords.php'); ?>
