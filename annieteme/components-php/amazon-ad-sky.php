@@ -1,4 +1,4 @@
-<div class='amazon-ad-sky'>
+<div class='amazon-ad amazon-ad-sky'>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- display-sky -->
 <ins class="adsbygoogle"

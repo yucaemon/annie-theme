@@ -39,6 +39,7 @@
 <?php endif; ?>
 </div>
 <?php include('components-php/wrote-models-box.php'); ?>
+<div class='amazon-ad'>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- display-Horizontal-シングルページ記者名下 -->
 <ins class="adsbygoogle"
@@ -50,6 +51,7 @@
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</div>
 <?php include('components-php/article-sns-btns.php'); ?>
 <?php include('components-php/related-article.php'); ?>
 <?php include('components-php/this-page-tags.php'); ?>

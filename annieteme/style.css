@@ -259,7 +259,9 @@ input[type="text"]:focus {
 .column-15 {
   width: 1225px; }
 
-/*未完成コンテンツ*/
+.amazon-ad {
+  padding-bottom: 25px; }
+
 /*今日のおすすめラインナップ*/
 .shopping-banner {
   display: none; }
