@@ -122,7 +122,7 @@ add_filter('posts_search', 'my_posy_search');
 //　ショートコード
 
 function h2Func( $atts, $content = null ) {
-    return '<h2 class="headline-second">' . $content . '</h2>';
+    return '<div class="headline-second">' . $content . '</div>';
 }
 add_shortcode('見出し2', 'h2Func');
 
@@ -296,16 +296,16 @@ EOC;
 
 <div class="google-ads google-ads--h2">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <!-- アニーディスプレイ広告-H2-記事広告 -->
-  <ins class="adsbygoogle"
-       style="display:block"
-       data-ad-client="ca-pub-8076392401031288"
-       data-ad-slot="6451856960"
-       data-ad-format="auto"
-       data-full-width-responsive="true"></ins>
-  <script>
-       (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<!-- アニーディスプレイ広告-H2-記事広告 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8076392401031288"
+     data-ad-slot="6451856960"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 </div>
 
 <!-- Adsense Code End -->
