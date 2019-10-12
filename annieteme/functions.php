@@ -317,9 +317,9 @@ EOC;
         $paragraphs=explode($dmt,$content);
         foreach($paragraphs as $pg){
             if($c>=1){
-                if(in_array($c,$pos1)){
+                if(in_array($c,(array)$pos1)){
                     $customContent.=$adsCode1.$dmt.$pg;
-                }if(in_array($c,$pos2)){
+                }if(in_array($c,(array)$pos2)){
                     $customContent.=$adsCode2.$dmt.$pg;
                 }else{
                     $customContent.=$dmt.$pg;
